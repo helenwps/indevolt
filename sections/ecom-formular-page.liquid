@@ -1,0 +1,71 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ At 2025-04-08 08:39:38
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.7" /><noscript><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.7" /></noscript>
+{%capture section_id %}ecom-formular-page{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=Outfit:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+{{'ecom-67f4d612b71347504c063a54.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-67f4d612b71347504c063a54.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="67f4d612b71347504c063a54";
+ window.EComposer.PAGE = {"template_id":"67f4d612b71347504c063a54","title":"Formular","type":"page","slug":"ecom-formular","plan_id":4};
+ </script>
+<div class="ecom-builder" id="ecom-formular"><div class="ecom-sections" data-section-id="{{section.id}}"><section class="ecom-row ecom-core ecom-section ecom-sifuu5pgpis" data-id="ecom-sifuu5pgpis" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core ecom-uv7u73decr"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-3o1ofqc4k2e" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="1"><h3 class="ecom__heading ecom-db">Kontaktiere uns per E-mail</h3></div></div> <div class="ecom-block ecom-core core__block ecom-7no51k2tenj" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="1"><div class="text-content ecom-html has-drop-cap-view-framed">Füllen Sie bitte das folgende Formular aus; wir werden uns so schnell wie möglich bei Ihnen melden.</div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-gmi9wl30ya6" data-core-is="block"><div class="ecom-element ecom-shopify-elements ecom__form" deep="1"><div class="ecom__form-wrapper"><div class="ecom__form-container">{%- comment-%}<form id="ecom-contact-form-ecom-gmi9wl30ya6" class="ecom__form">{%- endcomment -%}{% form 'contact', class: 'ecom-contact-form', id: 'ecom-contact-form-ecom-gmi9wl30ya6', data-ec-tracking-id: 'undefined' %}<div class="ecom__contact-form-content"><div class="ecom__form-fields"><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[fisrt-name]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[fisrt-name]" class="ecom__form--input ecom__form-text" id="ecom-contact-fisrt-name-0" placeholder="Vorname" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[last-name]" class="ecom__form-field-label"><span></span><span class="ecom__form-field-required">* </span></label><input type="text" name="contact[last-name]" class="ecom__form--input ecom__form-text" required="" id="ecom-contact-last-name-1" placeholder="Nachname*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[Land]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Land]" class="ecom__form--input ecom__form-text" id="ecom-contact-Land-2" placeholder="Land*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[Bundesland]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Bundesland]" class="ecom__form--input ecom__form-text" id="ecom-contact-Bundesland-3" placeholder="Bundesland*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[Ort]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Ort]" class="ecom__form--input ecom__form-text" id="ecom-contact-Ort-4" placeholder="Ort*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[Postleitzahl]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Postleitzahl]" class="ecom__form--input ecom__form-text" id="ecom-contact-Postleitzahl-5" placeholder="Postleitzahl*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[Phone number]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Phone number]" class="ecom__form--input ecom__form-text" id="ecom-contact-Phone number-6" placeholder="Telefonnummer*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[email]" class="ecom__form-field-label"><span></span><span class="ecom__form-field-required">* </span></label><input type="email" name="contact[email]" class="ecom__form--input ecom__form-email" required="" id="ecom-contact-email-7" placeholder="Email *" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[Firmenname]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Firmenname]" class="ecom__form--input ecom__form-text" id="ecom-contact-Firmenname-8" placeholder="Firmenname*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[Produktinteresse]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Produktinteresse]" class="ecom__form--input ecom__form-text" id="ecom-contact-Produktinteresse-9" placeholder="Produktinteresse*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[Unternehmen vertreten]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Unternehmen vertreten]" class="ecom__form--input ecom__form-text" id="ecom-contact-Unternehmen vertreten-10" placeholder="Welche Art von Unternehmen vertreten Sie?*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc((100% + 10px) - 10px);"><label for="contact[Unternehmenswebsite]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Unternehmenswebsite]" class="ecom__form--input ecom__form-text" id="ecom-contact-Unternehmenswebsite-11" placeholder="Unternehmenswebsite" value=""></div><div class="ecom__form-field ecom-html" style="width: calc((100% + 10px) - 10px);"><label for="contact[Firmenadresse]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Firmenadresse]" class="ecom__form--input ecom__form-text" id="ecom-contact-Firmenadresse-12" placeholder="Firmenadresse*" value=""></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[Adresszeile2]" class="ecom__form-field-label"><span></span></label><input type="text" name="contact[Adresszeile2]" class="ecom__form--input ecom__form-text" id="ecom-contact-Adresszeile2-13" placeholder="Adresszeile 2" value=""></div><div class="ecom__form-field ecom-html" style="width: calc((100% + 10px) - 10px);"><label for="contact[Nachricht hier eingeben]" class="ecom__form-field-label"><span></span></label><textarea name="contact[Nachricht hier eingeben]" id="ecom-contact-Nachricht hier eingeben-14" class="ecom__form-textarea" rows="5" placeholder="Nachricht hier eingeben" value=""></textarea></div></div><div class="ecom__form-action"><button type="submit" class="ecom__form-button"><span class="ecom_form-submit--text">Absenden</span></button></div></div><div>
+ {%- if form.posted_successfully? or EComBuilderMode == true -%}
+ <div class="ecom__form-success" {% unless EComBuilderMode %}tabindex="-1" autofocus{% endunless%}>
+ Erfolgreich gesendet
+ </div>
+ {% endif %}
+ {%- if form.errors or EComBuilderMode == true -%}
+ <div class="ecom__form-message">
+ <h2 class="ecom__form-status" role="alert" {% unless EComBuilderMode %}tabindex="-1" autofocus{% endunless%}>
+ Ups!. Es ist ein Fehler aufgetreten
+ </h2>
+ </div>
+ <ul class="ecom__form-status-list" role="list">
+ {% for field in form.errors %}
+ <li class="ecom__form-status-error">
+ {% if field == 'form' %}
+ {{ form.errors.messages[field] }}
+ {% else %}
+ {{ form.errors.translated_fields[field] }} - {{ form.errors.messages[field] }}
+ {% endif %}
+ </li>
+ {% endfor %}
+ {% if EComBuilderMode %}
+ <li class="ecom__form-status-error">
+ This is sample text when email invalid
+ </li>
+ {% endif %}
+ </ul>
+ {%- endif -%}
+ </div>{% endform %}{%- comment-%}</form>{%- endcomment-%}</div></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+</div></div>
+{% schema %}
+{
+ "name": "Formular",
+ "locales": {},
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n Please don't add Shopify sections to EComposer's page in the theme customize. If you do this, Shopify sections will be deleted when you republish your page in EComposer\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop?open_builder=1&page=page&id=67f4d612b71347504c063a54&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ]
+}
+{% endschema %}

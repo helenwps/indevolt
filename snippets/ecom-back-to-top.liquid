@@ -1,0 +1,618 @@
+<!-- Ecomposer Back to top Extension -->
+{%- liquid
+    assign extension_settings = shop.metafields.ecomposer.back_to_top.value
+
+    #enable
+    assign enable = extension_settings.enable
+    assign enable_progress = extension_settings.enable_progress
+
+
+    #Position 
+    assign position = extension_settings.position
+    assign position__tablet  = extension_settings.position__tablet
+    assign position__mobile  = extension_settings.position__mobile
+
+    #Typography 
+    assign typo_general = extension_settings.typo_general
+    assign typo_general__tablet = extension_settings.typo_general__tablet
+    assign typo_general__mobile = extension_settings.typo_general__mobile
+
+    
+    assign width  = extension_settings.width
+    assign height = extension_settings.height
+    assign width__tablet  = extension_settings.width__tablet
+    assign height__tablet = extension_settings.height__tablet
+    assign width__mobile  = extension_settings.width__mobile
+    assign height__mobile = extension_settings.height__mobile
+    
+    #label 
+    assign label_button = extension_settings.label_button
+    assign label_button__tablet = extension_settings.label_button__tablet
+    assign label_button__mobile = extension_settings.label_button__mobile
+    
+    #color_setting 
+    assign color = extension_settings.color
+    assign background_color = extension_settings.background_color
+    assign color_hover = extension_settings.color_hover
+    assign background_color_hover = extension_settings.background_color_hover
+
+    #border-radius 
+    assign border_radius = extension_settings.border_radius
+    assign border_radius__tablet = extension_settings.border_radius__tablet
+    assign border_radius__mobile = extension_settings.border_radius__mobile
+
+    #color_progress 
+    assign progress_track = extension_settings.progress_track
+    assign progress_color = extension_settings.progress_color
+    
+    #Font 
+    assign google_fonts = extension_settings.google_font_css
+    assign custom_fonts = extension_settings.custom_font_css
+    
+    #Icon 
+    assign icon = extension_settings.button_icon
+    assign icon_size = extension_settings.icon_size
+    assign icon_size__tablet = extension_settings.icon_size__tablet
+    assign icon_size__mobile = extension_settings.icon_size__mobile
+
+   assign show_where = extension_settings.show_where
+  if show_where == 'custom'
+      assign custom_show_on = extension_settings.custom_show_on 
+      assign ex_pages = extension_settings.show_pages
+      assign ex_blogs = extension_settings.show_blogs
+      assign ex_products = extension_settings.show_products
+      assign ex_collections = extension_settings.show_collections 
+  endif
+  assign custom_specific = extension_settings.custom_specific
+
+   assign ver_pos = extension_settings.vertical
+   assign ver_pos__tablet = extension_settings.vertical__tablet
+   assign ver_pos__mobile = extension_settings.vertical__mobile
+   assign hor_pos = extension_settings.horizontal
+   assign hor_pos__tablet = extension_settings.horizontal__tablet
+   assign hor_pos__mobile = extension_settings.horizontal__mobile
+-%}
+{%- if enable -%}
+  {%- liquid 
+    assign ext_products = ''
+    assign ext_pages = ''
+    assign ext_collections = ''
+    assign ext_blogs = ''
+    for product in ex_products
+        if forloop.index == 1
+            assign ext_products = ext_products | append: product.value
+        else    
+            assign ext_products = ext_products |append: ',' |  append: product.value
+        endif 
+    endfor
+    for product in ex_pages
+        if forloop.index == 1
+            assign ext_pages = ext_pages | append: product.value
+        else    
+            assign ext_pages = ext_pages |append: ',' |  append: product.value
+        endif 
+    endfor
+    for product in ex_collections
+        if forloop.index == 1
+            assign ext_collections = ext_collections | append: product.value
+        else    
+            assign ext_collections = ext_collections |append: ',' |  append: product.value
+        endif 
+    endfor
+    for product in ex_blogs
+        if forloop.index == 1
+            assign ext_blogs = ext_blogs | append: product.value
+        else    
+            assign ext_blogs = ext_blogs |append: ',' |  append: product.value
+        endif 
+    endfor
+    assign check = false
+    if show_where == 'all_page' or show_where == 'custom' and custom_show_on contains request.page_type 
+        assign check = true
+    endif
+    if check or show_where == 'custom' and custom_specific == true and request.page_type == 'blog' and ext_blogs contains blog.handle
+        assign check = true
+    endif
+    if check or show_where == 'custom' and custom_specific == true and request.page_type == 'page' and ext_pages contains page.handle 
+        assign check = true
+    endif
+    if check or show_where == 'custom' and custom_specific == true and request.page_type == 'product' and ext_products contains product.handle 
+        assign check = true
+    endif
+    if check or show_where == 'custom' and custom_specific == true and request.page_type == 'collection' and ext_collections contains collection.handle 
+        assign check = true
+    endif
+    -%}
+  {%- if check -%}
+  <div
+    id="ecom-back-to-top"
+    class="ecom-back-to-top
+    {% if position__mobile %}
+      ecom-back-to-top__mobile--{{ position__mobile }}
+    {% endif %}
+    {% if position__tablet %}
+      ecom-back-to-top__tablet--{{ position__tablet }}
+    {% endif %}
+    {% if position %}
+      ecom-back-to-top__desktop--{{ position }}
+    {% endif %}">
+    <div class="ecom-back-to-top-content">
+      {%- if label_button != blank -%}
+        <p class="ecom-back-to-top-label__desktop ecom-back-to-top-m__0">{{ label_button }}</p>
+      {%- endif -%}
+      {%- if label_button__tablet != blank -%}
+        <p class="ecom-back-to-top-label__tablet ecom-back-to-top-m__0">{{ label_button__tablet }}</p>
+      {%- endif -%}
+      {%- if label_button__mobile != blank -%}
+        <p class="ecom-back-to-top-label__mobile ecom-back-to-top-m__0">{{ label_button__mobile }}</p>
+      {%- endif -%}
+      {%- if icon -%}
+        <div class="ecom-back-to-top-icon">
+          {{ icon.value }}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+  {%- style -%}
+    {%- if google_fonts.size > 0 -%}
+      {%- for css in google_fonts -%}
+        {{ css }}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if custom_fonts.size > 0 -%}
+      {%- for css in custom_fonts -%}
+        {{ css }}
+      {%- endfor -%}
+    {%- endif -%}
+    .ecom-back-to-top-m__0 {
+      margin: 0;
+    }
+    .ecom-back-to-top {
+      position: fixed;
+      cursor: pointer;
+      visibility: hidden;
+      opacity: 0;
+      display: block;
+      z-index: 1002;
+      padding: 2px;
+      transition: all ease 0.3s;
+      box-shadow: 0 0 2px #9b9b9b9e;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      {%- if width -%}
+        width: {{ width}};
+      {%- endif -%}
+      {%- if height -%}
+        height: {{ height}};
+      {%- endif -%}
+      {%- if border_radius -%}
+        border-top-left-radius: {{ border_radius.top }};
+        border-top-right-radius: {{ border_radius.right }};
+        border-bottom-left-radius: {{ border_radius.left }};
+        border-bottom-right-radius: {{ border_radius.bottom }};
+      {%- endif -%}
+    }
+    .ecom-back-to-top__desktop--top_left {
+      top: {{ ver_pos | default: '85px'}};
+      left: {{ hor_pos | default: '40px'}};
+    }
+    .ecom-back-to-top__desktop--top_right {
+      top: {{ ver_pos | default: '85px'}};
+      right: {{ hor_pos | default: '40px'}};
+    }
+    .ecom-back-to-top__desktop--bottom_left {
+      bottom: {{ ver_pos | default: '55px'}};
+      left: {{ hor_pos | default: '40px'}};
+    }
+    .ecom-back-to-top__desktop--bottom_right {
+      bottom: {{ ver_pos | default: '55px'}};
+      right: {{ hor_pos | default: '40px'}};
+    }
+    .ecom-back-to-top__desktop--bottom_center {
+      bottom: {{ ver_pos | default: '55px'}}; 
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      top: unset;
+    }
+    .ecom-back-to-top-show {
+
+      visibility: visible;
+      opacity: 1;
+    }
+    .ecom-scale-in-center {
+      -webkit-animation: scale-in-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: scale-in-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes scale-in-center {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    @keyframes scale-in-center {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    .ecom-scale-out-center {
+      -webkit-animation: scale-out-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+      animation: scale-out-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    }
+    @-webkit-keyframes scale-out-center {
+      0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+      }
+    }
+    @keyframes scale-out-center {
+      0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+      }
+    }
+    .ecom-back-to-top-content {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background-color: #25f3fa;
+      transition: 0.3s ease all;
+      {% if background_color %}
+        background-color: {{ background_color }};
+      {% endif %}
+      {% if color %}
+        color: {{ color}};
+      {% endif %}
+      {%- if border_radius -%}
+        border-top-left-radius: {{ border_radius.top }};
+        border-top-right-radius: {{ border_radius.right }};
+        border-bottom-left-radius: {{ border_radius.left }};
+        border-bottom-right-radius: {{ border_radius.bottom }};
+      {%- endif -%}
+      {% if typo_general %}
+        {{ typo_general}}
+      {% endif %}
+    }
+    .ecom-back-to-top-label__tablet,
+    .ecom-back-to-top-label__mobile {
+      display: none;
+    }
+    .ecom-back-to-top-icon {
+      height: 30px;
+      width: 30px;
+      /* {% if label_button and label_button != '' %}
+        padding: 0 5px;
+      {% else %}
+        padding: 0;
+      {% endif %} */
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      {% if icon_size %}
+        width: {{ icon_size }};
+        height: {{ icon_size }};
+      {% endif %}
+      {% if color %}
+        color: {{ color }};
+      {% endif %}
+    }
+    .ecom-back-to-top-icon svg {
+      {% if icon_size %}
+        width: {{ icon_size }};
+        height: {{ icon_size }};
+      {% endif %}
+    }
+    @keyframes move_on_top {
+      0% {
+        transform: translateY(0%);
+      }
+
+      25% {
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+
+      50% {
+        opacity: 0;
+        transform: translateY(100%);
+      }
+
+      75% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
+    /* ==================== respnsive ==================== */
+    @media(hover: hover) and (pointer: fine) {
+      .ecom-back-to-top-content:hover .ecom-back-to-top-icon {
+        /* -webkit-animation: move_on_top 1.1s both; */
+        animation: move_on_top 0.5s ease-in-out forwards;
+      }
+      .ecom-back-to-top-content:hover {
+        {% if background_color_hover %}
+          background-color: {{ background_color_hover }};
+        {% endif %}
+        {% if color_hover %}
+          color: {{ color_hover }};
+        {% endif %}
+      }
+      .ecom-back-to-top-content:hover .ecom-back-to-top-icon {
+        {% if color_hover %}
+          color: {{ color_hover }};
+        {% endif %}
+      }
+    }
+    /* tablet  */
+    @media (max-width: 1023px) {
+      .ecom-back-to-top {
+        {%- if width__tablet -%}
+          width: {{ width__tablet}};
+        {%- endif -%}
+        {%- if height__tablet -%}
+          height: {{ height__tablet}};
+        {%- endif -%}
+        {%- if border_radius__tablet -%}
+          border-top-left-radius: {{ border_radius__tablet.top }};
+          border-top-right-radius: {{ border_radius__tablet.right }};
+          border-bottom-left-radius: {{ border_radius__tablet.left }};
+          border-bottom-right-radius: {{ border_radius__tablet.bottom }};
+        {%- endif -%}
+      }
+      .ecom-back-to-top-content {
+        {%- if border_radius__tablet -%}
+          border-top-left-radius: {{ border_radius__tablet.top }};
+          border-top-right-radius: {{ border_radius__tablet.right }};
+          border-bottom-left-radius: {{ border_radius__tablet.left }};
+          border-bottom-right-radius: {{ border_radius__tablet.bottom }};
+        {%- endif -%}
+        {% if typo_general__tablet %}
+          {{ typo_general__tablet }}
+        {% endif %}
+      }
+      .ecom-back-to-top-icon {
+        /* {% if label_button__tablet and label_button_tablet != '' %}
+          padding: 0 5px;
+        {% else %}
+          padding: 0;
+        {% endif %} */
+        {% if icon_size__tablet %}
+          width: {{ icon_size__tablet }};
+          height: {{ icon_size__tablet }};
+        {% endif %}
+      }
+      .ecom-back-to-top-icon svg {
+        {% if icon_size__tablet %}
+          width: {{ icon_size__tablet }};
+          height: {{ icon_size__tablet }};
+        {% endif %}
+      }
+      .ecom-back-to-top-icon:hover {
+        {% if color %}
+          color: {{ color }};
+        {% endif %}
+      }
+      .ecom-back-to-top-label__tablet {
+        display: block;
+      }
+      .ecom-back-to-top-label__desktop,
+      .ecom-back-to-top-label__mobile {
+        display: none;
+      }
+
+      .ecom-back-to-top__tablet--top_left {
+        top: {{ ver_pos__tablet | default: '85px'}};
+        left: {{ hor_pos__tablet | default: '40px'}};
+        right: unset;
+        bottom: unset;
+      }
+      .ecom-back-to-top__tablet--top_right {
+        top: {{ ver_pos__tablet | default: '85px'}};
+        right: {{ hor_pos__tablet | default: '40px'}};
+        left: unset;
+        bottom: unset;
+      }
+      .ecom-back-to-top__tablet--bottom_left {
+        bottom: {{ ver_pos__tablet | default: '55px'}};
+        left: {{ hor_pos__tablet | default: '40px'}};
+        right: unset;
+        top: unset;
+      }
+      .ecom-back-to-top__tablet--bottom_right {
+        bottom: {{ ver_pos__tablet | default: '55px'}};
+        right: {{ hor_pos__tablet | default: '40px'}};
+        top: unset;
+        left: unset;
+      }
+      .ecom-back-to-top__tablet--bottom_center {
+        bottom: {{ ver_pos__tablet | default: '55px'}};
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: unset;
+      }
+    }
+    /* mobile */
+    @media(max-width: 767px) {
+      .ecom-back-to-top {
+        {%- if width__mobile -%}
+          width: {{ width__mobile}};
+        {%- endif -%}
+        {%- if height__mobile -%}
+          height: {{ height__mobile}};
+        {%- endif -%}
+        {%- if border_radius__mobile -%}
+          border-top-left-radius: {{ border_radius__mobile.top }};
+          border-top-right-radius: {{ border_radius__mobile.right }};
+          border-bottom-left-radius: {{ border_radius__mobile.left }};
+          border-bottom-right-radius: {{ border_radius__mobile.bottom }};
+        {%- endif -%}
+      }
+      .ecom-back-to-top-content {
+        {%- if border_radius__mobile -%}
+          border-top-left-radius: {{ border_radius__mobile.top }};
+          border-top-right-radius: {{ border_radius__mobile.right }};
+          border-bottom-left-radius: {{ border_radius__mobile.left }};
+          border-bottom-right-radius: {{ border_radius__mobile.bottom }};
+        {%- endif -%}
+        {% if typo_general__mobile %}
+          {{ typo_general__mobile }}
+        {% endif %}
+      }
+      .ecom-back-to-top-icon {
+        /* {% if label_button__mobile and label_button__mobile != '' %}
+          padding: 0 5px;
+        {% else %}
+          padding: 0;
+        {% endif %} */
+        {% if icon_size__mobile %}
+          width: {{ icon_size__mobile }};
+          height: {{ icon_size__mobile }};
+        {% endif %}
+      }
+      .ecom-back-to-top-icon svg {
+        {% if icon_size__mobile %}
+          width: {{ icon_size__mobile }};
+          height: {{ icon_size__mobile }};
+        {% endif %}
+      }
+      .ecom-back-to-top-label__mobile {
+        display: block;
+      }
+      .ecom-back-to-top-label__tablet,
+      .ecom-back-to-top-label__desktop {
+        display: none;
+      }
+      .ecom-back-to-top__mobile--top_left {
+        top: {{ ver_pos__mobile | default: '85px'}};
+        left: {{ hor_pos__mobile | default: '15px'}};
+        right: unset;
+        bottom: unset;
+      }
+      .ecom-back-to-top__mobile--top_right {
+        top: {{ ver_pos__mobile | default: '85px'}};
+        right: {{ hor_pos__mobile | default: '15px'}};
+        left: unset;
+        bottom: unset;
+      }
+      .ecom-back-to-top__mobile--bottom_left {
+        bottom: {{ ver_pos__mobile | default: '55px'}};
+        left: {{ hor_pos__mobile | default: '15px'}};
+        right: unset;
+        top: unset;
+      }
+      .ecom-back-to-top__mobile--bottom_right {
+        bottom: {{ ver_pos__mobile | default: '55px'}};
+        right: {{ hor_pos__mobile | default: '15px'}};
+        top: unset;
+        left: unset;
+      }
+      .ecom-back-to-top__mobile--bottom_center {
+        bottom: {{ ver_pos__mobile | default: '55px'}};
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: unset;
+      }
+    }
+  {%- endstyle -%}
+{%- endif -%}
+<script>
+  (function() {
+    function initBackToTop() {
+      const button_back_to_top = document.getElementById("ecom-back-to-top");
+      if (! button_back_to_top) 
+        return false;
+      const enable_progress = "{{enable_progress}}";
+      const progress_track = "{{progress_track}}";
+      const progress_color = "{{progress_color}}";
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        button_back_to_top.classList.add("ecom-back-to-top-show");
+      }
+      let total_height = 0;
+      total_height = document.body.scrollHeight - window.innerHeight;
+      const content = document.body;
+      const observer = new ResizeObserver((entries) => {
+        for (const entry of entries) {
+          total_height = document.body.scrollHeight - window.innerHeight;
+        }
+      });
+      observer.observe(content);
+      window.addEventListener('resize', function() {
+        total_height = document.body.scrollHeight - window.innerHeight;
+      }, true);
+      let current_height = document.documentElement.scrollTop;
+      if (enable_progress === "true") {
+        let percent = (current_height / total_height) * 100;
+        if (percent > 100) {
+          percent = 100;
+        }
+        if (progress_color && progress_track) {
+          button_back_to_top.style = `padding: 2px;background: conic-gradient(${progress_color} ${percent}% , ${progress_track} 0%);`
+        }
+      }
+      window.addEventListener("scroll", function() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          button_back_to_top.classList.remove("ecom-scale-out-center");
+          button_back_to_top.classList.add("ecom-scale-in-center");
+          button_back_to_top.classList.add("ecom-back-to-top-show");
+        } else {
+          button_back_to_top.classList.add("ecom-scale-out-center");
+          button_back_to_top.classList.remove("ecom-back-to-top-show");
+          button_back_to_top.classList.remove("ecom-scale-in-center");
+        }
+        if (enable_progress === "true") {
+          current_height = document.documentElement.scrollTop;
+          let percent = (current_height / total_height) * 100;
+          if (percent > 100) {
+            percent = 100;
+          }
+          if (progress_color && progress_track) {
+            button_back_to_top.style = `background: conic-gradient(${progress_color} ${percent}% , ${progress_track} 0%);`
+          } else {
+            button_back_to_top.style = `background: conic-gradient(black ${percent}% , white 0%);`
+          }
+        }
+      });
+      button_back_to_top.addEventListener("click", function() {
+        document.querySelector("html").style = "scroll-behavior: smooth;"
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      })
+    }
+    window.addEventListener("DOMContentLoaded", function() {
+      initBackToTop();
+    });
+  })()
+</script>
+{% endif %}

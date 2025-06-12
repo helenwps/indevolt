@@ -1,0 +1,585 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ At 2025-04-25 05:39:09
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper@11.css" /><link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-modal_css" href="https://cdn.ecomposer.app/vendors/css/ecom_modal.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.7" /><noscript><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper@11.css" /><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-modal_css" href="https://cdn.ecomposer.app/vendors/css/ecom_modal.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.7" /></noscript><script type="text/javascript" asyc="async" id="ecom-vendors-slider_js" src="https://cdn.ecomposer.app/vendors/js/ecom-swiper@11.0.5.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-modal_js" src="https://cdn.ecomposer.app/vendors/js/ecom_modal.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-zoom_js" src="https://cdn.ecomposer.app/vendors/js/ecom_zoom.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-shopify_option_selection_js" src="https://cdn.ecomposer.app/vendors/js/ecomposer_option_selection.js" ></script>
+{%capture section_id %}ecom-shellypro3em-product{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=Albert+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+{{'ecom-67e4ca156fffa973da0dd6b7.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-67e4ca156fffa973da0dd6b7.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="67e4ca156fffa973da0dd6b7";
+ window.EComposer.TEMPLATE = {"template_id":"67e4ca156fffa973da0dd6b7","title":"ShellyPro3EM","type":"product","slug":"ecom-shellypro3em","plan_id":4};
+ </script>
+<div class="ecom-builder" id="ecom-shellypro3em"><div class="ecom-sections" data-section-id="{{section.id}}"><section class="ecom-row ecom-core ecom-section ecom-olxqyhje7sq" data-id="ecom-olxqyhje7sq" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core ecom-k07bi1fuhe8"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-x9zmtqfv3s" data-core-is="block"><div class="ecom-element ecom-base ecom-base__breadcrumbs--wrapper" deep="1">
+ {%- if EComBuilderMode -%}
+ {% capture page_type %}product{% endcapture %}
+ {%- else -%}
+ {%- assign page_type = request.page_type %}
+ {%- endif %}
+ {%- capture icon_parent -%}
+ 
+ {%- endcapture -%}
+ {%- capture icon_breadcrumbs -%}
+ <span class="ecom-base__breadcrumbs--icon">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M89.45 87.5l143.1 152c4.375 4.625 6.562 10.56 6.562 16.5c0 5.937-2.188 11.87-6.562 16.5l-143.1 152C80.33 434.1 65.14 434.5 55.52 425.4c-9.688-9.125-10.03-24.38-.9375-33.94l128.4-135.5l-128.4-135.5C45.49 110.9 45.83 95.75 55.52 86.56C65.14 77.47 80.33 77.87 89.45 87.5z"></path></svg>
+ </span>
+ 
+ {%- endcapture -%}
+ {%- unless page_type == 'index' or page_type == 'list-collections' or page_type == '404' -%}
+ <nav class="ecom-base__breadcrumbs ecom-flex" role="navigation" aria-label="breadcrumbs">
+ <div class="ecom-base__breadcrumbs__list">
+ {{ icon_parent }}<a class="ecom-base__breadcrumbs__link" href="/">Startseite</a>
+ {%- case page_type -%}
+ {%- when 'page' -%}
+ {{ icon_breadcrumbs }}
+ {%- if EComBuilderMode -%}
+ <a class="ecom-base__breadcrumbs__link" href="#" aria-current="page">Untitled</a>
+ {%- else -%}
+ <a class="ecom-base__breadcrumbs__link" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+ {%- endif -%}
+ {%- when 'cart' -%}
+ {{ icon_breadcrumbs }}
+ <a class="ecom-base__breadcrumbs__link" href="{{ routes.cart_url }}" aria-current="cart"></a>
+ {%- when 'product' -%}
+ {%- if collection.url -%}
+ {{ icon_breadcrumbs }}{{ collection.title | link_to: collection.url }}
+ 
+ {%- else -%}
+ {% for collection in product.collections %}
+ {% if collection.handle == 'all' or collection.handle == 'frontpage' or collection.title == 'All' %}
+ {% continue%}
+ {% else %}
+ {{ icon_breadcrumbs }}{{ collection.title | link_to: collection.url }}
+ {% break %}
+ {% endif%}
+ {% endfor %}
+ 
+ {%- endif -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+ {%- when 'collection' and collection.handle -%}
+ {%- if current_tags -%}
+ {{ icon_breadcrumbs }}{{ collection.title | link_to: collection.url }}
+ {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: "+"}}{%- endcapture -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
+ {%- else -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
+ {%- endif -%}
+ {%- when 'blog' -%}
+ {%- if current_tags -%}
+ {{ icon_breadcrumbs }}{{ blog.title | link_to: blog.url }}
+ {%- capture tag_url -%}{{blog.url}}/tagged/{{ current_tags | join: "+" }}{%- endcapture -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + " }}</a>
+ {%- else -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
+ {%- endif -%}
+ {%- when 'article' -%}
+ {{ icon_breadcrumbs }}{{ blog.title | link_to: blog.url }}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
+ {%- else -%}
+ {{ icon_breadcrumbs }}<a class="ecom-base__breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+ {%- endcase -%}
+ </div>
+ </nav>
+ {%- endunless -%}{%- assign page_type = request.page_type %}
+ {%- if page_type == 'index' -%}
+ {{ icon_parent }}
+ {%- if EComBuilderMode -%}
+ <a class="ecom-base__breadcrumbs__link" href="#" aria-current="index">Home</a>
+ {%- else -%}
+ <a class="ecom-base__breadcrumbs__link" href="/" aria-current="index">Startseite</a>
+ {%- endif -%}
+ {%- endif -%}
+ </div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+ {% comment %}
+ // Reactive
+ * this.data.settings.product
+ {% endcomment %}
+ {% liquid
+ unless recommendations.performed
+ if request.page_type != 'product' or product == blank
+ assign selected_product = 'shelly-pro-3em-120a'
+ if selected_product == blank or selected_product == '' or all_products[selected_product] == blank
+ assign product = collections['all'].products.first
+ else
+ assign product = all_products[selected_product]
+ if product.id == blank
+ assign product = collections['all'].products.last
+ endif
+ endif
+ endif
+ endunless
+ %}
+ {%- if product != blank -%}
+ {%- capture ec_form_id -%}product_form_{{ product.id }}_ecom-aro3xu3l0kt{%- endcapture -%}
+ {%- form 'product', product, id: ec_form_id, class: "ecom-product-form ecom-product-form--single ecom-click", product_id: product.id, data-product_id: product.id,data-product-id: product.id, data-handle: product.handle-%}
+ <section class="ecom-row ecom-core ecom-section ecom-aro3xu3l0kt" data-id="ecom-aro3xu3l0kt" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core ecom-od5yvi21uim"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-j998zpwos5k" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__media ecom-position-sticky" deep="1"><div class="ecom-product-single__media-wrapper 
+ {% if product.media.size == 1 %}
+ ecom-dont-has-many-images
+ {% endif %}
+ "><div class="ecom-product-single__media-container ecom-product-single__media--slider ecom-product-single__media--horizontal ecom-product-single__media-tablet--horizontal ecom-product-single__media-mobile--horizontal"><div style="display: none;">
+ {% assign check_dont_set_alt = true %}
+ {% for image in product.images %}
+ {% if image.alt contains 'ecomposer-' %}
+ {% assign check_dont_set_alt = false %}
+ {% break %}
+ {% endif%}
+ {% endfor %}
+ <div id="ecom-single-product-default-variant" data-dont-set-alt="{{check_dont_set_alt}}">{%- if product.has_only_default_variant -%} true {%- else -%} false {%- endif -%}</div>
+ </div><div class="ecom-product-single__media--featured ecom-swiper-container" data-breakpoints="{&quot;0&quot;:{&quot;__screen_name&quot;:&quot;mobile&quot;},&quot;768&quot;:{&quot;__screen_name&quot;:&quot;tablet&quot;,&quot;spaceBetween&quot;:10},&quot;1025&quot;:{&quot;__screen_name&quot;:&quot;desktop&quot;,&quot;spaceBetween&quot;:16}}" data-priority="variant">
+ {% comment %}
+ Reactivity
+ *this.data.settings.image_action
+ *this.data.settings.enable_zoom
+ *this.data.settings.grid_advance_number_images
+ {% endcomment %}
+ 
+ {%- liquid
+ if product.has_only_default_variant
+ assign target = product
+ else
+ assign target = product.selected_or_first_available_variant
+ endif
+ -%}
+ 
+ 
+ 
+ {% assign img_padding = 1 | times: 1 %}
+ {% assign img_padding__tablet = 1 | times: 1 %}
+ {% assign img_padding__mobile = 1 | times: 1 %}
+ <div class="ecom-swiper-wrapper ecom-product-single__media--images ecom-swiper-wrapper ecom-product-single__media--images-layout__slider">
+ {% assign use_limit = undefined %}
+ {% assign limit_images = undefined %}
+ {% for image in product.images %}
+ {%if use_limit and forloop.index > limit_images%}{% break %}{% endif %}
+ {% assign fetchpriority = 'low'%}
+ {% assign lazyload = 'low'%}
+ {% if forloop.first %}
+ {% assign fetchpriority = 'high'%}
+ {% assign lazyload = 'eager'%}
+ {% endif %}
+ {% assign img_ration = 1 | divided_by: image.aspect_ratio | times: 100 %}
+ 
+ <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--image" data-index="{{forloop.index0}}" data-variant_id="{{ image.variants | map:'id' | join: ',' }}" style="--img_padding: {{ img_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ img_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ img_ration | divided_by: img_padding__mobile }}%;" data-half-width="{% assign img_ration_half = 1 | divided_by: image.aspect_ratio | times: 50 %}{{img_ration_half}}" data-full-width="{% assign img_ration_full = 1 | divided_by: image.aspect_ratio | times: 100 %}{{img_ration_full}}">
+ 
+ 
+ {%- assign img_master = image | img_url: 'master' -%}
+ {{ image | image_url: width: 1946 | image_tag:
+ sizes: sizes,
+ widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946',
+ class: 'ecom-image-default'
+ ,ecom-modal-source:img_master , ecom-modal:'image'
+ ,loading: 'eager'
+ ,fetchpriority: fetchpriority
+ ,alt: image.alt | escape
+ }}
+ 
+ 
+ </div>
+ {% endfor %}
+ {%- for media in product.media -%}
+ {% assign media_ration = 1 | divided_by: media.aspect_ratio | times: 100 %}
+ {% case media.media_type %}
+ {% when 'image' %}
+ {% continue %}
+ {% when 'external_video'%}
+ {% assign videoUrl = '' %}
+ {% for source in media.sources %}
+ {% if source.format == "mp4" %}
+ {% assign videoUrl = source.url %}
+ {% break %}
+ {% endif %}
+ {% endfor %}
+ <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media---external-video ecom-product-single__media--full" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;" ecom-modal-source="{{videoUrl}}" ecom-modal='iframe'>
+ {{ media | external_video_tag: image_size:'master' }}
+ </div>
+ {% when 'video' %}
+ {% assign videoUrl = '' %}
+ {% for source in media.sources %}
+ {% if source.format == "mp4" %}
+ {% assign videoUrl = source.url %}
+ {% break %}
+ {% endif %}
+ {% endfor %}
+ <div data-stopdrag="true" class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--video ecom-product-single__media--full ecom-swiper-no-swiping" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;" ecom-modal-source="{{videoUrl}}" ecom-modal='iframe'>
+ {{ media | video_tag: image_size:'master', class: 'ecom-media-video', controls: false, autoplay: true, muted: true,loop: undefined }}
+ 
+ </div>
+ {% when 'model' %}
+ <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-swiper-no-swiping ecom-product-single__media--model ecom-product-single__media--full" data-stopdrag="true" data-position="{{media.position}}">
+ <div class="ecom-product-single__media--model-wrapper">
+ {{ media | model_viewer_tag: image_size:'master', reveal: 'interaction', toggleable: true, data-model-id: media.id }}
+ </div>
+ </div>
+ {% else %}
+ <div data-media-type="{{media.media_type}}" class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-swiper-no-swiping ecom-product-single__media--full" data-position="{{media.position}}">
+ <div class="ecom-product-single__media" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;">
+ {{ media | media_tag: image_size:'master', class: 'ecom-product-single__media--item' }}
+ </div>
+ </div>
+ {% endcase %}
+ {%- endfor -%}
+ </div>
+ 
+ <div class="ecom-swiper-pagination"></div>
+ <div class="ecom-swiper-button-next ecom-swiper-controls" style="display: flex">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M89.45 87.5l143.1 152c4.375 4.625 6.562 10.56 6.562 16.5c0 5.937-2.188 11.87-6.562 16.5l-143.1 152C80.33 434.1 65.14 434.5 55.52 425.4c-9.688-9.125-10.03-24.38-.9375-33.94l128.4-135.5l-128.4-135.5C45.49 110.9 45.83 95.75 55.52 86.56C65.14 77.47 80.33 77.87 89.45 87.5z"></path></svg>
+ </div>
+ <div class="ecom-swiper-button-prev ecom-swiper-controls" style="display: flex">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M166.5 424.5l-143.1-152c-4.375-4.625-6.562-10.56-6.562-16.5c0-5.938 2.188-11.88 6.562-16.5l143.1-152c9.125-9.625 24.31-10.03 33.93-.9375c9.688 9.125 10.03 24.38 .9375 33.94l-128.4 135.5l128.4 135.5c9.094 9.562 8.75 24.75-.9375 33.94C190.9 434.5 175.7 434.1 166.5 424.5z"></path></svg>
+ </div>
+ 
+ </div><div class="ecom-product-single__media--thumbs ecom-product-single__init-thumb-hidden ecom-swiper-container" data-breakpoints="{&quot;0&quot;:{&quot;__screen_name&quot;:&quot;mobile&quot;,&quot;slidesPerView&quot;:4,&quot;spaceBetween&quot;:10,&quot;thumbnail_position&quot;:&quot;column&quot;},&quot;768&quot;:{&quot;__screen_name&quot;:&quot;tablet&quot;,&quot;slidesPerView&quot;:4,&quot;spaceBetween&quot;:10,&quot;thumbnail_position&quot;:&quot;column&quot;},&quot;1025&quot;:{&quot;__screen_name&quot;:&quot;desktop&quot;,&quot;slidesPerView&quot;:4,&quot;spaceBetween&quot;:9,&quot;thumbnail_position&quot;:&quot;column&quot;}}">
+ {%- if product.media.size > 1 -%}
+ <div class="ecom-swiper-wrapper">
+ {% for image in product.images%}
+ {% assign fetchpriority = 'low'%}
+ {% if forloop.first %}
+ {% assign fetchpriority = 'high'%}
+ {% endif %}
+ <div class="ecom-product-single__media--thumbnail ecom-swiper-slide" data-variant_id="{{ image.variants | map:'id' | join:',' }}">
+ <img
+ class="ecom-product-thumbnail"
+ src="{{ image | img_url: '306x361' }}"
+ alt="{{ image.alt }}",
+ fetchpriority="{{ fetchpriority }}"
+ 
+ />
+ </div>
+ {% endfor %}
+ {%- for media in product.media -%}
+ {% if media.media_type != 'image' %}
+ <div class="ecom-product-single__media--thumbnail ecom-swiper-slide">
+ <div class="ecom-product-single__media--thumbnail--icon">
+ {% if media.media_type == 'model' %}
+ 
+ {% else %}
+ <svg width="21" height="20" viewBox="0 0 21 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.3005 9.60895L9.147 6.58968C9.07238 6.53528 8.98417 6.50258 8.89212 6.4952C8.80007 6.48783 8.70778 6.50606 8.62545 6.54788C8.54311 6.5897 8.47396 6.65348 8.42562 6.73216C8.37729 6.81084 8.35166 6.90137 8.35158 6.99371V13.0303C8.3513 13.1227 8.37672 13.2135 8.425 13.2924C8.47328 13.3713 8.54252 13.4352 8.62501 13.477C8.7075 13.5188 8.79998 13.5369 8.89215 13.5293C8.98432 13.5216 9.07255 13.4885 9.147 13.4336L13.3005 10.417C13.3647 10.371 13.417 10.3103 13.453 10.2401C13.4891 10.1698 13.5079 10.092 13.5079 10.013C13.5079 9.934 13.4891 9.85616 13.453 9.7859C13.417 9.71564 13.3647 9.65498 13.3005 9.60895Z"></path><path d="M10.0017 0C4.47699 0 0 4.47699 0 10.0017C0 15.5243 4.47699 20 10.0017 20C15.525 20 20.0027 15.5237 20.0027 10.0017C20.0033 4.47699 15.525 0 10.0017 0ZM10.0017 18.3313C5.40087 18.3313 1.67072 14.6031 1.67072 10.0017C1.67072 5.4022 5.40087 1.66938 10.0017 1.66938C14.6018 1.66938 18.3313 5.40154 18.3313 10.0017C18.3319 14.6031 14.6018 18.3313 10.0017 18.3313Z"></path></svg>
+ {% endif %}
+ </div>
+ <img src="{{ media.preview_image | img_url: '306x361' }}" alt="{{ media.alt }}" />
+ </div>
+ {% endif %}
+ {%- endfor -%}
+ </div>
+ 
+ <div class="ecom-swiper-button-next ecom-swiper-controls-thumb" style="display: flex">
+ <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+ </svg>
+ </div>
+ <div class="ecom-swiper-button-prev ecom-swiper-controls-thumb" style="display: flex">
+ <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+ </svg>
+ </div>
+ 
+ {%- endif -%}
+ </div></div></div><div class="ecom-hidden-content">
+ <script type="application/json" id="Product-model-{{ product.id }}">
+ {{ product.media | where: 'media_type', 'model' | json }}
+ </script>
+ </div></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-iyfcehgho9k"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-561f5frv8q3" data-core-is="row"><div class="ecom-row ecom-core core__block ecom-kea2jar5gyg ec-row-sticky" data-id="ecom-kea2jar5gyg" style="z-index: inherit;"><div data-deep="2" class="core__row--columns"><div class="ecom-column ecom-core ecom-jzguwgwo91e"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block ecom-wkypvojkn7" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__title" deep="2"><div class="ecom-product-single__title-wrapper"><div class="ecom-product-single__title-container"><h1 class="ecom-product__heading" href="{{ product.url }}" title="{{ product.title }}">{{ product.title }}</h1></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-zojnrt01p6c" data-core-is="block"><div class="ecom-element ecom-extension ecom-extension-klaviyo-star-rating ecom-container" deep="2"><div class="ecom-theme-app-extensions"><div class="ecom-theme-app-extension-container">
+ {%- for block in section.blocks -%}
+ {%- case block.type -%}
+ {%- when '@app' -%}
+ {%- if block.id contains 'ecom-zojnrt01p6c' -%}
+ {% render block %}
+ {%- break -%}
+ {%- else -%}
+ {%- continue -%}
+ {%- endif -%}
+ {% endcase %}
+ {%- endfor -%}
+ </div></div></div></div> <div class="ecom-block ecom-core core__block ecom-4x7t3sv3hts" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__price" deep="2"><div class="ecom-product-single__price-wrapper"><div class="ecom-product-single__price-container"><div class="ecom-product-single__price-container-grid"><div class="ecom-product-single ecom-product-single__price--prices">
+ {%- liquid
+ if product.has_only_default_variant
+ assign target = product
+ else
+ assign target = product.selected_or_first_available_variant
+ endif
+ -%}
+ <div class="ecom-product-single__price--sale {% if target.compare_at_price == nil or target.compare_at_price <= target.price %} ecom-product-single__price-normal {% endif %}" data-price="{{target.price}}">
+ {%- if settings.currency_code_enabled -%}
+ {{target.price | money_with_currency}}
+ {%- else -%}
+ {{target.price| money }}
+ {%- endif -%}
+ </div>
+ 
+ 
+ <div class="ecom-product-single__price--regular" {%- if target.compare_at_price == nil or target.compare_at_price <= target.price -%} style="display:none" {% endif %}>
+ {%- if settings.currency_code_enabled -%}
+ {{target.compare_at_price | money_with_currency}}
+ {%- else -%}
+ {{target.compare_at_price | money }}
+ {%- endif -%}
+ </div>
+ 
+ {%- capture taxes_text -%}{%- endcapture -%}
+ {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
+ {% if taxes_text %}
+ <div class="ec-product__tax caption rte">
+ {%- if shop.taxes_included -%}
+ 
+ {%- endif -%}
+ {%- if shop.shipping_policy.body != blank -%}
+ 
+ {%- endif -%}
+ </div>
+ {%- endif -%}
+ {%- endif -%}
+ </div></div><div class="ecom-product-single-afterpay">
+ 
+ </div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-qu0fn2iuoi" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-cve4qcevn35" data-id="ecom-cve4qcevn35" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core ecom-1hkmzjwukc"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-6r8fn90gjnd" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="3"><h3 class="ecom__heading ecom-db">0 % MwSt. auf PV-Sets in Deutschland</h3></div></div> <div class="ecom-block ecom-core core__block ecom-uyhi20zmbli" data-core-is="block"><div class="ecom__element ecom-element element__text" data-stopdrag="" deep="3"><div class="text-content ecom-html has-drop-cap-view-framed">Hiermit bestätigen Sie, das Sie die Voraussetzungen für eine umsatzsteuerfreie Lieferung gemäß § 12 Abs. 3 von Deutschland erfüllen.&nbsp;</div></div></div> <div class="ecom-block ecom-core core__block ecom-3dcodpae5i9" data-core-is="block"><div class="ecom-element ecom-base-elements ecom-element__lightbox" deep="3"><div class="ecom-element__lightbox-wrapper"><div class="ecom-element__lightbox-container ecom-flex"><button type="button" ecom-modal="inline" class="ecom__element--button ecom-elements__lightbox-button ecom-flex ecom-al_center ecom-fl_center" ecom-modal-source="#ecom-elements__lightbox-content-ecom-3dcodpae5i9"><span class="ecom-elements__lightbox-button-text">Erfahren Sie mehr.</span><span class="ecom-button-icon ecom-elements__lightbox-button-icon ecom-flex"></span></button><div style="display: none;"><div class="ecom-html" id="ecom-elements__lightbox-content-ecom-3dcodpae5i9"><div class="ecom-elements__lightbox-content-heading">0 % MwSt. bei Lieferungen nach Deutschland</div><div class="ecom-elements__lightbox-content-body"><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">es ist möglich, dass für die ausgewählten Produkte Nullsteuersatz gemäß § 12 Abs.3 dUStG für Deutschland gilt. Bitte prüfen Sie, ob die Voraussetzungen in Ihrem Fall erfüllt sind. Der Verkäuferleistet keine Steuerberatung und übernimmt keine Gewähr für das Eintreten steuerrechtlicher Tatbestände. Klicken Sie hier um den Gesetzestext des § 12 Abs. 3 UStG in Deutschland zu lesen.</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">﻿Bitte prüfen Sie für die nach Deutschland verkaufte(n) Ware(n), ob die Voraussetzungen für die Umsatzsteuerbefreiung nach § 12 Abs. 3 UStG erfüllt sind. Ist dies der Fall, kreuzen Sie bitte an, dass Sie beim Kauf der Ware von der Umsatzsteuer befreit sind. Mit dem Ankreuzen dieses Feldesversichern Sie, dass﻿</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6"></p><ul><li>die Liefer- und Rechnungsadresse in Deutschland liegt,</li><li>das erworbene Produkt auf oder in der Nähe von Privatwohnungen, Wohnungen, öffentlichen und anderen Gebäuden, die für Tätigkeiten im öffentlichen Interesse genutzt werden, oder auf Wohnwagen oder Wohnschiffen, die nicht oder nur gelegentlich bewegt werden, installiert wird, und</li><li>die installierte Bruttoleistung der Photovoltaikanlage laut Marktstammdatenregister nicht mehr als 30 Kilowatt (peak) nicht übersteigt oder nicht übersteigen wird.</li></ul><p></p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">Die Anwendung des Nullsteuersatzes ist nicht mit einem verbindlichen Preisangebotdes Verkäufers verbunden. Der Gesamtpreis ergibt sich aus den Produktpreisen und Steuern sowie ggf. zusätzlichen Kosten wie Versand etc. Wenn der Kundeangibt, dass ein Steuersatz von 0% anwendbar ist, wird der angegebene Preis aufdieser Grundlage angezeigt.</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
+</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
+</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
+</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
+</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
+</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
+</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
+</p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
+</p></div></div></div></div></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block ecom-17mwbkrtyh9" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__description" deep="2"><div class="ecom-product-single__description-wrapper"><div class="ecom-product-single__description-container" data-show-type="full"><div class="ecom-product-single__description--paragraph"><div class="ecom-html-des" style="max-height: var(--ecom-description-height);">{{product.description}}</div></div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-g27wgwzwf1p" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__metafield" deep="2"><div class="ecom-product-single__metafield-wrapper"><div class="ecom-product-single__metafield-container">{{ product.metafields.ecomposer.product_label }}</div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-shbvw3sjt2" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__variant-picker" deep="2"><div class="ecom-product-single__variant-picker-wrapper ecom_not_hide_dropdown_arrow"><div class="ecom-product-single__variant-picker-container {% if product.has_only_default_variant%} ecom-product-single__variant-picker--only-default{% endif%} " data-picker-type="image" data-ecom-placeholder="">
+ {%- liquid
+ assign ecom_has_variant_picker = true
+ assign variant_selected = product.selected_or_first_available_variant
+ -%}
+ <div class="ecom-product-single__variant-picker--main">
+ {%- capture swatch_option_temp -%}Color{%- endcapture-%}
+ {%- assign swatch_option_temp = swatch_option_temp | split: ',' -%}
+ {% assign swatch_option = "" %}
+ {% for item in swatch_option_temp %}
+ {% assign normalizedItem = item | strip %}
+ {% assign swatch_option = swatch_option | append: normalizedItem %}
+ {% unless forloop.last %}
+ {% assign swatch_option = swatch_option | append: ',' %}
+ {% endunless %}
+ {% endfor %}
+ {%- assign swatch_option = swatch_option | split: ',' -%}
+ {% unless product.has_only_default_variant %}
+ {%- for option in product.options_with_values -%}
+ {%- if swatch_option contains option.name -%}
+ {% assign current_option = option %}
+ {% assign option_index = current_option.position | minus: 1 %}
+ <div class="ecom-product-single__picker-main ecom-product-single__picker-option-{{current_option.name | handleize }}">
+ <span class="ecom-product-single__picker-main-label ecom-product-single__picker--option-label" data-option-index="{{current_option.position | minus: 1}}">
+ <span class="ecom-product-variant--option-label-text">{{ current_option.name }}</span>
+ </span>
+ <ul class="ecom-product-single__picker-images-list">
+ {%- assign values = "" -%}
+ {%- assign index = current_option.position | prepend: 'option' -%}
+ {%- for variant in product.variants -%}
+ {%- assign option_value = variant[index] -%}
+ {%- assign option_value_downcase = variant[index] | downcase -%}
+ {%- if values != ""%}
+ {%- assign tmp = values | split: '|' -%}
+ {%- if tmp contains option_value_downcase -%} {%- continue-%}{%- endif -%}
+ {%- assign values = values | append: '|' | append: option_value_downcase -%}
+ {%- else -%}
+ {%- assign values = option_value_downcase -%}
+ {%- endif -%}
+ <li data-option-index="{{ option_index }}" class="ecom-image-default ecom-product-single__swatch-item ecom-product-single__picker-images-item {% if option_value == variant_selected[index] %}ecom-image-active{% endif %}" data-value="{{ option_value | escape }}">
+ <img src="{{ variant | img_url: "360x" }}" alt="{{ option_value }}" />
+ </li>
+ {%- endfor -%}
+ </ul>
+ </div>
+ {% continue%}
+ {%-endif-%}
+ {%- assign index = option.position | prepend: 'option' -%}
+ {% assign option_index = option.position | minus: 1 %}
+ <div class="ecom-product-single__picker-option-{{option.name | handleize }}">
+ <span class="ecom-product-single__picker-radio-label ecom-product-single__picker--option-label" data-option-index="{{option_index}}">
+ <span class="ecom-product-variant--option-label-text">{{option.name}}</span>
+ </span>
+ 
+ <ul class="ecom-product-single__picker-radio-list">
+ {% for value in option.values %}
+ <li class="ecom-product-single__swatch-item ecom-product-single__picker-radio-list-item {% if value == variant_selected[index] %}ecom-button-active{% endif %}" data-option-index="{{ option_index }}" data-value="{{ value | escape }}">
+ {{value}}
+ </li>
+ {% endfor %}
+ </ul>
+ 
+ </div>
+ {%- endfor -%}
+ {% endunless %}
+ </div><div class="ecom-product-single__variant-picker--options">
+ <select name="id" class="ecom-product-single-select-id {% if product.has_only_default_variant %} ecom-product-single__picker-default-variant {% endif %}" data-product-id="{{product.id}}" data-json-product="product-json-{{product.id}}-ecom-shbvw3sjt2" id="ecom-variant-selector-{{product.id}}-ecom-shbvw3sjt2">
+ 
+ {% for variant in product.variants%}
+ <option value="{{variant.id}}" {% if variant_selected.id == variant.id %} selected="selected" {% endif %}>{{variant.title}}</option>
+ {% endfor %}
+ </select>
+ </div><div class="ecom-product-single__variant-picker--json">
+ <script type="application/json" id="product-json-{{product.id}}-ecom-shbvw3sjt2">
+ {%- render "ecom_product_json", product: product -%}
+ </script>
+ </div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-q3i2p4bsluf" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__quantity" deep="2"><div class="ecom-product-single__quantity-wrapper"><div class="ecom-product-single__quantity-container"><label class="ecom-product-single__quantity-container-label" for="quantity">Menge</label><div class="ecom-product-single__quantity-controls"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-minus" aria-label="control minus"><span class="ecom-flex ecom-fl_center ecom-al_center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path></svg></span></button><label for="quantity" style="display: none;">Quantity</label><input name="quantity" type="number" id="quantity" min="1" max="9999" class="ecom-product-single__quantity-input" data-min-value="1" data-max-value="9999" required="" value="1"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-plus" aria-label="control plus"><span class="ecom-flex ecom-fl_center .ecom-al_center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M288 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H288V480C288 497.7 273.7 512 255.1 512C238.3 512 223.1 497.7 223.1 480V288H32C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224H223.1V32C223.1 14.33 238.3 0 255.1 0C273.7 0 288 14.33 288 32V224z"></path></svg></span></button></div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-pm3cveczr5" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-7g9psrictmm" data-id="ecom-7g9psrictmm" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core ecom-zhtpfyjno8q"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block ecom-3rtceo44uby ec-button-action" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__add-to-cart" deep="3"><div class="ecom-product-single__add-to-cart-wrapper"><div class="ecom-product-single__add-to-cart-container"><div class="ecom-product-single__add-to-cart-buttons"><div class="ecom-product-single__add-to-cart-buttons-wrapper"><button type="submit" class="ecom-product-single__add-to-cart--submit ecom-flex" data-text-add-cart="In den Warenkorb" data-text-pre-order="Pre Order" data-text-unavailable="Unavailable" data-text-outstock="Nicht lieferbar" data-text-added-cart="In den Warenkorb" data-message-added-cart="" data-href="#" data-target="" data-action="message" data-variant-id="{{product.first_available_variant.id}}" name="add"><span class="ecom-add-to-cart-text">In den Warenkorb</span><span class="ecom__element--button-icon"></span></button></div></div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-hg8qp0kd16l" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__buy_it_now_btn" data-preview-mode="true" deep="3"><div class="ecom-product-single__buy_it_now_btn-buttons-wrapper"><button type="button" class="ecom-product-single__buy_it_now_btn--checkout" data-variant-id="{{product.first_available_variant.id}}"><span>Jetzt Kaufen</span></button></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block elmspace ecom-9x5lka4n77o" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-p2ndd128hnj" data-id="ecom-p2ndd128hnj" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core ecom-a4xdewiryys"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-49u7e923nle" data-core-is="block"><div class="ecom-element ecom-base-image" deep="3"><figure><div class="ecom-container-image ecom-image-align" data-stopdrag=""><div data-stopdrag="" class="ecom-image-content-position ecom-image-default ecom-base-image-container-overlay" style=""><picture class="ecom-image-picture"><source media="(max-width: 767px)" srcset="https://cdn.shopify.com/s/files/1/0596/6367/9587/files/333333333333333333333333_e7248110-c9c4-4319-83d2-9ddb15cc5816.png?v=1735294544"><img loading="lazy" fetchpriority="low" src="https://cdn.shopify.com/s/files/1/0596/6367/9587/files/333333333333333333333333_e7248110-c9c4-4319-83d2-9ddb15cc5816.png?v=1735294544" alt="333333333333333333333333_e7248110-c9c4-4319-83d2-9ddb15cc5816" width="1122" height="58" style=""></picture></div></div></figure></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-jnr0pmikeuc"><div class="core__column--wrapper ecom__column-full-height"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"></div></div></div> <div class="ecom-column ecom-core ecom-6fsf1w63q1n"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-m6zl46erhk" data-core-is="block"><div class="ecom-element ecom-products-upsell ecom-products-upsell-design-2" deep="3"><div class="ecom-products-upsell-heading-wrap"><h4 class="ecom-products-upsell-heading">Vielleicht brauchst du auch</h4></div><div data-option-swiper="{&quot;direction&quot;:&quot;horizontal&quot;,&quot;freeMode&quot;:false,&quot;breakpoints&quot;:{&quot;0&quot;:{},&quot;768&quot;:{},&quot;1025&quot;:{}},&quot;autoplay&quot;:{&quot;enabled&quot;:false,&quot;delay&quot;:0,&quot;pauseOnMouseEnter&quot;:false,&quot;disableOnInteraction&quot;:false,&quot;reverseDirection&quot;:false},&quot;grabCursor&quot;:true,&quot;slideActiveClass&quot;:&quot;ecom-box-active&quot;,&quot;centeredSlides&quot;:false,&quot;watchOverflow&quot;:true,&quot;autoHeight&quot;:true,&quot;cubeEffect&quot;:{&quot;slideShadows&quot;:true,&quot;shadowOffset&quot;:20},&quot;creativeEffect&quot;:{},&quot;fadeEffect&quot;:{&quot;crossFade&quot;:true},&quot;pagination&quot;:{&quot;el&quot;:&quot;.ecom-swiper-pagination&quot;,&quot;type&quot;:&quot;bullets&quot;,&quot;clickable&quot;:true},&quot;navigation&quot;:{&quot;nextEl&quot;:&quot;.ecom-swiper-button-next&quot;,&quot;prevEl&quot;:&quot;.ecom-swiper-button-prev&quot;}}" class="" style="max-width: 100%;"><div class="ecom-product-upsell__content-list">
+ {%- assign tmp_product = product -%}
+ {%- capture product_list -%}
+ indevolt-bk-1600
+ {%- endcapture -%}
+ {%- assign product_list = product_list | split: "," -%}
+ {%- capture current_product_handle -%}{{product.handle}}{%- endcapture -%}
+ {%- liquid
+ assign product_upsell = product.metafields.ecomposer
+ if product_upsell.size > 0
+ assign meta_name = 'product_upsell'
+ if product_upsell[meta_name].value != blank
+ for product in product_upsell[meta_name].value
+ assign product_list = product_upsell[meta_name].value
+ endfor
+ endif
+ endif
+ -%}
+ {%if product_list == empty or product_list == blank %}
+ <div class='ecom-product-upsell-no-item'></div>
+ {%endif%}
+ {%- for product_handle in product_list -%}
+ {%- if product_handle != blank -%}
+ {%- assign product = all_products[product_handle] -%}
+ {%- if product_upsell[meta_name].value != blank -%}
+ {%- assign product = product_handle -%}
+ {%- endif -%}
+ {%- assign target = product.selected_or_first_available_variant -%}
+ <div
+ class="ecom-product-upsell__item "
+ >
+ <div class="ecom-product-upsell__item--details ecom-flex">
+ {%- if product.featured_media -%}
+ <div class="ecom-product-upsell__item-media">
+ <a href="{{ product.url }}" title="{{ product.title | escape }}" class="ecom-product-upsell__image">
+ <div class="ecom-product-upsell__item-media-container">
+ <div class="ecom-product-upsell__product-media-img">
+ <img
+ src="{{ product.featured_media | img_url: '200x' }}" alt="{{ product.featured_media.alt }}"
+ />
+ </div>
+ </div>
+ </a>
+ </div>
+ {%- endif -%}
+ <div class="ecom-product-upsell__content ecom-flex ecom-column ecom-fl_center">
+ 
+ <a href="{{ product.url }}" title="{{ product.title | escape }}" class="ecom-product-upsell__url">{{ product.title }}</a>
+ 
+ <div class="ecom-product-upsell__variant ecom-flex ecom-al_center">
+ <input type="hidden" name="product_id" value="{{ target.id }}" />
+ {%- unless product.has_only_default_variant -%}
+ <select id="ecom-product-upsell-select-{{ product.handle }}" name="ecom-product-upsell-select">
+ {%- for variant in product.variants -%}
+ <option
+ value="{{ variant.id }}"
+ data-price="{{ variant.price }}"
+ {%- if variant.compare_at_price -%} data-compare-price="{{ variant.compare_at_price }}"{%- endif -%}
+ data-image="{{ variant.image | img_url: '300x' }}"
+ data-available="{{variant.available}}"
+ {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
+ >
+ {{ variant.title }}
+ </option>
+ {%- endfor- %}
+ </select>
+ {%- endunless -%}
+ </div>
+ 
+ <div class="ecom-product-upsell__content--bottom ecom-flex">
+ <div class="ecom-product-upsell__price ecom-flex ecom-fl_center">
+ <div class="ecom-product-upsell__price--sale">{{ target.price| money }}</div>
+ <div class="ecom-product-upsell__price--regular ecom-ml__15"
+ {%- if product.price_varies == false and product.compare_at_price_varies %} style="display:none" {% endif %}
+ >
+ {{ target.compare_at_price | money }}
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="ecom-product-upsell__item--atc">
+ <button
+ class="ecom-product-upsell__item--atc-btn ecom__element--button ecom-in_flex ecom-al_center ecom-fl_center"
+ type="button"
+ data-atc-text="In den Warenkorb"
+ data-added-text="Hinzugefügt"
+ data-unavailable-text="Nicht Verfügbar"
+ data-action="message"
+ data-href="undefined"
+ data-target="undefined"
+ {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+ >
+ {%- if product.selected_or_first_available_variant.available == false -%}
+ <span class="ecom-product-upsell__item--unavailable-btn-text">
+ Nicht Verfügbar
+ </span>
+ {%- else -%}
+ <span class="ecom-product-upsell__item--atc-btn-text">
+ In den Warenkorb
+ </span>
+ {%- endif -%}
+ 
+ 
+ </button>
+ </div>
+ 
+ </div>
+ {%- endif -%}
+ {%- endfor -%}
+ {%- assign product = tmp_product -%}
+ </div></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+ {% unless ecom_has_variant_picker %}
+ <input type="hidden" name="id" value="{{product.selected_or_first_available_variant.id}}" />
+ <script type="application/json" id="product-json-{{product.id}}-ecom-aro3xu3l0kt">
+ {%- render "ecom_product_json", product: product -%}
+ </script>
+ {% endunless %}
+ {%- endform -%}
+ {% assign ecom_has_variant_picker = false %}
+ {%- endif -%}
+ <section class="ecom-row ecom-core ecom-section ecom-wo1hjhzesqn" data-id="ecom-wo1hjhzesqn" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core ecom-q2ufzxtfl4m"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-5oqy6jd82bx" data-core-is="row"><div class="ecom-row ecom-core core__block ecom-qi98jz9989a" data-id="ecom-qi98jz9989a" style="z-index: inherit;"><div data-deep="2" class="core__row--columns"><div class="ecom-column ecom-core ecom-6s96rdxu34o"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-animation ecom-block ecom-core core__block ecom-d8fn8wem7do hide-on-mobile" data-core-is="block"><div class="ecom-element ecom-base-iconlist" deep="2"><ul class="ecom-iconlist--list" data-layout="default"><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M0 0H512V512H0V0z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">4-Quadranten-Messung</p><div class="ecom-iconlist--des">Messung kapazitiver und induktiver Lastarten von importierter und exportierter Wirkenergie.</div></div></div></li><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M0 0H512V512H0V0z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">Stromnetzüberwachung</p><div class="ecom-iconlist--des">Überwacht einphasige elektrische Systeme mit bis zu drei Punkten gleichzeitig. Schnelle Benachrichtigungen und mindestens 60 Tage Aufzeichnungsspeicherung in 1-Minuten-Intervallen.</div></div></div></li><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M0 0H512V512H0V0z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">Genauigkeitsklasse B (Wirkenergie)</p><div class="ecom-iconlist--des">Der Shelly Pro 3EM verfügt über eine Messgenauigkeit von 1%.</div></div></div></li></ul></div></div> <div class="ecom-animation ecom-block ecom-core core__block ecom-if8nllv7lb hide-on-desktop hide-on-tablet" data-core-is="block"><div class="ecom-element ecom-base-iconlist" deep="2"><ul class="ecom-iconlist--list" data-layout="default"><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M0 0H512V512H0V0z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">4-Quadranten-Messung</p><div class="ecom-iconlist--des">Messung kapazitiver und induktiver Lastarten von importierter und exportierter Wirkenergie.</div></div></div></li><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M0 0H512V512H0V0z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">Stromnetzüberwachung</p><div class="ecom-iconlist--des">Überwacht einphasige elektrische Systeme mit bis zu drei Punkten gleichzeitig. Schnelle Benachrichtigungen und mindestens 60 Tage Aufzeichnungsspeicherung in 1-Minuten-Intervallen.</div></div></div></li><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M0 0H512V512H0V0z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">Genauigkeitsklasse B (Wirkenergie)</p><div class="ecom-iconlist--des">Der Shelly Pro 3EM verfügt über eine Messgenauigkeit von 1%.</div></div></div></li></ul></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-zmq7z9hioe hide-on-screen hide-on-mobile"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-animation ecom-block ecom-core core__block ecom-ipllavw9lp" data-core-is="block"><div class="ecom-element ecom-base-image" deep="2"><figure><div class="ecom-container-image ecom-image-align" data-stopdrag=""><div data-stopdrag="" class="ecom-image-content-position ecom-image-default ecom-base-image-container-overlay" style=""><picture class="ecom-image-picture"><img loading="lazy" fetchpriority="low" src="https://cdn.shopify.com/s/files/1/0596/6367/9587/files/product_zubehor1.png?v=1742972564" alt="product_zubehor1" width="1000" height="1000" style=""></picture></div></div></figure></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-7i83l7z3kg3"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-animation ecom-block ecom-core core__block ecom-f419mohx9x9" data-core-is="block"><div class="ecom-element ecom-base-iconlist" deep="2"><ul class="ecom-iconlist--list" data-layout="default"><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M0 0H512V512H0V0z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">MODBUS-Unterstützung</p><div class="ecom-iconlist--des">Gestattet den einfachen und schnellen Einsatz in bestehenden Industrieanlagen.</div></div></div></li><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M0 0H512V512H0V0z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">WLAN-, LAN- und Bluetooth-Konnektivität</p><div class="ecom-iconlist--des">Gleichzeitige Nutzung von Ethernet und WLAN. MQTT, ein- und ausgehender WebSocket, UDP, mTLS-Unterstützung.</div></div></div></li><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M0 0H512V512H0V0z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">Skriptfunktionen</p><div class="ecom-iconlist--des">Der Shelly Pro 3EM-3CT63 unterstützt vollständig mJS-Skripting: Du kannst also weitere Features und Funktionalitäten erstellen.</div></div></div></li></ul></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section><section class="ecom-row ecom-core ecom-section ecom-ajedl50t33n" data-id="ecom-ajedl50t33n" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core ecom-5r1uaihlrc"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-c71o163gz2" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="1"><h2 class="ecom__heading ecom-db">Bewertungen</h2></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-h7c6yqauaaw" data-core-is="block"><div class="ecom-element ecom-extension ecom-extension-klaviyo-review-widget ecom-container" deep="1"><div class="ecom-theme-app-extensions"><div class="ecom-theme-app-extension-container">
+ {%- for block in section.blocks -%}
+ {%- case block.type -%}
+ {%- when '@app' -%}
+ {%- if block.id contains 'ecom-h7c6yqauaaw' -%}
+ {% render block %}
+ {%- break -%}
+ {%- else -%}
+ {%- continue -%}
+ {%- endif -%}
+ {% endcase %}
+ {%- endfor -%}
+ </div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-wvesf06zhcn" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="1"><script defer="defer" src="https://www.dwin1.com/110350.js" type="text/javascript"></script></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+</div></div>
+{% schema %}
+{
+ "name": "ShellyPro3EM",
+ "locales": {},
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n Please don't add Shopify sections to EComposer's page in the theme customize. If you do this, Shopify sections will be deleted when you republish your page in EComposer\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop?open_builder=1&page=product&id=67e4ca156fffa973da0dd6b7&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ],
+ "blocks": [
+ {
+ "type": "@app"
+ }
+ ]
+}
+{% endschema %}

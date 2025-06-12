@@ -1,0 +1,131 @@
+<!-- Ecomposer Popup Image Extension -->
+{%- liquid
+  assign extension_settings = shop.metafields.ecomposer.popup_image.value
+  assign enable = extension_settings.enable
+  assign type = extension_settings.type
+  assign ignore_link = extension_settings.ignore_link
+  assign css_selector = extension_settings.css_selector
+-%}
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    setTimeout(() => {
+      (function () {
+        if (!window.EComposer) return;
+        let enable = '{{enable}}';
+        let type = '{{type}}';
+        let ignore_link = '{{ignore_link}}';
+        let css_selector = '{{css_selector}}';
+        let selector = 'img';
+        if (enable != 'true') {
+          return false;
+        }
+        if (type === "css_selector" && css_selector){
+          selector = `${css_selector.trim()} img`;
+        }
+        //get all images from document
+        let allImages = Array.from(document.querySelectorAll(selector));
+        const allowPointEvent = ['.element__featured'];
+        const excludeImg = (img) => {
+          const exclude = ['.ecom-product-single', '.ecom-imgAccordion', '.ecom-base-gallery', '.ecom-instagram'];
+          if (ignore_link !== 'true') {
+            exclude.push('a[href]');
+          }
+          return !exclude.some((item) => img.closest(item));
+        };
+        //except for images belonging to Product and Media Accordion
+        allImages = allImages.filter(excludeImg);
+        if (ignore_link === 'true') {
+          allImages.forEach((item) => {
+            let imageContainlink = item.closest('a[href]');
+            if (imageContainlink) {
+              item.style.pointerEvents = 'auto';
+              imageContainlink.style.cursor = "default";
+              imageContainlink.addEventListener('click', function (event) {
+                event.preventDefault();
+              });
+            }
+          });
+        }
+        allImages.forEach((img) => {
+          //get img srcset
+          let imgSrc = img.getAttribute('src');
+          let dataSrc = img.getAttribute('data-src');
+          let srcset = img.getAttribute('srcset');
+          let dataSrcset = img.getAttribute('data-srcset');
+          //handle witdh the4 theme
+          if (imgSrc && imgSrc.startsWith('data:')) {
+            // console.log(imgSrc)
+            // console.log(dataSrc)
+            // console.log(srcset)
+            // console.log(dataSrcset)
+            // console.log(img)
+            // console.log("=============================")
+            if (dataSrc) {
+              let parent = img.parentElement;
+              let imgInParent = parent.querySelectorAll('img');
+              if (
+                imgInParent.length === 2 &&
+                imgInParent[0].getAttribute('data-src') &&
+                imgInParent[0].src === imgInParent[1].src
+              ) {
+                let newSrc = imgInParent[0].getAttribute('data-src').replace(/&width=\d+$/, '');
+                let dataEcomModal = newSrc || imgInParent[1].src;
+                imgInParent[1].setAttribute('ecom-modal-source', newSrc);
+              }
+            } else if (!dataSrc && (dataSrcset || srcset)) {
+              let arraySrc = dataSrcset || srcset;
+              sources = arraySrc.split(',').map((item) => {
+                const [url, width] = item.trim().split(' ');
+                return { url: url.trim(), width: parseInt(width.replace('w', '')) };
+              });
+              const largestSource = sources.reduce((max, source) => (source.width > max.width ? source : max), {
+                width: 0,
+              });
+              const largestImageUrl = largestSource.url;
+              if (largestImageUrl && largestImageUrl.length) {
+                img.setAttribute('ecom-modal-source', largestImageUrl);
+              }
+            }
+          }
+          allowPointEvent.forEach((parent) => {
+            if (img.closest(parent) && !img.closest('a[href]')) {
+              img.style.pointerEvents = 'auto';
+            }
+          });
+          if (!img.hasAttribute('ecom-modal')) {
+            img.setAttribute('ecom-modal', 'image');
+          }
+        });
+        const initEComModal = () => {
+          if (allImages.length && window.EComModal) {
+            new window.EComModal(allImages, {
+              gallery: false,
+              cssClass: ['ecom-container-lightbox-' + this.id],
+            });
+          }
+        };
+        let dom = document.querySelector('#ecom-vendors-modal_js');
+        let css = document.querySelector('#ecom-vendors-modal_css');
+        if (!dom) {
+          dom = document.createElement('script');
+          dom.id = 'ecom-vendors-modal_js';
+          dom.src = 'https://cdn.ecomposer.app/vendors/js/ecom_modal.js';
+
+          if (!css) {
+            css = document.createElement('link');
+            css.id = 'ecom-vendors-modal_css';
+            css.rel = 'stylesheet';
+            css.href = 'https://cdn.ecomposer.app/vendors/css/ecom_modal.css';
+            document.head.appendChild(css);
+          }
+
+          document.body.appendChild(dom);
+          dom.onload = initEComModal;
+        } else {
+          initEComModal();
+        }
+      })();
+    }, 2000);
+  });
+</script>
