@@ -1,1 +1,10 @@
-{"layout":"theme","sections":{"ecom-67c14d36a3ea6af701038498-home":{"type":"ecom-67c14d36a3ea6af701038498-home","settings":{}}},"order":["ecom-67c14d36a3ea6af701038498-home"]}
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-67c14d36a3ea6af701038498-home": {
+      "type": "ecom-67c14d36a3ea6af701038498-home",
+      "settings": {}
+    }
+  },
+  "order": ["ecom-67c14d36a3ea6af701038498-home"]
+}
