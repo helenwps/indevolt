@@ -224,6 +224,7 @@
 .horizontal-mega-menu ul.mm-submenu li a span{color:#000!important}
 .horizontal-mega-menu .mm-submenu.tabbed .mm-arrow.mm-angle-right{display: none!important}
 .horizontal-mega-menu ul.mm-submenu.simple>li .mega-menu-item-container{padding:12px 10px 18px 10px!important}
+
 /* 设置超级菜单子菜单的背景色 */
 .horizontal-mega-menu ul.tabbed>li>a>span{
   font-size: 14px !important;
@@ -246,10 +247,11 @@
         padding: 10px 6px 10px !important;
   }
 
-  .horizontal-mega-menu ul.mm-submenu.tabbed>li .mega-menu-prices{
-   padding-bottom: 10px !important;
+  .horizontal-mega-menu ul.mm-submenu.tabbed>li .mega-menu-prices,
+  ul.mm-submenu.simple>li .mega-menu-prices{
+   display: none !important;
   }
-  
+  .vertical-mega-menu[menuIdx="0"]>li.buddha-menu-item>ul.mm-submenu.tabbed>li{padding-left:50px!important;}
   .horizontal-mega-menu li.buddha-menu-item.mega-hover>ul.mm-submenu{
     top: 90%!important;
   
