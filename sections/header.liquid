@@ -201,12 +201,29 @@
  .horizontal-mega-menu ul.mm-submenu, .horizontal-mega-menu>li>ul.mm-submenu.tabbed>li>ul.mm-submenu li,
  .horizontal-mega-menu li.buddha-menu-item:hover ul.mm-submenu.simple li:hover,
  .horizontal-mega-menu li.buddha-menu-item.mega-hover ul.mm-submenu.simple li:hover{
-  background:#f5f5f5!important
+    background:#f5f5f5!important;
+    box-shadow: none!important;
+ 
+}
+ .horizontal-mega-menu>li.buddha-menu-item ul.mm-submenu.tree,
+ .horizontal-mega-menu>li.buddha-menu-item ul.mm-submenu.tree>li:first-child, 
+ .horizontal-mega-menu>li.buddha-menu-item ul.mm-submenu.tree>li:last-child, 
+ .horizontal-mega-menu>li.buddha-menu-item>ul.mm-contact,
+ .horizontal-mega-menu>li.buddha-menu-item>ul.mm-contact>li.mm-contact-column,
+ .horizontal-mega-menu>li.buddha-menu-item>ul.mm-submenu,
+ .horizontal-mega-menu>li.buddha-menu-item>ul.mm-submenu.tree>li>ul.mm-submenu.tree{
+     border-radius: 0 0 10px 10px;
+  }
+.horizontal-mega-menu ul.mm-submenu, .horizontal-mega-menu>li.buddha-menu-item>ul.mm-submenu {
+    padding-bottom: 27px!important;
+    padding-top:16px!important
 }
 .horizontal-mega-menu ul.mm-submenu.tabbed>li>ul.mm-submenu{border-left:none!important}
-.horizontal-mega-menu>li>ul.mm-submenu.tabbed>li>ul.mm-submenu li{}
+.horizontal-mega-menu ul.mm-submenu.tabbed>li.tab-opened>a>.mm-title{font-weight:700;}
+.horizontal-mega-menu ul.mm-submenu.tabbed>li:hover>a>.mm-title{text-decoration:underline}
+.horizontal-mega-menu ul.mm-submenu li a span{color:#000!important}
 .horizontal-mega-menu .mm-submenu.tabbed .mm-arrow.mm-angle-right{display: none!important}
-  
+.horizontal-mega-menu ul.mm-submenu.simple>li .mega-menu-item-container{padding:12px 10px 18px 10px!important}
 /* 设置超级菜单子菜单的背景色 */
 .horizontal-mega-menu ul.tabbed>li>a>span{
   font-size: 14px !important;
@@ -238,9 +255,6 @@
   
   }
 
-   .horizontal-mega-menu ul.mm-submenu.tabbed>li {
-    padding-top: 20px !important;
-  }
 
   .horizontal-mega-menu ul.mm-submenu.simple>li {
     padding-top: 20px !important;
