@@ -3611,3 +3611,21 @@ font-size: 28px;
 .shopify-policy__body table, th, td {
     border: 1px solid black; /* 设置边框 */
   }
+.ecom-product-upsell__item {
+    position: relative;
+    display: flex;
+    border-radius: 8px;
+    border: solid 1px #c0c1c2;
+    padding: 10px 24px 20px 2px;
+    margin: 0 0 8px;
+    cursor: pointer;
+
+}
+@media (max-width: 1270px) { 
+    .ecom-product-upsell__item--details .ecom-product-upsell__content .ecom-product-upsell__variant select{width: 160px!important}
+}
+@media (max-width: 1180px) { 
+    .ecom-product-upsell__item {flex-wrap: wrap;}
+    .ecom-product-upsell__item--details .ecom-product-upsell__content .ecom-product-upsell__variant select{width: 140px}
+    .ecom-product-upsell__item--atc{width: 100%;margin-left:98px}
+}
