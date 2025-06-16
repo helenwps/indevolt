@@ -3627,5 +3627,5 @@ font-size: 28px;
 @media (max-width: 1180px) { 
     .ecom-product-upsell__item {flex-wrap: wrap;}
     .ecom-product-upsell__item--details .ecom-product-upsell__content .ecom-product-upsell__variant select{width: 140px}
-    .ecom-product-upsell__item--atc{width: 100%;margin-left:98px}
+    .ecom-product-upsell__item--atc{width: 100%;margin-left:118px}
 }
