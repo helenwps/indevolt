@@ -1,1 +1,86 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","settings":{"color_scheme":"scheme-1","newsletter_enable":true,"newsletter_heading":"<strong>Newsletter<\/strong>  <\/br>Erhalte Angebote, heiße Deals und Neuigkeiten","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":true,"margin_top":0,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter_3qCrWc": {
+          "type": "newsletter",
+          "settings": {
+            "block_width": 41,
+            "heading": "Subscribe to get 10% OFF",
+            "heading_size": "h2",
+            "newsletter_description": "<p>Subscribe for store updates and discounts.</p>",
+            "newsletter_term": "<p>By subscribing you agree to the <a href=\"#\">Terms of Use</a> & <a href=\"#\">Privacy Policy.</a></p>",
+            "newsletter_text_alignment": "left",
+            "form_width": 465,
+            "order_first": true
+          }
+        },
+        "image_text_F3FNhx": {
+          "type": "image_text",
+          "settings": {
+            "block_width": 25,
+            "heading": "About",
+            "heading_size": "h4",
+            "image_width": 150,
+            "text": "<p>We only carry designs we believe in <br/>ethically and aesthetically – original, <br/>authentic pieces that are made to last.</p>",
+            "button_label": "Learn more",
+            "open_default": false
+          }
+        },
+        "menu_DEKGYP": {
+          "type": "menu",
+          "settings": {
+            "block_width": 17,
+            "heading": "Shop",
+            "heading_size": "h4",
+            "open_default": false
+          }
+        },
+        "menu_4eCrBB": {
+          "type": "menu",
+          "settings": {
+            "block_width": 17,
+            "heading": "Customer care",
+            "heading_size": "h4",
+            "open_default": false
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_3qCrWc",
+        "image_text_F3FNhx",
+        "menu_DEKGYP",
+        "menu_4eCrBB"
+      ],
+      "custom_css": [
+        ".form-control {--color-border: var(--color-field);}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "footer_bottom_menu": "footer-bottom",
+        "show_section_divider": true,
+        "divider_width": "full"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,47 +1,33 @@
-function hideProductModal() {
-  const productModal = document.querySelectorAll('product-modal[open]');
-  productModal && productModal.forEach((modal) => modal.hide());
-}
+document.addEventListener('shopify:section:load', (evt) => {
+  const { target } = evt;
 
-document.addEventListener('shopify:block:select', function (event) {
-  hideProductModal();
-  const blockSelectedIsSlide = event.target.classList.contains('slideshow__slide');
-  if (!blockSelectedIsSlide) return;
-
-  const parentSlideshowComponent = event.target.closest('slideshow-component');
-  parentSlideshowComponent.pause();
-
-  setTimeout(function () {
-    parentSlideshowComponent.slider.scrollTo({
-      left: event.target.offsetLeft,
-    });
-  }, 200);
+  // Load and evaluate section specific scripts immediately.
+  target.querySelectorAll('script[src]').forEach((script) => {
+    const s = document.createElement('script');
+    s.src = script.src;
+    document.body.appendChild(s);
+  });
 });
 
-document.addEventListener('shopify:block:deselect', function (event) {
-  const blockDeselectedIsSlide = event.target.classList.contains('slideshow__slide');
-  if (!blockDeselectedIsSlide) return;
-  const parentSlideshowComponent = event.target.closest('slideshow-component');
-  if (parentSlideshowComponent.autoplayButtonIsSetToPlay) parentSlideshowComponent.play();
-});
+document.addEventListener('shopify:block:select', (evt) => {
+  const { target } = evt;
 
-document.addEventListener('shopify:section:load', () => {
-  hideProductModal();
-  const zoomOnHoverScript = document.querySelector('[id^=EnableZoomOnHover]');
-  if (!zoomOnHoverScript) return;
-  if (zoomOnHoverScript) {
-    const newScriptTag = document.createElement('script');
-    newScriptTag.src = zoomOnHoverScript.src;
-    zoomOnHoverScript.parentNode.replaceChild(newScriptTag, zoomOnHoverScript);
+  const blockSelectedIsTab = target.classList.contains('tabs__tab');
+  if (blockSelectedIsTab) {
+    const tabs = target.closest('tabs-component');
+    tabs.setActiveTab(target.dataset.index);
+  }
+
+  const blockSelectedIsSlide = target.classList.contains('swiper-slide');
+  if (blockSelectedIsSlide) {
+    const sliderComponent = target.closest('slideshow-component');
+    if (sliderComponent && sliderComponent.sliderInstance.slider) {
+      const index = target.dataset.swiperSlideIndex;
+      if (sliderComponent.sliderInstance.slider.params.loop) {
+        sliderComponent.sliderInstance.slider.slideToLoop(index);
+      } else {
+        sliderComponent.sliderInstance.slider.slideTo(index);
+      }
+    }
   }
 });
-
-document.addEventListener('shopify:section:reorder', () => hideProductModal());
-
-document.addEventListener('shopify:section:select', () => hideProductModal());
-
-document.addEventListener('shopify:section:deselect', () => hideProductModal());
-
-document.addEventListener('shopify:inspector:activate', () => hideProductModal());
-
-document.addEventListener('shopify:inspector:deactivate', () => hideProductModal());
