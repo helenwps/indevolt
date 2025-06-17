@@ -1,5 +1,5 @@
 development:
-  password: shptka_73de91ab74bdcf26bf764f4bb3560021
+  password: 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
   theme_id: "135621509219"
   store: a367f2-c8.myshopify.com
 production:
@@ -9,4 +9,4 @@ production:
 staging:
   password: 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
   theme_id: "135621509219"
-  store: a367f2-c8.myshopify.com shopify theme serve
+  store: a367f2-c8.myshopify.com
