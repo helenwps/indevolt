@@ -1,12 +1,12 @@
 development:
-  password: shptka_73de91ab74bdcf26bf764f4bb3560021
-  theme_id: "135621509219"
-  store: a367f2-c8.myshopify.com
+  password: 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
+  theme_id: "180809990467"
+  store: 60dqkm-q0.myshopify.com
 production:
-  password: shptka_73de91ab74bdcf26bf764f4bb3560021
-  theme_id: "135621509219"
-  store: a367f2-c8.myshopify.com
+  password: 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
+  theme_id: "179329761603"
+  store: 60dqkm-q0.myshopify.com
 staging:
-  password: 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
-  theme_id: "135621509219"
-  store: a367f2-c8.myshopify.com shopify theme serve
+  password: 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
+  theme_id: "180809990467"
+  store:  

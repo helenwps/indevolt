@@ -274,12 +274,12 @@
             }
         },
         "cart": {
-            "title": "Mein Warenkorb",
+            "title": "Dein Warenkorb",
             "caption": "Artikel im Warenkorb",
             "remove_title": "{{ title }} entfernen",
             "note": "Spezielle Bestellanweisungen",
             "checkout": "Auschecken",
-            "empty": "Mein Warenkorb ist leer",
+            "empty": "Dein Warenkorb ist leer",
             "cart_error": "Beim Aktualisieren deines Warenkorbs ist ein Fehler aufgetreten. Bitte versuche es erneut.",
             "cart_quantity_error_html": "Du kannst deinem Warenkorb nur {{ quantity }} St\u00fcck dieses Artikels hinzuf\u00fcgen.",
             "headings": {
@@ -580,16 +580,7 @@
             "order_summary": {
                 "confirmation_number_label": " ",
                 "estimated_taxes_label": "MwSt."
-            },
-            "stock": {
-                "empty_cart_label": "Mein Warenkorb ist leer"
-            },
-            "throttle": {
-                "cart_summary_heading": "Mein Warenkorb"
             }
-        },
-        "page_titles": {
-            "shopping_cart": "Mein Warenkorb"
         }
     }
 }

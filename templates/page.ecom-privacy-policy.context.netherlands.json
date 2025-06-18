@@ -1,0 +1,17 @@
+{
+    "sections": {
+        "ecom-68381a7a5dd85a4d49074706-context": {
+            "type": "ecom-68381a7a5dd85a4d49074706-context",
+            "blocks": {},
+            "block_order": [],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-68381a7a5dd85a4d49074706-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "page.ecom-privacy-policy.json"
+}

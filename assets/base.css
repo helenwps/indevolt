@@ -2754,7 +2754,7 @@ details[open] > .header__submenu {
   }
 
   .header--middle-left .header__inline-menu {
-    margin-left: 0;
+    /* margin-left: 0; */
   }
 }
 
@@ -3610,3 +3610,4 @@ font-size: 28px;
 .shopify-policy__body table, th, td {
     border: 1px solid black; /* 设置边框 */
   }
+

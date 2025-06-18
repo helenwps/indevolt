@@ -26,13 +26,8 @@
     assign buttonBorder_width_b = SETTINGS.buttonBorder.border-width.bottom
 
     # font 
-   
+    assign google_font_css = SETTINGS.google_font_css 
     assign custom_font_css = SETTINGS.custom_font_css
-    
-    # custom code
-    
-    assign use_custom_code = SETTINGS.use_custom_code
-    assign custom_code = SETTINGS.custom_code
 
 %}
 {% style %}
@@ -1244,6 +1239,7 @@
                 {%- endif -%}
                 <p class="ecom-ajax-cart-totals__subtotal-value">{{ 'sections.ecom-ajax-cart.subtotal' | t }}: <b class="ecom-ajax-cart-totals__subtotal">{{ cart.total_price | money }}</b></p>
                 <p class="ecom-ajax-cart-totals__decs">{{ 'sections.ecom-ajax-cart.taxes_and_shipping_at_checkout' | t }}</p>
+                
                 {% for button in SETTINGS.button_list %}
                   {% case button.type %}
                     {% when 'checkout' %}
@@ -1298,9 +1294,6 @@
                 id="ecom-ajax-cart-note">{{ cart.note }}</textarea>
             </div>
           {%- endif -%}
-          {% if use_custom_code and custom_code%}
-            {{custom_code}}
-          {% endif %}
           <div class="ecom-ajax-cart-actions__footer">
             {% for button in SETTINGS.button_list %}
 

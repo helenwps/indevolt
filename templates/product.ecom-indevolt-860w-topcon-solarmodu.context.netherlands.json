@@ -1,0 +1,39 @@
+{
+    "sections": {
+        "ecom-68218a142bcc3b119c03cb17-context": {
+            "type": "ecom-68218a142bcc3b119c03cb17-context",
+            "blocks": {
+                "ecom-47ac4sntck5": {
+                    "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/average-rating\/db20e365-d984-4ac4-9655-e1588d951ca9",
+                    "settings": {
+                        "types": [
+                            "product"
+                        ],
+                        "product": "{{product}}"
+                    }
+                },
+                "ecom-pvb79sq4qd": {
+                    "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+                    "settings": {
+                        "types": [
+                            "product"
+                        ],
+                        "product": "{{product}}"
+                    }
+                }
+            },
+            "block_order": [
+                "ecom-47ac4sntck5",
+                "ecom-pvb79sq4qd"
+            ],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-68218a142bcc3b119c03cb17-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "product.ecom-indevolt-860w-topcon-solarmodu.json"
+}

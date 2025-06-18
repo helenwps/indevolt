@@ -1,0 +1,39 @@
+{
+    "sections": {
+        "ecom-6821a4bfe0fa8ab9860ce582-context": {
+            "type": "ecom-6821a4bfe0fa8ab9860ce582-context",
+            "blocks": {
+                "ecom-jivrmmk105": {
+                    "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/average-rating\/db20e365-d984-4ac4-9655-e1588d951ca9",
+                    "settings": {
+                        "types": [
+                            "product"
+                        ],
+                        "product": "{{product}}"
+                    }
+                },
+                "ecom-g9ym80ww7hb": {
+                    "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+                    "settings": {
+                        "types": [
+                            "product"
+                        ],
+                        "product": "{{product}}"
+                    }
+                }
+            },
+            "block_order": [
+                "ecom-jivrmmk105",
+                "ecom-g9ym80ww7hb"
+            ],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-6821a4bfe0fa8ab9860ce582-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "product.ecom-indevolt-smart-plug.json"
+}

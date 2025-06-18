@@ -2,15 +2,14 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2025-05-28 06:22:03
+ At 2025-04-03 06:11:46
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
- 
  {% if ecom_root_url != '/'%}
  {% assign ecom_root_url = routes.root_url | append: '/' %}
  {% endif %}
- <link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-simple_slider_css" href="https://cdn.ecomposer.app/vendors/css/ec_splide.min.css?ver=3.0" /><link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-modal_css" href="https://cdn.ecomposer.app/vendors/css/ecom_modal.css" /><link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper@11.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.9" /><noscript><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-simple_slider_css" href="https://cdn.ecomposer.app/vendors/css/ec_splide.min.css?ver=3.0" /><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-modal_css" href="https://cdn.ecomposer.app/vendors/css/ecom_modal.css" /><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper@11.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.9" /></noscript><script type="text/javascript" asyc="async" id="ecom-vendors-simple_slider_js" src="https://cdn.ecomposer.app/vendors/js/ec-splide.min.js?ver=3.0" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-modal_js" src="https://cdn.ecomposer.app/vendors/js/ecom_modal_new.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-zoom_js" src="https://cdn.ecomposer.app/vendors/js/ecom_zoom.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-light_galerry" src="https://cdn.ecomposer.app/vendors/js/ecom-light-galerry.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-shopify_option_selection_js" src="https://cdn.ecomposer.app/vendors/js/ecomposer_option_selection.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-slider_js" src="https://cdn.ecomposer.app/vendors/js/ecom-swiper@11.0.5.js" ></script>
+ <link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper@11.css" /><link rel="stylesheet" media="print" onload="this.media='all'" id="ecom-vendors-modal_css" href="https://cdn.ecomposer.app/vendors/css/ecom_modal.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.7" /><noscript><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-slider_css" href="https://cdn.ecomposer.app/vendors/css/ecom-swiper@11.css" /><link rel="stylesheet" media="all" onload="this.media='all'" id="ecom-vendors-modal_css" href="https://cdn.ecomposer.app/vendors/css/ecom_modal.css" /><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.7" /></noscript><script type="text/javascript" asyc="async" id="ecom-vendors-slider_js" src="https://cdn.ecomposer.app/vendors/js/ecom-swiper@11.0.5.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-modal_js" src="https://cdn.ecomposer.app/vendors/js/ecom_modal.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-zoom_js" src="https://cdn.ecomposer.app/vendors/js/ecom_zoom.js" ></script><script type="text/javascript" asyc="async" id="ecom-vendors-shopify_option_selection_js" src="https://cdn.ecomposer.app/vendors/js/ecomposer_option_selection.js" ></script>
 {%capture section_id %}ecom-67aabb6e325749bbf2057532-product{% endcapture%}{% if section and section_id == section.id and headless == true %}
 {{ content_for_header }}
 {% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=Albert+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
@@ -136,7 +135,7 @@
  {% endif%}
  {% endfor %}
  <div id="ecom-single-product-default-variant" data-dont-set-alt="{{check_dont_set_alt}}">{%- if product.has_only_default_variant -%} true {%- else -%} false {%- endif -%}</div>
- </div><div class="ec_splide ecom-product-single__media--featured ecom-swiper-container" data-direction="ltr" data-breakpoints="{&quot;0&quot;:{},&quot;768&quot;:{&quot;gap&quot;:10},&quot;1025&quot;:{&quot;gap&quot;:16}}" data-priority="variant"><div class="ec_splide__track">
+ </div><div class="ecom-product-single__media--featured ecom-swiper-container" data-breakpoints="{&quot;0&quot;:{&quot;__screen_name&quot;:&quot;mobile&quot;},&quot;768&quot;:{&quot;__screen_name&quot;:&quot;tablet&quot;,&quot;spaceBetween&quot;:10},&quot;1025&quot;:{&quot;__screen_name&quot;:&quot;desktop&quot;,&quot;spaceBetween&quot;:16}}" data-priority="variant">
  {% comment %}
  Reactivity
  *this.data.settings.image_action
@@ -157,15 +156,10 @@
  {% assign img_padding = 1 | times: 1 %}
  {% assign img_padding__tablet = 1 | times: 1 %}
  {% assign img_padding__mobile = 1 | times: 1 %}
- <div class="ec_splide__list ecom-swiper-wrapper ecom-product-single__media--images ecom-swiper-wrapper ecom-product-single__media--images-layout__slider">
+ <div class="ecom-swiper-wrapper ecom-product-single__media--images ecom-swiper-wrapper ecom-product-single__media--images-layout__slider">
  {% assign use_limit = undefined %}
  {% assign limit_images = undefined %}
- {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
- {% for media in product.media %}
- {% assign media_ration = 1 | divided_by: media.aspect_ratio | times: 100 %}
- {% assign image = media.preview_image %}
- {% case media.media_type %}
- {% when 'image' %}
+ {% for image in product.images %}
  {%if use_limit and forloop.index > limit_images%}{% break %}{% endif %}
  {% assign fetchpriority = 'low'%}
  {% assign lazyload = 'low'%}
@@ -173,26 +167,39 @@
  {% assign fetchpriority = 'high'%}
  {% assign lazyload = 'eager'%}
  {% endif %}
- {% assign img_ration = 1 | divided_by: media.aspect_ratio | times: 100 %}
+ {% assign img_ration = 1 | divided_by: image.aspect_ratio | times: 100 %}
  
- <div class="ec_splide__slide ec_splide__slide ecom-product-single__media--image ecom-splide-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--image" data-index="{{forloop.index0}}" {% if variant_images contains media.src %} data-variant_id="{{ product.images | where: 'src', image.src | map: 'variants' | map: 'id' | join: ',' }}"{% endif %} style="--img_padding: {{ img_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ img_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ img_ration | divided_by: img_padding__mobile }}%;" data-half-width="{% assign img_ration_half = 1 | divided_by: image.aspect_ratio | times: 50 %}{{img_ration_half}}" data-full-width="{% assign img_ration_full = 1 | divided_by: media.aspect_ratio | times: 100 %}{{img_ration_full}}">
+ <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--image" data-index="{{forloop.index0}}" data-variant_id="{{ image.variants | map:'id' | join: ',' }}" style="--img_padding: {{ img_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ img_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ img_ration | divided_by: img_padding__mobile }}%;" data-half-width="{% assign img_ration_half = 1 | divided_by: image.aspect_ratio | times: 50 %}{{img_ration_half}}" data-full-width="{% assign img_ration_full = 1 | divided_by: image.aspect_ratio | times: 100 %}{{img_ration_full}}">
  
  
- {%- assign img_master = media | img_url: 'master' -%}
- {{ media | image_url: width: 1946 | image_tag:
+ {%- assign img_master = image | img_url: 'master' -%}
+ {{ image | image_url: width: 1946 | image_tag:
  sizes: sizes,
  widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946',
  class: 'ecom-image-default'
  ,ecom-modal-source:img_master , ecom-modal:'image'
  ,loading: 'eager'
  ,fetchpriority: fetchpriority
- ,alt: media.alt | escape
+ ,alt: image.alt | escape
  }}
  
  
  </div>
+ {% endfor %}
+ {%- for media in product.media -%}
+ {% assign media_ration = 1 | divided_by: media.aspect_ratio | times: 100 %}
+ {% case media.media_type %}
+ {% when 'image' %}
+ {% continue %}
  {% when 'external_video'%}
- <div class="ec_splide__slide ecom-product-single__media--image ecom-splide-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media---external-video ecom-product-single__media--full" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;" ecom-modal='iframe'>
+ {% assign videoUrl = '' %}
+ {% for source in media.sources %}
+ {% if source.format == "mp4" %}
+ {% assign videoUrl = source.url %}
+ {% break %}
+ {% endif %}
+ {% endfor %}
+ <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media---external-video ecom-product-single__media--full" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;" ecom-modal-source="{{videoUrl}}" ecom-modal='iframe'>
  {{ media | external_video_tag: image_size:'master' }}
  </div>
  {% when 'video' %}
@@ -203,47 +210,55 @@
  {% break %}
  {% endif %}
  {% endfor %}
- <div data-stopdrag="true" class="ec_splide__slide ecom-product-single__media--image ecom-splide-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--video ecom-product-single__media--full ecom-swiper-no-swiping" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;" ecom-modal-source="{{videoUrl}}" ecom-modal='video'>
+ <div data-stopdrag="true" class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--video ecom-product-single__media--full ecom-swiper-no-swiping" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;" ecom-modal-source="{{videoUrl}}" ecom-modal='iframe'>
  {{ media | video_tag: image_size:'master', class: 'ecom-media-video', controls: false, autoplay: true, muted: true,loop: undefined }}
  
  </div>
  {% when 'model' %}
- <div class="ec_splide__slide ecom-product-single__media--image ecom-splide-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-swiper-no-swiping ecom-product-single__media--model ecom-product-single__media--full" data-stopdrag="true" data-position="{{media.position}}">
+ <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-swiper-no-swiping ecom-product-single__media--model ecom-product-single__media--full" data-stopdrag="true" data-position="{{media.position}}">
  <div class="ecom-product-single__media--model-wrapper">
  {{ media | model_viewer_tag: image_size:'master', reveal: 'interaction', toggleable: true, data-model-id: media.id }}
  </div>
  </div>
  {% else %}
- <div data-media-type="{{media.media_type}}" class="ec_splide__slide ecom-product-single__media--image ecom-splide-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-swiper-no-swiping ecom-product-single__media--full" data-position="{{media.position}}">
+ <div data-media-type="{{media.media_type}}" class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align-center ecom-image-align---tablet ecom-image-align---mobile ecom-swiper-no-swiping ecom-product-single__media--full" data-position="{{media.position}}">
  <div class="ecom-product-single__media" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;">
  {{ media | media_tag: image_size:'master', class: 'ecom-product-single__media--item' }}
  </div>
  </div>
  {% endcase %}
- {% endfor %}
+ {%- endfor -%}
  </div>
- </div><div class="ec_splide__arrows"><button type="button" class="ec_splide__arrow ec_splide__arrow--next ecom-swiper-button ecom-swiper-button-next ecom-swiper-controls"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M89.45 87.5l143.1 152c4.375 4.625 6.562 10.56 6.562 16.5c0 5.937-2.188 11.87-6.562 16.5l-143.1 152C80.33 434.1 65.14 434.5 55.52 425.4c-9.688-9.125-10.03-24.38-.9375-33.94l128.4-135.5l-128.4-135.5C45.49 110.9 45.83 95.75 55.52 86.56C65.14 77.47 80.33 77.87 89.45 87.5z"></path></svg></button><button type="button" class="ec_splide__arrow ec_splide__arrow--prev ecom-swiper-button ecom-swiper-button-prev ecom-swiper-controls"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M166.5 424.5l-143.1-152c-4.375-4.625-6.562-10.56-6.562-16.5c0-5.938 2.188-11.88 6.562-16.5l143.1-152c9.125-9.625 24.31-10.03 33.93-.9375c9.688 9.125 10.03 24.38 .9375 33.94l-128.4 135.5l128.4 135.5c9.094 9.562 8.75 24.75-.9375 33.94C190.9 434.5 175.7 434.1 166.5 424.5z"></path></svg></button></div><ul class="ec_splide__pagination ecom-swiper-pagination"></ul></div><div class="ec_splide ecom-product-single__media--thumbs ecom-product-single__init-thumb-hidden ecom-swiper-container" data-direction="ltr" data-breakpoints="{&quot;0&quot;:{&quot;perPage&quot;:4,&quot;gap&quot;:10,&quot;thumbnail_position&quot;:&quot;column&quot;},&quot;768&quot;:{&quot;perPage&quot;:4,&quot;gap&quot;:10,&quot;thumbnail_position&quot;:&quot;column&quot;},&quot;1025&quot;:{&quot;perPage&quot;:4,&quot;gap&quot;:9,&quot;thumbnail_position&quot;:&quot;column&quot;}}"><div class="ec_splide__track">
+ 
+ <div class="ecom-swiper-pagination"></div>
+ <div class="ecom-swiper-button-next ecom-swiper-controls" style="display: flex">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M89.45 87.5l143.1 152c4.375 4.625 6.562 10.56 6.562 16.5c0 5.937-2.188 11.87-6.562 16.5l-143.1 152C80.33 434.1 65.14 434.5 55.52 425.4c-9.688-9.125-10.03-24.38-.9375-33.94l128.4-135.5l-128.4-135.5C45.49 110.9 45.83 95.75 55.52 86.56C65.14 77.47 80.33 77.87 89.45 87.5z"></path></svg>
+ </div>
+ <div class="ecom-swiper-button-prev ecom-swiper-controls" style="display: flex">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><path d="M166.5 424.5l-143.1-152c-4.375-4.625-6.562-10.56-6.562-16.5c0-5.938 2.188-11.88 6.562-16.5l143.1-152c9.125-9.625 24.31-10.03 33.93-.9375c9.688 9.125 10.03 24.38 .9375 33.94l-128.4 135.5l128.4 135.5c9.094 9.562 8.75 24.75-.9375 33.94C190.9 434.5 175.7 434.1 166.5 424.5z"></path></svg>
+ </div>
+ 
+ </div><div class="ecom-product-single__media--thumbs ecom-product-single__init-thumb-hidden ecom-swiper-container" data-breakpoints="{&quot;0&quot;:{&quot;__screen_name&quot;:&quot;mobile&quot;,&quot;slidesPerView&quot;:4,&quot;spaceBetween&quot;:10,&quot;thumbnail_position&quot;:&quot;column&quot;},&quot;768&quot;:{&quot;__screen_name&quot;:&quot;tablet&quot;,&quot;slidesPerView&quot;:4,&quot;spaceBetween&quot;:10,&quot;thumbnail_position&quot;:&quot;column&quot;},&quot;1025&quot;:{&quot;__screen_name&quot;:&quot;desktop&quot;,&quot;slidesPerView&quot;:4,&quot;spaceBetween&quot;:9,&quot;thumbnail_position&quot;:&quot;column&quot;}}">
  {%- if product.media.size > 1 -%}
- <div class="ec_splide__list ecom-swiper-wrapper">
- {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
- {% for media in product.media %}
- {% if media.media_type == 'image' %}
- {% assign image = media.preview_image %}
+ <div class="ecom-swiper-wrapper">
+ {% for image in product.images%}
  {% assign fetchpriority = 'low'%}
  {% if forloop.first %}
  {% assign fetchpriority = 'high'%}
  {% endif %}
- <div class="ec_splide__slide ecom-product-single__media--thumbnail ecom-splide-slide" {% if variant_images contains media.src %} data-variant_id="{{ product.images | where: 'src', image.src | map: 'variants' | map: 'id' | join: ',' }}"{% endif %}>
+ <div class="ecom-product-single__media--thumbnail ecom-swiper-slide" data-variant_id="{{ image.variants | map:'id' | join:',' }}">
  <img
  class="ecom-product-thumbnail"
- src="{{ media | img_url: '306x361' }}"
- alt="{{ media.alt }}",
+ src="{{ image | img_url: '306x361' }}"
+ alt="{{ image.alt }}",
  fetchpriority="{{ fetchpriority }}"
  
  />
  </div>
- {% else %}
- <div class="ec_splide__slide ecom-product-single__media--thumbnail ecom-splide-slide">
+ {% endfor %}
+ {%- for media in product.media -%}
+ {% if media.media_type != 'image' %}
+ <div class="ecom-product-single__media--thumbnail ecom-swiper-slide">
  <div class="ecom-product-single__media--thumbnail--icon">
  {% if media.media_type == 'model' %}
  
@@ -254,14 +269,22 @@
  <img src="{{ media.preview_image | img_url: '306x361' }}" alt="{{ media.alt }}" />
  </div>
  {% endif %}
- {% endfor %}
+ {%- endfor -%}
  </div>
+ 
+ <div class="ecom-swiper-button-next ecom-swiper-controls-thumb" style="display: flex">
+ <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+ </svg>
+ </div>
+ <div class="ecom-swiper-button-prev ecom-swiper-controls-thumb" style="display: flex">
+ <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+ </svg>
+ </div>
+ 
  {%- endif -%}
- </div><div class="ec_splide__arrows"><button type="button" class="ec_splide__arrow ec_splide__arrow--next ecom-swiper-button-next ecom-swiper-controls-thumb"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
- <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
- </svg></button><button type="button" class="ec_splide__arrow ec_splide__arrow--prev ecom-swiper-button-prev ecom-swiper-controls-thumb"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
- <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
- </svg></button></div></div></div></div><div class="ecom-hidden-content">
+ </div></div></div><div class="ecom-hidden-content">
  <script type="application/json" id="Product-model-{{ product.id }}">
  {{ product.media | where: 'media_type', 'model' | json }}
  </script>
@@ -285,14 +308,20 @@
  assign target = product.selected_or_first_available_variant
  endif
  -%}
- <div class="ecom-product-single__price--sale {% if target.compare_at_price == nil or target.compare_at_price <= target.price %} ecom-product-single__price-normal {% endif %}" data-price="{{target.price}}">
+ <div class="ecom-product-single__price--sale {% if target.compare_at_price == nil or target.compare_at_price <= target.price %} ecom-product-single__price-normal {% endif %}"
+ {% if false %} bss-b2b-product-price bss-b2b-variant-price {% endif %}
+ data-price="{{target.price}}" 
+ {% if false %}
+ bss-b2b-product-id="{{ product.id }}"
+ bss-b2b-variant-id="{{ product.selected_or_first_available_variant.id }}"
+ {% endif %}
+ >
  {%- if settings.currency_code_enabled -%}
  {{target.price | money_with_currency}}
  {%- else -%}
  {{target.price| money }}
  {%- endif -%}
  </div>
- 
  
  <div class="ecom-product-single__price--regular" {%- if target.compare_at_price == nil or target.compare_at_price <= target.price -%} style="display:none" {% endif %}>
  {%- if settings.currency_code_enabled -%}
@@ -332,7 +361,7 @@
 </p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
 </p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
 </p><p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.6">
-</p></div></div></div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-6h1cwd54ilj" data-core-is="block"><div class="ecom-element ecom-base-iconlist" deep="3"><ul class="ecom-iconlist--list" data-layout="default"><li class="ecom-iconlist--item ecom-html"><div class="ecom-iconlist--container"><span class="ecom-iconlist--icon" data-image="false"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M417.1 368c-4.437 7.688-12.5 12-20.81 12c-4.062 0-8.188-1.031-11.97-3.219L248 297.6V456c0 13.25-10.75 24-23.1 24S200 469.3 200 456V297.6l-137.2 79.22C59 378.1 54.88 380 50.81 380c-8.312 0-16.37-4.312-20.81-12c-6.625-11.47-2.687-26.16 8.781-32.78L176 256l-137.2-79.22C27.31 170.2 23.38 155.5 29.1 144C36.59 132.6 51.28 128.5 62.78 135.2L200 214.4V56C200 42.75 210.8 32 224 32S248 42.75 248 56v158.4l137.2-79.22C396.8 128.5 411.4 132.6 417.1 144c6.625 11.47 2.688 26.16-8.781 32.78L271.1 256l137.2 79.22C420.7 341.8 424.6 356.5 417.1 368z"></path></svg></span><div class="ecom-iconlist-content"><p class="ecom-iconlist--title">Nur für Geländer mit einer Breite von weniger als 6,5 cm geeignet.</p></div></div></li></ul></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block ecom-17mwbkrtyh9" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__description" deep="2"><div class="ecom-product-single__description-wrapper"><div class="ecom-product-single__description-container" data-show-type="full"><div class="ecom-product-single__description--paragraph"><div class="ecom-html-des" style="max-height: var(--ecom-description-height);">{{product.description}}</div></div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-g27wgwzwf1p" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__metafield" deep="2"><div class="ecom-product-single__metafield-wrapper"><div class="ecom-product-single__metafield-container">{{ product.metafields.ecomposer.product_label }}</div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-shbvw3sjt2" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__variant-picker" deep="2"><div class="ecom-product-single__variant-picker-wrapper ecom_not_hide_dropdown_arrow"><div class="ecom-product-single__variant-picker-container {% if product.has_only_default_variant%} ecom-product-single__variant-picker--only-default{% endif%} " data-picker-type="image" data-ecom-placeholder="">
+</p></div></div></div></div></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block ecom-17mwbkrtyh9" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__description" deep="2"><div class="ecom-product-single__description-wrapper"><div class="ecom-product-single__description-container" data-show-type="full"><div class="ecom-product-single__description--paragraph"><div class="ecom-html-des" style="max-height: var(--ecom-description-height);">{{product.description}}</div></div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-g27wgwzwf1p" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__metafield" deep="2"><div class="ecom-product-single__metafield-wrapper"><div class="ecom-product-single__metafield-container">{{ product.metafields.ecomposer.product_label }}</div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-shbvw3sjt2" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__variant-picker" deep="2"><div class="ecom-product-single__variant-picker-wrapper ecom_not_hide_dropdown_arrow"><div class="ecom-product-single__variant-picker-container {% if product.has_only_default_variant%} ecom-product-single__variant-picker--only-default{% endif%} " data-picker-type="image" data-ecom-placeholder="">
  {%- liquid
  assign ecom_has_variant_picker = true
  assign variant_selected = product.selected_or_first_available_variant
@@ -399,7 +428,7 @@
  {% endunless %}
  </div><div class="ecom-product-single__variant-picker--options">
  <select name="id" class="ecom-product-single-select-id {% if product.has_only_default_variant %} ecom-product-single__picker-default-variant {% endif %}" data-product-id="{{product.id}}" data-json-product="product-json-{{product.id}}-ecom-shbvw3sjt2" id="ecom-variant-selector-{{product.id}}-ecom-shbvw3sjt2">
- {% unless product.has_only_default_variant %}{% endunless %}$
+ 
  {% for variant in product.variants%}
  <option value="{{variant.id}}" {% if variant_selected.id == variant.id %} selected="selected" {% endif %}>{{variant.title}}</option>
  {% endfor %}
@@ -408,7 +437,7 @@
  <script type="application/json" id="product-json-{{product.id}}-ecom-shbvw3sjt2">
  {%- render "ecom_product_json", product: product -%}
  </script>
- </div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-q3i2p4bsluf" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__quantity" deep="2"><div class="ecom-product-single__quantity-wrapper"><div class="ecom-product-single__quantity-container"><label class="ecom-product-single__quantity-container-label" for="quantity">Menge</label><div class="ecom-product-single__quantity-controls"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-minus" aria-label="control minus"><span class="ecom-flex ecom-fl_center ecom-al_center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path></svg></span></button><label for="quantity" style="display: none;">Quantity</label><input name="quantity" type="number" id="quantity" min="1" max="9999" class="ecom-product-single__quantity-input" data-min-value="1" data-max-value="9999" required="" value="1"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-plus" aria-label="control plus"><span class="ecom-flex ecom-fl_center .ecom-al_center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M288 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H288V480C288 497.7 273.7 512 255.1 512C238.3 512 223.1 497.7 223.1 480V288H32C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224H223.1V32C223.1 14.33 238.3 0 255.1 0C273.7 0 288 14.33 288 32V224z"></path></svg></span></button></div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-pm3cveczr5" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-7g9psrictmm" data-id="ecom-7g9psrictmm" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core ecom-zhtpfyjno8q"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block ecom-3rtceo44uby ec-button-action" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__add-to-cart" deep="3"><div class="ecom-product-single__add-to-cart-wrapper"><div class="ecom-product-single__add-to-cart-container"><div class="ecom-product-single__add-to-cart-buttons"><div class="ecom-product-single__add-to-cart-buttons-wrapper"><button type="submit" class="ecom-product-single__add-to-cart--submit ecom-flex" data-text-add-cart="In den Warenkorb" data-text-pre-order="Pre Order" data-text-unavailable="Unavailable" data-text-outstock="Nicht lieferbar" data-text-added-cart="In den Warenkorb" data-message-added-cart="" data-href="#" data-target="" data-action="message" data-variant-id="{{product.first_available_variant.id}}" name="add"><span class="ecom-add-to-cart-text">In den Warenkorb</span><span class="ecom__element--button-icon"></span></button></div></div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-hg8qp0kd16l" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__buy_it_now_btn" data-preview-mode="true" deep="3"><div class="ecom-product-single__buy_it_now_btn-buttons-wrapper"><button type="button" class="ecom-product-single__buy_it_now_btn--checkout" data-variant-id="{{product.first_available_variant.id}}"><span>Jetzt Kaufen</span></button></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block elmspace ecom-9x5lka4n77o" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-p2ndd128hnj" data-id="ecom-p2ndd128hnj" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core ecom-a4xdewiryys"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-49u7e923nle" data-core-is="block"><div class="ecom-element ecom-base-image" deep="3"><figure><div class="ecom-container-image ecom-image-align" data-stopdrag=""><div data-stopdrag="" class="ecom-image-content-position ecom-image-default ecom-base-image-container-overlay" style=""><picture class="ecom-image-picture"><source media="(max-width: 767px)" srcset="https://cdn.shopify.com/s/files/1/0596/6367/9587/files/333333333333333333333333_e7248110-c9c4-4319-83d2-9ddb15cc5816.png?v=1735294544"><img loading="lazy" fetchpriority="low" src="https://cdn.shopify.com/s/files/1/0596/6367/9587/files/333333333333333333333333_e7248110-c9c4-4319-83d2-9ddb15cc5816.png?v=1735294544" alt="333333333333333333333333_e7248110-c9c4-4319-83d2-9ddb15cc5816" width="1122" height="58"></picture></div></div></figure></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-cabzqxvh6c"><div class="core__column--wrapper ecom__column-full-height"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"></div></div></div> <div class="ecom-column ecom-core ecom-6fsf1w63q1n"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-m6zl46erhk" data-core-is="block"><div class="ecom-element ecom-products-upsell ecom-products-upsell-design-2" deep="3"><div class="ecom-products-upsell-heading-wrap"><h4 class="ecom-products-upsell-heading">Vielleicht brauchst du auch</h4></div><div data-option-swiper="{&quot;direction&quot;:&quot;horizontal&quot;,&quot;freeMode&quot;:false,&quot;breakpoints&quot;:{&quot;0&quot;:{},&quot;768&quot;:{},&quot;1025&quot;:{}},&quot;autoplay&quot;:{&quot;enabled&quot;:false,&quot;delay&quot;:0,&quot;pauseOnMouseEnter&quot;:false,&quot;disableOnInteraction&quot;:false,&quot;reverseDirection&quot;:false},&quot;grabCursor&quot;:true,&quot;slideActiveClass&quot;:&quot;ecom-box-active&quot;,&quot;centeredSlides&quot;:false,&quot;watchOverflow&quot;:true,&quot;autoHeight&quot;:true,&quot;cubeEffect&quot;:{&quot;slideShadows&quot;:true,&quot;shadowOffset&quot;:20},&quot;creativeEffect&quot;:{},&quot;fadeEffect&quot;:{&quot;crossFade&quot;:true},&quot;pagination&quot;:{&quot;el&quot;:&quot;.ecom-swiper-pagination&quot;,&quot;type&quot;:&quot;bullets&quot;,&quot;clickable&quot;:true},&quot;navigation&quot;:{&quot;nextEl&quot;:&quot;.ecom-swiper-button-next&quot;,&quot;prevEl&quot;:&quot;.ecom-swiper-button-prev&quot;}}" class="" style="max-width: 100%;"><div class="ecom-product-upsell__content-list">
+ </div></div></div></div></div> <div class="ecom-block ecom-core core__block ecom-q3i2p4bsluf" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__quantity" deep="2"><div class="ecom-product-single__quantity-wrapper"><div class="ecom-product-single__quantity-container"><label class="ecom-product-single__quantity-container-label" for="quantity">Menge</label><div class="ecom-product-single__quantity-controls"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-minus" aria-label="control minus"><span class="ecom-flex ecom-fl_center ecom-al_center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"></path></svg></span></button><label for="quantity" style="display: none;">Quantity</label><input name="quantity" type="number" id="quantity" min="1" max="9999" class="ecom-product-single__quantity-input" data-min-value="1" data-max-value="9999" required="" value="1"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-plus" aria-label="control plus"><span class="ecom-flex ecom-fl_center .ecom-al_center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M288 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H288V480C288 497.7 273.7 512 255.1 512C238.3 512 223.1 497.7 223.1 480V288H32C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224H223.1V32C223.1 14.33 238.3 0 255.1 0C273.7 0 288 14.33 288 32V224z"></path></svg></span></button></div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-pm3cveczr5" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-7g9psrictmm" data-id="ecom-7g9psrictmm" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core ecom-zhtpfyjno8q"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block ecom-3rtceo44uby ec-button-action" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__add-to-cart" deep="3"><div class="ecom-product-single__add-to-cart-wrapper"><div class="ecom-product-single__add-to-cart-container"><div class="ecom-product-single__add-to-cart-buttons"><div class="ecom-product-single__add-to-cart-buttons-wrapper"><button type="submit" class="ecom-product-single__add-to-cart--submit ecom-flex" data-text-add-cart="In den Warenkorb" data-text-pre-order="Pre Order" data-text-unavailable="Unavailable" data-text-outstock="Nicht lieferbar" data-text-added-cart="In den Warenkorb" data-message-added-cart="" data-href="#" data-target="" data-action="message" data-variant-id="{{product.first_available_variant.id}}" name="add"><span class="ecom-add-to-cart-text">In den Warenkorb</span><span class="ecom__element--button-icon"></span></button></div></div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-hg8qp0kd16l" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__buy_it_now_btn" data-preview-mode="true" deep="3"><div class="ecom-product-single__buy_it_now_btn-buttons-wrapper"><button type="button" class="ecom-product-single__buy_it_now_btn--checkout" data-variant-id="{{product.first_available_variant.id}}"><span>Jetzt Kaufen</span></button></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block elmspace ecom-9x5lka4n77o" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-p2ndd128hnj" data-id="ecom-p2ndd128hnj" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core ecom-a4xdewiryys"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-49u7e923nle" data-core-is="block"><div class="ecom-element ecom-base-image" deep="3"><figure><div class="ecom-container-image ecom-image-align" data-stopdrag=""><div data-stopdrag="" class="ecom-image-content-position ecom-image-default ecom-base-image-container-overlay" style=""><picture class="ecom-image-picture"><source media="(max-width: 767px)" srcset="https://cdn.shopify.com/s/files/1/0596/6367/9587/files/333333333333333333333333_e7248110-c9c4-4319-83d2-9ddb15cc5816.png?v=1735294544"><img loading="lazy" fetchpriority="low" src="https://cdn.shopify.com/s/files/1/0596/6367/9587/files/333333333333333333333333_e7248110-c9c4-4319-83d2-9ddb15cc5816.png?v=1735294544" alt="333333333333333333333333_e7248110-c9c4-4319-83d2-9ddb15cc5816" width="1122" height="58" style=""></picture></div></div></figure></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-cabzqxvh6c"><div class="core__column--wrapper ecom__column-full-height"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"></div></div></div> <div class="ecom-column ecom-core ecom-6fsf1w63q1n"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-m6zl46erhk" data-core-is="block"><div class="ecom-element ecom-products-upsell ecom-products-upsell-design-2" deep="3"><div class="ecom-products-upsell-heading-wrap"><h4 class="ecom-products-upsell-heading">Vielleicht brauchst du auch</h4></div><div data-option-swiper="{&quot;direction&quot;:&quot;horizontal&quot;,&quot;freeMode&quot;:false,&quot;breakpoints&quot;:{&quot;0&quot;:{},&quot;768&quot;:{},&quot;1025&quot;:{}},&quot;autoplay&quot;:{&quot;enabled&quot;:false,&quot;delay&quot;:0,&quot;pauseOnMouseEnter&quot;:false,&quot;disableOnInteraction&quot;:false,&quot;reverseDirection&quot;:false},&quot;grabCursor&quot;:true,&quot;slideActiveClass&quot;:&quot;ecom-box-active&quot;,&quot;centeredSlides&quot;:false,&quot;watchOverflow&quot;:true,&quot;autoHeight&quot;:true,&quot;cubeEffect&quot;:{&quot;slideShadows&quot;:true,&quot;shadowOffset&quot;:20},&quot;creativeEffect&quot;:{},&quot;fadeEffect&quot;:{&quot;crossFade&quot;:true},&quot;pagination&quot;:{&quot;el&quot;:&quot;.ecom-swiper-pagination&quot;,&quot;type&quot;:&quot;bullets&quot;,&quot;clickable&quot;:true},&quot;navigation&quot;:{&quot;nextEl&quot;:&quot;.ecom-swiper-button-next&quot;,&quot;prevEl&quot;:&quot;.ecom-swiper-button-prev&quot;}}" class="" style="max-width: 100%;"><div class="ecom-product-upsell__content-list">
  {%- assign tmp_product = product -%}
  {%- capture product_list -%}
  indevolt-bifacial-monocrystalline-solarpanel
@@ -512,6 +541,7 @@
  </span>
  {%- endif -%}
  
+ 
  </button>
  </div>
  
@@ -550,6 +580,7 @@
 {% schema %}
 {
  "name": "Balkonhalterungen",
+ "locales": {},
  "settings": [
  {
  "type": "header",
@@ -562,7 +593,6 @@
  "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
  }
  ],
- "locales": {},
  "blocks": [
  {
  "type": "@app"

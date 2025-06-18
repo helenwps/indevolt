@@ -1,0 +1,17 @@
+{
+    "sections": {
+        "ecom-6838143d5705a349bf07a06d-context": {
+            "type": "ecom-6838143d5705a349bf07a06d-context",
+            "blocks": {},
+            "block_order": [],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-6838143d5705a349bf07a06d-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "page.ecom-terms-of-service.json"
+}

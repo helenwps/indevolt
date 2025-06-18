@@ -1,0 +1,36 @@
+{
+    "sections": {
+        "ecom-681c753123b898e2640cd597-context": {
+            "type": "ecom-681c753123b898e2640cd597-context",
+            "blocks": {
+                "ecom-czzyjnaciog": {
+                    "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/average-rating\/db20e365-d984-4ac4-9655-e1588d951ca9",
+                    "settings": {
+                        "types": [
+                            "product"
+                        ],
+                        "product": "{{product}}"
+                    }
+                },
+                "ecom-4y4onr5htfd": {
+                    "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+                    "settings": {
+                        "product": "{{product}}"
+                    }
+                }
+            },
+            "block_order": [
+                "ecom-czzyjnaciog",
+                "ecom-4y4onr5htfd"
+            ],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-681c753123b898e2640cd597-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "product.ecom-indevolt-bk-1600.json"
+}

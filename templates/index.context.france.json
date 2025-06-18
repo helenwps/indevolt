@@ -1,0 +1,17 @@
+{
+    "sections": {
+        "ecom-680e00027bca71f4cf04defe-context": {
+            "type": "ecom-680e00027bca71f4cf04defe-context",
+            "blocks": {},
+            "block_order": [],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-680e00027bca71f4cf04defe-context"
+    ],
+    "context": {
+        "market": "france"
+    },
+    "parent": "index.json"
+}

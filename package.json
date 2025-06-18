@@ -1,7 +1,7 @@
 {
   "name": "indevolt",
   "version": "1.0.0",
-  "description": "- 确保你有该网站的后台权限>>[独立站后台账号权限](https://makeblock.feishu.cn/wiki/wikcnF2kgZ6YTbIBeib5aQWCdNb#GcquFi) - 确保你安装了shopify cli和Themekit主题开发工具>>[shopify开发工具集锦](https://makeblock.feishu.cn/wiki/wikcn882HqVyYCuSy7eUY9gSPxd)",
+  "description": "- 确保你有该网站的后台权限>>[独立站后台账号权限] - 确保你安装了shopify cli和Themekit主题开发工具",
   "main": "",
   "scripts": {
     "dev": "shopify theme dev",  

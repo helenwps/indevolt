@@ -1,0 +1,17 @@
+{
+    "sections": {
+        "ecom-68381bc7b3404639440334d2-context": {
+            "type": "ecom-68381bc7b3404639440334d2-context",
+            "blocks": {},
+            "block_order": [],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-68381bc7b3404639440334d2-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "page.ecom-shipping-policy.json"
+}

@@ -1,0 +1,17 @@
+{
+    "sections": {
+        "ecom-683819beeaeb76519d0924f8-context": {
+            "type": "ecom-683819beeaeb76519d0924f8-context",
+            "blocks": {},
+            "block_order": [],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-683819beeaeb76519d0924f8-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "page.ecom-refund-policy.json"
+}

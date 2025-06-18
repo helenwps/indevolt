@@ -1,0 +1,17 @@
+{
+    "sections": {
+        "ecom-680ef523b0b7fe8179020f92-context": {
+            "type": "ecom-680ef523b0b7fe8179020f92-context",
+            "blocks": {},
+            "block_order": [],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-680ef523b0b7fe8179020f92-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "page.ecom-faqs.json"
+}

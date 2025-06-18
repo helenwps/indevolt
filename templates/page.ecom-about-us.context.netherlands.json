@@ -1,0 +1,17 @@
+{
+    "sections": {
+        "ecom-681db10e361e480e250c5282-context": {
+            "type": "ecom-681db10e361e480e250c5282-context",
+            "blocks": {},
+            "block_order": [],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-681db10e361e480e250c5282-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "page.ecom-about-us.json"
+}

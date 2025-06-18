@@ -1,0 +1,39 @@
+{
+    "sections": {
+        "ecom-6821a91214d2e3ed11013bfb-context": {
+            "type": "ecom-6821a91214d2e3ed11013bfb-context",
+            "blocks": {
+                "ecom-raangw01tz8": {
+                    "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/average-rating\/db20e365-d984-4ac4-9655-e1588d951ca9",
+                    "settings": {
+                        "types": [
+                            "product"
+                        ],
+                        "product": "{{product}}"
+                    }
+                },
+                "ecom-0sfrd66tidt": {
+                    "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+                    "settings": {
+                        "types": [
+                            "product"
+                        ],
+                        "product": "{{product}}"
+                    }
+                }
+            },
+            "block_order": [
+                "ecom-raangw01tz8",
+                "ecom-0sfrd66tidt"
+            ],
+            "settings": {}
+        }
+    },
+    "order": [
+        "ecom-6821a91214d2e3ed11013bfb-context"
+    ],
+    "context": {
+        "market": "netherlands"
+    },
+    "parent": "product.ecom-indevolt-smart-meter.json"
+}

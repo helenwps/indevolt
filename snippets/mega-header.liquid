@@ -1,0 +1,28 @@
+{%- for link in linklists.main-menu.links -%}
+  {%- if link.links != blank -%}
+    <li class="mega-menu-item">
+      <a href="{{ link.url }}" class="mega-menu-title">{{ link.title }}</a>
+      <div class="mega-menu-content">
+        <div class="mega-menu-columns">
+          {%- for child_link in link.links -%}
+            <div class="mega-menu-column">
+              <a href="{{ child_link.url }}" class="mega-menu-subtitle">{{ child_link.title }}</a>
+              <div class="mega-menu-products">
+                {%- for grandchild_link in child_link.links -%}
+                  {%- assign product = grandchild_link.object -%}
+                  <a href="{{ product.url }}" class="mega-menu-product">
+                    <img src="{{ product.featured_image | img_url: '200x' }}" alt="{{ product.title }}">
+                    <span>{{ product.title }}</span>
+                    <span>{{ product.price | money }}</span>
+                  </a>
+                {%- endfor -%}
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </li>
+  {%- else -%}
+    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+  {%- endif -%}
+{%- endfor -%}
