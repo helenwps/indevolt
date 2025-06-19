@@ -84,12 +84,12 @@
               </div>
             {%- endif -%}
             {%- for childlink in link.links -%}
-              <div class="mega-menu__item {% if forloop.first %} mega-menu__item--active{% endif %}">
+              <div class="mega-menu__item {% if forloop.first %} mega-menu__item--active{% endif %}" data-promo-index="{{ forloop.index }}">  
                 {%- if show_menu_column_divider -%}
                   <div class="mega-menu__item-wrapper">
                 {%- endif -%}
                 {% comment %} {{ childlink.url }} {% endcomment %}
-                <a href="javascript:;" class="h4 mega-menu__link mega-menu__link--top font-heading">
+                <a href="{{ childlink.url }}" class="h4 mega-menu__link mega-menu__link--top font-heading">
                   {{- childlink.title | escape -}}
                 </a> 
                 {%- if childlink.links != blank -%}
@@ -144,7 +144,7 @@
                       continue
                     endif
                   -%}
-                  <div class="promotion-item" style="--index: {{ forloop.index }};">
+                  <div class="promotion-item" style="--index: {{ forloop.index }};" >
                     {% render 'card-image',
                       image: promo_image,
                       image_ratio: 'adapt',
@@ -185,7 +185,7 @@
                       continue
                     endif
                   -%}
-                  <div class="promotion-item {% if forloop.index == 1 %} active{% endif %}" style="--index: {{ forloop.index }};">
+                  <div class="promotion-item {% if forloop.first %} active{% endif %}" data-promo-index="{{ forloop.index }}"  >
                     {% for product_item in promo_image %}
                       <div class="product-card">
                         <!-- 产品内容 -->

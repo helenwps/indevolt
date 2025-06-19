@@ -23,13 +23,13 @@
             "content_position": "middle-left",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "Get the skin you want to feel",
+            "title": "",
             "heading_size": "hd1",
-            "subheading": "Blend beauty in you",
+            "subheading": "",
             "description": "",
             "description_size": "text-base",
-            "button_label": "Shop Now",
-            "button_link": "",
+            "button_label": "",
+            "button_link": "https://de.indevolt.com/pages/jahresmitte-sale",
             "button_style": "btn--primary"
           }
         },
@@ -49,7 +49,7 @@
             "subheading": "",
             "description": "",
             "description_size": "text-base",
-            "button_label": "Shop Now",
+            "button_label": "",
             "button_link": "",
             "button_style": "btn--primary"
           }

@@ -31,6 +31,41 @@ class BasicHeader extends HTMLElement {
     if (this.enableTransparent) {
       this.headerSection.classList.add('header-transparent');
     }
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuItems = document.querySelectorAll('.mega-menu__item');
+      const promoItems = document.querySelectorAll('.promotion-item');
+
+      // 默认显示第一个
+      if (promoItems.length > 0) {
+        promoItems[0].classList.add('active');
+      }
+
+      menuItems.forEach(item => {
+        // 监听 mouseenter（悬停）事件
+        item.addEventListener('mouseenter', function() {
+          const promoIndex = this.getAttribute('data-promo-index');
+
+          // 移除所有菜单项的 active 类
+          menuItems.forEach(menuItem => {
+            menuItem.classList.remove('mega-menu__item--active');
+          });
+
+          // 添加当前菜单项的 active 类
+          this.classList.add('mega-menu__item--active');
+
+          promoItems.forEach(promoItem => {
+            promoItem.classList.remove('active');
+            promoItem.style.display = 'none';
+          });
+
+          const targetPromo = document.querySelector(`.promotion-item[data-promo-index="${promoIndex}"]`);
+          if (targetPromo) {
+            targetPromo.classList.add('active');
+            targetPromo.style.display = 'inline-grid';
+          }
+        });
+      });
+    });
   }
 
   setHeight() {
