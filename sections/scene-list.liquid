@@ -65,9 +65,20 @@
   "tag": "section",
   "class": "section section-scene-list",
   "max_blocks": 10,
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "分区标题",
+      "default": "我们的特色分区"
+    }
+  ],
   "blocks": [
     {
-      "type": "grid_item",
+      "type": "featured_collection",
       "name": "scene item",
       "settings": [
         {
@@ -106,19 +117,18 @@
   "presets": [
     {
       "name": "场景列表",
-      "category": "自定义布局",
       "blocks": [
         {
-          "type": "grid_item"
+          "type": "featured_collection"
         },
         {
-          "type": "grid_item"
+          "type": "featured_collection"
         },
         {
-          "type": "grid_item"
+          "type": "featured_collection"
         },
         {
-          "type": "grid_item"
+          "type": "featured_collection"
         }
       ]
     }
