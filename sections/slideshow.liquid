@@ -67,6 +67,7 @@
           data-color-scheme="color-{{ block.settings.color_scheme }}"
           {{ block.shopify_attributes }}
         >
+         <a href="{{  block.settings.background_image_url }}">
           <div
             class="slideshow__item-wrap"
             {% if slide_height == 'adapt' and slider_layout != 'split' %}
@@ -121,6 +122,7 @@
                       {%- capture sizes -%}
                         {%- if section.settings.container == 'full' -%}{%- if section.settings.layout == 'centered' -%}70vw{%- else -%}100vw{%- endif -%}{%- else -%}min({{ settings.page_width }}, 100vw){%- endif -%}
                       {%- endcapture -%}
+
                       <motion-element
                         class="w-full h-full block{% if background_default == blank %} md:hidden{% endif %}"
                         data-motion="zoom-out"
@@ -245,6 +247,7 @@
               </div>
             </div>
           </div>
+        </a>
         </div>
       {%- endfor -%}
     </div>
@@ -435,6 +438,11 @@
           "id": "background_mobile",
           "label": "t:sections.slideshow.blocks.slide_item.settings.image_mobile.label",
           "info": "t:sections.slideshow.blocks.slide_item.settings.image_mobile.info"
+        },
+        {
+          "type": "url",
+          "id": "background_image_url",
+          "label": "图片链接"
         },
         {
           "type": "range",

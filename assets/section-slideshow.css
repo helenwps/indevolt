@@ -186,12 +186,13 @@
     padding: 3.2rem 0 0;
   }
   .slideshow-wrapper.slideshow-content-mobile--below:not(.slideshow-layout--split).slideshow-controls-visible--yes {
-    padding-bottom: 4.8rem;
+    padding-bottom: 0rem;
     --swiper-pagination-bottom: 0;
   }
   .slideshow-wrapper.slideshow-content-mobile--below:not(.slideshow-layout--split) .swiper-pagination {
     padding: 0 1.5rem;
     --color-swiper-controls: 0, 0, 0;
+    bottom:3.5rem
   }
   .slideshow-wrapper.slideshow-layout--split {
     padding-bottom: 0;

@@ -1,9 +1,13 @@
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
+ <style>
+  .social-box{margin-top:22px}
+ </style>
 <script src="{{ 'footer.js' | asset_url }}" defer="defer"></script>
 {%- liquid
   assign socials = 'facebook,instagram,youtube,tiktok,twitter,pinterest,snapchat,tumblr,vimeo'
   assign socials_arr = socials | split: ','
   assign has_social_icons = false
+  assign show_social = false
   for social in socials_arr
     assign setting_key = 'social_' | append: social | append: '_link'
     if settings[setting_key] != blank
@@ -12,6 +16,9 @@
     endif
   endfor
   assign motion_delay = 50
+  if section.settings.show_social and has_social_icons
+    assign show_social = true
+  endif
 -%}
 <footer class="footer color-{{ section.settings.color_scheme }}">
   {% render 'divider',
@@ -198,6 +205,7 @@
                             </h3>
                             <span class="flex items-center lg:hidden">{%- render 'icon-plus-toggle' -%}</span>
                           </summary>
+                      
                         {%- endif -%}
                         <div class="accordion-details__content footer-image-box">
                           {% if block.settings.image != blank %}
@@ -236,6 +244,11 @@
                             </div>
                           {%- endif -%}
                         </div>
+                        {%- if show_social -%}
+                          <div class="social-box">
+                          {%- render 'social-icons', class: 'footer__list-social', size: 'large' -%}
+                          </div>
+                        {%- endif -%} 
                       </{{ tag }}>
                       {%- assign motion_delay = motion_delay | plus: 50 -%}
                     {%- when 'newsletter' -%}
@@ -297,9 +310,9 @@
               {%- endif -%}
             </div>
 
-            {%- if show_social -%}
+            {% comment %} {%- if show_social -%}
               {%- render 'social-icons', class: 'footer__list-social', size: 'large' -%}
-            {%- endif -%}
+            {%- endif -%} {% endcomment %}
           </div>
         {% endif %}
         <div class="footer__bottom-row flex justify-between items-center">
