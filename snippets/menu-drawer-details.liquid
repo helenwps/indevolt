@@ -18,7 +18,17 @@
       assign heading = block.settings.heading
   endcase
 -%}
-
+<style>
+  .drawer-link-box{display:flex;justify-content: space-between;}
+  .drawer-link-box svg{transform: rotate(90deg);transition: transform 0.3s ease;}
+  .menu-drawer__promotions{margin-top:1.6rem}
+  .menu-drawer__promotions .promotion-item{display:grid;gap:2rem;grid-template-columns: repeat(var(--promotion-columns),1fr);}
+  .menu-drawer__promotions {transition: all 0.3s ease;overflow: hidden;}
+  .drawer-link-box .promo-toggle[aria-expanded="true"] svg {transform: rotate(-90deg);}
+  .menu-drawer__promotions {display: none;}
+  .menu-drawer__promotions[aria-expanded="true"] {display: grid;}
+  .menu-drawer__item-back-link{font-size:16px}
+</style>
 <details is="menu-drawer-details" level="top">
   <summary class="menu-drawer__item-link flex items-center justify-between">
     <span>{{ link.title | escape }}</span>
@@ -68,18 +78,66 @@
                       >
                         {{- grandchildlink.title | escape -}}
                       </a>
+                    
                     </li>
                   {%- endfor -%}
                 </ul>
               </div>
             </details>
           {%- else -%}
+            <div class="drawer-link-box">
             <a
               href="{{ childlink.url }}"
               class="menu-drawer__item-link flex items-center justify-between"
             >
               {{- childlink.title -}}
             </a>
+             {%- if has_promo and enable_mega_menu -%} 
+                <span  class="promo-toggle" aria-expanded="false" aria-controls="promo-{{ forloop.index }}">  {%- render 'icon-caret', size: 'small' -%} </span>
+             {% endif %}
+            </div>
+            {%- if has_promo and enable_mega_menu -%}
+              {%- assign promo_index = forloop.index -%}
+              <div id="promo-{{ forloop.index }}" class="menu-drawer__promotions mega-menu__promotions-grid gap-x-2 gap-y-4" style="--promotion-columns: 2;">
+                {%- liquid
+                  assign __promo_image = 'promo_image_' | append: promo_index
+                  assign __heading = 'heading_' | append: promo_index
+                  assign __heading_size = 'heading_size_' | append: promo_index
+                  assign __description = 'description_' | append: promo_index
+                  assign __button_style = 'button_style_' | append: promo_index
+                  assign __promotion_link = 'promotion_link_' | append: promo_index
+
+                  assign promo_image = block.settings[__promo_image]
+                  assign heading = block.settings[__heading]
+                  assign heading_size = block.settings[__heading_size]
+                  assign description = block.settings[__description]
+                  assign promotion_link = block.settings[__promotion_link]
+                -%}
+
+                {%- if promo_image != blank -%}
+                  <div class="promotion-item">
+                    {% for product_item in promo_image %}
+                      <div class="product-card">
+                        <a href="/products/{{ product_item.handle }}" class="custom-card__wrapper flex flex-col">
+                          <div class="custom-card__media media-wrapper hover-wrapper">
+                            {{
+                              product_item.featured_image
+                              | image_url: width: 1100
+                              | image_tag:
+                                loading: 'lazy',
+                                class: 'motion-reduce hover-scale-up',
+                                widths: '165, 360, 535, 750, 940, 1100',
+                                is: 'image-lazy'
+                            }}
+                          </div>
+                          {{ product_item.title }}
+                        </a>
+                      </div>
+                    {% endfor %}
+                  </div>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
           {%- endif -%}
         </li>
       {%- endfor -%}
@@ -162,13 +220,13 @@
                   endif
                 -%}
                 <div class="promotion-item">
-                  {% render 'mega-custom-card',
+                  {% comment %} {% render 'mega-custom-card',
                     heading: heading,
                     heading_size: heading_size,
                     description: description,
                     image: promo_image,
                     link: promotion_link
-                  %}
+                  %} {% endcomment %}
                 </div>
               {%- endfor -%}
             </div>

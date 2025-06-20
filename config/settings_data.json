@@ -9,13 +9,16 @@
  */
 {
   "current": {
-    "logo_width": 110,
+    "logo": "shopify://shop_images/35564f99d727816cf37a807f6dea9074.png",
+    "logo_transparent": "shopify://shop_images/35564f99d727816cf37a807f6dea9074.png",
+    "logo_width": 160,
+    "logo_mobile": "shopify://shop_images/35564f99d727816cf37a807f6dea9074.png",
     "logo_width_mobile": 90,
-    "color_badge_sale": "#D63A2F",
+    "color_badge_sale": "#d63a2f",
     "color_badge_hot": "#6C69DE",
     "color_badge_new": "#559B60",
     "color_badge_soldout": "#A5A4AB",
-    "color_cart_bubble": "#D63A2F",
+    "color_cart_bubble": "#d63a2f",
     "type_body_font": "inter_n4",
     "body_font_weight_bolder": "500",
     "body_font_size": 16,
@@ -190,7 +193,7 @@
       "scheme-inverse": {
         "settings": {
           "primary_accent": "#d63a2f",
-          "border": "#ffffff",
+          "border": "#b1b1b1",
           "text": "#ffffff",
           "background": "#1d1d1d",
           "secondary_background": "#000000",

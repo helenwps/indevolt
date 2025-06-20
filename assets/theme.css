@@ -6350,7 +6350,9 @@ body:not(.header-pinned) .header-scrolled .header {
   font-weight: var(--font-heading-weight);
   font-style: var(--font-heading-style);
   text-transform: var(--font-heading-transform);
-  font-size: var(--font-h4-size);
+  /* font-size: var(--font-h4-size); */
+  font-size:16px;
+  font-weight: 500;
 }
 .menu-drawer__item-back-link {
   line-height: 1.5;

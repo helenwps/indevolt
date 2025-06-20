@@ -31,38 +31,56 @@ class BasicHeader extends HTMLElement {
     if (this.enableTransparent) {
       this.headerSection.classList.add('header-transparent');
     }
+    //pc导航增加修改
     document.addEventListener('DOMContentLoaded', function() {
       const menuItems = document.querySelectorAll('.mega-menu__item');
       const promoItems = document.querySelectorAll('.promotion-item');
-
-      // 默认显示第一个
       if (promoItems.length > 0) {
         promoItems[0].classList.add('active');
       }
-
       menuItems.forEach(item => {
-        // 监听 mouseenter（悬停）事件
         item.addEventListener('mouseenter', function() {
           const promoIndex = this.getAttribute('data-promo-index');
-
-          // 移除所有菜单项的 active 类
           menuItems.forEach(menuItem => {
             menuItem.classList.remove('mega-menu__item--active');
           });
-
-          // 添加当前菜单项的 active 类
           this.classList.add('mega-menu__item--active');
-
           promoItems.forEach(promoItem => {
             promoItem.classList.remove('active');
             promoItem.style.display = 'none';
           });
-
           const targetPromo = document.querySelector(`.promotion-item[data-promo-index="${promoIndex}"]`);
           if (targetPromo) {
             targetPromo.classList.add('active');
             targetPromo.style.display = 'inline-grid';
           }
+        });
+      });
+
+      // 移动端导航修改-获取所有切换按钮
+      const toggleButtons = document.querySelectorAll('.promo-toggle');
+      toggleButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          // 获取关联的推广内容
+          const promoId = this.getAttribute('aria-controls');
+          const promoContent = document.getElementById(promoId);
+          
+          // 切换状态
+          const isExpanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', !isExpanded);
+          
+          // 切换显示/隐藏
+          if (isExpanded) {
+            promoContent.style.display = 'none';
+          } else {
+            promoContent.style.display = 'grid'; // 或其他适合的布局方式
+          }
+          
+          // 也可以使用 classList.toggle 的方式
+          // promoContent.classList.toggle('is-expanded');
         });
       });
     });
@@ -112,6 +130,7 @@ class StickyHeader extends BasicHeader {
     this.headerSection.classList.add('header-sticky');
     this.headerSection.dataset.stickyType = this.dataset.stickyType;
     window.addEventListener('scroll', this.onScrollHandler.bind(this), false);
+
   }
 
   onScrollHandler() {

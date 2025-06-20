@@ -17,7 +17,7 @@
         "menu_DEKGYP": {
           "type": "menu",
           "settings": {
-            "block_width": 17,
+            "block_width": 25,
             "heading": "Produkte",
             "heading_size": "h4",
             "menu": "foooter-produkte",
@@ -28,7 +28,7 @@
         "menu_4eCrBB": {
           "type": "menu",
           "settings": {
-            "block_width": 20,
+            "block_width": 25,
             "heading": "Support",
             "heading_size": "h4",
             "menu": "footer-support",
@@ -39,7 +39,7 @@
         "menu_4HwJkC": {
           "type": "menu",
           "settings": {
-            "block_width": 20,
+            "block_width": 25,
             "heading": "Unternehmen",
             "heading_size": "h4",
             "menu": "footer-unternehmen",
@@ -50,7 +50,7 @@
         "image_text_F3FNhx": {
           "type": "image_text",
           "settings": {
-            "block_width": 20,
+            "block_width": 25,
             "heading": "Produkte",
             "heading_size": "h4",
             "image_width": 150,
@@ -63,8 +63,9 @@
         },
         "newsletter_3qCrWc": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
-            "block_width": 23,
+            "block_width": 25,
             "heading": "20€ Rabatt sichern",
             "heading_size": "h2",
             "newsletter_description": "<p>Jetzt anmelden und 20€ Rabatt sichern.<br/></p>",
@@ -87,9 +88,9 @@
       ],
       "settings": {
         "color_scheme": "scheme-inverse",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": true,
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
         "footer_bottom_menu": "",
