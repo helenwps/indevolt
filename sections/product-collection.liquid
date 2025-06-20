@@ -1,0 +1,272 @@
+{%- liquid
+  assign collection =section.blocks
+  assign columns_desktop = section.settings.columns
+
+  assign columns_tablet = columns_desktop | minus: 1
+  if columns_desktop < 3 or request.design_mode
+    assign columns_tablet = columns_desktop
+  endif
+
+  assign columns_mobile = section.settings.columns_mobile | plus: 0
+  assign item_css_class = 'f-column'
+
+  assign enable_slider = false
+  if section.settings.enable_slider and products_to_display > columns_desktop
+    assign enable_slider = true
+    assign item_css_class = item_css_class | append: ' swiper-slide'
+  endif
+
+  assign is_metro = false
+  if section.settings.grid_layout == 'metro' and enable_slider == false
+  assign is_metro = true
+  endif
+
+-%}
+{% comment %} {%- if is_metro -%}
+  {%- render 'product-grid-metro-style',
+    section_id: section.id,
+    columns_desktop: columns_desktop,
+    columns_tablet: columns_tablet,
+    columns_mobile: columns_mobile
+  -%}
+{%- endif -%} {% endcomment %}
+{%- capture image_sizes -%}
+(max-width: 767px) calc((100vw - 30px) / {{ columns_mobile }}),
+(max-width: 1023px) calc((100vw - 30px) / {{ columns_tablet }}),
+{{ settings.page_width | divided_by: columns_desktop }}px
+{%- endcapture -%}
+
+{% comment %} {{ 'section-product-collection.css' | asset_url | stylesheet_tag }} {% endcomment %}
+<style>
+
+  .section-product-collection{margin-top:120px;color: #1A1A1A;}
+  .section__header-wrap h2{ text-align:center}
+  .product-box{margin-top:60px;display: flex;justify-content: space-between;gap:16px;text-align: center;font-weight: 600;}
+  .custom-product-title{min-height:48px;max-height:48px;margin-top:17px;font-size: 20px;display: -webkit-box;-webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; overflow: hidden;text-overflow: ellipsis;}
+  .custom-product-describe{font-size:18px;font-weight: 400;color:#1D1D1D}
+  .custom-product-price{margin-top:18px;font-weight: 500;color: #3250C3;}
+  .custom-product-price .original-price{text-decoration-line: line-through;color: #8D8D8D;}
+  .custom-product-button{margin-top:14px}
+</style>
+<div class="section section-product-collection section--padding page-width">
+  <div class="section__wrapper">
+    <div class="section__header-wrap flex lg:flex-col justify-between">
+      <h2><span>{{section.settings.title }}</span></h2>
+         <div class="swiper swiper-custom-products">
+          {% comment %} swiper-wrapper {% endcomment %}
+          <div class="product-box">
+            {% for block in section.blocks %}
+              {% assign product = all_products[block.settings.product_item] %}
+              {% if product != blank %}
+                <div class="item " {{ block.shopify_attributes }}>
+                  <a href="{{ product.url }}" class="custom-product-card">
+                    {% if block.settings.custom_image != blank %}
+                      <div class="custom-product-image">
+                        {{
+                          block.settings.custom_image
+                          | image_url: width: 600
+                          | image_tag: loading: 'lazy', alt: block.settings.custom_title | default: product.title
+                        }}
+                      </div>
+                    {% else %}
+                      <div class="custom-product-image">
+                        {{
+                          product.featured_image
+                          | image_url: width: 600
+                          | image_tag: loading: 'lazy', alt: product.title
+                        }}
+                      </div>
+                    {% endif %}
+                    
+                    <h3 class="custom-product-title">
+                      {{ block.settings.custom_title | default: product.title }}
+                    </h3>
+                    <div class="custom-product-describe">
+                      {{ block.settings.custom_describe }}
+                    </div>
+                    <div class="custom-product-price">
+                      <span class="current-price"> {{ product.price | money }}</span>
+                      <span class="original-price">{{ product.price | money }}</span>
+                     
+                    </div>
+                    
+                    <button class="btn btn--primary links custom-product-button">
+                      {% comment %} {{ block.settings.button_text }} {% endcomment %}
+                      Mehr erfahren
+                    </button>
+                  </a>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          
+          {% if section.settings.show_dots %}
+            <div class="swiper-pagination"></div>
+          {% endif %}
+          
+          {% if section.settings.show_arrows %}
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          {% endif %}
+        </div>
+  
+    </div>
+  
+  </div>
+
+</div>
+{% comment %} <script src="{{ 'product-collection.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+ <script>
+  {% comment %} document.addEventListener('DOMContentLoaded', function() {
+    const swiper = new FoxTheme.Swiper('.swiper-custom-products', {
+      slidesPerView: {{ section.settings.slides_per_view_mobile }},
+      spaceBetween: 15,
+      loop: {% if section.blocks.size > 3 %}true{% else %}false{% endif %},
+      autoplay: {{ section.settings.autoplay | json }} ? {
+        delay: {{ section.settings.autoplay_speed }},
+        disableOnInteraction: false,
+      } : false,
+      pagination: {{ section.settings.show_dots | json }} ? {
+        el: '.swiper-pagination',
+        clickable: true,
+      } : false,
+      navigation: {{ section.settings.show_arrows | json }} ? {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      } : false,
+      breakpoints: {
+        640: {
+          slidesPerView: {{ section.settings.slides_per_view_tablet }},
+          spaceBetween: 20
+        },
+        1024: {
+          slidesPerView: {{ section.settings.slides_per_view_desktop }},
+          spaceBetween: 30
+        }
+      }
+    });
+  }); {% endcomment %}
+ </script>
+{% schema %}
+{
+  "name": "product-collection",
+  "tag": "section",
+  "class": "section section-product-collection",
+  "max_blocks": 10,
+  "disabled_on": {
+    "groups": ["header", "footer", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    },
+    {
+      "type": "range",
+      "id": "columns",
+      "label": "t:sections.all.grid.columns_desktop.label",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 4
+    },
+     {
+      "type": "select",
+      "id": "columns_mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "t:sections.all.mobile.columns_mobile.options__1.label"
+        },
+        {
+          "value": "2",
+          "label": "t:sections.all.mobile.columns_mobile.options__2.label"
+        }
+      ],
+      "default": "1",
+      "label": "t:sections.all.mobile.columns_mobile.label"
+    },
+       {
+      "type": "select",
+      "id": "controls_position",
+      "label": "t:sections.slideshow.settings.pagination_position.label",
+      "options": [
+        {
+          "value": "inside",
+          "label": "t:sections.slideshow.settings.pagination_position.options__1.label"
+        },
+        {
+          "value": "outside",
+          "label": "t:sections.slideshow.settings.pagination_position.options__2.label"
+        }
+      ],
+      "default": "inside",
+    },
+  ],
+ "blocks": [
+    {
+      "type": "card",
+      "name": "产品",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product_item",
+          "label": "product"
+        },
+        
+        {
+          "type": "image_picker",
+          "id": "custom_image",
+          "label": "image_pc"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "image_mobile"
+        },
+        {
+          "type": "text",
+          "id": "custom_title",
+          "label": "自定义标题"
+        },
+          {
+          "type": "text",
+          "id": "custom_describe",
+          "label": "自定义描述"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "按钮标题"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "按钮链接"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "产品推荐",
+      "blocks": [
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
