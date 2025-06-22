@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -43,7 +34,7 @@
       ],
       "settings": {
         "container": "full",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "video_height": "extra-medium",
         "overlay_opacity": 30,
@@ -76,7 +67,7 @@
             "heading": "Because you need time for yourself. Blend beauty in you",
             "heading_size": "h1",
             "subheading": "",
-            "description": "<p>Sustainability is the epitome of allure in modern fashion. Our workout wear collection embodies this ethos, seamlessly blending eco-consciousness with undeniable sexiness. From sleek designs to flattering cuts, each piece exudes confidence and style while leaving a minimal environmental footprint. l world where human progress is in harmony with the planet's.</p>",
+            "description": "<p>Sustainability is the epitome of allure in modern fashion. Our workout wear collection embodies this ethos, seamlessly blending eco-consciousness with undeniable sexiness. From sleek designs to flattering cuts, each piece exudes confidence and style while leaving a minimal environmental footprint. l world where human progress is in harmony with the planet's.<\/p>",
             "text_size": "text-lg",
             "button_label": "",
             "button_link": "",
@@ -127,7 +118,7 @@
             "heading": "A fruit enzyme that helps exfoliate and soften skin",
             "heading_size": "h1",
             "subheading": "Safety Ingredients",
-            "description": "<p>Purifying yet non-stripping, this fruit enzyme-packed cleansing oil effortlessly melts away makeup while helping maintain skin′s moisture barrier and pH balance. Designed for even the driest skin, the clean-rinsing formula is ultra-effective when used alone or as the first step in any double cleansing routine.</p>",
+            "description": "<p>Purifying yet non-stripping, this fruit enzyme-packed cleansing oil effortlessly melts away makeup while helping maintain skin′s moisture barrier and pH balance. Designed for even the driest skin, the clean-rinsing formula is ultra-effective when used alone or as the first step in any double cleansing routine.<\/p>",
             "text_size": "text-lg",
             "text_alignment": "center",
             "button_label": "",
@@ -143,7 +134,7 @@
             "heading": "A fruit enzyme that helps exfoliate and soften skin",
             "heading_size": "h1",
             "subheading": "Safety Ingredients",
-            "description": "<p>Purifying yet non-stripping, this fruit enzyme-packed cleansing oil effortlessly melts away makeup while helping maintain skin′s moisture barrier and pH balance. Designed for even the driest skin, the clean-rinsing formula is ultra-effective when used alone or as the first step in any double cleansing routine.</p>",
+            "description": "<p>Purifying yet non-stripping, this fruit enzyme-packed cleansing oil effortlessly melts away makeup while helping maintain skin′s moisture barrier and pH balance. Designed for even the driest skin, the clean-rinsing formula is ultra-effective when used alone or as the first step in any double cleansing routine.<\/p>",
             "text_size": "text-lg",
             "text_alignment": "center",
             "button_label": "",
@@ -159,7 +150,7 @@
             "heading": "A fruit enzyme that helps exfoliate and soften skin",
             "heading_size": "h1",
             "subheading": "Safety Ingredients",
-            "description": "<p>Purifying yet non-stripping, this fruit enzyme-packed cleansing oil effortlessly melts away makeup while helping maintain skin′s moisture barrier and pH balance. Designed for even the driest skin, the clean-rinsing formula is ultra-effective when used alone or as the first step in any double cleansing routine.</p>",
+            "description": "<p>Purifying yet non-stripping, this fruit enzyme-packed cleansing oil effortlessly melts away makeup while helping maintain skin′s moisture barrier and pH balance. Designed for even the driest skin, the clean-rinsing formula is ultra-effective when used alone or as the first step in any double cleansing routine.<\/p>",
             "text_size": "text-lg",
             "text_alignment": "center",
             "button_label": "",
@@ -193,7 +184,7 @@
           "settings": {
             "image_width": "large",
             "title": "Earth Lover",
-            "text": "<p>Discover sustainable beauty essentials at Earth Lover beauty store.</p>",
+            "text": "<p>Discover sustainable beauty essentials at Earth Lover beauty store.<\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -205,7 +196,7 @@
           "settings": {
             "image_width": "large",
             "title": "Cruelty Free",
-            "text": "<p>Find guilt-free beauty essentials at Cruelty Free beauty store.</p>",
+            "text": "<p>Find guilt-free beauty essentials at Cruelty Free beauty store.<\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -217,7 +208,7 @@
           "settings": {
             "image_width": "large",
             "title": "100% Organic",
-            "text": "<p>Discover natural skincare treasures at our 100% Organic beauty haven.</p>",
+            "text": "<p>Discover natural skincare treasures at our 100% Organic beauty haven.<\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -229,7 +220,7 @@
           "settings": {
             "image_width": "large",
             "title": "Paraben Free",
-            "text": "<p>Unveil clean beauty secrets at our Paraben-Free skincare sanctuary.</p>",
+            "text": "<p>Unveil clean beauty secrets at our Paraben-Free skincare sanctuary.<\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -300,7 +291,7 @@
           "settings": {
             "icon": "none",
             "heading": "How long does shipping take?",
-            "content": "<p>Shipping typically takes 5-7 business days within the United States. For international orders, shipping can take 10-15 business days, depending on the destination and customs processing times. You will receive a tracking number once your order has shipped so you can monitor its progress.</p>",
+            "content": "<p>Shipping typically takes 5-7 business days within the United States. For international orders, shipping can take 10-15 business days, depending on the destination and customs processing times. You will receive a tracking number once your order has shipped so you can monitor its progress.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": true
@@ -311,7 +302,7 @@
           "settings": {
             "icon": "none",
             "heading": "Does my piece come in any packaging?",
-            "content": "<p>Yes, all our skincare products come in protective and aesthetically pleasing packaging to ensure they arrive in perfect condition. Each product is securely wrapped, and we use eco-friendly materials whenever possible. Additionally, many of our products come in recyclable containers to support sustainability.</p>",
+            "content": "<p>Yes, all our skincare products come in protective and aesthetically pleasing packaging to ensure they arrive in perfect condition. Each product is securely wrapped, and we use eco-friendly materials whenever possible. Additionally, many of our products come in recyclable containers to support sustainability.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -322,7 +313,7 @@
           "settings": {
             "icon": "none",
             "heading": "Do you ship internationally?",
-            "content": "<p>Yes, we do ship internationally! We offer worldwide shipping to ensure customers around the globe can enjoy our skincare products. Please note that shipping times and costs may vary depending on the destination country. International customers may also be subject to customs fees or import duties imposed by their country's customs authorities.</p>",
+            "content": "<p>Yes, we do ship internationally! We offer worldwide shipping to ensure customers around the globe can enjoy our skincare products. Please note that shipping times and costs may vary depending on the destination country. International customers may also be subject to customs fees or import duties imposed by their country's customs authorities.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -333,7 +324,7 @@
           "settings": {
             "icon": "none",
             "heading": "What payment methods do you accept?",
-            "content": "<p>We accept a variety of payment methods to make your shopping experience convenient. These include credit cards (Visa, Mastercard, American Express), PayPal, and, in some regions, alternative payment methods such as Apple Pay or Google Pay. Rest assured, your payment information is secure and protected during the checkout process.</p>",
+            "content": "<p>We accept a variety of payment methods to make your shopping experience convenient. These include credit cards (Visa, Mastercard, American Express), PayPal, and, in some regions, alternative payment methods such as Apple Pay or Google Pay. Rest assured, your payment information is secure and protected during the checkout process.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -445,7 +436,7 @@
           "settings": {
             "image_width": "full",
             "title": "Tailored Protection",
-            "text": "<p>In a beautiful matte finish, the Lapwing Gilet is made from recycled materials that take the edge off on early spring and late autumn days. </p>",
+            "text": "<p>In a beautiful matte finish, the Lapwing Gilet is made from recycled materials that take the edge off on early spring and late autumn days. <\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -457,7 +448,7 @@
           "settings": {
             "image_width": "full",
             "title": "Considered design",
-            "text": "<p>In a beautiful matte finish, the Lapwing Gilet is made from recycled materials that take the edge off on early spring and late autumn days. </p>",
+            "text": "<p>In a beautiful matte finish, the Lapwing Gilet is made from recycled materials that take the edge off on early spring and late autumn days. <\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -469,7 +460,7 @@
           "settings": {
             "image_width": "full",
             "title": "Flattering Cut",
-            "text": "<p>In a beautiful matte finish, the Lapwing Gilet is made from recycled materials that take the edge off on early spring and late autumn days. </p>",
+            "text": "<p>In a beautiful matte finish, the Lapwing Gilet is made from recycled materials that take the edge off on early spring and late autumn days. <\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",

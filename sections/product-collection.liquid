@@ -1,5 +1,5 @@
-{%- liquid
-  assign collection =section.blocks
+{% comment %} {%- liquid
+  assign collection = section.blocks
   assign columns_desktop = section.settings.columns
 
   assign columns_tablet = columns_desktop | minus: 1
@@ -21,7 +21,7 @@
   assign is_metro = true
   endif
 
--%}
+-%} {% endcomment %}
 {% comment %} {%- if is_metro -%}
   {%- render 'product-grid-metro-style',
     section_id: section.id,
@@ -30,11 +30,11 @@
     columns_mobile: columns_mobile
   -%}
 {%- endif -%} {% endcomment %}
-{%- capture image_sizes -%}
+{% comment %} {%- capture image_sizes -%}
 (max-width: 767px) calc((100vw - 30px) / {{ columns_mobile }}),
 (max-width: 1023px) calc((100vw - 30px) / {{ columns_tablet }}),
 {{ settings.page_width | divided_by: columns_desktop }}px
-{%- endcapture -%}
+{%- endcapture -%} {% endcomment %}
 
 {% comment %} {{ 'section-product-collection.css' | asset_url | stylesheet_tag }} {% endcomment %}
 <style>
@@ -52,14 +52,14 @@
 <div class="section section-product-collection section--padding page-width">
   <div class="section__wrapper">
     <div class="section__header-wrap flex lg:flex-col justify-between">
-      <h2><span>{{section.settings.title }}</span></h2>
+      <h2><span>wewrwerwerwerwr</span></h2>
          <div class="swiper swiper-custom-products">
           {% comment %} swiper-wrapper {% endcomment %}
-          <div class="product-box">
+          {% comment %} <div class="product-box">
             {% for block in section.blocks %}
               {% assign product = all_products[block.settings.product_item] %}
-              {% if product != blank %}
-                <div class="item " {{ block.shopify_attributes }}>
+              {% if product != blank %} 
+                <div class="item " >
                   <a href="{{ product.url }}" class="custom-product-card">
                     {% if block.settings.custom_image != blank %}
                       <div class="custom-product-image">
@@ -70,37 +70,37 @@
                         }}
                       </div>
                     {% else %}
-                      <div class="custom-product-image">
+                     <div class="custom-product-image">
                         {{
                           product.featured_image
                           | image_url: width: 600
-                          | image_tag: loading: 'lazy', alt: product.title
+                          | image_tag: loading: 'lazy', alt: block.settings.title
                         }}
-                      </div>
+                      </div> 
                     {% endif %}
                     
                     <h3 class="custom-product-title">
-                      {{ block.settings.custom_title | default: product.title }}
+                      {{ block.settings.custom_title | default: block.settings.title }}213124
                     </h3>
                     <div class="custom-product-describe">
-                      {{ block.settings.custom_describe }}
+                      {{ block.settings.custom_describe }}12412412
                     </div>
                     <div class="custom-product-price">
-                      <span class="current-price"> {{ product.price | money }}</span>
-                      <span class="original-price">{{ product.price | money }}</span>
+                      <span class="current-price"> {{ block.settings.price | money }}234234</span>
+                      <span class="original-price">{{ block.settings.original | money }}234234</span>
                      
                     </div>
                     
                     <button class="btn btn--primary links custom-product-button">
-                      {% comment %} {{ block.settings.button_text }} {% endcomment %}
+                      {{ block.settings.button_text }} 
                       Mehr erfahren
                     </button>
                   </a>
                 </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-          
+               {% endif %}
+            {% endfor %} 
+          </div> {% endcomment %}
+          <div class="product-box"></div>
           {% if section.settings.show_dots %}
             <div class="swiper-pagination"></div>
           {% endif %}
@@ -150,7 +150,7 @@
  </script>
 {% schema %}
 {
-  "name": "product-collection",
+  "name": "product_collection",
   "tag": "section",
   "class": "section section-product-collection",
   "max_blocks": 10,

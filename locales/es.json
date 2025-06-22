@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "password_page": {
@@ -16,7 +7,7 @@
       "login_form_password_placeholder": "Tu contraseña",
       "login_form_error": "¡Contraseña incorrecta!",
       "login_form_submit": "Ingresar",
-      "admin_link_html": "¿Eres el propietario de la tienda? <a href=\"/admin\" class=\"btn--link\">Inicia sesión aquí</a>",
+      "admin_link_html": "¿Eres el propietario de la tienda? <a href=\"\/admin\" class=\"btn--link\">Inicia sesión aquí<\/a>",
       "powered_by_shopify_html": "Esta tienda funcionará con {{ shopify }}"
     },
     "social": {
@@ -179,10 +170,10 @@
       "view_product_list": "Ver lista de productos",
       "description": "Descripción",
       "inventory_in_stock": "En stock",
-      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}</strong> en stock",
+      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}<\/strong> en stock",
       "inventory_low_stock": "Stock bajo",
-      "inventory_low_stock_one_item_html": "Date prisa, solo queda <strong>{{ quantity }}</strong> artículo en stock.",
-      "inventory_low_stock_many_items_html": "Date prisa, solo quedan <strong>{{ quantity }}</strong> artículos en stock.",
+      "inventory_low_stock_one_item_html": "Date prisa, solo queda <strong>{{ quantity }}<\/strong> artículo en stock.",
+      "inventory_low_stock_many_items_html": "Date prisa, solo quedan <strong>{{ quantity }}<\/strong> artículos en stock.",
       "inventory_out_of_stock": "Agotado",
       "inventory_out_of_stock_continue_selling": "En stock",
       "sku": "SKU",
@@ -209,25 +200,25 @@
         "multiples_of": "Incrementos de {{ quantity }}",
         "min_of": "Mín. {{ quantity }}",
         "max_of": "Máximo {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> en el carrito",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> en el carrito",
         "note": "Ver reglas de cantidad"
       },
       "volume_pricing": {
         "title": "Precios por volumen",
         "note": "Precios por volumen disponibles",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "a {{ price }}/unidad",
-        "price_at_each_html": "a {{ price }}/unidad",
+        "price_at_each": "a {{ price }}\/unidad",
+        "price_at_each_html": "a {{ price }}\/unidad",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "each": "{{ money }}/ud",
-        "each_html": "{{ money }}/ud"
+        "each": "{{ money }}\/ud",
+        "each_html": "{{ money }}\/ud"
       },
       "pickup_availability": {
         "view_store_info": "Ver información de la tienda",
         "check_other_stores": "Consultar disponibilidad en otras tiendas",
         "pick_up_available": "Recogida disponible",
-        "pick_up_available_at_html": "Recogida disponible en <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "La recogida no está disponible actualmente en <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Recogida disponible en <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "La recogida no está disponible actualmente en <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "No se pudo cargar la disponibilidad de recogida",
         "refresh": "Actualizar"
       },
@@ -237,7 +228,7 @@
         "regular_price": "Precio regular",
         "sale_price": "Precio de venta",
         "unit_price": "Precio unitario",
-        "save_price_html": "Guardar <span data-sale-value>{{ amount }}</span>"
+        "save_price_html": "Guardar <span data-sale-value>{{ amount }}<\/span>"
       },
       "share": "Comparte este producto",
       "share_label": "Compartir",
@@ -263,7 +254,7 @@
       "xr_button": "Ver en tu espacio",
       "xr_button_label": "Ver en tu espacio, carga el elemento en la ventana de realidad aumentada",
       "include_taxes": "Impuesto incluido.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Envío</a> calculado al finalizar la compra."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Envío<\/a> calculado al finalizar la compra."
     },
     "modal": {
       "label": "Galería media"
@@ -391,9 +382,9 @@
       "empty": "Su carrito está vacío.",
       "cart_error": "Se produjo un error al actualizar su carrito. Inténtalo de nuevo.",
       "cart_quantity_error_html": "Solo puedes agregar {{ quantity }} de este artículo a tu carrito.",
-      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\" class=\"btn--link\">envío</a> calculados al finalizar la compra",
+      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\" class=\"btn--link\">envío<\/a> calculados al finalizar la compra",
       "taxes_included_but_shipping_at_checkout": "Impuestos incluidos y envío calculado al finalizar la compra.",
-      "taxes_included_and_shipping_policy_html": "Impuesto incluido. <a href=\"{{ link }}\" class=\"btn--link\">Envío</a> y descuentos calculados al finalizar la compra.",
+      "taxes_included_and_shipping_policy_html": "Impuesto incluido. <a href=\"{{ link }}\" class=\"btn--link\">Envío<\/a> y descuentos calculados al finalizar la compra.",
       "taxes_and_shipping_at_checkout": "Impuestos y envío calculados al finalizar la compra",
       "headings": {
         "product": "Producto",
@@ -405,7 +396,7 @@
       "update": "Actualizar",
       "login": {
         "title": "¿Tener una cuenta?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicia sesión</a> para pagar más rápido."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicia sesión<\/a> para pagar más rápido."
       }
     },
     "footer": {
@@ -427,7 +418,7 @@
     "collection_template": {
       "empty": "No se encontraron productos",
       "title": "Recopilación",
-      "use_fewer_filters_html": "Utilice menos filtros o <a class=\"{{ class }}\" href=\"{{ link }}\">elimine todos</a>"
+      "use_fewer_filters_html": "Utilice menos filtros o <a class=\"{{ class }}\" href=\"{{ link }}\">elimine todos<\/a>"
     },
     "video": {
       "load_video": "Cargar vídeo: {{ description }}"
@@ -463,8 +454,8 @@
     "quick_order_list": {
       "product_total": "Subtotal del producto",
       "view_cart": "Ver carrito",
-      "each": "{{ money }}/ud",
-      "each_html": "{{ money }}/ud",
+      "each": "{{ money }}\/ud",
+      "each_html": "{{ money }}\/ud",
       "product": "Producto",
       "variant": "Variante",
       "variant_total": "total de variantes",
@@ -488,13 +479,13 @@
     }
   },
   "localization": {
-    "country_label": "País/región",
+    "country_label": "País\/región",
     "language_label": "Idioma",
     "update_language": "Actualizar idioma",
-    "update_country": "Actualizar país/región",
+    "update_country": "Actualizar país\/región",
     "search": "Buscar",
-    "popular_countries_regions": "Países/regiones populares",
-    "country_results_count": "{{ count }} países/regiones encontrados"
+    "popular_countries_regions": "Países\/regiones populares",
+    "country_results_count": "{{ count }} países\/regiones encontrados"
   },
   "customer": {
     "account": {
@@ -523,7 +514,7 @@
       "address1": "Dirección 1",
       "address2": "Dirección 2",
       "city": "Ciudad",
-      "country": "País/región",
+      "country": "País\/región",
       "province": "Provincia",
       "zip": "Código postal",
       "phone": "Teléfono",

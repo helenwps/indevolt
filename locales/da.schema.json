@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
       "settings": {
         "font_family_options": {
           "label": "Fontfamilie",
-          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
+          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
           "options__1": {
             "label": "Brødskrift"
           },
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "Sprog understøtter RTL",
-          "info": "Indtast ISO-sprogkode, adskilt med komma. Lad stå tomt for at aktivere for alle sprog. [Tjek ISO-sprogkode](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "Indtast ISO-sprogkode, adskilt med komma. Lad stå tomt for at aktivere for alle sprog. [Tjek ISO-sprogkode](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "Aktiver tilbage til toppen knap"
@@ -587,7 +578,7 @@
       "settings": {
         "type_header_font": {
           "label": "Skrifttype",
-          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "Skriftstørrelsesskala"
@@ -645,7 +636,7 @@
         },
         "type_body_font": {
           "label": "Skrifttype",
-          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "bolder_font_weight": {
           "label": "Stærkere skriftvægt",
@@ -686,40 +677,40 @@
           "content": "Sociale konti"
         },
         "social_twitter_link": {
-          "label": "X / Twitter",
-          "info": "https://x.com/shopify"
+          "label": "X \/ Twitter",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "Youtube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "Gratis forsendelsesmål"
         },
         "paragraph__1": {
-          "content": "Sørg for, at du har konfigureret dine [forsendelsespriser](/admin/settings/shipping) korrekt"
+          "content": "Sørg for, at du har konfigureret dine [forsendelsespriser](\/admin\/settings\/shipping) korrekt"
         },
         "free_shipping_minimum_amount": {
           "label": "Gratis forsendelse minimumbeløb",
-          "info": "Indstil minimumsbeløbet for gratis forsendelse i [temaindstillinger](/editor?context=theme&category=cart)."
+          "info": "Indstil minimumsbeløbet for gratis forsendelse i [temaindstillinger](\/editor?context=theme&category=cart)."
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "Flydende kode",
-          "info": "Tilføj app-uddrag eller anden kode for at oprette avancerede tilpasninger. [Få flere oplysninger](https://shopify.dev/docs/api/liquid)"
+          "info": "Tilføj app-uddrag eller anden kode for at oprette avancerede tilpasninger. [Få flere oplysninger](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,29 +1958,29 @@
       "settings": {
         "header__1": {
           "content": "E-mail tilmelding",
-          "info": "Abonnenter tilføjes automatisk til din \"accepterede marketing\"-kundeliste. [Få flere oplysninger](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "Abonnenter tilføjes automatisk til din \"accepterede marketing\"-kundeliste. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "Ikoner på sociale medier",
-          "info": "For at vise dine sociale mediekonti skal du linke dem i dine [temaindstillinger](/editor?context=theme&category=social%20media)."
+          "info": "For at vise dine sociale mediekonti skal du linke dem i dine [temaindstillinger](\/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Vis sociale medier ikoner"
         },
         "header__3": {
-          "content": "Lande-/områdevælger"
+          "content": "Lande-\/områdevælger"
         },
         "header__4": {
-          "info": "For at tilføje et land/område skal du gå til dine [markedsindstillinger.](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "info": "For at tilføje et land\/område skal du gå til dine [markedsindstillinger.](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         },
         "enable_country_selector": {
-          "label": "Aktiver lande-/områdevælger"
+          "label": "Aktiver lande-\/områdevælger"
         },
         "header__5": {
           "content": "Sprogvælger"
         },
         "header__6": {
-          "info": "For at tilføje et sprog skal du gå til dine [sprogindstillinger.](/admin/settings/languages)"
+          "info": "For at tilføje et sprog skal du gå til dine [sprogindstillinger.](\/admin\/settings\/languages)"
         },
         "enable_language_selector": {
           "label": "Aktiver sprogvælger"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "Følg med på Shop",
-          "info": "For at give kunderne mulighed for at følge din butik på Shop-appen fra din butiksfacade, skal Shop Pay være aktiveret. [Få flere oplysninger](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "For at give kunderne mulighed for at følge din butik på Shop-appen fra din butiksfacade, skal Shop Pay være aktiveret. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Aktiver Følg i butik"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "Header",
       "paragraph": {
-        "content": "Rediger dit logo i [temaindstillinger](/editor?context=theme&category=logo)."
+        "content": "Rediger dit logo i [temaindstillinger](\/editor?context=theme&category=logo)."
       },
       "settings": {
         "hide_sperator_on_pages": {
@@ -2092,11 +2083,11 @@
         },
         "enable_language_selector": {
           "label": "Aktiver sprogvælger",
-          "info": "For at tilføje et sprog skal du gå til dine [sprogindstillinger.](/admin/settings/languages)"
+          "info": "For at tilføje et sprog skal du gå til dine [sprogindstillinger.](\/admin\/settings\/languages)"
         },
         "enable_country_selector": {
-          "label": "Aktiver lande-/områdevælger",
-          "info": "For at tilføje et land/område skal du gå til dine [markedsindstillinger.](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "label": "Aktiver lande-\/områdevælger",
+          "info": "For at tilføje et land\/område skal du gå til dine [markedsindstillinger.](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "Vis samlingsbillede"
         },
         "paragraph": {
-          "content": "Tilføj en beskrivelse eller et billede ved at redigere din samling. [Få flere oplysninger](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "Tilføj en beskrivelse eller et billede ved at redigere din samling. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "Indstillinger"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "Aktiver filtrering",
-          "info": "Tilpas filtre med Search & Discovery-appen. [Få flere oplysninger](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Tilpas filtre med Search & Discovery-appen. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "Desktop filter layout",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "Aktiver filtrering",
-          "info": "Tilpas filtre med Search & Discovery-appen. [Få flere oplysninger](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Tilpas filtre med Search & Discovery-appen. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "Hurtig tilføjelse",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "Firkant"
           },
-          "info": "Tilføj billeder ved at redigere dine samlinger. [Få flere oplysninger](https://help.shopify.com/manual/products/collections)"
+          "info": "Tilføj billeder ved at redigere dine samlinger. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "Antal kolonner på skrivebordet"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "Indholdsmeddelelse",
           "header": "Adgangskodemeddelelse",
-          "info": "Besked angivet i dine [online butiks præferencer](/admin/online_store/preferences)"
+          "info": "Besked angivet i dine [online butiks præferencer](\/admin\/online_store\/preferences)"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "Vis forskelligt størrelsesdiagram for specifik samling eller produkt."
               },
               "paragraph_2": {
-                "content": "Opret et brugerdefineret metafelt for produkt med navneområde og nøgle: \"foxtheme.size_chart\". [Tilføj metafelt](/admin/metafelter/produkt)"
+                "content": "Opret et brugerdefineret metafelt for produkt med navneområde og nøgle: \"foxtheme.size_chart\". [Tilføj metafelt](\/admin\/metafelter\/produkt)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "Vis dynamiske betalingsknapper",
-              "info": "Ved at bruge de tilgængelige betalingsmetoder i din butik, kan kunderne se deres foretrukne mulighed, som PayPal eller Apple Pay. [Få flere oplysninger](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "Ved at bruge de tilgængelige betalingsmetoder i din butik, kan kunderne se deres foretrukne mulighed, som PayPal eller Apple Pay. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "Vis modtagerinformationsformular til gavekort",
-              "info": "Giver købere mulighed for at sende gavekort på en planlagt dato sammen med en personlig besked. [Få flere oplysninger](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Giver købere mulighed for at sende gavekort på en planlagt dato sammen med en personlig besked. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "Supplerende produkter",
           "settings": {
             "paragraph": {
-              "content": "For at vælge komplementære produkter skal du tilføje Search & Discovery-appen. [Få flere oplysninger](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "For at vælge komplementære produkter skal du tilføje Search & Discovery-appen. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Overskrift"
@@ -2844,14 +2835,14 @@
               "label": "Vis social deling"
             },
             "featured_image_info": {
-              "content": "Hvis du inkluderer et link i opslag på sociale medier, vil sidens fremhævede billede blive vist som forhåndsvisningsbilledet. [Få flere oplysninger](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Hvis du inkluderer et link i opslag på sociale medier, vil sidens fremhævede billede blive vist som forhåndsvisningsbilledet. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "En butikstitel og en beskrivelse er inkluderet i forhåndsvisningsbilledet. [Få flere oplysninger](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "En butikstitel og en beskrivelse er inkluderet i forhåndsvisningsbilledet. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "ask_question": {
               "label": "Vis spørgeskemaet",
-              "content": "Denne formular sender alle indsendelser til afsender-e-mailadressen i din butik. Du kan ændre afsenderens e-mailadresse på indstillingssiden [Butiksdetaljer](/admin/settings/general) på din Shopify-administrator."
+              "content": "Denne formular sender alle indsendelser til afsender-e-mailadressen i din butik. Du kan ændre afsenderens e-mailadresse på indstillingssiden [Butiksdetaljer](\/admin\/settings\/general) på din Shopify-administrator."
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "Aflever tekst",
             "deliver_days": {
               "label": "Lever i:",
-              "info": "dage (+/- 2 dage)"
+              "info": "dage (+\/- 2 dage)"
             },
             "date_format": {
               "label": "Datoformat",
-              "info": "Eksempel: %m/%d [Få flere oplysninger om datoformat her.](http://strftime.net/)"
+              "info": "Eksempel: %m\/%d [Få flere oplysninger om datoformat her.](http:\/\/strftime.net\/)"
             }
           }
         },
@@ -2956,7 +2947,7 @@
       "settings": {
         "header": {
           "content": "Medier",
-          "info": "Få flere oplysninger om [medietyper.](https://help.shopify.com/manual/products/product-media)"
+          "info": "Få flere oplysninger om [medietyper.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_sticky_info": {
           "label": "Aktiver klæbrigt indhold på skrivebordet"
@@ -3181,7 +3172,7 @@
       "name": "Relaterede produkter",
       "settings": {
         "paragraph__1": {
-          "content": "Dynamiske anbefalinger bruger ordre- og produktinformation til at ændre og forbedre over tid. [Få flere oplysninger](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynamiske anbefalinger bruger ordre- og produktinformation til at ændre og forbedre over tid. [Få flere oplysninger](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3341,10 +3332,10 @@
       "name": "Lookbook-kort"
     },
     "image-comparison": {
-      "name": "Før/efter billedskyder",
+      "name": "Før\/efter billedskyder",
       "settings": {
         "header__image_settings": {
-          "content": "Før/efter billedindstillinger"
+          "content": "Før\/efter billedindstillinger"
         },
         "direction": {
           "label": "Retning",
@@ -3394,7 +3385,7 @@
         }
       },
       "presets": {
-        "name": "Før/efter billedskyder"
+        "name": "Før\/efter billedskyder"
       }
     },
     "media-with-collection": {
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "Video alt tekst",
-          "info": "Beskriv videoen til kunder, der bruger skærmlæsere. [Få flere oplysninger](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "Beskriv videoen til kunder, der bruger skærmlæsere. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "Videoforhold",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "Brugerdefineret væske",
-              "info": "Tilføj appuddrag eller anden kode for at oprette avancerede tilpasninger. [Lær mere] (https://shopify.dev/docs/api/liquid)"
+              "info": "Tilføj appuddrag eller anden kode for at oprette avancerede tilpasninger. [Lær mere] (https:\/\/shopify.dev\/docs\/api\/liquid)"
             },
             "page": {
               "label": "Faneindhold fra siden"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "Rabatkode",
-              "info": "Giv kunderne en rabatkode. [Se rabatkoder](/admin/rabatter)"
+              "info": "Giv kunderne en rabatkode. [Se rabatkoder](\/admin\/rabatter)"
             },
             "apply_button": "Anvend knap",
             "apply_button_info": "Denne rabat vil blive anvendt ved kassen, når kunder klikker på denne knap."
@@ -4179,7 +4170,7 @@
           "content": "Gratis forsendelsesmål"
         },
         "paragraph": {
-          "content": "Sørg for, at du har konfigureret dine [forsendelsespriser](/admin/settings/shipping) korrekt"
+          "content": "Sørg for, at du har konfigureret dine [forsendelsespriser](\/admin\/settings\/shipping) korrekt"
         },
         "show_free_shipping_goal": {
           "label": "Vis gratis forsendelse globalt"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "Slutter tid",
-              "info": "Datoformat: ÅÅÅÅ/MM/DD TT:MM eller ÅÅÅÅ/MM/DD TT:MM AA.",
-              "paragraph": "Eksempel datoformat: 2024/06/30 23:59 eller 2024/06/30 23:59"
+              "info": "Datoformat: ÅÅÅÅ\/MM\/DD TT:MM eller ÅÅÅÅ\/MM\/DD TT:MM AA.",
+              "paragraph": "Eksempel datoformat: 2024\/06\/30 23:59 eller 2024\/06\/30 23:59"
             },
             "style": {
               "label": "Stil",

@@ -56,7 +56,6 @@
     {%- liquid
       render 'meta-tags'
       render 'css-variables'
-
       echo 'vendor.css' | asset_url | stylesheet_tag: preload: true
       echo 'theme.css' | asset_url | stylesheet_tag: preload: true
 
@@ -64,12 +63,27 @@
         echo 'rtl.css' | asset_url | stylesheet_tag: preload: true
       endif
     -%}
-
+    {{ 'slick.css' | asset_url | stylesheet_tag }}
     {{ content_for_header }}
-
+    {% if content_for_header contains 'jquery' %}
+      {% comment %} 检测主题是否已自带 jQuery {% endcomment %}
+      <script>
+        console.warn('jQuery already loaded by theme');
+      </script>
+    {% else %}
+      {{ '//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' | script_tag }}
+      <script>
+        window.jQuery || document.write('<script src="{{ 'jquery.min.js' | asset_url }}" async><\/script>')
+      </script>
+    {% endif %}
+ 
     <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
+    {% if template.name == 'index' %}
+      <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+    {% endif %} 
+            
     {%- if request.page_type contains 'customers/' -%}
       <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
     {%- endif -%}

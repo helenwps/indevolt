@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
       "settings": {
         "font_family_options": {
           "label": "字体系列",
-          "info": "选择不同的字体会影响商店的速度。 [了解有关系统字体的详细信息。](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
+          "info": "选择不同的字体会影响商店的速度。 [了解有关系统字体的详细信息。](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
           "options__1": {
             "label": "正文字体"
           },
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "支持 RTL 的语言",
-          "info": "输入 ISO 语言代码，以逗号分隔。留空即可对所有语言启用。 [检查 ISO 语言代码](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "输入 ISO 语言代码，以逗号分隔。留空即可对所有语言启用。 [检查 ISO 语言代码](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "启用返回顶部按钮"
@@ -587,7 +578,7 @@
       "settings": {
         "type_header_font": {
           "label": "字体",
-          "info": "选择不同的字体会影响商店的速度。 [了解有关系统字体的详细信息。](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "选择不同的字体会影响商店的速度。 [了解有关系统字体的详细信息。](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "字体大小比例"
@@ -645,7 +636,7 @@
         },
         "type_body_font": {
           "label": "字体",
-          "info": "选择不同的字体会影响商店的速度。 [了解有关系统字体的详细信息。](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "选择不同的字体会影响商店的速度。 [了解有关系统字体的详细信息。](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "bolder_font_weight": {
           "label": "加粗字体粗细",
@@ -686,40 +677,40 @@
           "content": "社交账号"
         },
         "social_twitter_link": {
-          "label": "X/推特",
-          "info": "https://x.com/shopify"
+          "label": "X\/推特",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "兴趣",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "抖音",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "豆瓣",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "快照",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "维梅奥",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "免费送货目标"
         },
         "paragraph__1": {
-          "content": "确保您已正确配置[运费](/admin/settings/shipping)"
+          "content": "确保您已正确配置[运费](\/admin\/settings\/shipping)"
         },
         "free_shipping_minimum_amount": {
           "label": "免运费最低金额",
-          "info": "在[主题设置](/editor?context=theme&category=cart)中设置免费送货的最低金额。"
+          "info": "在[主题设置](\/editor?context=theme&category=cart)中设置免费送货的最低金额。"
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "液体码",
-          "info": "添加应用程序片段或其他代码以创建高级自定义。 [了解更多](https://shopify.dev/docs/api/liquid)"
+          "info": "添加应用程序片段或其他代码以创建高级自定义。 [了解更多](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,29 +1958,29 @@
       "settings": {
         "header__1": {
           "content": "电子邮件注册",
-          "info": "订阅者会自动添加到您的“接受营销”客户列表中。 [了解更多](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "订阅者会自动添加到您的“接受营销”客户列表中。 [了解更多](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "社交媒体图标",
-          "info": "要显示您的社交媒体帐户，请在[主题设置](/editor?context=theme&category=social%20media)中链接它们。"
+          "info": "要显示您的社交媒体帐户，请在[主题设置](\/editor?context=theme&category=social%20media)中链接它们。"
         },
         "show_social": {
           "label": "显示社交媒体图标"
         },
         "header__3": {
-          "content": "国家/地区选择器"
+          "content": "国家\/地区选择器"
         },
         "header__4": {
-          "info": "要添加国家/地区，请转到您的[市场设置](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "info": "要添加国家\/地区，请转到您的[市场设置](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         },
         "enable_country_selector": {
-          "label": "启用国家/地区选择器"
+          "label": "启用国家\/地区选择器"
         },
         "header__5": {
           "content": "语言选择器"
         },
         "header__6": {
-          "info": "要添加语言，请转到您的[语言设置](/admin/settings/linguals)"
+          "info": "要添加语言，请转到您的[语言设置](\/admin\/settings\/linguals)"
         },
         "enable_language_selector": {
           "label": "启用语言选择器"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "关注商店",
-          "info": "要允许客户从您的店面在 Shop 应用上关注您的商店，必须启用 Shop Pay。 [了解更多](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "要允许客户从您的店面在 Shop 应用上关注您的商店，必须启用 Shop Pay。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "启用关注商店"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "标头",
       "paragraph": {
-        "content": "在[主题设置](/editor?context=theme&category=logo)中编辑您的徽标。"
+        "content": "在[主题设置](\/editor?context=theme&category=logo)中编辑您的徽标。"
       },
       "settings": {
         "menu": {
@@ -2092,11 +2083,11 @@
         },
         "enable_language_selector": {
           "label": "启用语言选择器",
-          "info": "要添加语言，请转到[语言设置]。(/admin/settings/languages)"
+          "info": "要添加语言，请转到[语言设置]。(\/admin\/settings\/languages)"
         },
         "enable_country_selector": {
-          "label": "启用国家/地区选择器",
-          "info": "要添加国家/地区，请转到[市场设置](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "label": "启用国家\/地区选择器",
+          "info": "要添加国家\/地区，请转到[市场设置](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "显示收集图像"
         },
         "paragraph": {
-          "content": "通过编辑您的收藏来添加描述或图像。 [了解更多](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "通过编辑您的收藏来添加描述或图像。 [了解更多](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "设置"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "启用过滤",
-          "info": "使用搜索和发现应用程序自定义过滤器。 [了解更多](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "使用搜索和发现应用程序自定义过滤器。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "桌面过滤器布局",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "启用过滤",
-          "info": "使用搜索和发现应用程序自定义过滤器。 [了解更多](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "使用搜索和发现应用程序自定义过滤器。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "快速添加",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "正方形"
           },
-          "info": "通过编辑您的收藏来添加图像。 [了解更多](https://help.shopify.com/manual/products/collections)"
+          "info": "通过编辑您的收藏来添加图像。 [了解更多](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "桌面上的列数"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "内容留言",
           "header": "密码留言",
-          "info": "在您的[在线商店偏好设置](/admin/online_store/preferences) 中设置的消息"
+          "info": "在您的[在线商店偏好设置](\/admin\/online_store\/preferences) 中设置的消息"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "显示特定系列或产品的不同尺码表。"
               },
               "paragraph_2": {
-                "content": "使用命名空间和键为产品创建自定义元字段：“foxtheme.size_chart”。 [添加元字段](/admin/metafields/product)"
+                "content": "使用命名空间和键为产品创建自定义元字段：“foxtheme.size_chart”。 [添加元字段](\/admin\/metafields\/product)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "显示动态结帐按钮",
-              "info": "使用商店中提供的付款方式，客户可以看到他们的首选选项，例如 PayPal 或 Apple Pay。 [了解更多](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "使用商店中提供的付款方式，客户可以看到他们的首选选项，例如 PayPal 或 Apple Pay。 [了解更多](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "显示礼品卡的收件人信息表",
-              "info": "允许买家在预定日期发送礼品卡以及个人消息。 [了解更多](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "允许买家在预定日期发送礼品卡以及个人消息。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "配套产品",
           "settings": {
             "paragraph": {
-              "content": "要选择互补产品，请添加搜索和发现应用程序。 [了解更多](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "要选择互补产品，请添加搜索和发现应用程序。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "标题"
@@ -2844,14 +2835,14 @@
               "label": "显示社交分享"
             },
             "featured_image_info": {
-              "content": "如果您在社交媒体帖子中包含链接，则该页面的特色图像将显示为预览图像。 [了解更多](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)。"
+              "content": "如果您在社交媒体帖子中包含链接，则该页面的特色图像将显示为预览图像。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)。"
             },
             "title_info": {
-              "content": "预览图像中包含商店标题和描述。 [了解更多](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)。"
+              "content": "预览图像中包含商店标题和描述。 [了解更多](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)。"
             },
             "ask_question": {
               "label": "显示提问表格",
-              "content": "此表单会将所有提交内容发送到您商店的发件人电子邮件地址。您可以在 Shopify 后台的[商店详细信息](/admin/settings/general) 设置页面中更改发件人电子邮件地址。"
+              "content": "此表单会将所有提交内容发送到您商店的发件人电子邮件地址。您可以在 Shopify 后台的[商店详细信息](\/admin\/settings\/general) 设置页面中更改发件人电子邮件地址。"
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "发送文本",
             "deliver_days": {
               "label": "交付于：",
-              "info": "天（+/- 2 天）"
+              "info": "天（+\/- 2 天）"
             },
             "date_format": {
               "label": "日期格式",
-              "info": "示例：%m/%d [在此处详细了解日期格式。](http://strftime.net/)"
+              "info": "示例：%m\/%d [在此处详细了解日期格式。](http:\/\/strftime.net\/)"
             }
           }
         },
@@ -2956,7 +2947,7 @@
       "settings": {
         "header": {
           "content": "媒体",
-          "info": "了解有关[媒体类型的详细信息。](https://help.shopify.com/manual/products/product-media)"
+          "info": "了解有关[媒体类型的详细信息。](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_sticky_info": {
           "label": "在桌面上启用粘性内容"
@@ -3181,7 +3172,7 @@
       "name": "相关产品",
       "settings": {
         "paragraph__1": {
-          "content": "动态推荐使用订单和产品信息来随着时间的推移而改变和改进。 [了解更多](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "动态推荐使用订单和产品信息来随着时间的推移而改变和改进。 [了解更多](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3341,10 +3332,10 @@
       "name": "画册卡"
     },
     "image-comparison": {
-      "name": "图像滑块之前/之后",
+      "name": "图像滑块之前\/之后",
       "settings": {
         "header__image_settings": {
-          "content": "图像设置之前/之后"
+          "content": "图像设置之前\/之后"
         },
         "direction": {
           "label": "方向",
@@ -3394,7 +3385,7 @@
         }
       },
       "presets": {
-        "name": "图像滑块之前/之后"
+        "name": "图像滑块之前\/之后"
       }
     },
     "media-with-collection": {
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "视频替代文本",
-          "info": "为使用屏幕阅读器的客户描述该视频。 [了解更多](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "为使用屏幕阅读器的客户描述该视频。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "视频比例",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "定制液体",
-              "info": "添加应用程序片段或其他代码以创建高级自定义。 [了解更多]（https://shopify.dev/docs/api/liquid）"
+              "info": "添加应用程序片段或其他代码以创建高级自定义。 [了解更多]（https:\/\/shopify.dev\/docs\/api\/liquid）"
             },
             "page": {
               "label": "页面中的选项卡内容"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "优惠码",
-              "info": "给顾客一个折扣代码。 [查看折扣码](/admin/discounts)"
+              "info": "给顾客一个折扣代码。 [查看折扣码](\/admin\/discounts)"
             },
             "apply_button": "应用按钮",
             "apply_button_info": "当客户点击此按钮时，此折扣将在结帐时应用。"
@@ -4179,7 +4170,7 @@
           "content": "免费送货目标"
         },
         "paragraph": {
-          "content": "确保您已正确配置[运费](/admin/settings/shipping)"
+          "content": "确保您已正确配置[运费](\/admin\/settings\/shipping)"
         },
         "show_free_shipping_goal": {
           "label": "显示全球免运费"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "结束时间",
-              "info": "日期格式：YYYY/MM/DD HH:MM 或 YYYY/MM/DD HH:MM AA。",
-              "paragraph": "示例日期格式：2024/06/30 23:59 或 2024/06/30 11:59 PM"
+              "info": "日期格式：YYYY\/MM\/DD HH:MM 或 YYYY\/MM\/DD HH:MM AA。",
+              "paragraph": "示例日期格式：2024\/06\/30 23:59 或 2024\/06\/30 11:59 PM"
             },
             "style": {
               "label": "风格",

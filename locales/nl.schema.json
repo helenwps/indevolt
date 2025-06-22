@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
       "settings": {
         "font_family_options": {
           "label": "Lettertypefamilie",
-          "info": "Het selecteren van een ander lettertype kan de snelheid van uw winkel beïnvloeden. [Meer informatie over systeemlettertypen.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
+          "info": "Het selecteren van een ander lettertype kan de snelheid van uw winkel beïnvloeden. [Meer informatie over systeemlettertypen.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
           "options__1": {
             "label": "Lichaamslettertype"
           },
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "Talen ondersteunen RTL",
-          "info": "Voer de ISO-taalcode in, gescheiden door een komma. Laat dit leeg om het in te schakelen voor alle talen. [Controleer de ISO-taalcode](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "Voer de ISO-taalcode in, gescheiden door een komma. Laat dit leeg om het in te schakelen voor alle talen. [Controleer de ISO-taalcode](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "Knop Terug naar boven inschakelen"
@@ -587,7 +578,7 @@
       "settings": {
         "type_header_font": {
           "label": "Lettertype",
-          "info": "Het selecteren van een ander lettertype kan de snelheid van uw winkel beïnvloeden. [Meer informatie over systeemlettertypen.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Het selecteren van een ander lettertype kan de snelheid van uw winkel beïnvloeden. [Meer informatie over systeemlettertypen.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "Schaal van lettergrootte"
@@ -645,7 +636,7 @@
         },
         "type_body_font": {
           "label": "Lettertype",
-          "info": "Het selecteren van een ander lettertype kan de snelheid van uw winkel beïnvloeden. [Meer informatie over systeemlettertypen.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Het selecteren van een ander lettertype kan de snelheid van uw winkel beïnvloeden. [Meer informatie over systeemlettertypen.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "bolder_font_weight": {
           "label": "Vetter lettertype",
@@ -686,40 +677,40 @@
           "content": "Sociale accounts"
         },
         "social_twitter_link": {
-          "label": "X / Twitter",
-          "info": "https://x.com/shopify"
+          "label": "X \/ Twitter",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "Doel voor gratis verzending"
         },
         "paragraph__1": {
-          "content": "Zorg ervoor dat u uw [verzendtarieven](/admin/settings/shipping) correct heeft geconfigureerd"
+          "content": "Zorg ervoor dat u uw [verzendtarieven](\/admin\/settings\/shipping) correct heeft geconfigureerd"
         },
         "free_shipping_minimum_amount": {
           "label": "Minimumbedrag voor gratis verzending",
-          "info": "Stel het minimumbedrag voor gratis verzending in in de [thema-instellingen](/editor?context=theme&category=cart)."
+          "info": "Stel het minimumbedrag voor gratis verzending in in de [thema-instellingen](\/editor?context=theme&category=cart)."
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "Vloeibare code",
-          "info": "Voeg app-fragmenten of andere code toe om geavanceerde aanpassingen te maken. [Meer informatie](https://shopify.dev/docs/api/liquid)"
+          "info": "Voeg app-fragmenten of andere code toe om geavanceerde aanpassingen te maken. [Meer informatie](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,29 +1958,29 @@
       "settings": {
         "header__1": {
           "content": "E-mailaanmelding",
-          "info": "Abonnees worden automatisch toegevoegd aan uw klantenlijst voor 'geaccepteerde marketing'. [Meer informatie](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "Abonnees worden automatisch toegevoegd aan uw klantenlijst voor 'geaccepteerde marketing'. [Meer informatie](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "Sociale media iconen",
-          "info": "Om uw sociale media-accounts weer te geven, koppelt u ze in uw [thema-instellingen](/editor?context=theme&category=social%20media)."
+          "info": "Om uw sociale media-accounts weer te geven, koppelt u ze in uw [thema-instellingen](\/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Toon sociale media iconen"
         },
         "header__3": {
-          "content": "Land-/regiokiezer"
+          "content": "Land-\/regiokiezer"
         },
         "header__4": {
-          "info": "Als u een land/regio wilt toevoegen, gaat u naar uw [market settings.](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "info": "Als u een land\/regio wilt toevoegen, gaat u naar uw [market settings.](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         },
         "enable_country_selector": {
-          "label": "Land-/regiokiezer inschakelen"
+          "label": "Land-\/regiokiezer inschakelen"
         },
         "header__5": {
           "content": "Taalkiezer"
         },
         "header__6": {
-          "info": "Om een ​​taal toe te voegen, ga naar je [taalinstellingen.](/admin/settings/talen)"
+          "info": "Om een ​​taal toe te voegen, ga naar je [taalinstellingen.](\/admin\/settings\/talen)"
         },
         "enable_language_selector": {
           "label": "Taalkiezer inschakelen"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "Volg op Winkel",
-          "info": "Om klanten in staat te stellen uw winkel te volgen in de Shop-app vanaf uw winkel, moet Shop Pay zijn ingeschakeld. [Meer informatie](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Om klanten in staat te stellen uw winkel te volgen in de Shop-app vanaf uw winkel, moet Shop Pay zijn ingeschakeld. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Schakel Volgen op winkel in"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "Koptekst",
       "paragraph": {
-        "content": "Bewerk uw logo in [thema-instellingen](/editor?context=theme&category=logo)."
+        "content": "Bewerk uw logo in [thema-instellingen](\/editor?context=theme&category=logo)."
       },
       "settings": {
         "hide_sperator_on_pages": {
@@ -2092,11 +2083,11 @@
         },
         "enable_language_selector": {
           "label": "Taalkiezer inschakelen",
-          "info": "Als je een taal wilt toevoegen, ga je naar je [taalinstellingen.](/admin/settings/languages)"
+          "info": "Als je een taal wilt toevoegen, ga je naar je [taalinstellingen.](\/admin\/settings\/languages)"
         },
         "enable_country_selector": {
-          "label": "Land-/regiokiezer inschakelen",
-          "info": "Als u een land/regio wilt toevoegen, gaat u naar uw [marktinstellingen.](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "label": "Land-\/regiokiezer inschakelen",
+          "info": "Als u een land\/regio wilt toevoegen, gaat u naar uw [marktinstellingen.](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "Toon verzamelafbeelding"
         },
         "paragraph": {
-          "content": "Voeg een beschrijving of afbeelding toe door uw collectie te bewerken. [Meer informatie](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "Voeg een beschrijving of afbeelding toe door uw collectie te bewerken. [Meer informatie](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "Instellingen"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "Schakel filteren in",
-          "info": "Pas filters aan met de Search & Discovery-app. [Meer informatie](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Pas filters aan met de Search & Discovery-app. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "Desktopfilterindeling",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "Schakel filteren in",
-          "info": "Pas filters aan met de Search & Discovery-app. [Meer informatie](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Pas filters aan met de Search & Discovery-app. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "Snel toevoegen",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "Vierkant"
           },
-          "info": "Voeg afbeeldingen toe door uw collecties te bewerken. [Meer informatie](https://help.shopify.com/manual/products/collections)"
+          "info": "Voeg afbeeldingen toe door uw collecties te bewerken. [Meer informatie](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "Aantal kolommen op bureaublad"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "Inhoud bericht",
           "header": "Wachtwoord bericht",
-          "info": "Bericht ingesteld in uw [online winkelvoorkeuren](/admin/online_store/preferences)"
+          "info": "Bericht ingesteld in uw [online winkelvoorkeuren](\/admin\/online_store\/preferences)"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "Toon verschillende maattabellen voor specifieke collectie of product."
               },
               "paragraph_2": {
-                "content": "Maak een aangepast metaveld voor het product met naamruimte en sleutel: \"foxtheme.size_chart\". [Metaveld toevoegen](/admin/metavelden/product)"
+                "content": "Maak een aangepast metaveld voor het product met naamruimte en sleutel: \"foxtheme.size_chart\". [Metaveld toevoegen](\/admin\/metavelden\/product)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "Toon dynamische betaalknoppen",
-              "info": "Met behulp van de betaalmethoden die in uw winkel beschikbaar zijn, zien klanten de optie van hun voorkeur, zoals PayPal of Apple Pay. [Meer informatie](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "Met behulp van de betaalmethoden die in uw winkel beschikbaar zijn, zien klanten de optie van hun voorkeur, zoals PayPal of Apple Pay. [Meer informatie](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "Toon ontvangersinformatieformulier voor cadeaubonnen",
-              "info": "Hiermee kunnen kopers op een geplande datum cadeaubonnen sturen, samen met een persoonlijke boodschap. [Meer informatie](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Hiermee kunnen kopers op een geplande datum cadeaubonnen sturen, samen met een persoonlijke boodschap. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "Complementaire producten",
           "settings": {
             "paragraph": {
-              "content": "Voeg de Search & Discovery-app toe om aanvullende producten te selecteren. [Meer informatie](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Voeg de Search & Discovery-app toe om aanvullende producten te selecteren. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Rubriek"
@@ -2844,14 +2835,14 @@
               "label": "Sociaal delen weergeven"
             },
             "featured_image_info": {
-              "content": "Als u een link opneemt in berichten op sociale media, wordt de uitgelichte afbeelding van de pagina weergegeven als voorbeeldafbeelding. [Meer informatie](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Als u een link opneemt in berichten op sociale media, wordt de uitgelichte afbeelding van de pagina weergegeven als voorbeeldafbeelding. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Bij de voorbeeldafbeelding zijn een winkeltitel en -beschrijving opgenomen. [Meer informatie](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Bij de voorbeeldafbeelding zijn een winkeltitel en -beschrijving opgenomen. [Meer informatie](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "ask_question": {
               "label": "Vraagformulier tonen",
-              "content": "Dit formulier stuurt alle inzendingen naar het e-mailadres van de afzender van uw winkel. Je kunt het e-mailadres van de afzender wijzigen op de instellingenpagina [Winkelgegevens](/admin/settings/general) van je Shopify-beheercentrum."
+              "content": "Dit formulier stuurt alle inzendingen naar het e-mailadres van de afzender van uw winkel. Je kunt het e-mailadres van de afzender wijzigen op de instellingenpagina [Winkelgegevens](\/admin\/settings\/general) van je Shopify-beheercentrum."
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "Tekst bezorgen",
             "deliver_days": {
               "label": "Bezorgen in:",
-              "info": "dagen (+/- 2 dagen)"
+              "info": "dagen (+\/- 2 dagen)"
             },
             "date_format": {
               "label": "Datumnotatie",
-              "info": "Voorbeeld: %m/%d [Lees hier meer over de datumnotatie.](http://strftime.net/)"
+              "info": "Voorbeeld: %m\/%d [Lees hier meer over de datumnotatie.](http:\/\/strftime.net\/)"
             }
           }
         },
@@ -2956,7 +2947,7 @@
       "settings": {
         "header": {
           "content": "Media",
-          "info": "Meer informatie over [mediatypen.](https://help.shopify.com/manual/products/product-media)"
+          "info": "Meer informatie over [mediatypen.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_sticky_info": {
           "label": "Schakel sticky-inhoud op het bureaublad in"
@@ -3181,7 +3172,7 @@
       "name": "Gerelateerde producten",
       "settings": {
         "paragraph__1": {
-          "content": "Dynamische aanbevelingen gebruiken bestel- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Meer informatie](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynamische aanbevelingen gebruiken bestel- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Meer informatie](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3341,10 +3332,10 @@
       "name": "Lookbook-kaarten"
     },
     "image-comparison": {
-      "name": "Voor/na afbeeldingsschuifregelaar",
+      "name": "Voor\/na afbeeldingsschuifregelaar",
       "settings": {
         "header__image_settings": {
-          "content": "Voor/na beeldinstellingen"
+          "content": "Voor\/na beeldinstellingen"
         },
         "direction": {
           "label": "Richting",
@@ -3394,7 +3385,7 @@
         }
       },
       "presets": {
-        "name": "Voor/na afbeeldingsschuifregelaar"
+        "name": "Voor\/na afbeeldingsschuifregelaar"
       }
     },
     "media-with-collection": {
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "Alt-tekst voor video",
-          "info": "Beschrijf de video voor klanten die schermlezers gebruiken. [Meer informatie](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "Beschrijf de video voor klanten die schermlezers gebruiken. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "Videoverhouding",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "Aangepaste vloeistof",
-              "info": "Voeg app -fragmenten of andere code toe om geavanceerde aanpassingen te maken. [Meer informatie] (https://shopify.dev/docs/api/liquid))"
+              "info": "Voeg app -fragmenten of andere code toe om geavanceerde aanpassingen te maken. [Meer informatie] (https:\/\/shopify.dev\/docs\/api\/liquid))"
             },
             "page": {
               "label": "Tabbladinhoud van de pagina"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "Kortingscode",
-              "info": "Geef klanten een kortingscode. [Bekijk kortingscodes](/admin/kortingen)"
+              "info": "Geef klanten een kortingscode. [Bekijk kortingscodes](\/admin\/kortingen)"
             },
             "apply_button": "Knop Toepassen",
             "apply_button_info": "Deze korting wordt toegepast bij het afrekenen wanneer klanten op deze knop klikken."
@@ -4179,7 +4170,7 @@
           "content": "Doel voor gratis verzending"
         },
         "paragraph": {
-          "content": "Zorg ervoor dat u uw [verzendtarieven](/admin/settings/shipping) correct heeft geconfigureerd"
+          "content": "Zorg ervoor dat u uw [verzendtarieven](\/admin\/settings\/shipping) correct heeft geconfigureerd"
         },
         "show_free_shipping_goal": {
           "label": "Toon gratis verzending wereldwijd"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "Eindigt de tijd",
-              "info": "Datumformaat: JJJJ/MM/DD UU:MM of JJJJ/MM/DD UU:MM AA.",
-              "paragraph": "Voorbeeld datumnotatie: 2024/06/30 23:59 of 2024/06/30 23:59 PM"
+              "info": "Datumformaat: JJJJ\/MM\/DD UU:MM of JJJJ\/MM\/DD UU:MM AA.",
+              "paragraph": "Voorbeeld datumnotatie: 2024\/06\/30 23:59 of 2024\/06\/30 23:59 PM"
             },
             "style": {
               "label": "Stijl",

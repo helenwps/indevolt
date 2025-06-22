@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "slideshow_q3U4Jn": {
@@ -16,8 +7,8 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-1",
-            "background": "shopify://shop_images/Group_155_9c880d25-ab2d-4653-89fc-14c3be6178bd.png",
-            "background_mobile": "shopify://shop_images/KV_d3ba0fad-13ee-4985-9693-60bac75c64a6.png",
+            "background": "shopify:\/\/shop_images\/Group_155_9c880d25-ab2d-4653-89fc-14c3be6178bd.png",
+            "background_mobile": "shopify:\/\/shop_images\/KV_d3ba0fad-13ee-4985-9693-60bac75c64a6.png",
             "background_image_url": "",
             "image_overlay_opacity": 0,
             "show_content_in_container": false,
@@ -30,7 +21,7 @@
             "description": "",
             "description_size": "text-base",
             "button_label": "",
-            "button_link": "https://de.indevolt.com/pages/jahresmitte-sale",
+            "button_link": "https:\/\/de.indevolt.com\/pages\/jahresmitte-sale",
             "button_style": "btn--primary"
           }
         },
@@ -38,8 +29,8 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-1",
-            "background": "shopify://shop_images/2404_79d98486-7470-434a-ba7c-464475a7df3e.jpg",
-            "background_mobile": "shopify://shop_images/0513_88d371f1-9c1f-4bef-be60-9ab8d4a19205.jpg",
+            "background": "shopify:\/\/shop_images\/2404_79d98486-7470-434a-ba7c-464475a7df3e.jpg",
+            "background_mobile": "shopify:\/\/shop_images\/0513_88d371f1-9c1f-4bef-be60-9ab8d4a19205.jpg",
             "background_image_url": "",
             "image_overlay_opacity": 0,
             "show_content_in_container": false,
@@ -85,45 +76,45 @@
         "featured_collection_weNg9r": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
-            "mobile_image": "shopify://shop_images/big-image-mobile1.png",
+            "image": "shopify:\/\/shop_images\/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
+            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile1.png",
             "title": "BK1600",
             "description": "Balkonkraftwerk mit Speicher",
             "button_title": "Jetzt kaufen",
-            "button_link": "/products/indevolt-bk-1600"
+            "button_link": "\/products\/indevolt-bk-1600"
           }
         },
         "featured_collection_xmNLUg": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/4-2.jpg",
-            "mobile_image": "shopify://shop_images/big-image-mobile2.png",
+            "image": "shopify:\/\/shop_images\/4-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile2.png",
             "title": "BK1600 Ultra",
             "description": "Balkonkraftwerk mit Speicher",
             "button_title": "Jetzt kaufen",
-            "button_link": "/products/indevolt-bk1600-ultra"
+            "button_link": "\/products\/indevolt-bk1600-ultra"
           }
         },
         "featured_collection_mjAyak": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/4-3_4e95fda7-de99-48eb-a6dc-dcf21b16d797.png",
-            "mobile_image": "shopify://shop_images/big-image-mobile3.png",
+            "image": "shopify:\/\/shop_images\/4-3_4e95fda7-de99-48eb-a6dc-dcf21b16d797.png",
+            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile3.png",
             "title": "Mikro-Wechselrichter",
             "description": "",
             "button_title": "Jetzt kaufen",
-            "button_link": "/products/indevolt-mikrowechselrichter"
+            "button_link": "\/products\/indevolt-mikrowechselrichter"
           }
         },
         "featured_collection_wBeLed": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/4-4_6d2b7f0d-a0b7-482d-965c-d7ba31f4158b.png",
-            "mobile_image": "shopify://shop_images/big-image-mobile4.png",
+            "image": "shopify:\/\/shop_images\/4-4_6d2b7f0d-a0b7-482d-965c-d7ba31f4158b.png",
+            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile4.png",
             "title": "Zubehör",
             "description": "",
             "button_title": "Mehr erfahren",
-            "button_link": "/collections/zubehor"
+            "button_link": "\/collections\/zubehor"
           }
         }
       },
@@ -136,6 +127,71 @@
       "name": "场景列表",
       "settings": {
         "section_title": "我们的特色分区"
+      }
+    },
+    "scene_list_CwKJ7z": {
+      "type": "product_collection",
+      "blocks": {
+        "featured_collection_weNg9r": {
+          "type": "card",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
+            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile1.png",
+            "custom_title": "BK1600",
+            "custom_describe": "Balkonkraftwerk mit Speicher",
+            "price":"$600",
+            "original":"$1200",
+            "button_title": "Jetzt kaufen",
+            "button_link": "\/products\/indevolt-bk-1600"
+          }
+        },
+        "featured_collection_xmNLUg": {
+          "type": "card",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
+            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile1.png",
+            "custom_title": "BK1600",
+            "custom_describe": "Balkonkraftwerk mit Speicher",
+            "price":"$600",
+            "original":"$1200",
+            "button_title": "Jetzt kaufen",
+            "button_link": "\/products\/indevolt-bk-1600"
+          }
+        },
+        "featured_collection_mjAyak": {
+          "type": "card",
+          "settings": {
+            "custom_image": "shopify:\/\/shop_images\/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
+            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile1.png",
+            "custom_title": "BK1600",
+            "custom_describe": "Balkonkraftwerk mit Speicher",
+            "price":"$600",
+            "original":"$1200",
+            "button_title": "Jetzt kaufen",
+            "button_link": "\/products\/indevolt-bk-1600"
+          }
+        },
+        "featured_collection_wBeLed": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-4_6d2b7f0d-a0b7-482d-965c-d7ba31f4158b.png",
+            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile4.png",
+            "title": "Zubehör",
+            "description": "",
+            "button_title": "Mehr erfahren",
+            "button_link": "\/collections\/zubehor"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_weNg9r",
+        "featured_collection_xmNLUg",
+        "featured_collection_mjAyak",
+        "featured_collection_wBeLed"
+      ],
+      "name": "产品推荐列表",
+      "settings": {
+        "title": "产品推荐列表"
       }
     },
     "featured_collection_MXQFFk": {
@@ -182,7 +238,7 @@
             "heading": "Care for Your Beauty",
             "heading_size": "hd2",
             "subheading": "The Vacation Shop",
-            "description": "<p>We create safe products that really work and are designed to make you feel good</p>",
+            "description": "<p>We create safe products that really work and are designed to make you feel good<\/p>",
             "description_size": "text-lg",
             "button_label": "Shop Skincare",
             "button_style": "btn--primary",
@@ -202,7 +258,7 @@
             "heading": "Show your Sparkle",
             "heading_size": "hd2",
             "subheading": "The Vacation Shop",
-            "description": "<p>We create safe products that really work and are designed to make you feel good</p>",
+            "description": "<p>We create safe products that really work and are designed to make you feel good<\/p>",
             "description_size": "text-lg",
             "button_label": "Shop Makeup",
             "button_style": "btn--primary",
@@ -222,7 +278,7 @@
             "heading": "Care for Your Beauty",
             "heading_size": "hd2",
             "subheading": "The Vacation Shop",
-            "description": "<p>We create safe products that really work and are designed to make you feel good</p>",
+            "description": "<p>We create safe products that really work and are designed to make you feel good<\/p>",
             "description_size": "text-lg",
             "button_label": "Shop Accessories",
             "button_style": "btn--primary",
@@ -416,12 +472,12 @@
         "heading_size": "h2",
         "heading_highlight_style": "none",
         "subheading": "",
-        "description": "<p>Jetzt anmelden und 20€ Rabatt sichern.</p>",
+        "description": "<p>Jetzt anmelden und 20€ Rabatt sichern.<\/p>",
         "text_size": "text-base",
         "alignment": "center",
         "design": "design-1",
         "form_width": 500,
-        "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https://de.indevolt.com/policies/privacy-policy\">Datenschutzrichtlinie</a> zu</p>",
+        "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https:\/\/de.indevolt.com\/policies\/privacy-policy\">Datenschutzrichtlinie<\/a> zu<\/p>",
         "newsletter_term_size": "text-base",
         "button_style": "btn--primary",
         "padding_top": 50,
@@ -434,6 +490,7 @@
   "order": [
     "slideshow_q3U4Jn",
     "scene_list_CwKJ7V",
+    "scene_list_CwKJ7z",
     "featured_collection_MXQFFk",
     "card_images_YfYkKC",
     "rich_text_J3XnPC",

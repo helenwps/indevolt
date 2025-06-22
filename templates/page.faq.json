@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "breadcrumbs_RzgTi9": {
@@ -36,7 +27,7 @@
         "text_nb9hEL": {
           "type": "text",
           "settings": {
-            "text": "<p>Have a question or comment? Don't be shy: Reach out and say hi! <br/>Support hours: Monday-Friday, 7am-3pm</p>",
+            "text": "<p>Have a question or comment? Don't be shy: Reach out and say hi! <br\/>Support hours: Monday-Friday, 7am-3pm<\/p>",
             "text_size": "text-lg"
           }
         }
@@ -67,7 +58,7 @@
             "heading": "Still need help?",
             "heading_size": "h1",
             "subheading": "",
-            "description": "<p>Shoot our team an email & we’ll get<br/> back to you ASAP</p>",
+            "description": "<p>Shoot our team an email & we’ll get<br\/> back to you ASAP<\/p>",
             "button_label": "Contact us",
             "button_style": "btn--primary",
             "content_position": "middle-center",
@@ -81,7 +72,7 @@
           "settings": {
             "icon": "none",
             "heading": "How long does shipping take?",
-            "content": "<p>Shipping typically takes 5-7 business days within the United States. For international orders, shipping can take 10-15 business days, depending on the destination and customs processing times. You will receive a tracking number once your order has shipped so you can monitor its progress.</p>",
+            "content": "<p>Shipping typically takes 5-7 business days within the United States. For international orders, shipping can take 10-15 business days, depending on the destination and customs processing times. You will receive a tracking number once your order has shipped so you can monitor its progress.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": true
@@ -92,7 +83,7 @@
           "settings": {
             "icon": "none",
             "heading": "Does my piece come in any packaging?",
-            "content": "<p>Yes, all our skincare products come in protective and aesthetically pleasing packaging to ensure they arrive in perfect condition. Each product is securely wrapped, and we use eco-friendly materials whenever possible. Additionally, many of our products come in recyclable containers to support sustainability.</p>",
+            "content": "<p>Yes, all our skincare products come in protective and aesthetically pleasing packaging to ensure they arrive in perfect condition. Each product is securely wrapped, and we use eco-friendly materials whenever possible. Additionally, many of our products come in recyclable containers to support sustainability.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -103,7 +94,7 @@
           "settings": {
             "icon": "none",
             "heading": "Do you ship internationally?",
-            "content": "<p>Yes, we do ship internationally! We offer worldwide shipping to ensure customers around the globe can enjoy our skincare products. Please note that shipping times and costs may vary depending on the destination country. International customers may also be subject to customs fees or import duties imposed by their country's customs authorities.</p>",
+            "content": "<p>Yes, we do ship internationally! We offer worldwide shipping to ensure customers around the globe can enjoy our skincare products. Please note that shipping times and costs may vary depending on the destination country. International customers may also be subject to customs fees or import duties imposed by their country's customs authorities.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -114,7 +105,7 @@
           "settings": {
             "icon": "none",
             "heading": "What payment methods do you accept?",
-            "content": "<p>We accept a variety of payment methods to make your shopping experience convenient. These include credit cards (Visa, Mastercard, American Express), PayPal, and, in some regions, alternative payment methods such as Apple Pay or Google Pay. Rest assured, your payment information is secure and protected during the checkout process.</p>",
+            "content": "<p>We accept a variety of payment methods to make your shopping experience convenient. These include credit cards (Visa, Mastercard, American Express), PayPal, and, in some regions, alternative payment methods such as Apple Pay or Google Pay. Rest assured, your payment information is secure and protected during the checkout process.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -125,7 +116,7 @@
           "settings": {
             "icon": "none",
             "heading": "What are your sizing options?",
-            "content": "<p>We’re sorry to hear that you’re unable to place an order. Please contact <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">Customer Service </a>and we will work on resolving the issue as quickly as possible</p>",
+            "content": "<p>We’re sorry to hear that you’re unable to place an order. Please contact <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact\">Customer Service <\/a>and we will work on resolving the issue as quickly as possible<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false

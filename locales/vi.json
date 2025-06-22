@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "password_page": {
@@ -16,7 +7,7 @@
       "login_form_password_placeholder": "Mật khẩu của bạn",
       "login_form_error": "Sai mật khẩu!",
       "login_form_submit": "Đi vào",
-      "admin_link_html": "bạn là chủ cửa hàng à? <a href=\"/admin\" class=\"btn--link\">Đăng nhập tại đây</a>",
+      "admin_link_html": "bạn là chủ cửa hàng à? <a href=\"\/admin\" class=\"btn--link\">Đăng nhập tại đây<\/a>",
       "powered_by_shopify_html": "Cửa hàng này sẽ được cung cấp bởi {{ shopify }}"
     },
     "social": {
@@ -179,10 +170,10 @@
       "view_product_list": "Xem danh sách sản phẩm",
       "description": "Sự miêu tả",
       "inventory_in_stock": "Trong kho",
-      "inventory_in_stock_show_count_html": "<strong>{0</strong> còn hàng",
+      "inventory_in_stock_show_count_html": "<strong>{0<\/strong> còn hàng",
       "inventory_low_stock": "Cổ phiếu thấp",
-      "inventory_low_stock_one_item_html": "Hãy nhanh tay lên, trong kho chỉ còn <strong>{{ quantity }}</strong> sản phẩm.",
-      "inventory_low_stock_many_items_html": "Hãy nhanh tay nhé, chỉ còn <strong>{{ quantity }}</strong> sản phẩm trong kho thôi.",
+      "inventory_low_stock_one_item_html": "Hãy nhanh tay lên, trong kho chỉ còn <strong>{{ quantity }}<\/strong> sản phẩm.",
+      "inventory_low_stock_many_items_html": "Hãy nhanh tay nhé, chỉ còn <strong>{{ quantity }}<\/strong> sản phẩm trong kho thôi.",
       "inventory_out_of_stock": "Hết hàng",
       "inventory_out_of_stock_continue_selling": "Trong kho",
       "sku": "Mã hàng",
@@ -209,25 +200,25 @@
         "multiples_of": "Số gia của {{ quantity }}",
         "min_of": "tối thiểu {{ quantity }}",
         "max_of": "Tối đa {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> trong giỏ hàng",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> trong giỏ hàng",
         "note": "Xem quy tắc số lượng"
       },
       "volume_pricing": {
         "title": "Định giá khối lượng",
         "note": "Giá khối lượng có sẵn",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "tại {{ price }}/ea",
-        "price_at_each_html": "tại {{ price }}/ea",
+        "price_at_each": "tại {{ price }}\/ea",
+        "price_at_each_html": "tại {{ price }}\/ea",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "each": "{{ money }}/ea",
-        "each_html": "{{ money }}/ea"
+        "each": "{{ money }}\/ea",
+        "each_html": "{{ money }}\/ea"
       },
       "pickup_availability": {
         "view_store_info": "Xem thông tin cửa hàng",
         "check_other_stores": "Kiểm tra tình trạng còn hàng tại các cửa hàng khác",
         "pick_up_available": "Có sẵn xe đón khách",
-        "pick_up_available_at_html": "Có thể nhận hàng tại <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Hiện không có dịch vụ nhận hàng tại <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Có thể nhận hàng tại <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Hiện không có dịch vụ nhận hàng tại <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Không thể tải tình trạng còn hàng để nhận hàng",
         "refresh": "Làm cho khỏe lại"
       },
@@ -236,7 +227,7 @@
         "regular_price": "Giá cả phải chăng",
         "sale_price": "Giá bán",
         "unit_price": "Đơn giá",
-        "save_price_html": "Lưu <span data-sale-value>{{ amount }}</span>",
+        "save_price_html": "Lưu <span data-sale-value>{{ amount }}<\/span>",
         "label": "Giá"
       },
       "share": "Chia sẻ sản phẩm này",
@@ -263,7 +254,7 @@
       "xr_button": "Xem trong không gian của bạn",
       "xr_button_label": "Xem trong không gian của bạn, tải mục trong cửa sổ thực tế tăng cường",
       "include_taxes": "Đã bao gồm thuế.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Phí vận chuyển</a> được tính khi thanh toán."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Phí vận chuyển<\/a> được tính khi thanh toán."
     },
     "modal": {
       "label": "Thư viện phương tiện"
@@ -391,9 +382,9 @@
       "empty": "Giỏ hàng của bạn hiện đang trống.",
       "cart_error": "Đã xảy ra lỗi khi cập nhật giỏ hàng của bạn. Vui lòng thử lại.",
       "cart_quantity_error_html": "Bạn chỉ có thể thêm {{ quantity }} mặt hàng này vào giỏ hàng của mình.",
-      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"{{ link }}\" class=\"btn--link\">phí vận chuyển</a> được tính khi thanh toán",
+      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"{{ link }}\" class=\"btn--link\">phí vận chuyển<\/a> được tính khi thanh toán",
       "taxes_included_but_shipping_at_checkout": "Đã bao gồm thuế và phí vận chuyển được tính khi thanh toán",
-      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"{{ link }}\" class=\"btn--link\">Giao hàng</a> và chiết khấu được tính khi thanh toán.",
+      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"{{ link }}\" class=\"btn--link\">Giao hàng<\/a> và chiết khấu được tính khi thanh toán.",
       "taxes_and_shipping_at_checkout": "Thuế và phí vận chuyển được tính khi thanh toán",
       "headings": {
         "product": "Sản phẩm",
@@ -405,7 +396,7 @@
       "update": "Cập nhật",
       "login": {
         "title": "Có một tài khoản?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link gạch dưới-link\">Đăng nhập</a> để kiểm tra nhanh hơn."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link gạch dưới-link\">Đăng nhập<\/a> để kiểm tra nhanh hơn."
       }
     },
     "footer": {
@@ -427,7 +418,7 @@
     "collection_template": {
       "empty": "Không tìm thấy sản phẩm nào",
       "title": "Bộ sưu tập",
-      "use_fewer_filters_html": "Sử dụng ít bộ lọc hơn hoặc <a class=\"{{ class }}\" href=\"{{ link }}\">xóa tất cả</a>"
+      "use_fewer_filters_html": "Sử dụng ít bộ lọc hơn hoặc <a class=\"{{ class }}\" href=\"{{ link }}\">xóa tất cả<\/a>"
     },
     "video": {
       "load_video": "Tải video: {{ description }}"
@@ -463,8 +454,8 @@
     "quick_order_list": {
       "product_total": "Tổng phụ sản phẩm",
       "view_cart": "Xem giỏ hàng",
-      "each": "{{ money }}/ea",
-      "each_html": "{{ money }}/ea",
+      "each": "{{ money }}\/ea",
+      "each_html": "{{ money }}\/ea",
       "product": "Sản phẩm",
       "variant": "Khác nhau",
       "variant_total": "Tổng số biến thể",
@@ -488,13 +479,13 @@
     }
   },
   "localization": {
-    "country_label": "Quốc gia/khu vực",
+    "country_label": "Quốc gia\/khu vực",
     "language_label": "Ngôn ngữ",
     "update_language": "Cập nhật ngôn ngữ",
-    "update_country": "Cập nhật quốc gia/khu vực",
+    "update_country": "Cập nhật quốc gia\/khu vực",
     "search": "Tìm kiếm",
-    "popular_countries_regions": "Các quốc gia/khu vực phổ biến",
-    "country_results_count": "Đã tìm thấy {{ count }} quốc gia/khu vực"
+    "popular_countries_regions": "Các quốc gia\/khu vực phổ biến",
+    "country_results_count": "Đã tìm thấy {{ count }} quốc gia\/khu vực"
   },
   "customer": {
     "account": {
@@ -523,9 +514,9 @@
       "address1": "địa chỉ 1",
       "address2": "Địa chỉ 2",
       "city": "Thành phố",
-      "country": "Quốc gia/khu vực",
+      "country": "Quốc gia\/khu vực",
       "province": "Tỉnh",
-      "zip": "Mã bưu điện/ZIP",
+      "zip": "Mã bưu điện\/ZIP",
       "phone": "Điện thoại",
       "set_default": "Đặt địa chỉ mặc định",
       "add": "Thêm địa chỉ",

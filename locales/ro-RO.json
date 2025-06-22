@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "password_page": {
@@ -16,7 +7,7 @@
       "login_form_password_placeholder": "Parola Dvs",
       "login_form_error": "Parola gresita!",
       "login_form_submit": "introduce",
-      "admin_link_html": "Sunteți proprietarul magazinului? <a href=\"/admin\" class=\"btn--link\">Conectați-vă aici</a>",
+      "admin_link_html": "Sunteți proprietarul magazinului? <a href=\"\/admin\" class=\"btn--link\">Conectați-vă aici<\/a>",
       "powered_by_shopify_html": "Acest magazin va fi alimentat de {{ shopify }}"
     },
     "social": {
@@ -179,10 +170,10 @@
       "view_product_list": "Vezi lista de produse",
       "description": "Descriere",
       "inventory_in_stock": "În stoc",
-      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}</strong> în stoc",
+      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}<\/strong> în stoc",
       "inventory_low_stock": "Stoc redus",
-      "inventory_low_stock_one_item_html": "Grăbește-te, doar <strong>{{ quantity }}</strong> articol rămas în stoc.",
-      "inventory_low_stock_many_items_html": "Grăbește-te, doar <strong>{{ quantity }}</strong> articole rămase în stoc.",
+      "inventory_low_stock_one_item_html": "Grăbește-te, doar <strong>{{ quantity }}<\/strong> articol rămas în stoc.",
+      "inventory_low_stock_many_items_html": "Grăbește-te, doar <strong>{{ quantity }}<\/strong> articole rămase în stoc.",
       "inventory_out_of_stock": "Epuizat",
       "inventory_out_of_stock_continue_selling": "În stoc",
       "sku": "SKU",
@@ -209,25 +200,25 @@
         "multiples_of": "Creșteri de {{ quantity }}",
         "min_of": "Min {{ quantity }}",
         "max_of": "Max {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> în coș",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> în coș",
         "note": "Vedeți regulile de cantitate"
       },
       "volume_pricing": {
         "title": "Prețuri de volum",
         "note": "Prețul pentru volum disponibil",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "la {{ price }}/ea",
-        "price_at_each_html": "la {{ price }}/ea",
+        "price_at_each": "la {{ price }}\/ea",
+        "price_at_each_html": "la {{ price }}\/ea",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "each": "{{ money }}/ea",
-        "each_html": "{{ money }}/ea"
+        "each": "{{ money }}\/ea",
+        "each_html": "{{ money }}\/ea"
       },
       "pickup_availability": {
         "view_store_info": "Vizualizați informațiile despre magazin",
         "check_other_stores": "Verifica disponibilitatea in alte magazine",
         "pick_up_available": "Ridicare disponibilă",
-        "pick_up_available_at_html": "Ridicare disponibilă la <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Ridicare nu este disponibilă momentan la <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Ridicare disponibilă la <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Ridicare nu este disponibilă momentan la <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Nu s-a putut încărca disponibilitatea ridicării",
         "refresh": "Reîmprospăta"
       },
@@ -236,7 +227,7 @@
         "regular_price": "Preț obișnuit",
         "sale_price": "Preț de vânzare",
         "unit_price": "Preț unitar",
-        "save_price_html": "Salvați <span data-sale-value>{{ amount }}</span>",
+        "save_price_html": "Salvați <span data-sale-value>{{ amount }}<\/span>",
         "label": "Preţ"
       },
       "share": "Distribuie acest produs",
@@ -263,7 +254,7 @@
       "xr_button": "Vedeți în spațiul dvs",
       "xr_button_label": "Vizualizați în spațiul dvs., încarcă elementul în fereastra de realitate augmentată",
       "include_taxes": "Taxă inclusă.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Livrarea</a> calculată la finalizarea comenzii."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Livrarea<\/a> calculată la finalizarea comenzii."
     },
     "modal": {
       "label": "Galeria media"
@@ -391,9 +382,9 @@
       "empty": "Coșul tău este momentan gol.",
       "cart_error": "A apărut o eroare la actualizarea coșului. Vă rugăm să încercați din nou.",
       "cart_quantity_error_html": "Puteți adăuga doar {{ quantity }} din acest articol în coș.",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxe și <a href=\"{{ link }}\" class=\"btn--link\">livrare</a> calculate la finalizarea comenzii",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxe și <a href=\"{{ link }}\" class=\"btn--link\">livrare<\/a> calculate la finalizarea comenzii",
       "taxes_included_but_shipping_at_checkout": "Taxa inclusă și transportul calculat la finalizare",
-      "taxes_included_and_shipping_policy_html": "Taxă inclusă. <a href=\"{{ link }}\" class=\"btn--link\">Livrare</a> și reduceri calculate la finalizarea comenzii.",
+      "taxes_included_and_shipping_policy_html": "Taxă inclusă. <a href=\"{{ link }}\" class=\"btn--link\">Livrare<\/a> și reduceri calculate la finalizarea comenzii.",
       "taxes_and_shipping_at_checkout": "Taxele și transportul sunt calculate la checkout",
       "headings": {
         "product": "Produs",
@@ -405,7 +396,7 @@
       "update": "Actualizați",
       "login": {
         "title": "Are un cont?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Conectați-vă</a> pentru a verifica mai rapid."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Conectați-vă<\/a> pentru a verifica mai rapid."
       }
     },
     "footer": {
@@ -427,7 +418,7 @@
     "collection_template": {
       "empty": "Nu s-au găsit produse",
       "title": "Colectie",
-      "use_fewer_filters_html": "Folosiți mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">eliminați-le pe toate</a>"
+      "use_fewer_filters_html": "Folosiți mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">eliminați-le pe toate<\/a>"
     },
     "video": {
       "load_video": "Încărcați videoclipul: {{ description }}"
@@ -463,8 +454,8 @@
     "quick_order_list": {
       "product_total": "Subtotal produs",
       "view_cart": "Vizualizare coș",
-      "each": "{{ money }}/ea",
-      "each_html": "{{ money }}/ea",
+      "each": "{{ money }}\/ea",
+      "each_html": "{{ money }}\/ea",
       "product": "Produs",
       "variant": "Variantă",
       "variant_total": "Total variante",
@@ -488,13 +479,13 @@
     }
   },
   "localization": {
-    "country_label": "Țara/regiune",
+    "country_label": "Țara\/regiune",
     "language_label": "Limba",
     "update_language": "Actualizați limba",
-    "update_country": "Actualizați țara/regiunea",
+    "update_country": "Actualizați țara\/regiunea",
     "search": "Căutare",
-    "popular_countries_regions": "Țări/regiuni populare",
-    "country_results_count": "S-au găsit {{ count }} țări/regiuni"
+    "popular_countries_regions": "Țări\/regiuni populare",
+    "country_results_count": "S-au găsit {{ count }} țări\/regiuni"
   },
   "customer": {
     "account": {
@@ -523,7 +514,7 @@
       "address1": "Adresa 1",
       "address2": "Adresa 2",
       "city": "Oraș",
-      "country": "Țara/regiune",
+      "country": "Țara\/regiune",
       "province": "Provincie",
       "zip": "Cod poștal",
       "phone": "Telefon",

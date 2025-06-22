@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
       "settings": {
         "font_family_options": {
           "label": "Fonttiperhe",
-          "info": "Eri fontin valitseminen voi vaikuttaa myymäläsi nopeuteen. [Lisätietoja järjestelmäfonteista.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
+          "info": "Eri fontin valitseminen voi vaikuttaa myymäläsi nopeuteen. [Lisätietoja järjestelmäfonteista.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
           "options__1": {
             "label": "Rungon fontti"
           },
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "Kielet tukevat RTL:ää",
-          "info": "Anna ISO-kielikoodi pilkulla erotettuna. Jätä tyhjäksi ottaaksesi kaikki kielet käyttöön. [Tarkista ISO-kielikoodi](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "Anna ISO-kielikoodi pilkulla erotettuna. Jätä tyhjäksi ottaaksesi kaikki kielet käyttöön. [Tarkista ISO-kielikoodi](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "Ota takaisin alkuun -painike käyttöön"
@@ -587,7 +578,7 @@
       "settings": {
         "type_header_font": {
           "label": "Fontti",
-          "info": "Eri fontin valitseminen voi vaikuttaa myymäläsi nopeuteen. [Lisätietoja järjestelmäfonteista.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Eri fontin valitseminen voi vaikuttaa myymäläsi nopeuteen. [Lisätietoja järjestelmäfonteista.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "Fonttikoko asteikko"
@@ -645,7 +636,7 @@
         },
         "type_body_font": {
           "label": "Fontti",
-          "info": "Eri fontin valitseminen voi vaikuttaa myymäläsi nopeuteen. [Lisätietoja järjestelmäfonteista.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Eri fontin valitseminen voi vaikuttaa myymäläsi nopeuteen. [Lisätietoja järjestelmäfonteista.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "bolder_font_weight": {
           "label": "Lihavoitumpi fontin paino",
@@ -686,40 +677,40 @@
           "content": "Sosiaaliset tilit"
         },
         "social_twitter_link": {
-          "label": "X / Twitter",
-          "info": "https://x.com/shopify"
+          "label": "X \/ Twitter",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "Ilmaisen toimituksen tavoite"
         },
         "paragraph__1": {
-          "content": "Varmista, että olet määrittänyt [toimitushinnat] oikein (/admin/settings/shipping)"
+          "content": "Varmista, että olet määrittänyt [toimitushinnat] oikein (\/admin\/settings\/shipping)"
         },
         "free_shipping_minimum_amount": {
           "label": "Ilmainen toimitus minimisumma",
-          "info": "Aseta ilmaisen toimituksen vähimmäissumma [teema-asetuksissa](/editor?context=theme&category=cart)."
+          "info": "Aseta ilmaisen toimituksen vähimmäissumma [teema-asetuksissa](\/editor?context=theme&category=cart)."
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "Nestemäinen koodi",
-          "info": "Luo lisämuokkauksia lisäämällä sovelluksen katkelmia tai muuta koodia. [Lisätietoja](https://shopify.dev/docs/api/liquid)"
+          "info": "Luo lisämuokkauksia lisäämällä sovelluksen katkelmia tai muuta koodia. [Lisätietoja](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,29 +1958,29 @@
       "settings": {
         "header__1": {
           "content": "Sähköpostiin ilmoittautuminen",
-          "info": "Tilaajat lisätään automaattisesti \"hyväksyttyjen markkinoinnin\" asiakasluetteloosi. [Lisätietoja](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "Tilaajat lisätään automaattisesti \"hyväksyttyjen markkinoinnin\" asiakasluetteloosi. [Lisätietoja](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "Sosiaalisen median kuvakkeet",
-          "info": "Jos haluat näyttää sosiaalisen median tilisi, linkitä ne [teeman asetuksiin] (/editor?context=theme&category=social%20media)."
+          "info": "Jos haluat näyttää sosiaalisen median tilisi, linkitä ne [teeman asetuksiin] (\/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Näytä sosiaalisen median kuvakkeet"
         },
         "header__3": {
-          "content": "Maan/alueen valitsin"
+          "content": "Maan\/alueen valitsin"
         },
         "header__4": {
-          "info": "Lisää maa/alue siirtymällä kohtaan [market settings.](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "info": "Lisää maa\/alue siirtymällä kohtaan [market settings.](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         },
         "enable_country_selector": {
-          "label": "Ota maan/alueen valitsin käyttöön"
+          "label": "Ota maan\/alueen valitsin käyttöön"
         },
         "header__5": {
           "content": "Kielen valitsin"
         },
         "header__6": {
-          "info": "Lisää kieli siirtymällä kohtaan [kieliasetukset.](/admin/settings/languages)"
+          "info": "Lisää kieli siirtymällä kohtaan [kieliasetukset.](\/admin\/settings\/languages)"
         },
         "enable_language_selector": {
           "label": "Ota kielenvalitsin käyttöön"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "Seuraa Shopissa",
-          "info": "Jotta asiakkaat voivat seurata kauppaasi Shop-sovelluksessa myymälästäsi, Shop Payn on oltava käytössä. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Jotta asiakkaat voivat seurata kauppaasi Shop-sovelluksessa myymälästäsi, Shop Payn on oltava käytössä. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Ota Seuraa kaupassa käyttöön"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "Otsikko",
       "paragraph": {
-        "content": "Muokkaa logoasi kohdassa [teemaasetukset](/editor?context=theme&category=logo)."
+        "content": "Muokkaa logoasi kohdassa [teemaasetukset](\/editor?context=theme&category=logo)."
       },
       "settings": {
         "hide_sperator_on_pages": {
@@ -2092,11 +2083,11 @@
         },
         "enable_language_selector": {
           "label": "Ota kielenvalitsin käyttöön",
-          "info": "Lisää kieli siirtymällä [kieliasetuksiin.](/admin/settings/languages)"
+          "info": "Lisää kieli siirtymällä [kieliasetuksiin.](\/admin\/settings\/languages)"
         },
         "enable_country_selector": {
-          "label": "Ota maan/alueen valitsin käyttöön",
-          "info": "Lisää maa/alue siirtymällä [markkina-asetuksiin.](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "label": "Ota maan\/alueen valitsin käyttöön",
+          "info": "Lisää maa\/alue siirtymällä [markkina-asetuksiin.](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "Näytä kokoelmakuva"
         },
         "paragraph": {
-          "content": "Lisää kuvaus tai kuva muokkaamalla kokoelmaasi. [Lisätietoja](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "Lisää kuvaus tai kuva muokkaamalla kokoelmaasi. [Lisätietoja](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "asetukset"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "Ota suodatus käyttöön",
-          "info": "Muokkaa suodattimia Search & Discovery -sovelluksella. [Lisätietoja](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Muokkaa suodattimia Search & Discovery -sovelluksella. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "Työpöydän suodatinasettelu",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "Ota suodatus käyttöön",
-          "info": "Muokkaa suodattimia Search & Discovery -sovelluksella. [Lisätietoja](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Muokkaa suodattimia Search & Discovery -sovelluksella. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "Nopea lisäys",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "Neliö"
           },
-          "info": "Lisää kuvia muokkaamalla kokoelmiasi. [Lisätietoja](https://help.shopify.com/manual/products/collections)"
+          "info": "Lisää kuvia muokkaamalla kokoelmiasi. [Lisätietoja](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "Sarakkeiden määrä työpöydällä"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "Sisältöviesti",
           "header": "Salasana viesti",
-          "info": "Viesti asetettu [verkkokaupan asetuksiin] (/admin/online_store/preferences)"
+          "info": "Viesti asetettu [verkkokaupan asetuksiin] (\/admin\/online_store\/preferences)"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "Näytä eri kokotaulukko tietylle mallistolle tai tuotteelle."
               },
               "paragraph_2": {
-                "content": "Luo mukautettu metakenttä tuotteelle nimiavaruudella ja avaimella: \"foxtheme.size_chart\". [Lisää metakenttä](/admin/metafields/product)"
+                "content": "Luo mukautettu metakenttä tuotteelle nimiavaruudella ja avaimella: \"foxtheme.size_chart\". [Lisää metakenttä](\/admin\/metafields\/product)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "Näytä dynaamiset kassapainikkeet",
-              "info": "Käyttämällä kaupassasi saatavilla olevia maksutapoja asiakkaat näkevät haluamansa vaihtoehdon, kuten PayPalin tai Apple Payn. [Lisätietoja](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "Käyttämällä kaupassasi saatavilla olevia maksutapoja asiakkaat näkevät haluamansa vaihtoehdon, kuten PayPalin tai Apple Payn. [Lisätietoja](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "Näytä lahjakorttien vastaanottajan tietolomake",
-              "info": "Mahdollistaa lahjakorttien lähettämisen sovittuna päivänä henkilökohtaisen viestin mukana. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Mahdollistaa lahjakorttien lähettämisen sovittuna päivänä henkilökohtaisen viestin mukana. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "Täydentävät tuotteet",
           "settings": {
             "paragraph": {
-              "content": "Voit valita täydentäviä tuotteita lisäämällä Search & Discovery -sovelluksen. [Lisätietoja](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Voit valita täydentäviä tuotteita lisäämällä Search & Discovery -sovelluksen. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Otsikko"
@@ -2844,14 +2835,14 @@
               "label": "Näytä sosiaalinen jakaminen"
             },
             "featured_image_info": {
-              "content": "Jos lisäät linkin sosiaalisen median viesteihin, sivun esittelykuva näytetään esikatselukuvana. [Lisätietoja](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Jos lisäät linkin sosiaalisen median viesteihin, sivun esittelykuva näytetään esikatselukuvana. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Kaupan nimi ja kuvaus sisältyvät esikatselukuvaan. [Lisätietoja](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Kaupan nimi ja kuvaus sisältyvät esikatselukuvaan. [Lisätietoja](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "ask_question": {
               "label": "Näytä kysymyslomake",
-              "content": "Tämä lomake lähettää kaikki lähetykset myymäläsi lähettäjän sähköpostiosoitteeseen. Voit muuttaa lähettäjän sähköpostiosoitetta Shopify adminin [Store details](/admin/settings/general) -asetussivulla."
+              "content": "Tämä lomake lähettää kaikki lähetykset myymäläsi lähettäjän sähköpostiosoitteeseen. Voit muuttaa lähettäjän sähköpostiosoitetta Shopify adminin [Store details](\/admin\/settings\/general) -asetussivulla."
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "Toimita tekstiä",
             "deliver_days": {
               "label": "Toimita sisään:",
-              "info": "päivää (+/- 2 päivää)"
+              "info": "päivää (+\/- 2 päivää)"
             },
             "date_format": {
               "label": "Päivämäärämuoto",
-              "info": "Esimerkki: %m/%d [Lisätietoja päivämäärän muodosta täältä.](http://strftime.net/)"
+              "info": "Esimerkki: %m\/%d [Lisätietoja päivämäärän muodosta täältä.](http:\/\/strftime.net\/)"
             }
           }
         },
@@ -2956,7 +2947,7 @@
       "settings": {
         "header": {
           "content": "Media",
-          "info": "Lisätietoja [mediatyypeistä.](https://help.shopify.com/manual/products/product-media)"
+          "info": "Lisätietoja [mediatyypeistä.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_sticky_info": {
           "label": "Ota tahmea sisältö käyttöön työpöydällä"
@@ -3181,7 +3172,7 @@
       "name": "Liittyvät tuotteet",
       "settings": {
         "paragraph__1": {
-          "content": "Dynaamiset suositukset käyttävät tilaus- ja tuotetietoja muuttuakseen ja parantaakseen ajan myötä. [Lisätietoja](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dynaamiset suositukset käyttävät tilaus- ja tuotetietoja muuttuakseen ja parantaakseen ajan myötä. [Lisätietoja](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3341,10 +3332,10 @@
       "name": "Lookbook kortit"
     },
     "image-comparison": {
-      "name": "Ennen/jälkeen-kuvan liukusäädin",
+      "name": "Ennen\/jälkeen-kuvan liukusäädin",
       "settings": {
         "header__image_settings": {
-          "content": "Ennen/jälkeen -kuva-asetukset"
+          "content": "Ennen\/jälkeen -kuva-asetukset"
         },
         "direction": {
           "label": "Suunta",
@@ -3394,7 +3385,7 @@
         }
       },
       "presets": {
-        "name": "Ennen/jälkeen-kuvan liukusäädin"
+        "name": "Ennen\/jälkeen-kuvan liukusäädin"
       }
     },
     "media-with-collection": {
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "Videon vaihtoehtoinen teksti",
-          "info": "Kuvaile video näytönlukuohjelmia käyttäville asiakkaille. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "Kuvaile video näytönlukuohjelmia käyttäville asiakkaille. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "Videosuhde",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "Mukautettu neste",
-              "info": "Lisää sovelluksen katkelmia tai muuta koodia, jotta voit luoda lisävarusteita. [Opi lisää] (https://shopify.dev/docs/api/liquid)"
+              "info": "Lisää sovelluksen katkelmia tai muuta koodia, jotta voit luoda lisävarusteita. [Opi lisää] (https:\/\/shopify.dev\/docs\/api\/liquid)"
             },
             "page": {
               "label": "Välilehti sivun sisältö"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "Alennuskoodi",
-              "info": "Anna asiakkaille alennuskoodi. [Näytä alennuskoodit](/admin/discounts)"
+              "info": "Anna asiakkaille alennuskoodi. [Näytä alennuskoodit](\/admin\/discounts)"
             },
             "apply_button": "Käytä-painike",
             "apply_button_info": "Tämä alennus otetaan käyttöön kassalla, kun asiakkaat napsauttavat tätä painiketta."
@@ -4179,7 +4170,7 @@
           "content": "Ilmaisen toimituksen tavoite"
         },
         "paragraph": {
-          "content": "Varmista, että olet määrittänyt [toimitushinnat] oikein (/admin/settings/shipping)"
+          "content": "Varmista, että olet määrittänyt [toimitushinnat] oikein (\/admin\/settings\/shipping)"
         },
         "show_free_shipping_goal": {
           "label": "Näytä ilmainen toimitus maailmanlaajuisesti"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "Loppuu aika",
-              "info": "Päivämäärän muoto: VVVV/KK/PP TT:MM tai VVVV/KK/PP HH:MM AA.",
-              "paragraph": "Esimerkki päivämäärämuodosta: 2024/06/30 23:59 tai 2024/06/30 23:59"
+              "info": "Päivämäärän muoto: VVVV\/KK\/PP TT:MM tai VVVV\/KK\/PP HH:MM AA.",
+              "paragraph": "Esimerkki päivämäärämuodosta: 2024\/06\/30 23:59 tai 2024\/06\/30 23:59"
             },
             "style": {
               "label": "Tyyli",

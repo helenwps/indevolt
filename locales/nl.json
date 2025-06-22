@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "password_page": {
@@ -16,7 +7,7 @@
       "login_form_password_placeholder": "Je wachtwoord",
       "login_form_error": "Verkeerd wachtwoord!",
       "login_form_submit": "Binnenkomen",
-      "admin_link_html": "Bent u de winkeleigenaar? <a href=\"/admin\" class=\"btn--link\">Log hier in</a>",
+      "admin_link_html": "Bent u de winkeleigenaar? <a href=\"\/admin\" class=\"btn--link\">Log hier in<\/a>",
       "powered_by_shopify_html": "Deze winkel wordt mogelijk gemaakt door {{ shopify }}"
     },
     "social": {
@@ -179,10 +170,10 @@
       "view_product_list": "Bekijk productlijst",
       "description": "Beschrijving",
       "inventory_in_stock": "Op voorraad",
-      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}</strong> op voorraad",
+      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}<\/strong> op voorraad",
       "inventory_low_stock": "Lage voorraad",
-      "inventory_low_stock_one_item_html": "Schiet op, er is nog maar <strong>{{ quantity }}</strong> artikel op voorraad.",
-      "inventory_low_stock_many_items_html": "Schiet op, er zijn nog maar <strong>{{ quantity }}</strong> artikelen op voorraad.",
+      "inventory_low_stock_one_item_html": "Schiet op, er is nog maar <strong>{{ quantity }}<\/strong> artikel op voorraad.",
+      "inventory_low_stock_many_items_html": "Schiet op, er zijn nog maar <strong>{{ quantity }}<\/strong> artikelen op voorraad.",
       "inventory_out_of_stock": "Geen voorraad meer",
       "inventory_out_of_stock_continue_selling": "Op voorraad",
       "sku": "SKU",
@@ -209,25 +200,25 @@
         "multiples_of": "Stappen van {{ quantity }}",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Maximaal {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in winkelwagen",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> in winkelwagen",
         "note": "Bekijk hoeveelheidsregels"
       },
       "volume_pricing": {
         "title": "Volumeprijzen",
         "note": "Volumeprijzen beschikbaar",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "bij {{ price }}/stuk",
-        "price_at_each_html": "bij {{ price }}/stuk",
+        "price_at_each": "bij {{ price }}\/stuk",
+        "price_at_each_html": "bij {{ price }}\/stuk",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "each": "{{ money }}/stuk",
-        "each_html": "{{ money }}/stuk"
+        "each": "{{ money }}\/stuk",
+        "each_html": "{{ money }}\/stuk"
       },
       "pickup_availability": {
         "view_store_info": "Winkelinformatie bekijken",
         "check_other_stores": "Controleer beschikbaarheid bij andere winkels",
         "pick_up_available": "Ophalen beschikbaar",
-        "pick_up_available_at_html": "Ophalen mogelijk bij <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Ophalen is momenteel niet mogelijk op <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Ophalen mogelijk bij <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Ophalen is momenteel niet mogelijk op <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Kan de beschikbaarheid voor ophalen niet laden",
         "refresh": "Vernieuwen"
       },
@@ -236,7 +227,7 @@
         "regular_price": "Normale prijs",
         "sale_price": "Verkoopprijs",
         "unit_price": "Eenheid prijs",
-        "save_price_html": "Bespaar <span data-sale-value>{{ amount }}</span>",
+        "save_price_html": "Bespaar <span data-sale-value>{{ amount }}<\/span>",
         "label": "Prijs"
       },
       "share": "Deel dit product",
@@ -263,7 +254,7 @@
       "xr_button": "Bekijk in uw ruimte",
       "xr_button_label": "Bekijk in uw ruimte, laadt item in augmented reality-venster",
       "include_taxes": "Inclusief belasting.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Verzending</a> berekend bij het afrekenen."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Verzending<\/a> berekend bij het afrekenen."
     },
     "modal": {
       "label": "Media galerij"
@@ -391,9 +382,9 @@
       "empty": "Je winkelwagen is momenteel leeg.",
       "cart_error": "Er is een fout opgetreden bij het bijwerken van uw winkelwagen. Probeer het opnieuw.",
       "cart_quantity_error_html": "U kunt slechts {{ quantity }} van dit artikel aan uw winkelwagen toevoegen.",
-      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\" class=\"btn--link\">verzending</a> berekend bij het afrekenen",
+      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\" class=\"btn--link\">verzending<\/a> berekend bij het afrekenen",
       "taxes_included_but_shipping_at_checkout": "Inclusief belasting en verzendkosten berekend bij het afrekenen",
-      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\" class=\"btn--link\">Verzending</a> en kortingen berekend bij het afrekenen.",
+      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\" class=\"btn--link\">Verzending<\/a> en kortingen berekend bij het afrekenen.",
       "taxes_and_shipping_at_checkout": "Belastingen en verzendkosten berekend bij het afrekenen",
       "headings": {
         "product": "Product",
@@ -405,7 +396,7 @@
       "update": "Update",
       "login": {
         "title": "Een account hebben?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> om sneller af te rekenen."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> om sneller af te rekenen."
       }
     },
     "footer": {
@@ -427,7 +418,7 @@
     "collection_template": {
       "empty": "Geen producten gevonden",
       "title": "Verzameling",
-      "use_fewer_filters_html": "Gebruik minder filters of <a class=\"{{ class }}\" href=\"{{ link }}\">verwijder alles</a>"
+      "use_fewer_filters_html": "Gebruik minder filters of <a class=\"{{ class }}\" href=\"{{ link }}\">verwijder alles<\/a>"
     },
     "video": {
       "load_video": "Video laden: {{ description }}"
@@ -463,8 +454,8 @@
     "quick_order_list": {
       "product_total": "Subtotaal van product",
       "view_cart": "Bekijk winkelwagen",
-      "each": "{{ money }}/stuk",
-      "each_html": "{{ money }}/stuk",
+      "each": "{{ money }}\/stuk",
+      "each_html": "{{ money }}\/stuk",
       "product": "Product",
       "variant": "Variant",
       "variant_total": "Variant totaal",
@@ -488,13 +479,13 @@
     }
   },
   "localization": {
-    "country_label": "Land/regio",
+    "country_label": "Land\/regio",
     "language_label": "Taal",
     "update_language": "Taal bijwerken",
-    "update_country": "Land/regio bijwerken",
+    "update_country": "Land\/regio bijwerken",
     "search": "Zoekopdracht",
-    "popular_countries_regions": "Populaire landen/regio's",
-    "country_results_count": "{{ count }} landen/regio's gevonden"
+    "popular_countries_regions": "Populaire landen\/regio's",
+    "country_results_count": "{{ count }} landen\/regio's gevonden"
   },
   "customer": {
     "account": {
@@ -523,7 +514,7 @@
       "address1": "adres 1",
       "address2": "Adres 2",
       "city": "Stad",
-      "country": "Land/regio",
+      "country": "Land\/regio",
       "province": "Provincie",
       "zip": "Postcode",
       "phone": "Telefoon",

@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
       "settings": {
         "font_family_options": {
           "label": "Rodzina czcionek",
-          "info": "Wybór innej czcionki może mieć wpływ na szybkość działania Twojego sklepu. [Dowiedz się więcej o czcionkach systemowych.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
+          "info": "Wybór innej czcionki może mieć wpływ na szybkość działania Twojego sklepu. [Dowiedz się więcej o czcionkach systemowych.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
           "options__1": {
             "label": "Czcionka ciała"
           },
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "Języki obsługują RTL",
-          "info": "Wprowadź kod języka ISO, oddzielając go przecinkiem. Pozostaw puste, aby włączyć dla wszystkich języków. [Sprawdź kod języka ISO](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "Wprowadź kod języka ISO, oddzielając go przecinkiem. Pozostaw puste, aby włączyć dla wszystkich języków. [Sprawdź kod języka ISO](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "Włącz przycisk powrotu na górę"
@@ -587,7 +578,7 @@
       "settings": {
         "type_header_font": {
           "label": "Czcionka",
-          "info": "Wybór innej czcionki może mieć wpływ na szybkość działania Twojego sklepu. [Dowiedz się więcej o czcionkach systemowych.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Wybór innej czcionki może mieć wpływ na szybkość działania Twojego sklepu. [Dowiedz się więcej o czcionkach systemowych.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "Skala wielkości czcionki"
@@ -645,7 +636,7 @@
         },
         "type_body_font": {
           "label": "Czcionka",
-          "info": "Wybór innej czcionki może mieć wpływ na szybkość działania Twojego sklepu. [Dowiedz się więcej o czcionkach systemowych.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Wybór innej czcionki może mieć wpływ na szybkość działania Twojego sklepu. [Dowiedz się więcej o czcionkach systemowych.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "bolder_font_weight": {
           "label": "Grubsza czcionka",
@@ -686,40 +677,40 @@
           "content": "Konta społecznościowe"
         },
         "social_twitter_link": {
-          "label": "X/Twitter",
-          "info": "https://x.com/shopify"
+          "label": "X\/Twitter",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinteresta",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "Instagrama",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "TIK Tok",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "Youtube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "Cel bezpłatnej wysyłki"
         },
         "paragraph__1": {
-          "content": "Upewnij się, że poprawnie skonfigurowałeś [stawki za wysyłkę](/admin/settings/shipping)"
+          "content": "Upewnij się, że poprawnie skonfigurowałeś [stawki za wysyłkę](\/admin\/settings\/shipping)"
         },
         "free_shipping_minimum_amount": {
           "label": "Minimalna kwota bezpłatnej wysyłki",
-          "info": "Ustaw minimalną kwotę bezpłatnej wysyłki w [ustawieniach motywu](/editor?context=theme&category=cart)."
+          "info": "Ustaw minimalną kwotę bezpłatnej wysyłki w [ustawieniach motywu](\/editor?context=theme&category=cart)."
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "Płynny kod",
-          "info": "Dodaj fragmenty aplikacji lub inny kod, aby utworzyć zaawansowane dostosowania. [Dowiedz się więcej](https://shopify.dev/docs/api/liquid)"
+          "info": "Dodaj fragmenty aplikacji lub inny kod, aby utworzyć zaawansowane dostosowania. [Dowiedz się więcej](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,29 +1958,29 @@
       "settings": {
         "header__1": {
           "content": "Rejestracja e-mailowa",
-          "info": "Subskrybenci dodawani automatycznie do listy klientów z „akceptowanym marketingiem”. [Dowiedz się więcej](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "Subskrybenci dodawani automatycznie do listy klientów z „akceptowanym marketingiem”. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "Ikony mediów społecznościowych",
-          "info": "Aby wyświetlić swoje konta w mediach społecznościowych, połącz je w [ustawieniach motywu](/editor?context=theme&category=social%20media)."
+          "info": "Aby wyświetlić swoje konta w mediach społecznościowych, połącz je w [ustawieniach motywu](\/editor?context=theme&category=social%20media)."
         },
         "show_social": {
           "label": "Pokaż ikony mediów społecznościowych"
         },
         "header__3": {
-          "content": "Selektor kraju/regionu"
+          "content": "Selektor kraju\/regionu"
         },
         "header__4": {
-          "info": "Aby dodać kraj/region, przejdź do [ustawień rynku.](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "info": "Aby dodać kraj\/region, przejdź do [ustawień rynku.](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         },
         "enable_country_selector": {
-          "label": "Włącz selektor kraju/regionu"
+          "label": "Włącz selektor kraju\/regionu"
         },
         "header__5": {
           "content": "Selektor języka"
         },
         "header__6": {
-          "info": "Aby dodać język, przejdź do [ustawień języka.](/admin/settings/languages)"
+          "info": "Aby dodać język, przejdź do [ustawień języka.](\/admin\/settings\/languages)"
         },
         "enable_language_selector": {
           "label": "Włącz selektor języka"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "Śledź w sklepie",
-          "info": "Aby klienci mogli śledzić Twój sklep w aplikacji Shop z poziomu witryny sklepowej, musi być włączona funkcja Shop Pay. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Aby klienci mogli śledzić Twój sklep w aplikacji Shop z poziomu witryny sklepowej, musi być włączona funkcja Shop Pay. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Włącz opcję Obserwuj w sklepie"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "nagłówek",
       "paragraph": {
-        "content": "Edytuj swoje logo w [ustawieniach motywu](/editor?context=theme&category=logo)."
+        "content": "Edytuj swoje logo w [ustawieniach motywu](\/editor?context=theme&category=logo)."
       },
       "settings": {
         "menu": {
@@ -2092,11 +2083,11 @@
         },
         "enable_language_selector": {
           "label": "Włącz selektor języka",
-          "info": "Aby dodać język, przejdź do [ustawień języka.](/admin/settings/languages)"
+          "info": "Aby dodać język, przejdź do [ustawień języka.](\/admin\/settings\/languages)"
         },
         "enable_country_selector": {
-          "label": "Włącz selektor kraju/regionu",
-          "info": "Aby dodać kraj/region, przejdź do [ustawień rynku.](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "label": "Włącz selektor kraju\/regionu",
+          "info": "Aby dodać kraj\/region, przejdź do [ustawień rynku.](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "Pokaż obraz kolekcji"
         },
         "paragraph": {
-          "content": "Dodaj opis lub zdjęcie, edytując swoją kolekcję. [Dowiedz się więcej](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "Dodaj opis lub zdjęcie, edytując swoją kolekcję. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "Ustawienia"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "Włącz filtrowanie",
-          "info": "Dostosuj filtry za pomocą aplikacji Szukaj i odkrywanie. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Dostosuj filtry za pomocą aplikacji Szukaj i odkrywanie. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "Układ filtra pulpitu",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "Włącz filtrowanie",
-          "info": "Dostosuj filtry za pomocą aplikacji Szukaj i odkrywanie. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Dostosuj filtry za pomocą aplikacji Szukaj i odkrywanie. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "Szybkie dodawanie",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "Kwadrat"
           },
-          "info": "Dodawaj obrazy, edytując swoje kolekcje. [Dowiedz się więcej](https://help.shopify.com/manual/products/collections)"
+          "info": "Dodawaj obrazy, edytując swoje kolekcje. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "Liczba kolumn na pulpicie"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "Treść wiadomości",
           "header": "Wiadomość dotycząca hasła",
-          "info": "Wiadomość ustawiona w Twoich [preferencjach sklepu internetowego](/admin/online_store/preferences)"
+          "info": "Wiadomość ustawiona w Twoich [preferencjach sklepu internetowego](\/admin\/online_store\/preferences)"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "Pokaż inną tabelę rozmiarów dla konkretnej kolekcji lub produktu."
               },
               "paragraph_2": {
-                "content": "Utwórz niestandardowe metapole dla produktu z przestrzenią nazw i kluczem: „foxtheme.size_chart”. [Dodaj metapole](/admin/metafields/product)"
+                "content": "Utwórz niestandardowe metapole dla produktu z przestrzenią nazw i kluczem: „foxtheme.size_chart”. [Dodaj metapole](\/admin\/metafields\/product)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "Pokaż dynamiczne przyciski kasy",
-              "info": "Korzystając z metod płatności dostępnych w Twoim sklepie, klienci widzą preferowaną opcję, np. PayPal lub Apple Pay. [Dowiedz się więcej](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "Korzystając z metod płatności dostępnych w Twoim sklepie, klienci widzą preferowaną opcję, np. PayPal lub Apple Pay. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "Pokaż formularz informacji o odbiorcy kart podarunkowych",
-              "info": "Umożliwia kupującym wysyłanie kart podarunkowych w zaplanowanym terminie wraz z osobistą wiadomością. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Umożliwia kupującym wysyłanie kart podarunkowych w zaplanowanym terminie wraz z osobistą wiadomością. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "Produkty uzupełniające",
           "settings": {
             "paragraph": {
-              "content": "Aby wybrać produkty uzupełniające, dodaj aplikację Search & Discovery. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Aby wybrać produkty uzupełniające, dodaj aplikację Search & Discovery. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Nagłówek"
@@ -2844,14 +2835,14 @@
               "label": "Pokaż udostępnianie społecznościowe"
             },
             "featured_image_info": {
-              "content": "Jeśli umieścisz link w postach w mediach społecznościowych, wyróżniony obraz strony zostanie wyświetlony jako obraz podglądu. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Jeśli umieścisz link w postach w mediach społecznościowych, wyróżniony obraz strony zostanie wyświetlony jako obraz podglądu. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Tytuł i opis sklepu są dołączone do obrazu podglądu. [Dowiedz się więcej](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Tytuł i opis sklepu są dołączone do obrazu podglądu. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "ask_question": {
               "label": "Pokaż formularz zadaj pytanie",
-              "content": "Ten formularz wysyła wszystkie zgłoszenia na adres e-mail nadawcy Twojego sklepu. Możesz zmienić adres e-mail nadawcy na stronie ustawień [Szczegóły sklepu](/admin/settings/general) w panelu administracyjnym Shopify."
+              "content": "Ten formularz wysyła wszystkie zgłoszenia na adres e-mail nadawcy Twojego sklepu. Możesz zmienić adres e-mail nadawcy na stronie ustawień [Szczegóły sklepu](\/admin\/settings\/general) w panelu administracyjnym Shopify."
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "Dostarcz tekst",
             "deliver_days": {
               "label": "Dostarcz w:",
-              "info": "dni (+/- 2 dni)"
+              "info": "dni (+\/- 2 dni)"
             },
             "date_format": {
               "label": "Format daty",
-              "info": "Przykład: %m/%d [Dowiedz się więcej o formacie daty tutaj.](http://strftime.net/)"
+              "info": "Przykład: %m\/%d [Dowiedz się więcej o formacie daty tutaj.](http:\/\/strftime.net\/)"
             }
           }
         },
@@ -2956,7 +2947,7 @@
       "settings": {
         "header": {
           "content": "Głoska bezdźwięczna",
-          "info": "Dowiedz się więcej o [typach multimediów.](https://help.shopify.com/manual/products/product-media)"
+          "info": "Dowiedz się więcej o [typach multimediów.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_sticky_info": {
           "label": "Włącz przyklejaną zawartość na komputerze"
@@ -3181,7 +3172,7 @@
       "name": "Produkty powiązane",
       "settings": {
         "paragraph__1": {
-          "content": "Rekomendacje dynamiczne korzystają z informacji o zamówieniach i produktach, aby z biegiem czasu zmieniać się i ulepszać. [Dowiedz się więcej](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Rekomendacje dynamiczne korzystają z informacji o zamówieniach i produktach, aby z biegiem czasu zmieniać się i ulepszać. [Dowiedz się więcej](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3341,10 +3332,10 @@
       "name": "Karty Lookbooka"
     },
     "image-comparison": {
-      "name": "Suwak obrazu przed/po",
+      "name": "Suwak obrazu przed\/po",
       "settings": {
         "header__image_settings": {
-          "content": "Ustawienia obrazu przed/po"
+          "content": "Ustawienia obrazu przed\/po"
         },
         "direction": {
           "label": "Kierunek",
@@ -3394,7 +3385,7 @@
         }
       },
       "presets": {
-        "name": "Suwak obrazu przed/po"
+        "name": "Suwak obrazu przed\/po"
       }
     },
     "media-with-collection": {
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "Tekst alternatywny wideo",
-          "info": "Opisz film dla klientów korzystających z czytników ekranu. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "Opisz film dla klientów korzystających z czytników ekranu. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "Współczynnik wideo",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "Niestandardowy płyn",
-              "info": "Dodaj fragmenty aplikacji lub inny kod, aby utworzyć zaawansowane dostosowania. [Dowiedz się więcej] (https://shopify.dev/docs/api/liquid)"
+              "info": "Dodaj fragmenty aplikacji lub inny kod, aby utworzyć zaawansowane dostosowania. [Dowiedz się więcej] (https:\/\/shopify.dev\/docs\/api\/liquid)"
             },
             "page": {
               "label": "Zawartość karty ze strony"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "Kod rabatowy",
-              "info": "Daj klientom kod rabatowy. [Wyświetl kody rabatowe](/admin/discounts)"
+              "info": "Daj klientom kod rabatowy. [Wyświetl kody rabatowe](\/admin\/discounts)"
             },
             "apply_button": "Przycisk Zastosuj",
             "apply_button_info": "Rabat ten zostanie zastosowany przy kasie, gdy klienci klikną ten przycisk."
@@ -4179,7 +4170,7 @@
           "content": "Cel bezpłatnej wysyłki"
         },
         "paragraph": {
-          "content": "Upewnij się, że poprawnie skonfigurowałeś [stawki za wysyłkę](/admin/settings/shipping)"
+          "content": "Upewnij się, że poprawnie skonfigurowałeś [stawki za wysyłkę](\/admin\/settings\/shipping)"
         },
         "show_free_shipping_goal": {
           "label": "Pokaż bezpłatną wysyłkę na całym świecie"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "Kończy się czas",
-              "info": "Format daty: RRRR/MM/DD GG:MM lub RRRR/MM/DD GG:MM AA.",
-              "paragraph": "Przykładowy format daty: 2024/06/30 23:59 lub 2024/06/30 23:59"
+              "info": "Format daty: RRRR\/MM\/DD GG:MM lub RRRR\/MM\/DD GG:MM AA.",
+              "paragraph": "Przykładowy format daty: 2024\/06\/30 23:59 lub 2024\/06\/30 23:59"
             },
             "style": {
               "label": "Styl",

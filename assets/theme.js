@@ -1959,7 +1959,9 @@ class MotionElement extends HTMLElement {
       case 'fade-up':
         FoxTheme.Motion.animate(this, { transform: 'translateY(2.5rem)', opacity: 0.01 }, { duration: 0 });
         break;
-
+      case 'fade-left':
+        FoxTheme.Motion.animate(this, { transform: 'translateX(2.5rem)', opacity: 0.01 }, { duration: 0 });
+        break;
       case 'zoom-in':
         FoxTheme.Motion.animate(this, { transform: 'scale(0.8)' }, { duration: 0 });
         break;

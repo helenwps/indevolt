@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "password_page": {
@@ -16,7 +7,7 @@
       "login_form_password_placeholder": "你的密碼",
       "login_form_error": "密碼錯誤！",
       "login_form_submit": "進入",
-      "admin_link_html": "您是店主嗎？ <a href=\"/admin\" class=\"btn--link\">在此登入</a>",
+      "admin_link_html": "您是店主嗎？ <a href=\"\/admin\" class=\"btn--link\">在此登入<\/a>",
       "powered_by_shopify_html": "這家商店將由 {{ shopify }} 提供支持"
     },
     "social": {
@@ -179,10 +170,10 @@
       "view_product_list": "查看產品列表",
       "description": "描述",
       "inventory_in_stock": "有存貨",
-      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}</strong> 有庫存",
+      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}<\/strong> 有庫存",
       "inventory_low_stock": "低庫存",
-      "inventory_low_stock_one_item_html": "快點吧，庫存僅剩 <strong>{{ quantity }}</strong> 件。",
-      "inventory_low_stock_many_items_html": "快點吧，庫存僅剩 <strong>{{ quantity }}</strong> 件。",
+      "inventory_low_stock_one_item_html": "快點吧，庫存僅剩 <strong>{{ quantity }}<\/strong> 件。",
+      "inventory_low_stock_many_items_html": "快點吧，庫存僅剩 <strong>{{ quantity }}<\/strong> 件。",
       "inventory_out_of_stock": "缺貨",
       "inventory_out_of_stock_continue_selling": "有存貨",
       "sku": "存貨單位",
@@ -209,7 +200,7 @@
         "multiples_of": "增量為 {{ quantity }}",
         "min_of": "分鐘 {{ quantity }}",
         "max_of": "最大{{ quantity }}",
-        "in_cart_html": "購物車中的 <span class=\"quantity-cart\">{{ quantity }}</span>",
+        "in_cart_html": "購物車中的 <span class=\"quantity-cart\">{{ quantity }}<\/span>",
         "note": "查看數量規則"
       },
       "volume_pricing": {
@@ -219,15 +210,15 @@
         "price_at_each": "每張 {{ price }}",
         "price_at_each_html": "每張 {{ price }}",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "each": "{{ money }}/件",
-        "each_html": "{{ money }}/件"
+        "each": "{{ money }}\/件",
+        "each_html": "{{ money }}\/件"
       },
       "pickup_availability": {
         "view_store_info": "查看店面資訊",
         "check_other_stores": "檢查其他商店的庫存狀況",
         "pick_up_available": "提供接送服務",
-        "pick_up_available_at_html": "可在 <span class=\"color-foreground\">​​{{ location_name }}</span> 取貨",
-        "pick_up_unavailable_at_html": "目前無法在 <span class=\"color-foreground\">​​{{ location_name }}</span> 取貨",
+        "pick_up_available_at_html": "可在 <span class=\"color-foreground\">​​{{ location_name }}<\/span> 取貨",
+        "pick_up_unavailable_at_html": "目前無法在 <span class=\"color-foreground\">​​{{ location_name }}<\/span> 取貨",
         "unavailable": "無法載入取貨情況",
         "refresh": "重新整理"
       },
@@ -236,7 +227,7 @@
         "regular_price": "正常價格",
         "sale_price": "銷售價格",
         "unit_price": "單價",
-        "save_price_html": "儲存<span data-sale-value>{{ amount }}</span>",
+        "save_price_html": "儲存<span data-sale-value>{{ amount }}<\/span>",
         "label": "價格"
       },
       "share": "分享該產品",
@@ -263,7 +254,7 @@
       "xr_button": "在您的空間中查看",
       "xr_button_label": "在您的空間中查看，在擴增實境視窗中載入項目",
       "include_taxes": "含稅。",
-      "shipping_policy_html": "<a href=\"{{ link }}\">運費</a>結帳時計算。"
+      "shipping_policy_html": "<a href=\"{{ link }}\">運費<\/a>結帳時計算。"
     },
     "modal": {
       "label": "媒體庫"
@@ -391,9 +382,9 @@
       "empty": "您的購物車目前是空的。",
       "cart_error": "更新您的購物車時出錯。請再試一次。",
       "cart_quantity_error_html": "您只能將 {{ quantity }} 件商品加入您的購物車。",
-      "taxes_and_shipping_policy_at_checkout_html": "結帳時計算的稅費和<a href=\"{{ link }}\" class=\"btn--link\">運費</a>",
+      "taxes_and_shipping_policy_at_checkout_html": "結帳時計算的稅費和<a href=\"{{ link }}\" class=\"btn--link\">運費<\/a>",
       "taxes_included_but_shipping_at_checkout": "含稅和運費在結帳時計算",
-      "taxes_included_and_shipping_policy_html": "含稅。 <a href=\"{{ link }}\" class=\"btn--link\">運費</a>和結帳時計算的折扣。",
+      "taxes_included_and_shipping_policy_html": "含稅。 <a href=\"{{ link }}\" class=\"btn--link\">運費<\/a>和結帳時計算的折扣。",
       "taxes_and_shipping_at_checkout": "結帳時計算的稅金和運費",
       "headings": {
         "product": "產品",
@@ -405,7 +396,7 @@
       "update": "更新",
       "login": {
         "title": "有一個帳戶？",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">登入</a>可以更快結帳。"
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">登入<\/a>可以更快結帳。"
       }
     },
     "footer": {
@@ -427,7 +418,7 @@
     "collection_template": {
       "empty": "沒有找到產品",
       "title": "收藏",
-      "use_fewer_filters_html": "使用更少的過濾器或<a class=\"{{ class }}\" href=\"{{ link }}\">全部刪除</a>"
+      "use_fewer_filters_html": "使用更少的過濾器或<a class=\"{{ class }}\" href=\"{{ link }}\">全部刪除<\/a>"
     },
     "video": {
       "load_video": "載入影片：{{ description }}"
@@ -463,8 +454,8 @@
     "quick_order_list": {
       "product_total": "產品小計",
       "view_cart": "查看購物車",
-      "each": "{{ money }}/件",
-      "each_html": "{{ money }}/件",
+      "each": "{{ money }}\/件",
+      "each_html": "{{ money }}\/件",
       "product": "產品",
       "variant": "變體",
       "variant_total": "變體總數",
@@ -488,13 +479,13 @@
     }
   },
   "localization": {
-    "country_label": "國家/地區",
+    "country_label": "國家\/地區",
     "language_label": "語言",
     "update_language": "更新語言",
-    "update_country": "更新國家/地區",
+    "update_country": "更新國家\/地區",
     "search": "搜尋",
-    "popular_countries_regions": "熱門國家/地區",
-    "country_results_count": "找到 {{ count }} 個國家/地區"
+    "popular_countries_regions": "熱門國家\/地區",
+    "country_results_count": "找到 {{ count }} 個國家\/地區"
   },
   "customer": {
     "account": {
@@ -523,7 +514,7 @@
       "address1": "地址1",
       "address2": "地址2",
       "city": "城市",
-      "country": "國家/地區",
+      "country": "國家\/地區",
       "province": "省",
       "zip": "郵遞區號",
       "phone": "電話",

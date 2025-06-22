@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
       "settings": {
         "font_family_options": {
           "label": "글꼴 계열",
-          "info": "다른 글꼴을 선택하면 스토어 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
+          "info": "다른 글꼴을 선택하면 스토어 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
           "options__1": {
             "label": "본문 글꼴"
           },
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "언어는 RTL을 지원합니다",
-          "info": "ISO 언어 코드를 쉼표로 구분하여 입력하세요. 모든 언어에 대해 활성화하려면 비워 두세요. [ISO 언어 코드 확인](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "ISO 언어 코드를 쉼표로 구분하여 입력하세요. 모든 언어에 대해 활성화하려면 비워 두세요. [ISO 언어 코드 확인](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "맨 위로 돌아가기 버튼 활성화"
@@ -587,7 +578,7 @@
       "settings": {
         "type_header_font": {
           "label": "폰트",
-          "info": "다른 글꼴을 선택하면 스토어 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "다른 글꼴을 선택하면 스토어 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "글꼴 크기 척도"
@@ -645,7 +636,7 @@
         },
         "type_body_font": {
           "label": "폰트",
-          "info": "다른 글꼴을 선택하면 스토어 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "다른 글꼴을 선택하면 스토어 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "bolder_font_weight": {
           "label": "굵은 글꼴 두께",
@@ -686,40 +677,40 @@
           "content": "소셜 계정"
         },
         "social_twitter_link": {
-          "label": "엑스 / 트위터",
-          "info": "https://x.com/shopify"
+          "label": "엑스 \/ 트위터",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "페이스북",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "핀터레스트",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "인스 타 그램",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "Tik의 톡",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "텀블러",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "스냅챗",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "유튜브",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "비메오",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "무료배송 목표"
         },
         "paragraph__1": {
-          "content": "[배송료](/admin/settings/shipping)를 올바르게 구성했는지 확인하세요."
+          "content": "[배송료](\/admin\/settings\/shipping)를 올바르게 구성했는지 확인하세요."
         },
         "free_shipping_minimum_amount": {
           "label": "무료 배송 최소 금액",
-          "info": "[테마 설정](/editor?context=theme&category=cart)에서 무료배송 최소 금액을 설정하세요."
+          "info": "[테마 설정](\/editor?context=theme&category=cart)에서 무료배송 최소 금액을 설정하세요."
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "리퀴드 코드",
-          "info": "앱 스니펫이나 기타 코드를 추가하여 고급 사용자 정의를 생성하세요. [자세히 알아보기](https://shopify.dev/docs/api/liquid)"
+          "info": "앱 스니펫이나 기타 코드를 추가하여 고급 사용자 정의를 생성하세요. [자세히 알아보기](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,29 +1958,29 @@
       "settings": {
         "header__1": {
           "content": "이메일 가입",
-          "info": "구독자는 \"허용된 마케팅\" 고객 목록에 자동으로 추가됩니다. [자세히 알아보기](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "구독자는 \"허용된 마케팅\" 고객 목록에 자동으로 추가됩니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "소셜 미디어 아이콘",
-          "info": "소셜 미디어 계정을 표시하려면 [테마 설정](/editor?context=theme&category=social%20media)에서 연결하세요."
+          "info": "소셜 미디어 계정을 표시하려면 [테마 설정](\/editor?context=theme&category=social%20media)에서 연결하세요."
         },
         "show_social": {
           "label": "소셜 미디어 아이콘 표시"
         },
         "header__3": {
-          "content": "국가/지역 선택기"
+          "content": "국가\/지역 선택기"
         },
         "header__4": {
-          "info": "국가/지역을 추가하려면 [시장 설정](/admin/settings/markets)으로 이동하세요."
+          "info": "국가\/지역을 추가하려면 [시장 설정](\/admin\/settings\/markets)으로 이동하세요."
         },
         "enable_country_selector": {
-          "label": "국가/지역 선택기 활성화"
+          "label": "국가\/지역 선택기 활성화"
         },
         "header__5": {
           "content": "언어 선택기"
         },
         "header__6": {
-          "info": "언어를 추가하려면 [언어 설정](/admin/settings/언어)으로 이동하세요."
+          "info": "언어를 추가하려면 [언어 설정](\/admin\/settings\/언어)으로 이동하세요."
         },
         "enable_language_selector": {
           "label": "언어 선택기 활성화"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "팔로우하기",
-          "info": "고객이 매장의 Shop 앱에서 매장을 팔로우할 수 있도록 하려면 Shop Pay를 활성화해야 합니다. [자세히 알아보기](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "고객이 매장의 Shop 앱에서 매장을 팔로우할 수 있도록 하려면 Shop Pay를 활성화해야 합니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "팔로우 온 샵 활성화"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "머리글",
       "paragraph": {
-        "content": "[테마 설정](/editor?context=theme&category=logo)에서 로고를 편집하세요."
+        "content": "[테마 설정](\/editor?context=theme&category=logo)에서 로고를 편집하세요."
       },
       "settings": {
         "hide_sperator_on_pages": {
@@ -2092,11 +2083,11 @@
         },
         "enable_language_selector": {
           "label": "언어 선택기 활성화",
-          "info": "언어를 추가하려면 [언어 설정](/admin/settings/languages)으로 이동하세요."
+          "info": "언어를 추가하려면 [언어 설정](\/admin\/settings\/languages)으로 이동하세요."
         },
         "enable_country_selector": {
-          "label": "국가/지역 선택기 활성화",
-          "info": "국가/지역을 추가하려면 [시장 설정](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)으로 이동하세요."
+          "label": "국가\/지역 선택기 활성화",
+          "info": "국가\/지역을 추가하려면 [시장 설정](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)으로 이동하세요."
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "컬렉션 이미지 표시"
         },
         "paragraph": {
-          "content": "컬렉션을 편집하여 설명이나 이미지를 추가하세요. [자세히 알아보기](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "컬렉션을 편집하여 설명이나 이미지를 추가하세요. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "설정"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "필터링 활성화",
-          "info": "Search & Discovery 앱으로 필터를 맞춤설정하세요. [자세히 알아보기](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discovery 앱으로 필터를 맞춤설정하세요. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "데스크탑 필터 레이아웃",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "필터링 활성화",
-          "info": "Search & Discovery 앱으로 필터를 맞춤설정하세요. [자세히 알아보기](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discovery 앱으로 필터를 맞춤설정하세요. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "빠른 추가",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "정사각형"
           },
-          "info": "컬렉션을 편집하여 이미지를 추가하세요. [자세히 알아보기](https://help.shopify.com/manual/products/collections)"
+          "info": "컬렉션을 편집하여 이미지를 추가하세요. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "데스크탑의 열 수"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "콘텐츠 메시지",
           "header": "비밀번호 메시지",
-          "info": "[온라인 스토어 환경설정](/admin/online_store/preferences)에 설정된 메시지"
+          "info": "[온라인 스토어 환경설정](\/admin\/online_store\/preferences)에 설정된 메시지"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "특정 컬렉션이나 제품에 대해 다양한 사이즈 차트를 표시합니다."
               },
               "paragraph_2": {
-                "content": "네임스페이스와 키가 \"foxtheme.size_chart\"인 제품에 대한 사용자 정의 메타필드를 만듭니다. [메타필드 추가](/admin/metafields/product)"
+                "content": "네임스페이스와 키가 \"foxtheme.size_chart\"인 제품에 대한 사용자 정의 메타필드를 만듭니다. [메타필드 추가](\/admin\/metafields\/product)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "동적 결제 버튼 표시",
-              "info": "매장에서 사용할 수 있는 결제 방법을 사용하면 고객은 PayPal 또는 Apple Pay와 같은 선호하는 옵션을 확인할 수 있습니다. [자세히 알아보기](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "매장에서 사용할 수 있는 결제 방법을 사용하면 고객은 PayPal 또는 Apple Pay와 같은 선호하는 옵션을 확인할 수 있습니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "기프트 카드의 수신자 정보 양식 표시",
-              "info": "구매자가 예정된 날짜에 개인 메시지와 함께 기프트 카드를 보낼 수 있습니다. [자세히 알아보기](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "구매자가 예정된 날짜에 개인 메시지와 함께 기프트 카드를 보낼 수 있습니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "보완 제품",
           "settings": {
             "paragraph": {
-              "content": "보완 제품을 선택하려면 검색 및 탐색 앱을 추가하세요. [자세히 알아보기](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "보완 제품을 선택하려면 검색 및 탐색 앱을 추가하세요. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "표제"
@@ -2844,14 +2835,14 @@
               "label": "소셜 공유 표시"
             },
             "featured_image_info": {
-              "content": "소셜 미디어 게시물에 링크를 포함하면 해당 페이지의 추천 이미지가 미리보기 이미지로 표시됩니다. [자세히 알아보기](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "소셜 미디어 게시물에 링크를 포함하면 해당 페이지의 추천 이미지가 미리보기 이미지로 표시됩니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "미리보기 이미지에는 매장 이름과 설명이 포함되어 있습니다. [자세히 알아보기](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "미리보기 이미지에는 매장 이름과 설명이 포함되어 있습니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "ask_question": {
               "label": "질문 양식 표시",
-              "content": "이 양식은 모든 제출 내용을 매장의 보낸 사람 이메일 주소로 보냅니다. Shopify 관리자의 [스토어 세부 정보](/admin/settings/general) 설정 페이지에서 보낸 사람 이메일 주소를 변경할 수 있습니다."
+              "content": "이 양식은 모든 제출 내용을 매장의 보낸 사람 이메일 주소로 보냅니다. Shopify 관리자의 [스토어 세부 정보](\/admin\/settings\/general) 설정 페이지에서 보낸 사람 이메일 주소를 변경할 수 있습니다."
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "문자 전달",
             "deliver_days": {
               "label": "배송:",
-              "info": "일(+/- 2일)"
+              "info": "일(+\/- 2일)"
             },
             "date_format": {
               "label": "날짜 형식",
-              "info": "예: %m/%d [여기에서 날짜 형식에 대해 자세히 알아보세요.](http://strftime.net/)"
+              "info": "예: %m\/%d [여기에서 날짜 형식에 대해 자세히 알아보세요.](http:\/\/strftime.net\/)"
             }
           }
         },
@@ -2956,7 +2947,7 @@
       "settings": {
         "header": {
           "content": "미디어",
-          "info": "[미디어 유형](https://help.shopify.com/manual/products/product-media)에 대해 자세히 알아보세요."
+          "info": "[미디어 유형](https:\/\/help.shopify.com\/manual\/products\/product-media)에 대해 자세히 알아보세요."
         },
         "enable_sticky_info": {
           "label": "데스크탑에서 고정 콘텐츠 활성화"
@@ -3002,7 +2993,7 @@
           }
         },
         "enable_image_zoom": {
-          "label": "이미지 확대/축소 활성화"
+          "label": "이미지 확대\/축소 활성화"
         },
         "enable_video_looping": {
           "label": "비디오 루핑 활성화"
@@ -3181,7 +3172,7 @@
       "name": "관련 상품",
       "settings": {
         "paragraph__1": {
-          "content": "동적 추천은 주문 및 제품 정보를 사용하여 시간이 지남에 따라 변경되고 개선됩니다. [자세히 알아보기](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "동적 추천은 주문 및 제품 정보를 사용하여 시간이 지남에 따라 변경되고 개선됩니다. [자세히 알아보기](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3344,7 +3335,7 @@
       "name": "전후 이미지 슬라이더",
       "settings": {
         "header__image_settings": {
-          "content": "이미지 설정 전/후"
+          "content": "이미지 설정 전\/후"
         },
         "direction": {
           "label": "방향",
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "비디오 대체 텍스트",
-          "info": "스크린 리더를 사용하는 고객을 위한 동영상을 설명하세요. [자세히 알아보기](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "스크린 리더를 사용하는 고객을 위한 동영상을 설명하세요. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "영상비율",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "맞춤형 액체",
-              "info": "앱 스 니펫 또는 기타 코드를 추가하여 고급 사용자 정의를 만듭니다. [자세히 알아보기] (https://shopify.dev/docs/api/liquid)"
+              "info": "앱 스 니펫 또는 기타 코드를 추가하여 고급 사용자 정의를 만듭니다. [자세히 알아보기] (https:\/\/shopify.dev\/docs\/api\/liquid)"
             },
             "page": {
               "label": "페이지의 탭 콘텐츠"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "할인 코드",
-              "info": "고객에게 할인 코드를 제공하세요. [할인 코드 보기](/admin/discounts)"
+              "info": "고객에게 할인 코드를 제공하세요. [할인 코드 보기](\/admin\/discounts)"
             },
             "apply_button": "적용 버튼",
             "apply_button_info": "이 할인은 고객이 이 버튼을 클릭하면 결제 시 적용됩니다."
@@ -4179,7 +4170,7 @@
           "content": "무료배송 목표"
         },
         "paragraph": {
-          "content": "[배송료](/admin/settings/shipping)를 올바르게 구성했는지 확인하세요."
+          "content": "[배송료](\/admin\/settings\/shipping)를 올바르게 구성했는지 확인하세요."
         },
         "show_free_shipping_goal": {
           "label": "전 세계 무료 배송 표시"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "종료 시간",
-              "info": "날짜 형식: YYYY/MM/DD HH:MM 또는 YYYY/MM/DD HH:MM AA.",
-              "paragraph": "샘플 날짜 형식: 2024/06/30 23:59 또는 2024/06/30 11:59 PM"
+              "info": "날짜 형식: YYYY\/MM\/DD HH:MM 또는 YYYY\/MM\/DD HH:MM AA.",
+              "paragraph": "샘플 날짜 형식: 2024\/06\/30 23:59 또는 2024\/06\/30 11:59 PM"
             },
             "style": {
               "label": "스타일",

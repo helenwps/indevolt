@@ -110,7 +110,7 @@
                   <div class="slideshow__slide-bg absolute inset-full">
                     {%- if background_default == blank -%}
                       <motion-element
-                        data-motion="zoom-out"
+                        data-motion="zoom-in"
                         hold
                         class="slideshow__slide-placeholder h-full{% if background_mobile != blank %} hidden md:block{% else %} block{% endif %}"
                       >
@@ -125,7 +125,7 @@
 
                       <motion-element
                         class="w-full h-full block{% if background_default == blank %} md:hidden{% endif %}"
-                        data-motion="zoom-out"
+                        data-motion="fade-in"
                         hold
                       >
                         <picture class="media media--height media-wrapper block w-full h-full relative overflow-hidden">
@@ -257,6 +257,7 @@
       </div>
     {%- endif -%}
   </slideshow-component>
+  <div class="product"><h2><span>Produktempfehlung</span></h2></div>
 </div>
 
 {% schema %}

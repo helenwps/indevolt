@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
       "settings": {
         "font_family_options": {
           "label": "フォントファミリー",
-          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。 [システム フォントについて詳しくは、こちらをご覧ください。](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
+          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。 [システム フォントについて詳しくは、こちらをご覧ください。](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
           "options__1": {
             "label": "本文フォント"
           },
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "RTL をサポートする言語",
-          "info": "ISO 言語コードをカンマで区切って入力します。すべての言語で有効にするには、空白のままにします。 [ISO 言語コードを確認](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "ISO 言語コードをカンマで区切って入力します。すべての言語で有効にするには、空白のままにします。 [ISO 言語コードを確認](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "「トップに戻る」ボタンを有効にする"
@@ -587,7 +578,7 @@
       "settings": {
         "type_header_font": {
           "label": "フォント",
-          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。 [システム フォントについて詳しくは、こちらをご覧ください。](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。 [システム フォントについて詳しくは、こちらをご覧ください。](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "フォントサイズスケール"
@@ -645,7 +636,7 @@
         },
         "type_body_font": {
           "label": "フォント",
-          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。 [システム フォントについて詳しくは、こちらをご覧ください。](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。 [システム フォントについて詳しくは、こちらをご覧ください。](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "bolder_font_weight": {
           "label": "太字のフォントの太さ",
@@ -686,40 +677,40 @@
           "content": "ソーシャルアカウント"
         },
         "social_twitter_link": {
-          "label": "X / ツイッター",
-          "info": "https://x.com/shopify"
+          "label": "X \/ ツイッター",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "フェイスブック",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "ピンタレスト",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "インスタグラム",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "チクタク",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "タンブラー",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "スナップチャット",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "ヴィメオ",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "送料無料目標"
         },
         "paragraph__1": {
-          "content": "[配送料](/admin/settings/shipping) が正しく設定されていることを確認してください。"
+          "content": "[配送料](\/admin\/settings\/shipping) が正しく設定されていることを確認してください。"
         },
         "free_shipping_minimum_amount": {
           "label": "送料無料の最低金額",
-          "info": "[テーマ設定](/editor?context=theme&category=cart)で送料無料の最低金額を設定します。"
+          "info": "[テーマ設定](\/editor?context=theme&category=cart)で送料無料の最低金額を設定します。"
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "リキッドコード",
-          "info": "アプリ スニペットまたはその他のコードを追加して、高度なカスタマイズを作成します。 [詳細](https://shopify.dev/docs/api/liquid)"
+          "info": "アプリ スニペットまたはその他のコードを追加して、高度なカスタマイズを作成します。 [詳細](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,29 +1958,29 @@
       "settings": {
         "header__1": {
           "content": "メール登録",
-          "info": "購読者は「承認されたマーケティング」顧客リストに自動的に追加されます。 [詳細](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "購読者は「承認されたマーケティング」顧客リストに自動的に追加されます。 [詳細](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "ソーシャルメディアアイコン",
-          "info": "ソーシャル メディア アカウントを表示するには、[テーマ設定](/editor?context=theme&category=social%20media) でアカウントをリンクします。"
+          "info": "ソーシャル メディア アカウントを表示するには、[テーマ設定](\/editor?context=theme&category=social%20media) でアカウントをリンクします。"
         },
         "show_social": {
           "label": "ソーシャルメディアアイコンを表示する"
         },
         "header__3": {
-          "content": "国/地域セレクター"
+          "content": "国\/地域セレクター"
         },
         "header__4": {
-          "info": "国/地域を追加するには、[マーケット設定](/admin/settings/markets) に移動します。"
+          "info": "国\/地域を追加するには、[マーケット設定](\/admin\/settings\/markets) に移動します。"
         },
         "enable_country_selector": {
-          "label": "国/地域セレクターを有効にする"
+          "label": "国\/地域セレクターを有効にする"
         },
         "header__5": {
           "content": "言語セレクター"
         },
         "header__6": {
-          "info": "言語を追加するには、[言語設定](/admin/settings/langages) に移動します。"
+          "info": "言語を追加するには、[言語設定](\/admin\/settings\/langages) に移動します。"
         },
         "enable_language_selector": {
           "label": "言語セレクターを有効にする"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "ショップでフォローする",
-          "info": "顧客が店頭から Shop アプリでストアをフォローできるようにするには、Shop Pay を有効にする必要があります。 [詳細](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "顧客が店頭から Shop アプリでストアをフォローできるようにするには、Shop Pay を有効にする必要があります。 [詳細](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "ショップでのフォローを有効にする"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "ヘッダ",
       "paragraph": {
-        "content": "[テーマ設定](/editor?context=theme&category=logo) でロゴを編集します。"
+        "content": "[テーマ設定](\/editor?context=theme&category=logo) でロゴを編集します。"
       },
       "settings": {
         "hide_sperator_on_pages": {
@@ -2092,11 +2083,11 @@
         },
         "enable_language_selector": {
           "label": "言語セレクターを有効にする",
-          "info": "言語を追加するには、[言語設定](/admin/settings/languages) に移動してください。"
+          "info": "言語を追加するには、[言語設定](\/admin\/settings\/languages) に移動してください。"
         },
         "enable_country_selector": {
-          "label": "国/地域セレクターを有効にする",
-          "info": "国/地域を追加するには、[マーケット設定](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w) に移動してください。"
+          "label": "国\/地域セレクターを有効にする",
+          "info": "国\/地域を追加するには、[マーケット設定](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w) に移動してください。"
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "コレクション画像を表示します"
         },
         "paragraph": {
-          "content": "コレクションを編集して説明や画像を追加します。 [詳細](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "コレクションを編集して説明や画像を追加します。 [詳細](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "設定"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "フィルタリングを有効にする",
-          "info": "Search & Discovery アプリを使用してフィルターをカスタマイズします。 [詳細](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discovery アプリを使用してフィルターをカスタマイズします。 [詳細](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "デスクトップフィルターレイアウト",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "フィルタリングを有効にする",
-          "info": "Search & Discovery アプリを使用してフィルターをカスタマイズします。 [詳細](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Search & Discovery アプリを使用してフィルターをカスタマイズします。 [詳細](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "クイック追加",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "四角"
           },
-          "info": "コレクションを編集して画像を追加します。 [詳細](https://help.shopify.com/manual/products/collections)"
+          "info": "コレクションを編集して画像を追加します。 [詳細](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "デスクトップ上の列の数"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "内容メッセージ",
           "header": "パスワードメッセージ",
-          "info": "[オンライン ストアの設定](/admin/online_store/preferences) で設定されたメッセージ"
+          "info": "[オンライン ストアの設定](\/admin\/online_store\/preferences) で設定されたメッセージ"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "特定のコレクションまたは製品の異なるサイズ表を表示します。"
               },
               "paragraph_2": {
-                "content": "名前空間とキー「foxtheme.size_chart」を使用して、製品のカスタム メタフィールドを作成します。 [メタフィールドの追加](/admin/metafields/product)"
+                "content": "名前空間とキー「foxtheme.size_chart」を使用して、製品のカスタム メタフィールドを作成します。 [メタフィールドの追加](\/admin\/metafields\/product)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "動的なチェックアウト ボタンを表示する",
-              "info": "ストアで利用可能な支払い方法を使用すると、顧客には PayPal や Apple Pay などの好みのオプションが表示されます。 [詳細](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "ストアで利用可能な支払い方法を使用すると、顧客には PayPal や Apple Pay などの好みのオプションが表示されます。 [詳細](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "ギフトカードの受取人情報フォームを表示する",
-              "info": "購入者は、予定された日に個人的なメッセージを添えてギフトカードを送信できます。 [詳細](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "購入者は、予定された日に個人的なメッセージを添えてギフトカードを送信できます。 [詳細](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "補完的な製品",
           "settings": {
             "paragraph": {
-              "content": "補完的な製品を選択するには、検索と発見アプリを追加します。 [詳細](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "補完的な製品を選択するには、検索と発見アプリを追加します。 [詳細](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "見出し"
@@ -2844,14 +2835,14 @@
               "label": "ソーシャル共有を表示する"
             },
             "featured_image_info": {
-              "content": "ソーシャル メディアの投稿にリンクを含めると、ページのアイキャッチ画像がプレビュー画像として表示されます。 [詳細](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)。"
+              "content": "ソーシャル メディアの投稿にリンクを含めると、ページのアイキャッチ画像がプレビュー画像として表示されます。 [詳細](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)。"
             },
             "title_info": {
-              "content": "プレビュー画像にはストアのタイトルと説明が含まれています。 [詳細](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)。"
+              "content": "プレビュー画像にはストアのタイトルと説明が含まれています。 [詳細](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)。"
             },
             "ask_question": {
               "label": "質問フォームを表示",
-              "content": "このフォームは、すべての送信内容をストアの送信者メール アドレスに送信します。送信者のメールアドレスは、管理画面の[ストアの詳細](/admin/settings/general)設定ページで変更できます。"
+              "content": "このフォームは、すべての送信内容をストアの送信者メール アドレスに送信します。送信者のメールアドレスは、管理画面の[ストアの詳細](\/admin\/settings\/general)設定ページで変更できます。"
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "テキストを配信する",
             "deliver_days": {
               "label": "配達時期:",
-              "info": "日 (+/- 2 日)"
+              "info": "日 (+\/- 2 日)"
             },
             "date_format": {
               "label": "日付形式",
-              "info": "例: %m/%d [日付形式の詳細については、こちらをご覧ください。](http://strftime.net/)"
+              "info": "例: %m\/%d [日付形式の詳細については、こちらをご覧ください。](http:\/\/strftime.net\/)"
             }
           }
         },
@@ -2956,7 +2947,7 @@
       "settings": {
         "header": {
           "content": "メディア",
-          "info": "[メディア タイプ](https://help.shopify.com/manual/products/product-media) の詳細をご覧ください。"
+          "info": "[メディア タイプ](https:\/\/help.shopify.com\/manual\/products\/product-media) の詳細をご覧ください。"
         },
         "enable_sticky_info": {
           "label": "デスクトップ上のスティッキー コンテンツを有効にする"
@@ -3181,7 +3172,7 @@
       "name": "関連製品",
       "settings": {
         "paragraph__1": {
-          "content": "動的な推奨事項では、注文と製品の情報を使用して、時間の経過とともに変更および改善します。 [詳細](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "動的な推奨事項では、注文と製品の情報を使用して、時間の経過とともに変更および改善します。 [詳細](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3344,7 +3335,7 @@
       "name": "前後の画像スライダー",
       "settings": {
         "header__image_settings": {
-          "content": "ビフォー/アフター画像設定"
+          "content": "ビフォー\/アフター画像設定"
         },
         "direction": {
           "label": "方向",
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "動画の代替テキスト",
-          "info": "スクリーン リーダーを使用して顧客にビデオの説明をします。 [詳細](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "スクリーン リーダーを使用して顧客にビデオの説明をします。 [詳細](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "ビデオ比率",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "カスタムリキッド",
-              "info": "アプリのスニペットまたはその他のコードを追加して、高度なカスタマイズを作成します。 [詳細]（https://shopify.dev/docs/api/liquid）"
+              "info": "アプリのスニペットまたはその他のコードを追加して、高度なカスタマイズを作成します。 [詳細]（https:\/\/shopify.dev\/docs\/api\/liquid）"
             },
             "page": {
               "label": "ページのタブのコンテンツ"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "ディスカウントコード",
-              "info": "顧客に割引コードを提供します。 [割引コードを表示](/admin/discounts)"
+              "info": "顧客に割引コードを提供します。 [割引コードを表示](\/admin\/discounts)"
             },
             "apply_button": "適用ボタン",
             "apply_button_info": "この割引は、顧客がこのボタンをクリックするとチェックアウト時に適用されます。"
@@ -4179,7 +4170,7 @@
           "content": "送料無料目標"
         },
         "paragraph": {
-          "content": "[配送料](/admin/settings/shipping) が正しく設定されていることを確認してください。"
+          "content": "[配送料](\/admin\/settings\/shipping) が正しく設定されていることを確認してください。"
         },
         "show_free_shipping_goal": {
           "label": "全世界送料無料を表示"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "終了時間",
-              "info": "日付形式: YYYY/MM/DD HH:MM または YYYY/MM/DD HH:MM AA。",
-              "paragraph": "日付形式の例: 2024/06/30 23:59 または 2024/06/30 11:59 PM"
+              "info": "日付形式: YYYY\/MM\/DD HH:MM または YYYY\/MM\/DD HH:MM AA。",
+              "paragraph": "日付形式の例: 2024\/06\/30 23:59 または 2024\/06\/30 11:59 PM"
             },
             "style": {
               "label": "スタイル",

@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
       "settings": {
         "font_family_options": {
           "label": "Font ailesi",
-          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
+          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
           "options__1": {
             "label": "Gövde yazı tipi"
           },
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "Diller RTL'yi destekler",
-          "info": "ISO dil kodunu virgülle ayırarak girin. Tüm dilleri etkinleştirmek için boş bırakın. [ISO dil kodunu kontrol edin](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "ISO dil kodunu virgülle ayırarak girin. Tüm dilleri etkinleştirmek için boş bırakın. [ISO dil kodunu kontrol edin](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "Başa dön düğmesini etkinleştir"
@@ -587,7 +578,7 @@
       "settings": {
         "type_header_font": {
           "label": "Yazı tipi",
-          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "Yazı tipi boyutu ölçeği"
@@ -645,7 +636,7 @@
         },
         "type_body_font": {
           "label": "Yazı tipi",
-          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "bolder_font_weight": {
           "label": "Daha kalın yazı tipi ağırlığı",
@@ -686,40 +677,40 @@
           "content": "Sosyal hesaplar"
         },
         "social_twitter_link": {
-          "label": "X / Twitter",
-          "info": "https://x.com/shopify"
+          "label": "X \/ Twitter",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest'te",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "instagram",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "Tiktok",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "Snapchat'te",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "Youtube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "Ücretsiz gönderim hedefi"
         },
         "paragraph__1": {
-          "content": "[Gönderim ücretlerinizi](/admin/settings/shipping) doğru şekilde yapılandırdığınızdan emin olun"
+          "content": "[Gönderim ücretlerinizi](\/admin\/settings\/shipping) doğru şekilde yapılandırdığınızdan emin olun"
         },
         "free_shipping_minimum_amount": {
           "label": "Ücretsiz gönderim minimum tutarı",
-          "info": "Ücretsiz Gönderim için minimum tutarı [tema ayarları](/editor?context=theme&category=cart) bölümünde ayarlayın."
+          "info": "Ücretsiz Gönderim için minimum tutarı [tema ayarları](\/editor?context=theme&category=cart) bölümünde ayarlayın."
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "Sıvı kodu",
-          "info": "Gelişmiş özelleştirmeler oluşturmak için uygulama parçacıkları veya başka kodlar ekleyin. [Daha fazla bilgi edinin](https://shopify.dev/docs/api/liquid)"
+          "info": "Gelişmiş özelleştirmeler oluşturmak için uygulama parçacıkları veya başka kodlar ekleyin. [Daha fazla bilgi edinin](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,29 +1958,29 @@
       "settings": {
         "header__1": {
           "content": "E-posta kaydol",
-          "info": "Aboneler otomatik olarak \"kabul edilen pazarlama\" müşteri listenize eklenir. [Daha fazla bilgi edinin](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "Aboneler otomatik olarak \"kabul edilen pazarlama\" müşteri listenize eklenir. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "Sosyal medya simgeleri",
-          "info": "Sosyal medya hesaplarınızı görüntülemek için bunları [tema ayarlarınıza](/editor?context=theme&category=social%20media) giderek bağlayın."
+          "info": "Sosyal medya hesaplarınızı görüntülemek için bunları [tema ayarlarınıza](\/editor?context=theme&category=social%20media) giderek bağlayın."
         },
         "show_social": {
           "label": "Sosyal medya simgelerini göster"
         },
         "header__3": {
-          "content": "Ülke/bölge seçici"
+          "content": "Ülke\/bölge seçici"
         },
         "header__4": {
-          "info": "Ülke/bölge eklemek için [pazar ayarlarınıza](/admin/settings/markets) gidin."
+          "info": "Ülke\/bölge eklemek için [pazar ayarlarınıza](\/admin\/settings\/markets) gidin."
         },
         "enable_country_selector": {
-          "label": "Ülke/bölge seçiciyi etkinleştir"
+          "label": "Ülke\/bölge seçiciyi etkinleştir"
         },
         "header__5": {
           "content": "Dil seçici"
         },
         "header__6": {
-          "info": "Dil eklemek için [dil ayarlarınıza](/admin/settings/languages) gidin."
+          "info": "Dil eklemek için [dil ayarlarınıza](\/admin\/settings\/languages) gidin."
         },
         "enable_language_selector": {
           "label": "Dil seçiciyi etkinleştir"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "Shop'ta takip edin",
-          "info": "Müşterilerin Shop uygulamasında mağazanızı vitrininizden takip etmesine izin vermek için Shop Pay'in etkinleştirilmesi gerekir. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "Müşterilerin Shop uygulamasında mağazanızı vitrininizden takip etmesine izin vermek için Shop Pay'in etkinleştirilmesi gerekir. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "Mağazada Takip Etmeyi Etkinleştir"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "Başlık",
       "paragraph": {
-        "content": "Logonuzu [tema ayarları](/editor?context=theme&category=logo) bölümünde düzenleyin."
+        "content": "Logonuzu [tema ayarları](\/editor?context=theme&category=logo) bölümünde düzenleyin."
       },
       "settings": {
         "menu": {
@@ -2092,11 +2083,11 @@
         },
         "enable_language_selector": {
           "label": "Dil seçiciyi etkinleştir",
-          "info": "Dil eklemek için [dil ayarlarınıza](/admin/settings/languages) gidin."
+          "info": "Dil eklemek için [dil ayarlarınıza](\/admin\/settings\/languages) gidin."
         },
         "enable_country_selector": {
-          "label": "Ülke/bölge seçiciyi etkinleştir",
-          "info": "Ülke/bölge eklemek için [pazar ayarlarınıza](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w) gidin."
+          "label": "Ülke\/bölge seçiciyi etkinleştir",
+          "info": "Ülke\/bölge eklemek için [pazar ayarlarınıza](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w) gidin."
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "Toplama görüntüsünü göster"
         },
         "paragraph": {
-          "content": "Koleksiyonunuzu düzenleyerek bir açıklama veya resim ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "Koleksiyonunuzu düzenleyerek bir açıklama veya resim ekleyin. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "Ayarlar"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "Filtrelemeyi etkinleştir",
-          "info": "Arama ve Keşif uygulamasıyla filtreleri özelleştirin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Arama ve Keşif uygulamasıyla filtreleri özelleştirin. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "Masaüstü filtre düzeni",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "Filtrelemeyi etkinleştir",
-          "info": "Arama ve Keşif uygulamasıyla filtreleri özelleştirin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "Arama ve Keşif uygulamasıyla filtreleri özelleştirin. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "Hızlı ekle",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "Kare"
           },
-          "info": "Koleksiyonlarınızı düzenleyerek görseller ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/products/collections)"
+          "info": "Koleksiyonlarınızı düzenleyerek görseller ekleyin. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "Masaüstündeki sütun sayısı"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "İçerik mesajı",
           "header": "Şifre mesajı",
-          "info": "[Çevrimiçi mağaza tercihlerinizde](/admin/online_store/preferences) ayarlanan mesaj"
+          "info": "[Çevrimiçi mağaza tercihlerinizde](\/admin\/online_store\/preferences) ayarlanan mesaj"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "Belirli bir koleksiyon veya ürün için farklı boyut tablosunu gösterin."
               },
               "paragraph_2": {
-                "content": "Ürün için ad alanı ve anahtarla özel bir meta alan oluşturun: \"foxtheme.size_chart\". [Meta alan ekle](/admin/metafields/product)"
+                "content": "Ürün için ad alanı ve anahtarla özel bir meta alan oluşturun: \"foxtheme.size_chart\". [Meta alan ekle](\/admin\/metafields\/product)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "Dinamik ödeme düğmelerini göster",
-              "info": "Müşteriler, mağazanızda bulunan ödeme yöntemlerini kullanarak PayPal veya Apple Pay gibi tercih ettikleri seçeneği görür. [Daha fazla bilgi edinin](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "Müşteriler, mağazanızda bulunan ödeme yöntemlerini kullanarak PayPal veya Apple Pay gibi tercih ettikleri seçeneği görür. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "Hediye kartları için alıcı bilgi formunu göster",
-              "info": "Alıcıların, kişisel bir mesajla birlikte planlanan bir tarihte hediye kartları göndermesine olanak tanır. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "Alıcıların, kişisel bir mesajla birlikte planlanan bir tarihte hediye kartları göndermesine olanak tanır. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "Tamamlayıcı ürünler",
           "settings": {
             "paragraph": {
-              "content": "Tamamlayıcı ürünleri seçmek için Arama ve Keşif uygulamasını ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "Tamamlayıcı ürünleri seçmek için Arama ve Keşif uygulamasını ekleyin. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "Başlık"
@@ -2844,14 +2835,14 @@
               "label": "Sosyal paylaşımı göster"
             },
             "featured_image_info": {
-              "content": "Sosyal medya gönderilerine bir bağlantı eklerseniz sayfanın öne çıkan görseli önizleme görseli olarak gösterilir. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Sosyal medya gönderilerine bir bağlantı eklerseniz sayfanın öne çıkan görseli önizleme görseli olarak gösterilir. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Önizleme görseline bir mağaza başlığı ve açıklaması eklenir. [Daha fazla bilgi edinin](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Önizleme görseline bir mağaza başlığı ve açıklaması eklenir. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "ask_question": {
               "label": "Soru sorma formunu göster",
-              "content": "Bu form, tüm gönderimleri mağazanızın Gönderen e-posta adresine gönderir. Gönderenin e-posta adresini Shopify yöneticinizin [Mağaza ayrıntıları](/admin/settings/general) ayarlar sayfasından değiştirebilirsiniz."
+              "content": "Bu form, tüm gönderimleri mağazanızın Gönderen e-posta adresine gönderir. Gönderenin e-posta adresini Shopify yöneticinizin [Mağaza ayrıntıları](\/admin\/settings\/general) ayarlar sayfasından değiştirebilirsiniz."
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "Metni teslim et",
             "deliver_days": {
               "label": "Teslim tarihi:",
-              "info": "gün (+/- 2 gün)"
+              "info": "gün (+\/- 2 gün)"
             },
             "date_format": {
               "label": "Tarih formatı",
-              "info": "Örnek: %m/%d [Tarih biçimi hakkında daha fazla bilgiyi burada bulabilirsiniz.](http://strftime.net/)"
+              "info": "Örnek: %m\/%d [Tarih biçimi hakkında daha fazla bilgiyi burada bulabilirsiniz.](http:\/\/strftime.net\/)"
             }
           }
         },
@@ -2956,7 +2947,7 @@
       "settings": {
         "header": {
           "content": "Medya",
-          "info": "[Medya türleri](https://help.shopify.com/manual/products/product-media) hakkında daha fazla bilgi edinin."
+          "info": "[Medya türleri](https:\/\/help.shopify.com\/manual\/products\/product-media) hakkında daha fazla bilgi edinin."
         },
         "enable_sticky_info": {
           "label": "Masaüstünde yapışkan içeriği etkinleştir"
@@ -3181,7 +3172,7 @@
       "name": "İlgili ürünler",
       "settings": {
         "paragraph__1": {
-          "content": "Dinamik öneriler, zaman içinde değişmek ve gelişmek için sipariş ve ürün bilgilerini kullanır. [Daha fazla bilgi edinin](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "Dinamik öneriler, zaman içinde değişmek ve gelişmek için sipariş ve ürün bilgilerini kullanır. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3341,10 +3332,10 @@
       "name": "Lookbook kartları"
     },
     "image-comparison": {
-      "name": "Resim kaydırıcısından önce/sonra",
+      "name": "Resim kaydırıcısından önce\/sonra",
       "settings": {
         "header__image_settings": {
-          "content": "Önceki/sonraki görüntü ayarları"
+          "content": "Önceki\/sonraki görüntü ayarları"
         },
         "direction": {
           "label": "Yön",
@@ -3394,7 +3385,7 @@
         }
       },
       "presets": {
-        "name": "Resim kaydırıcısından önce/sonra"
+        "name": "Resim kaydırıcısından önce\/sonra"
       }
     },
     "media-with-collection": {
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "Video alternatif metni",
-          "info": "Ekran okuyucu kullanan müşteriler için videoyu açıklayın. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "Ekran okuyucu kullanan müşteriler için videoyu açıklayın. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "Video oranı",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "Özel sıvı",
-              "info": "Gelişmiş özelleştirmeler oluşturmak için uygulama snippet'leri veya diğer kod ekleyin. [Daha fazla bilgi edinin] (https://shopify.dev/docs/api/liquid)"
+              "info": "Gelişmiş özelleştirmeler oluşturmak için uygulama snippet'leri veya diğer kod ekleyin. [Daha fazla bilgi edinin] (https:\/\/shopify.dev\/docs\/api\/liquid)"
             },
             "page": {
               "label": "Sayfadaki içeriği sekme"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "İndirim kodu",
-              "info": "Müşterilere indirim kodu verin. [İndirim kodlarını görüntüleyin](/admin/indirimler)"
+              "info": "Müşterilere indirim kodu verin. [İndirim kodlarını görüntüleyin](\/admin\/indirimler)"
             },
             "apply_button": "Uygula düğmesi",
             "apply_button_info": "Bu indirim, müşteriler bu düğmeyi tıkladığında ödeme sırasında uygulanacaktır."
@@ -4179,7 +4170,7 @@
           "content": "Ücretsiz gönderim hedefi"
         },
         "paragraph": {
-          "content": "[Gönderim ücretlerinizi](/admin/settings/shipping) doğru şekilde yapılandırdığınızdan emin olun"
+          "content": "[Gönderim ücretlerinizi](\/admin\/settings\/shipping) doğru şekilde yapılandırdığınızdan emin olun"
         },
         "show_free_shipping_goal": {
           "label": "Dünya çapında ücretsiz gönderimi göster"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "Bitiş zamanı",
-              "info": "Tarih biçimi: YYYY/AA/GG SS:DD veya YYYY/AA/GG SS:DD AA.",
-              "paragraph": "Örnek tarih formatı: 30/06/2024 23:59 veya 30/06/2024 23:59"
+              "info": "Tarih biçimi: YYYY\/AA\/GG SS:DD veya YYYY\/AA\/GG SS:DD AA.",
+              "paragraph": "Örnek tarih formatı: 30\/06\/2024 23:59 veya 30\/06\/2024 23:59"
             },
             "style": {
               "label": "Stil",

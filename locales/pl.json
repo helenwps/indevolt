@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "password_page": {
@@ -16,7 +7,7 @@
       "login_form_password_placeholder": "Twoje hasło",
       "login_form_error": "Złe hasło!",
       "login_form_submit": "Wchodzić",
-      "admin_link_html": "Czy jesteś właścicielem sklepu? <a href=\"/admin\" class=\"btn--link\">Zaloguj się tutaj</a>",
+      "admin_link_html": "Czy jesteś właścicielem sklepu? <a href=\"\/admin\" class=\"btn--link\">Zaloguj się tutaj<\/a>",
       "powered_by_shopify_html": "Ten sklep będzie obsługiwany przez firmę {{ shopify }}"
     },
     "social": {
@@ -179,10 +170,10 @@
       "view_product_list": "Zobacz listę produktów",
       "description": "Opis",
       "inventory_in_stock": "W magazynie",
-      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}</strong> w magazynie",
+      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}<\/strong> w magazynie",
       "inventory_low_stock": "Niskie zasoby",
-      "inventory_low_stock_one_item_html": "Pospiesz się, w magazynie pozostał tylko <strong>{{ quantity }}</strong> artykuł.",
-      "inventory_low_stock_many_items_html": "Pospiesz się, w magazynie pozostało tylko <strong>{{ quantity }}</strong> artykułów.",
+      "inventory_low_stock_one_item_html": "Pospiesz się, w magazynie pozostał tylko <strong>{{ quantity }}<\/strong> artykuł.",
+      "inventory_low_stock_many_items_html": "Pospiesz się, w magazynie pozostało tylko <strong>{{ quantity }}<\/strong> artykułów.",
       "inventory_out_of_stock": "Obecnie brak na stanie",
       "inventory_out_of_stock_continue_selling": "W magazynie",
       "sku": "SKU",
@@ -209,25 +200,25 @@
         "multiples_of": "Przyrosty o {{ quantity }}",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Maks. {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> w koszyku",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> w koszyku",
         "note": "Zobacz reguły ilościowe"
       },
       "volume_pricing": {
         "title": "Ceny objętościowe",
         "note": "Dostępne ceny hurtowe",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "po {{ price }}/szt",
-        "price_at_each_html": "po {{ price }}/szt",
+        "price_at_each": "po {{ price }}\/szt",
+        "price_at_each_html": "po {{ price }}\/szt",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "each": "{{ money }}/szt",
-        "each_html": "{{ money }}/szt"
+        "each": "{{ money }}\/szt",
+        "each_html": "{{ money }}\/szt"
       },
       "pickup_availability": {
         "view_store_info": "Wyświetl informacje o sklepie",
         "check_other_stores": "Sprawdź dostępność w innych sklepach",
         "pick_up_available": "Możliwość odbioru",
-        "pick_up_available_at_html": "Możliwość odbioru w <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Odbiór obecnie niedostępny w <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Możliwość odbioru w <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Odbiór obecnie niedostępny w <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Nie udało się wczytać dostępności odbioru",
         "refresh": "Odświeżać"
       },
@@ -236,7 +227,7 @@
         "regular_price": "Normalna cena",
         "sale_price": "Cena sprzedaży",
         "unit_price": "Cena jednostkowa",
-        "save_price_html": "Zapisz <span data-sale-value>{{ amount }}</span>",
+        "save_price_html": "Zapisz <span data-sale-value>{{ amount }}<\/span>",
         "label": "Cena"
       },
       "share": "Udostępnij ten produkt",
@@ -263,7 +254,7 @@
       "xr_button": "Zobacz w swojej przestrzeni",
       "xr_button_label": "Zobacz w swojej przestrzeni, ładuje element w oknie rzeczywistości rozszerzonej",
       "include_taxes": "Z wliczonym podatkiem.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Wysyłka</a> obliczana przy kasie."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Wysyłka<\/a> obliczana przy kasie."
     },
     "modal": {
       "label": "Galeria multimediów"
@@ -391,9 +382,9 @@
       "empty": "Twój koszyk jest obecnie pusty.",
       "cart_error": "Wystąpił błąd podczas aktualizacji koszyka. Proszę spróbuj ponownie.",
       "cart_quantity_error_html": "Do koszyka możesz dodać tylko {{ quantity }} tego przedmiotu.",
-      "taxes_and_shipping_policy_at_checkout_html": "Podatki i <a href=\"{{ link }}\" class=\"btn--link\">wysyłka</a> obliczane przy kasie",
+      "taxes_and_shipping_policy_at_checkout_html": "Podatki i <a href=\"{{ link }}\" class=\"btn--link\">wysyłka<\/a> obliczane przy kasie",
       "taxes_included_but_shipping_at_checkout": "Podatek jest wliczony w cenę, a wysyłka obliczana przy kasie",
-      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\" class=\"btn--link\">Wysyłka</a> i rabaty obliczane przy kasie.",
+      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\" class=\"btn--link\">Wysyłka<\/a> i rabaty obliczane przy kasie.",
       "taxes_and_shipping_at_checkout": "Podatki i wysyłka obliczane przy kasie",
       "headings": {
         "product": "Produkt",
@@ -405,7 +396,7 @@
       "update": "Aktualizacja",
       "login": {
         "title": "Mieć konto?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Zaloguj się</a>, aby szybciej płacić."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Zaloguj się<\/a>, aby szybciej płacić."
       }
     },
     "footer": {
@@ -427,7 +418,7 @@
     "collection_template": {
       "empty": "Nie znaleziono żadnych produktów",
       "title": "Kolekcja",
-      "use_fewer_filters_html": "Użyj mniejszej liczby filtrów lub <a class=\"{{ class }}\" href=\"{{ link }}\">usuń wszystkie</a>"
+      "use_fewer_filters_html": "Użyj mniejszej liczby filtrów lub <a class=\"{{ class }}\" href=\"{{ link }}\">usuń wszystkie<\/a>"
     },
     "video": {
       "load_video": "Załaduj wideo: {{ description }}"
@@ -463,8 +454,8 @@
     "quick_order_list": {
       "product_total": "Suma częściowa produktu",
       "view_cart": "Zobacz koszyk",
-      "each": "{{ money }}/szt",
-      "each_html": "{{ money }}/szt",
+      "each": "{{ money }}\/szt",
+      "each_html": "{{ money }}\/szt",
       "product": "Produkt",
       "variant": "Wariant",
       "variant_total": "Wariant ogółem",
@@ -488,13 +479,13 @@
     }
   },
   "localization": {
-    "country_label": "Kraj/region",
+    "country_label": "Kraj\/region",
     "language_label": "Język",
     "update_language": "Zaktualizuj język",
-    "update_country": "Zaktualizuj kraj/region",
+    "update_country": "Zaktualizuj kraj\/region",
     "search": "Szukaj",
-    "popular_countries_regions": "Popularne kraje/regiony",
-    "country_results_count": "Znaleziono {{ count }} krajów/regionów"
+    "popular_countries_regions": "Popularne kraje\/regiony",
+    "country_results_count": "Znaleziono {{ count }} krajów\/regionów"
   },
   "customer": {
     "account": {
@@ -523,9 +514,9 @@
       "address1": "Adres 1",
       "address2": "adres 2",
       "city": "Miasto",
-      "country": "Kraj/region",
+      "country": "Kraj\/region",
       "province": "Województwo",
-      "zip": "Kod pocztowy/kod pocztowy",
+      "zip": "Kod pocztowy\/kod pocztowy",
       "phone": "Telefon",
       "set_default": "Ustaw jako adres domyślny",
       "add": "Dodaj adres",

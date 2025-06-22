@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "password_page": {
@@ -16,7 +7,7 @@
       "login_form_password_placeholder": "Kata sandi Anda",
       "login_form_error": "Kata sandi salah!",
       "login_form_submit": "Memasuki",
-      "admin_link_html": "Apakah Anda pemilik toko? <a href=\"/admin\" class=\"btn--link\">Masuk di sini</a>",
+      "admin_link_html": "Apakah Anda pemilik toko? <a href=\"\/admin\" class=\"btn--link\">Masuk di sini<\/a>",
       "powered_by_shopify_html": "Toko ini akan didukung oleh {{ shopify }}"
     },
     "social": {
@@ -179,10 +170,10 @@
       "view_product_list": "Lihat daftar produk",
       "description": "Keterangan",
       "inventory_in_stock": "Persediaan",
-      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}</strong> tersedia",
+      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}<\/strong> tersedia",
       "inventory_low_stock": "Stok sedikit",
-      "inventory_low_stock_one_item_html": "Buruan, stok hanya tersisa <strong>{{ quantity }}</strong> item.",
-      "inventory_low_stock_many_items_html": "Buruan, stok hanya <strong>{{ quantity }}</strong> item yang tersisa.",
+      "inventory_low_stock_one_item_html": "Buruan, stok hanya tersisa <strong>{{ quantity }}<\/strong> item.",
+      "inventory_low_stock_many_items_html": "Buruan, stok hanya <strong>{{ quantity }}<\/strong> item yang tersisa.",
       "inventory_out_of_stock": "Stok Habis",
       "inventory_out_of_stock_continue_selling": "Persediaan",
       "sku": "SKU",
@@ -209,25 +200,25 @@
         "multiples_of": "Kenaikan sebesar {{ quantity }}",
         "min_of": "Minimal {{ quantity }}",
         "max_of": "Maks {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> di keranjang",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> di keranjang",
         "note": "Lihat aturan kuantitas"
       },
       "volume_pricing": {
         "title": "Penetapan Harga Volume",
         "note": "Harga volume tersedia",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "di {{ price }}/unit",
-        "price_at_each_html": "di {{ price }}/unit",
+        "price_at_each": "di {{ price }}\/unit",
+        "price_at_each_html": "di {{ price }}\/unit",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "each": "{{ money }}/unit",
-        "each_html": "{{ money }}/unit"
+        "each": "{{ money }}\/unit",
+        "each_html": "{{ money }}\/unit"
       },
       "pickup_availability": {
         "view_store_info": "Lihat informasi toko",
         "check_other_stores": "Periksa ketersediaan di toko lain",
         "pick_up_available": "Penjemputan tersedia",
-        "pick_up_available_at_html": "Penjemputan tersedia di <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Penjemputan saat ini tidak tersedia di <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Penjemputan tersedia di <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Penjemputan saat ini tidak tersedia di <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Tidak dapat memuat ketersediaan pengambilan",
         "refresh": "Menyegarkan"
       },
@@ -236,7 +227,7 @@
         "regular_price": "Harga normal",
         "sale_price": "Harga penjualan",
         "unit_price": "Harga satuan",
-        "save_price_html": "Hemat <span data-sale-value>{{ amount }}</span>",
+        "save_price_html": "Hemat <span data-sale-value>{{ amount }}<\/span>",
         "label": "Harga"
       },
       "share": "Bagikan produk ini",
@@ -263,7 +254,7 @@
       "xr_button": "Lihat di ruang Anda",
       "xr_button_label": "Lihat di ruang Anda, muat item di jendela augmented reality",
       "include_taxes": "Termasuk pajak.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Pengiriman</a> dihitung saat checkout."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Pengiriman<\/a> dihitung saat checkout."
     },
     "modal": {
       "label": "Galeri media"
@@ -391,9 +382,9 @@
       "empty": "Keranjang Anda saat ini kosong.",
       "cart_error": "Terjadi kesalahan saat memperbarui keranjang Anda. Silakan coba lagi.",
       "cart_quantity_error_html": "Anda hanya dapat menambahkan {{ quantity }} item ini ke keranjang Anda.",
-      "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\" class=\"btn--link\">pengiriman</a> dihitung saat checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\" class=\"btn--link\">pengiriman<\/a> dihitung saat checkout",
       "taxes_included_but_shipping_at_checkout": "Termasuk pajak dan ongkos kirim dihitung saat checkout",
-      "taxes_included_and_shipping_policy_html": "Termasuk pajak. <a href=\"{{ link }}\" class=\"btn--link\">Pengiriman</a> dan diskon dihitung saat checkout.",
+      "taxes_included_and_shipping_policy_html": "Termasuk pajak. <a href=\"{{ link }}\" class=\"btn--link\">Pengiriman<\/a> dan diskon dihitung saat checkout.",
       "taxes_and_shipping_at_checkout": "Pajak dan ongkos kirim dihitung saat checkout",
       "headings": {
         "product": "Produk",
@@ -405,7 +396,7 @@
       "update": "Memperbarui",
       "login": {
         "title": "Punya akun?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Masuk</a> untuk check out lebih cepat."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Masuk<\/a> untuk check out lebih cepat."
       }
     },
     "footer": {
@@ -427,7 +418,7 @@
     "collection_template": {
       "empty": "Tidak ada produk yang ditemukan",
       "title": "Koleksi",
-      "use_fewer_filters_html": "Gunakan lebih sedikit filter atau <a class=\"{{ class }}\" href=\"{{ link }}\">hapus semua</a>"
+      "use_fewer_filters_html": "Gunakan lebih sedikit filter atau <a class=\"{{ class }}\" href=\"{{ link }}\">hapus semua<\/a>"
     },
     "video": {
       "load_video": "Muat video: {{ description }}"
@@ -463,8 +454,8 @@
     "quick_order_list": {
       "product_total": "Subtotal produk",
       "view_cart": "Lihat keranjang",
-      "each": "{{ money }}/unit",
-      "each_html": "{{ money }}/unit",
+      "each": "{{ money }}\/unit",
+      "each_html": "{{ money }}\/unit",
       "product": "Produk",
       "variant": "Variasi",
       "variant_total": "Jumlah varian",
@@ -488,13 +479,13 @@
     }
   },
   "localization": {
-    "country_label": "Negara/wilayah",
+    "country_label": "Negara\/wilayah",
     "language_label": "Bahasa",
     "update_language": "Perbarui bahasa",
-    "update_country": "Perbarui negara/wilayah",
+    "update_country": "Perbarui negara\/wilayah",
     "search": "Mencari",
-    "popular_countries_regions": "Negara/wilayah populer",
-    "country_results_count": "{{ count }} negara/wilayah ditemukan"
+    "popular_countries_regions": "Negara\/wilayah populer",
+    "country_results_count": "{{ count }} negara\/wilayah ditemukan"
   },
   "customer": {
     "account": {
@@ -523,9 +514,9 @@
       "address1": "Alamat 1",
       "address2": "alamat 2",
       "city": "Kota",
-      "country": "Negara/wilayah",
+      "country": "Negara\/wilayah",
       "province": "Propinsi",
-      "zip": "Kode pos/ZIP",
+      "zip": "Kode pos\/ZIP",
       "phone": "Telepon",
       "set_default": "Tetapkan sebagai alamat default",
       "add": "Tambahkan alamat",

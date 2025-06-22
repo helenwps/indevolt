@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
       "settings": {
         "font_family_options": {
           "label": "ครอบครัวแบบอักษร",
-          "info": "การเลือกแบบอักษรอื่นอาจส่งผลต่อความเร็วของร้านค้าของคุณ [เรียนรู้เพิ่มเติมเกี่ยวกับแบบอักษรของระบบ](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
+          "info": "การเลือกแบบอักษรอื่นอาจส่งผลต่อความเร็วของร้านค้าของคุณ [เรียนรู้เพิ่มเติมเกี่ยวกับแบบอักษรของระบบ](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
           "options__1": {
             "label": "แบบอักษรของร่างกาย"
           },
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "ภาษารองรับ RTL",
-          "info": "ป้อนรหัสภาษา ISO คั่นด้วยเครื่องหมายจุลภาค เว้นว่างไว้เพื่อเปิดใช้งานสำหรับทุกภาษา [ตรวจสอบรหัสภาษา ISO](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "ป้อนรหัสภาษา ISO คั่นด้วยเครื่องหมายจุลภาค เว้นว่างไว้เพื่อเปิดใช้งานสำหรับทุกภาษา [ตรวจสอบรหัสภาษา ISO](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "เปิดใช้งานปุ่มกลับสู่ด้านบน"
@@ -587,7 +578,7 @@
       "settings": {
         "type_header_font": {
           "label": "แบบอักษร",
-          "info": "การเลือกแบบอักษรอื่นอาจส่งผลต่อความเร็วของร้านค้าของคุณ [เรียนรู้เพิ่มเติมเกี่ยวกับแบบอักษรของระบบ](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "การเลือกแบบอักษรอื่นอาจส่งผลต่อความเร็วของร้านค้าของคุณ [เรียนรู้เพิ่มเติมเกี่ยวกับแบบอักษรของระบบ](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "สเกลขนาดตัวอักษร"
@@ -645,7 +636,7 @@
         },
         "type_body_font": {
           "label": "แบบอักษร",
-          "info": "การเลือกแบบอักษรอื่นอาจส่งผลต่อความเร็วของร้านค้าของคุณ [เรียนรู้เพิ่มเติมเกี่ยวกับแบบอักษรของระบบ](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "การเลือกแบบอักษรอื่นอาจส่งผลต่อความเร็วของร้านค้าของคุณ [เรียนรู้เพิ่มเติมเกี่ยวกับแบบอักษรของระบบ](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "bolder_font_weight": {
           "label": "น้ำหนักตัวอักษรที่โดดเด่นยิ่งขึ้น",
@@ -686,40 +677,40 @@
           "content": "บัญชีโซเชียล"
         },
         "social_twitter_link": {
-          "label": "เอ็กซ์ / ทวิตเตอร์",
-          "info": "https://x.com/shopify"
+          "label": "เอ็กซ์ \/ ทวิตเตอร์",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "เฟสบุ๊ค",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "พินเทอเรสต์",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "อินสตาแกรม",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "ติ๊กต๊อก",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "ทัมเบลอร์",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "สแน็ปแชท",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "ยูทูบ",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "วิมีโอ",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "เป้าหมายการจัดส่งฟรี"
         },
         "paragraph__1": {
-          "content": "ตรวจสอบให้แน่ใจว่าคุณได้กำหนดค่า [อัตราค่าจัดส่ง](/admin/settings/shipping) ของคุณอย่างถูกต้อง"
+          "content": "ตรวจสอบให้แน่ใจว่าคุณได้กำหนดค่า [อัตราค่าจัดส่ง](\/admin\/settings\/shipping) ของคุณอย่างถูกต้อง"
         },
         "free_shipping_minimum_amount": {
           "label": "จัดส่งฟรีจำนวนขั้นต่ำ",
-          "info": "กำหนดจำนวนเงินขั้นต่ำสำหรับการจัดส่งฟรีใน [การตั้งค่าธีม](/editor?context=theme&category=cart)"
+          "info": "กำหนดจำนวนเงินขั้นต่ำสำหรับการจัดส่งฟรีใน [การตั้งค่าธีม](\/editor?context=theme&category=cart)"
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "รหัสของเหลว",
-          "info": "เพิ่มข้อมูลโค้ดแอปหรือโค้ดอื่นๆ เพื่อสร้างการปรับแต่งขั้นสูง [เรียนรู้เพิ่มเติม](https://shopify.dev/docs/api/liquid)"
+          "info": "เพิ่มข้อมูลโค้ดแอปหรือโค้ดอื่นๆ เพื่อสร้างการปรับแต่งขั้นสูง [เรียนรู้เพิ่มเติม](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,29 +1958,29 @@
       "settings": {
         "header__1": {
           "content": "สมัครอีเมล์",
-          "info": "สมาชิกจะถูกเพิ่มลงในรายชื่อลูกค้า “การตลาดที่ยอมรับ” ของคุณโดยอัตโนมัติ [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "สมาชิกจะถูกเพิ่มลงในรายชื่อลูกค้า “การตลาดที่ยอมรับ” ของคุณโดยอัตโนมัติ [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "ไอคอนโซเชียลมีเดีย",
-          "info": "หากต้องการแสดงบัญชีโซเชียลมีเดียของคุณ ให้เชื่อมโยงบัญชีเหล่านั้นใน [การตั้งค่าธีม](/editor?context=theme&category=social%20media)"
+          "info": "หากต้องการแสดงบัญชีโซเชียลมีเดียของคุณ ให้เชื่อมโยงบัญชีเหล่านั้นใน [การตั้งค่าธีม](\/editor?context=theme&category=social%20media)"
         },
         "show_social": {
           "label": "แสดงไอคอนโซเชียลมีเดีย"
         },
         "header__3": {
-          "content": "ตัวเลือกประเทศ/ภูมิภาค"
+          "content": "ตัวเลือกประเทศ\/ภูมิภาค"
         },
         "header__4": {
-          "info": "หากต้องการเพิ่มประเทศ/ภูมิภาค ให้ไปที่ [การตั้งค่าตลาด](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "info": "หากต้องการเพิ่มประเทศ\/ภูมิภาค ให้ไปที่ [การตั้งค่าตลาด](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         },
         "enable_country_selector": {
-          "label": "เปิดใช้งานตัวเลือกประเทศ/ภูมิภาค"
+          "label": "เปิดใช้งานตัวเลือกประเทศ\/ภูมิภาค"
         },
         "header__5": {
           "content": "ตัวเลือกภาษา"
         },
         "header__6": {
-          "info": "หากต้องการเพิ่มภาษา ให้ไปที่ [การตั้งค่าภาษา](/admin/settings/ languages)"
+          "info": "หากต้องการเพิ่มภาษา ให้ไปที่ [การตั้งค่าภาษา](\/admin\/settings\/ languages)"
         },
         "enable_language_selector": {
           "label": "เปิดใช้งานตัวเลือกภาษา"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "ติดตามได้ที่ร้าน",
-          "info": "เพื่อให้ลูกค้าสามารถติดตามร้านค้าของคุณบนแอป Shop จากหน้าร้านได้ จะต้องเปิดใช้งาน Shop Pay [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "เพื่อให้ลูกค้าสามารถติดตามร้านค้าของคุณบนแอป Shop จากหน้าร้านได้ จะต้องเปิดใช้งาน Shop Pay [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "เปิดใช้งานการติดตามบนร้านค้า"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "หัวข้อ",
       "paragraph": {
-        "content": "แก้ไขโลโก้ของคุณใน [การตั้งค่าธีม](/editor?context=theme&category=logo)"
+        "content": "แก้ไขโลโก้ของคุณใน [การตั้งค่าธีม](\/editor?context=theme&category=logo)"
       },
       "settings": {
         "menu": {
@@ -2092,11 +2083,11 @@
         },
         "enable_language_selector": {
           "label": "เปิดใช้งานตัวเลือกภาษา",
-          "info": "หากต้องการเพิ่มภาษา ให้ไปที่ [การตั้งค่าภาษา](/admin/settings/languages)"
+          "info": "หากต้องการเพิ่มภาษา ให้ไปที่ [การตั้งค่าภาษา](\/admin\/settings\/languages)"
         },
         "enable_country_selector": {
-          "label": "เปิดใช้งานตัวเลือกประเทศ/ภูมิภาค",
-          "info": "หากต้องการเพิ่มประเทศ/ภูมิภาค ให้ไปที่ [การตั้งค่าตลาด](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "label": "เปิดใช้งานตัวเลือกประเทศ\/ภูมิภาค",
+          "info": "หากต้องการเพิ่มประเทศ\/ภูมิภาค ให้ไปที่ [การตั้งค่าตลาด](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "แสดงภาพคอลเลกชัน"
         },
         "paragraph": {
-          "content": "เพิ่มคำอธิบายหรือรูปภาพโดยแก้ไขคอลเลกชันของคุณ [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "เพิ่มคำอธิบายหรือรูปภาพโดยแก้ไขคอลเลกชันของคุณ [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "การตั้งค่า"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "เปิดใช้งานการกรอง",
-          "info": "ปรับแต่งตัวกรองด้วยแอป Search & Discovery [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "ปรับแต่งตัวกรองด้วยแอป Search & Discovery [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "รูปแบบตัวกรองเดสก์ท็อป",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "เปิดใช้งานการกรอง",
-          "info": "ปรับแต่งตัวกรองด้วยแอป Search & Discovery [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "ปรับแต่งตัวกรองด้วยแอป Search & Discovery [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "เพิ่มด่วน",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "สี่เหลี่ยม"
           },
-          "info": "เพิ่มรูปภาพโดยแก้ไขคอลเลกชันของคุณ [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/products/collections)"
+          "info": "เพิ่มรูปภาพโดยแก้ไขคอลเลกชันของคุณ [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "จำนวนคอลัมน์บนเดสก์ท็อป"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "ข้อความเนื้อหา",
           "header": "ข้อความรหัสผ่าน",
-          "info": "ข้อความที่ตั้งค่าไว้ใน [การตั้งค่าร้านค้าออนไลน์](/admin/online_store/preferences)"
+          "info": "ข้อความที่ตั้งค่าไว้ใน [การตั้งค่าร้านค้าออนไลน์](\/admin\/online_store\/preferences)"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "แสดงแผนภูมิขนาดที่แตกต่างกันสำหรับคอลเลกชันหรือผลิตภัณฑ์เฉพาะ"
               },
               "paragraph_2": {
-                "content": "สร้างเมตาฟิลด์ที่กำหนดเองสำหรับผลิตภัณฑ์ด้วยเนมสเปซและคีย์: \"foxtheme.size_chart\" [เพิ่มเมตาฟิลด์](/admin/metafields/product)"
+                "content": "สร้างเมตาฟิลด์ที่กำหนดเองสำหรับผลิตภัณฑ์ด้วยเนมสเปซและคีย์: \"foxtheme.size_chart\" [เพิ่มเมตาฟิลด์](\/admin\/metafields\/product)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "แสดงปุ่มชำระเงินแบบไดนามิก",
-              "info": "เมื่อใช้วิธีการชำระเงินที่มีอยู่ในร้านค้าของคุณ ลูกค้าจะเห็นตัวเลือกที่ต้องการ เช่น PayPal หรือ Apple Pay [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "เมื่อใช้วิธีการชำระเงินที่มีอยู่ในร้านค้าของคุณ ลูกค้าจะเห็นตัวเลือกที่ต้องการ เช่น PayPal หรือ Apple Pay [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "แสดงแบบฟอร์มข้อมูลผู้รับบัตรของขวัญ",
-              "info": "อนุญาตให้ผู้ซื้อส่งบัตรของขวัญตามวันที่กำหนดพร้อมกับข้อความส่วนตัว [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "อนุญาตให้ผู้ซื้อส่งบัตรของขวัญตามวันที่กำหนดพร้อมกับข้อความส่วนตัว [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "ผลิตภัณฑ์เสริม",
           "settings": {
             "paragraph": {
-              "content": "หากต้องการเลือกผลิตภัณฑ์เสริม ให้เพิ่มแอป Search & Discovery [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "หากต้องการเลือกผลิตภัณฑ์เสริม ให้เพิ่มแอป Search & Discovery [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "หัวเรื่อง"
@@ -2844,14 +2835,14 @@
               "label": "แสดงการแบ่งปันทางสังคม"
             },
             "featured_image_info": {
-              "content": "หากคุณใส่ลิงก์ในโพสต์บนโซเชียลมีเดีย รูปภาพเด่นของเพจจะแสดงเป็นรูปภาพตัวอย่าง [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
+              "content": "หากคุณใส่ลิงก์ในโพสต์บนโซเชียลมีเดีย รูปภาพเด่นของเพจจะแสดงเป็นรูปภาพตัวอย่าง [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)"
             },
             "title_info": {
-              "content": "ชื่อร้านค้าและคำอธิบายจะรวมอยู่ในภาพตัวอย่าง [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
+              "content": "ชื่อร้านค้าและคำอธิบายจะรวมอยู่ในภาพตัวอย่าง [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
             },
             "ask_question": {
               "label": "แสดงแบบฟอร์มถามคำถาม",
-              "content": "แบบฟอร์มนี้จะส่งการส่งทั้งหมดไปยังที่อยู่อีเมลของผู้ส่งของร้านค้าของคุณ คุณสามารถเปลี่ยนที่อยู่อีเมลของผู้ส่งได้ในหน้าการตั้งค่า [รายละเอียดร้านค้า](/admin/settings/general) ของ Shopify admin ของคุณ"
+              "content": "แบบฟอร์มนี้จะส่งการส่งทั้งหมดไปยังที่อยู่อีเมลของผู้ส่งของร้านค้าของคุณ คุณสามารถเปลี่ยนที่อยู่อีเมลของผู้ส่งได้ในหน้าการตั้งค่า [รายละเอียดร้านค้า](\/admin\/settings\/general) ของ Shopify admin ของคุณ"
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "ส่งข้อความ",
             "deliver_days": {
               "label": "จัดส่งใน:",
-              "info": "วัน (+/- 2 วัน)"
+              "info": "วัน (+\/- 2 วัน)"
             },
             "date_format": {
               "label": "รูปแบบวันที่",
-              "info": "ตัวอย่าง: %m/%d [เรียนรู้เพิ่มเติมเกี่ยวกับรูปแบบวันที่ที่นี่](http://strftime.net/)"
+              "info": "ตัวอย่าง: %m\/%d [เรียนรู้เพิ่มเติมเกี่ยวกับรูปแบบวันที่ที่นี่](http:\/\/strftime.net\/)"
             }
           }
         },
@@ -2956,7 +2947,7 @@
       "settings": {
         "header": {
           "content": "สื่อ",
-          "info": "เรียนรู้เพิ่มเติมเกี่ยวกับ [ประเภทสื่อ](https://help.shopify.com/manual/products/product-media)"
+          "info": "เรียนรู้เพิ่มเติมเกี่ยวกับ [ประเภทสื่อ](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_sticky_info": {
           "label": "เปิดใช้งานเนื้อหาแบบติดหนึบบนเดสก์ท็อป"
@@ -3181,7 +3172,7 @@
       "name": "สินค้าที่เกี่ยวข้อง",
       "settings": {
         "paragraph__1": {
-          "content": "คำแนะนำแบบไดนามิกใช้ข้อมูลคำสั่งซื้อและผลิตภัณฑ์เพื่อเปลี่ยนแปลงและปรับปรุงเมื่อเวลาผ่านไป [เรียนรู้เพิ่มเติม](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "คำแนะนำแบบไดนามิกใช้ข้อมูลคำสั่งซื้อและผลิตภัณฑ์เพื่อเปลี่ยนแปลงและปรับปรุงเมื่อเวลาผ่านไป [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3341,10 +3332,10 @@
       "name": "การ์ดลุคบุ๊ค"
     },
     "image-comparison": {
-      "name": "แถบเลื่อนรูปภาพก่อน/หลัง",
+      "name": "แถบเลื่อนรูปภาพก่อน\/หลัง",
       "settings": {
         "header__image_settings": {
-          "content": "การตั้งค่าภาพก่อน/หลัง"
+          "content": "การตั้งค่าภาพก่อน\/หลัง"
         },
         "direction": {
           "label": "ทิศทาง",
@@ -3394,7 +3385,7 @@
         }
       },
       "presets": {
-        "name": "แถบเลื่อนรูปภาพก่อน/หลัง"
+        "name": "แถบเลื่อนรูปภาพก่อน\/หลัง"
       }
     },
     "media-with-collection": {
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "ข้อความแสดงแทนของวิดีโอ",
-          "info": "อธิบายวิดีโอสำหรับลูกค้าที่ใช้โปรแกรมอ่านหน้าจอ [เรียนรู้เพิ่มเติม](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "อธิบายวิดีโอสำหรับลูกค้าที่ใช้โปรแกรมอ่านหน้าจอ [เรียนรู้เพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "อัตราส่วนวิดีโอ",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "ของเหลวแบบกำหนดเอง",
-              "info": "เพิ่มตัวอย่างแอพหรือรหัสอื่น ๆ เพื่อสร้างการปรับแต่งขั้นสูง [เรียนรู้เพิ่มเติม] (https://shopify.dev/docs/api/liquid)"
+              "info": "เพิ่มตัวอย่างแอพหรือรหัสอื่น ๆ เพื่อสร้างการปรับแต่งขั้นสูง [เรียนรู้เพิ่มเติม] (https:\/\/shopify.dev\/docs\/api\/liquid)"
             },
             "page": {
               "label": "แท็บเนื้อหาจากเพจ"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "รหัสส่วนลด",
-              "info": "มอบโค้ดส่วนลดให้กับลูกค้า [ดูโค้ดส่วนลด](/admin/discounts)"
+              "info": "มอบโค้ดส่วนลดให้กับลูกค้า [ดูโค้ดส่วนลด](\/admin\/discounts)"
             },
             "apply_button": "ปุ่มสมัคร",
             "apply_button_info": "ส่วนลดนี้จะถูกนำไปใช้เมื่อชำระเงินเมื่อลูกค้าคลิกปุ่มนี้"
@@ -4179,7 +4170,7 @@
           "content": "เป้าหมายการจัดส่งฟรี"
         },
         "paragraph": {
-          "content": "ตรวจสอบให้แน่ใจว่าคุณได้กำหนดค่า [อัตราค่าจัดส่ง](/admin/settings/shipping) ของคุณอย่างถูกต้อง"
+          "content": "ตรวจสอบให้แน่ใจว่าคุณได้กำหนดค่า [อัตราค่าจัดส่ง](\/admin\/settings\/shipping) ของคุณอย่างถูกต้อง"
         },
         "show_free_shipping_goal": {
           "label": "แสดงการจัดส่งฟรีทั่วโลก"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "สิ้นสุดเวลา",
-              "info": "รูปแบบวันที่: ปปปป/ดด/วว HH:MM หรือ ปปปป/ดด/วว HH:MM AA",
-              "paragraph": "รูปแบบวันที่ตัวอย่าง: 30/06/2024 23:59 หรือ 30/06/2024 23:59 น."
+              "info": "รูปแบบวันที่: ปปปป\/ดด\/วว HH:MM หรือ ปปปป\/ดด\/วว HH:MM AA",
+              "paragraph": "รูปแบบวันที่ตัวอย่าง: 30\/06\/2024 23:59 หรือ 30\/06\/2024 23:59 น."
             },
             "style": {
               "label": "สไตล์",

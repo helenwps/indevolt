@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "breadcrumbs": {
@@ -100,7 +91,7 @@
           "settings": {
             "heading": "Overview",
             "icon": "none",
-            "content": "<p>A clinically proven, non-sticky, vegan lip treatment that delivers the intense hydration of a lip mask with a sweet sheer tint using food-grade, non-artificial flavor. Designed for sensitive, irritated lips, this cushiony treatment delivers instant comfort to rescue dry, chapped lips.</p>",
+            "content": "<p>A clinically proven, non-sticky, vegan lip treatment that delivers the intense hydration of a lip mask with a sweet sheer tint using food-grade, non-artificial flavor. Designed for sensitive, irritated lips, this cushiony treatment delivers instant comfort to rescue dry, chapped lips.<\/p>",
             "page": "",
             "default_open": false
           }
@@ -110,7 +101,7 @@
           "settings": {
             "heading": "How to use",
             "icon": "none",
-            "content": "<p>Apply generously to lips for hydration and comfort. Use at night for an overnight mask.</p>",
+            "content": "<p>Apply generously to lips for hydration and comfort. Use at night for an overnight mask.<\/p>",
             "page": "",
             "default_open": false
           }
@@ -120,7 +111,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "<ul><li>Dulce De Leche</li><li>Ube vanilla</li><li>Watermelon kiwi</li><li>Blood orange vanilla</li></ul>",
+            "content": "<ul><li>Dulce De Leche<\/li><li>Ube vanilla<\/li><li>Watermelon kiwi<\/li><li>Blood orange vanilla<\/li><\/ul>",
             "page": "",
             "default_open": false
           }
@@ -170,7 +161,7 @@
         "testimonial_dhi3Xf": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>This clay mask deeply cleanses my pores and leaves my skin feeling smooth and refreshed. Perfect for weekly use.</p>",
+            "text": "<p>This clay mask deeply cleanses my pores and leaves my skin feeling smooth and refreshed. Perfect for weekly use.<\/p>",
             "author": "Jaroslava K.",
             "bio": "Verified Buyer"
           }
@@ -178,7 +169,7 @@
         "testimonial_D7Mq7i": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>This moisturizer left my skin feeling incredibly soft and hydrated. No greasy residue. Perfect for daily use!</p>",
+            "text": "<p>This moisturizer left my skin feeling incredibly soft and hydrated. No greasy residue. Perfect for daily use!<\/p>",
             "author": "Alexandra M.",
             "bio": "Verified Buyer"
           }
@@ -186,7 +177,7 @@
         "testimonial_33tAjm": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>The serum noticeably reduced my fine lines after a few weeks. Lightweight and absorbs quickly. Highly recommend!</p>",
+            "text": "<p>The serum noticeably reduced my fine lines after a few weeks. Lightweight and absorbs quickly. Highly recommend!<\/p>",
             "author": "Danielle S.",
             "bio": "Verified Buyer"
           }
@@ -194,7 +185,7 @@
         "testimonial_dDRMwy": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Great cleanser! It removes makeup effortlessly without drying out my skin. My face feels refreshed and clean.</p>",
+            "text": "<p>Great cleanser! It removes makeup effortlessly without drying out my skin. My face feels refreshed and clean.<\/p>",
             "author": "Elizabeth R.",
             "bio": "Verified Buyer"
           }
@@ -202,7 +193,7 @@
         "testimonial_RgfDDw": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Love this sunscreen! It's non-greasy and blends well with makeup. Offers great protection without causing breakouts.</p>",
+            "text": "<p>Love this sunscreen! It's non-greasy and blends well with makeup. Offers great protection without causing breakouts.<\/p>",
             "author": "Kimberly J.",
             "bio": "Verified Buyer"
           }
@@ -210,7 +201,7 @@
         "testimonial_abi6JN": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>This eye cream is a game-changer. Reduced puffiness and dark circles significantly. Gentle on sensitive skin.</p>",
+            "text": "<p>This eye cream is a game-changer. Reduced puffiness and dark circles significantly. Gentle on sensitive skin.<\/p>",
             "author": "Victoria H.",
             "bio": "Verified Buyer"
           }
@@ -353,7 +344,7 @@
         "text_A3Dahr": {
           "type": "text",
           "settings": {
-            "text": "<p>A fruit enzyme, such as bromelain from pineapple or papain from papaya, helps exfoliate and soften skin by breaking down and dissolving dead skin cells. This gentle exfoliation process reveals a smoother, brighter complexion and promotes cell turnover. Suitable for all skin types, it offers a natural and less abrasive alternative to traditional chemical exfoliants.</p>",
+            "text": "<p>A fruit enzyme, such as bromelain from pineapple or papain from papaya, helps exfoliate and soften skin by breaking down and dissolving dead skin cells. This gentle exfoliation process reveals a smoother, brighter complexion and promotes cell turnover. Suitable for all skin types, it offers a natural and less abrasive alternative to traditional chemical exfoliants.<\/p>",
             "text_size": "text-lg"
           }
         }
@@ -390,7 +381,7 @@
           "settings": {
             "image_width": "large",
             "title": "Earth Lover",
-            "text": "<p>Discover sustainable beauty essentials at Earth Lover beauty store.</p>",
+            "text": "<p>Discover sustainable beauty essentials at Earth Lover beauty store.<\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -402,7 +393,7 @@
           "settings": {
             "image_width": "large",
             "title": "Cruelty Free",
-            "text": "<p>Find guilt-free beauty essentials at Cruelty Free beauty store.</p>",
+            "text": "<p>Find guilt-free beauty essentials at Cruelty Free beauty store.<\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -414,7 +405,7 @@
           "settings": {
             "image_width": "large",
             "title": "100% Organic",
-            "text": "<p>Discover natural skincare treasures at our 100% Organic beauty haven.</p>",
+            "text": "<p>Discover natural skincare treasures at our 100% Organic beauty haven.<\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -426,7 +417,7 @@
           "settings": {
             "image_width": "large",
             "title": "Paraben Free",
-            "text": "<p>Unveil clean beauty secrets at our Paraben-Free skincare sanctuary.</p>",
+            "text": "<p>Unveil clean beauty secrets at our Paraben-Free skincare sanctuary.<\/p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -467,7 +458,7 @@
           "settings": {
             "icon": "none",
             "heading": "How long does shipping take?",
-            "content": "<p>Shipping typically takes 5-7 business days within the United States. For international orders, shipping can take 10-15 business days, depending on the destination and customs processing times. You will receive a tracking number once your order has shipped so you can monitor its progress.</p>",
+            "content": "<p>Shipping typically takes 5-7 business days within the United States. For international orders, shipping can take 10-15 business days, depending on the destination and customs processing times. You will receive a tracking number once your order has shipped so you can monitor its progress.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": true
@@ -478,7 +469,7 @@
           "settings": {
             "icon": "none",
             "heading": "Does my piece come in any packaging?",
-            "content": "<p>Yes, all our skincare products come in protective and aesthetically pleasing packaging to ensure they arrive in perfect condition. Each product is securely wrapped, and we use eco-friendly materials whenever possible. Additionally, many of our products come in recyclable containers to support sustainability.</p>",
+            "content": "<p>Yes, all our skincare products come in protective and aesthetically pleasing packaging to ensure they arrive in perfect condition. Each product is securely wrapped, and we use eco-friendly materials whenever possible. Additionally, many of our products come in recyclable containers to support sustainability.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -489,7 +480,7 @@
           "settings": {
             "icon": "none",
             "heading": "Do you ship internationally?",
-            "content": "<p>Yes, we do ship internationally! We offer worldwide shipping to ensure customers around the globe can enjoy our skincare products. Please note that shipping times and costs may vary depending on the destination country. International customers may also be subject to customs fees or import duties imposed by their country's customs authorities.</p>",
+            "content": "<p>Yes, we do ship internationally! We offer worldwide shipping to ensure customers around the globe can enjoy our skincare products. Please note that shipping times and costs may vary depending on the destination country. International customers may also be subject to customs fees or import duties imposed by their country's customs authorities.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -500,7 +491,7 @@
           "settings": {
             "icon": "none",
             "heading": "What payment methods do you accept?",
-            "content": "<p>We accept a variety of payment methods to make your shopping experience convenient. These include credit cards (Visa, Mastercard, American Express), PayPal, and, in some regions, alternative payment methods such as Apple Pay or Google Pay. Rest assured, your payment information is secure and protected during the checkout process.</p>",
+            "content": "<p>We accept a variety of payment methods to make your shopping experience convenient. These include credit cards (Visa, Mastercard, American Express), PayPal, and, in some regions, alternative payment methods such as Apple Pay or Google Pay. Rest assured, your payment information is secure and protected during the checkout process.<\/p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -553,7 +544,7 @@
         "html_XAthVt": {
           "type": "html",
           "settings": {
-            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> </div></div>"
+            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> <\/div><\/div>"
           }
         },
         "text_QpjN3F": {
@@ -570,7 +561,7 @@
         "html_ADnizU": {
           "type": "html",
           "settings": {
-            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> </div></div>"
+            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> <\/div><\/div>"
           }
         },
         "text_WiAYMn": {
@@ -587,7 +578,7 @@
         "html_4bNp7y": {
           "type": "html",
           "settings": {
-            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> </div></div>"
+            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> <\/div><\/div>"
           }
         }
       },
@@ -633,7 +624,7 @@
         "text_UVPHCm": {
           "type": "text",
           "settings": {
-            "text": "<p>We stand behind our products because we believe in their efficacy and quality. Our formulations are meticulously crafted using clinically proven ingredients to deliver visible results. From research to production, every step is guided by our commitment to excellence. We prioritize transparency, integrity, and customer satisfaction, ensuring you can trust and love the products you use.</p>",
+            "text": "<p>We stand behind our products because we believe in their efficacy and quality. Our formulations are meticulously crafted using clinically proven ingredients to deliver visible results. From research to production, every step is guided by our commitment to excellence. We prioritize transparency, integrity, and customer satisfaction, ensuring you can trust and love the products you use.<\/p>",
             "text_size": "text-lg"
           }
         }
@@ -645,8 +636,8 @@
       ],
       "settings": {
         "color_scheme": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_ratio": "1/1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_ratio": "1\/1",
         "description": "",
         "enable_video_autoplay": true,
         "enable_video_looping": true,

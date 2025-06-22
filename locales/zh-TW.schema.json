@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "settings_schema": {
     "global": {
@@ -302,7 +293,7 @@
         },
         "language_support_rtl": {
           "label": "支援 RTL 的語言",
-          "info": "輸入 ISO 語言代碼，以逗號分隔。留空即可啟用所有語言。 [檢查 ISO 語言代碼](https://www.loc.gov/standards/iso639-2/php/code_list.php)"
+          "info": "輸入 ISO 語言代碼，以逗號分隔。留空即可啟用所有語言。 [檢查 ISO 語言代碼](https:\/\/www.loc.gov\/standards\/iso639-2\/php\/code_list.php)"
         },
         "enable_back_to_top": {
           "label": "啟用返回頂部按鈕"
@@ -686,40 +677,40 @@
           "content": "社群帳號"
         },
         "social_twitter_link": {
-          "label": "X/推特",
-          "info": "https://x.com/shopify"
+          "label": "X\/推特",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "興趣",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "抖音",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "豆瓣",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "快照",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "Youtube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "維梅奧",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     },
@@ -815,11 +806,11 @@
           "content": "免費送貨目標"
         },
         "paragraph__1": {
-          "content": "確保您已正確配置[運費](/admin/settings/shipping)"
+          "content": "確保您已正確配置[運費](\/admin\/settings\/shipping)"
         },
         "free_shipping_minimum_amount": {
           "label": "免運費最低金額",
-          "info": "在[主題設定](/editor?context=theme&category=cart)中設定免費送貨的最低金額。"
+          "info": "在[主題設定](\/editor?context=theme&category=cart)中設定免費送貨的最低金額。"
         }
       }
     },
@@ -1841,7 +1832,7 @@
       "settings": {
         "custom_liquid": {
           "label": "液體碼",
-          "info": "新增應用程式片段或其他程式碼以建立高級自訂。 [了解更多](https://shopify.dev/docs/api/liquid)"
+          "info": "新增應用程式片段或其他程式碼以建立高級自訂。 [了解更多](https:\/\/shopify.dev\/docs\/api\/liquid)"
         }
       },
       "presets": {
@@ -1967,11 +1958,11 @@
       "settings": {
         "header__1": {
           "content": "電子郵件註冊",
-          "info": "訂閱者會自動加入您的「接受行銷」客戶名單。 [了解更多](https://help.shopify.com/manual/customers/manage-customers)"
+          "info": "訂閱者會自動加入您的「接受行銷」客戶名單。 [了解更多](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
         },
         "header__2": {
           "content": "社群媒體圖標",
-          "info": "要顯示您的社交媒體帳戶，請在[主題設定](/editor?context=theme&category=social%20media)中連結它們。"
+          "info": "要顯示您的社交媒體帳戶，請在[主題設定](\/editor?context=theme&category=social%20media)中連結它們。"
         },
         "show_social": {
           "label": "顯示社群媒體圖標"
@@ -1980,7 +1971,7 @@
           "content": "國家選擇器"
         },
         "header__4": {
-          "info": "要新增國家/地區，請前往您的[市場設定](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "info": "要新增國家\/地區，請前往您的[市場設定](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         },
         "enable_country_selector": {
           "label": "啟用國家選擇器"
@@ -1989,7 +1980,7 @@
           "content": "語言選擇器"
         },
         "header__6": {
-          "info": "若要新增語言，請前往您的[語言設定](/admin/settings/linguals)"
+          "info": "若要新增語言，請前往您的[語言設定](\/admin\/settings\/linguals)"
         },
         "enable_language_selector": {
           "label": "啟用語言選擇器"
@@ -2005,7 +1996,7 @@
         },
         "header__9": {
           "content": "關注商店",
-          "info": "若要允許客戶從您的店面在 Shop 應用程式上追蹤您的商店，必須啟用 Shop Pay。 [了解更多](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "info": "若要允許客戶從您的店面在 Shop 應用程式上追蹤您的商店，必須啟用 Shop Pay。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "enable_follow_on_shop": {
           "label": "啟用關注商店"
@@ -2021,7 +2012,7 @@
     "header": {
       "name": "標頭",
       "paragraph": {
-        "content": "在[主題設定](/editor?context=theme&category=logo)中編輯您的標誌。"
+        "content": "在[主題設定](\/editor?context=theme&category=logo)中編輯您的標誌。"
       },
       "settings": {
         "menu": {
@@ -2096,7 +2087,7 @@
         },
         "enable_country_selector": {
           "label": "啟用國家選擇器",
-          "info": "若要新增國家/地區，請前往[市場設定](/admin/settings/markets) or [Read How-to](https://foxecom.link/nxqz-w)"
+          "info": "若要新增國家\/地區，請前往[市場設定](\/admin\/settings\/markets) or [Read How-to](https:\/\/foxecom.link\/nxqz-w)"
         }
       },
       "blocks": {
@@ -2275,7 +2266,7 @@
           "label": "顯示收集圖像"
         },
         "paragraph": {
-          "content": "透過編輯您的收藏來添加描述或圖像。 [了解更多](https://help.shopify.com/manual/products/collections/collection-layout)"
+          "content": "透過編輯您的收藏來添加描述或圖像。 [了解更多](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
         },
         "settings_header": {
           "label": "設定"
@@ -2335,7 +2326,7 @@
         },
         "enable_filtering": {
           "label": "啟用過濾",
-          "info": "使用搜尋和發現應用程式自訂篩選器。 [了解更多](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "使用搜尋和發現應用程式自訂篩選器。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "filter_type": {
           "label": "桌面過濾器佈局",
@@ -2379,7 +2370,7 @@
         },
         "enable_tags": {
           "label": "啟用過濾",
-          "info": "使用搜尋和發現應用程式自訂篩選器。 [了解更多](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+          "info": "使用搜尋和發現應用程式自訂篩選器。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
         },
         "quick_add": {
           "label": "快速添加",
@@ -2458,7 +2449,7 @@
           "options__3": {
             "label": "方塊"
           },
-          "info": "透過編輯您的收藏來添加圖像。 [了解更多](https://help.shopify.com/manual/products/collections)"
+          "info": "透過編輯您的收藏來添加圖像。 [了解更多](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "columns_desktop": {
           "label": "桌面上的列數"
@@ -2554,7 +2545,7 @@
         "content_message": {
           "name": "內容留言",
           "header": "密碼留言",
-          "info": "在您的[線上商店偏好設定](/admin/online_store/preferences) 中設定的訊息"
+          "info": "在您的[線上商店偏好設定](\/admin\/online_store\/preferences) 中設定的訊息"
         }
       }
     },
@@ -2681,7 +2672,7 @@
                 "info": "顯示特定係列或產品的不同尺寸表。"
               },
               "paragraph_2": {
-                "content": "使用命名空間和鍵為產品建立自訂元欄位：「foxtheme.size_chart」。 [新增元字段](/admin/metafields/product)"
+                "content": "使用命名空間和鍵為產品建立自訂元欄位：「foxtheme.size_chart」。 [新增元字段](\/admin\/metafields\/product)"
               }
             }
           }
@@ -2694,11 +2685,11 @@
             },
             "show_dynamic_checkout": {
               "label": "顯示動態結帳按鈕",
-              "info": "使用商店中提供的付款方式，客戶可以看到他們的首選選項，例如 PayPal 或 Apple Pay。 [了解更多](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "使用商店中提供的付款方式，客戶可以看到他們的首選選項，例如 PayPal 或 Apple Pay。 [了解更多](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": "顯示禮品卡的收件人資訊表",
-              "info": "允許買家在預定日期發送禮品卡以及個人訊息。 [了解更多](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "info": "允許買家在預定日期發送禮品卡以及個人訊息。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -2758,7 +2749,7 @@
           "name": "配套產品",
           "settings": {
             "paragraph": {
-              "content": "若要選擇互補產品，請新增搜尋和發現應用程式。 [了解更多](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+              "content": "若要選擇互補產品，請新增搜尋和發現應用程式。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
             },
             "heading": {
               "label": "標題"
@@ -2844,14 +2835,14 @@
               "label": "顯示社交分享"
             },
             "featured_image_info": {
-              "content": "如果您在社交媒體貼文中包含鏈接，則該頁面的特色圖像將顯示為預覽圖像。 [了解更多](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)。"
+              "content": "如果您在社交媒體貼文中包含鏈接，則該頁面的特色圖像將顯示為預覽圖像。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)。"
             },
             "title_info": {
-              "content": "預覽圖像中包含商店標題和描述。 [了解更多](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)。"
+              "content": "預覽圖像中包含商店標題和描述。 [了解更多](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)。"
             },
             "ask_question": {
               "label": "顯示提問表格",
-              "content": "此表單會將所有提交內容傳送到您商店的寄件者電子郵件地址。您可以在 Shopify 後台的[商店詳細資料](/admin/settings/general) 設定頁面中變更寄件者電子郵件地址。"
+              "content": "此表單會將所有提交內容傳送到您商店的寄件者電子郵件地址。您可以在 Shopify 後台的[商店詳細資料](\/admin\/settings\/general) 設定頁面中變更寄件者電子郵件地址。"
             }
           }
         },
@@ -2890,11 +2881,11 @@
             "deliver_text": "發送文字",
             "deliver_days": {
               "label": "交付於：",
-              "info": "天（+/- 2 天）"
+              "info": "天（+\/- 2 天）"
             },
             "date_format": {
               "label": "日期格式",
-              "info": "範例：%m/%d [在此處詳細了解日期格式。"
+              "info": "範例：%m\/%d [在此處詳細了解日期格式。"
             }
           }
         },
@@ -3181,7 +3172,7 @@
       "name": "相關產品",
       "settings": {
         "paragraph__1": {
-          "content": "動態建議使用訂單和產品資訊來隨著時間的推移而改變和改進。 [了解更多](https://help.shopify.com/themes/development/recommended-products)"
+          "content": "動態建議使用訂單和產品資訊來隨著時間的推移而改變和改進。 [了解更多](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
         }
       }
     },
@@ -3341,10 +3332,10 @@
       "name": "畫冊卡"
     },
     "image-comparison": {
-      "name": "影像滑桿之前/之後",
+      "name": "影像滑桿之前\/之後",
       "settings": {
         "header__image_settings": {
-          "content": "影像設定之前/之後"
+          "content": "影像設定之前\/之後"
         },
         "direction": {
           "label": "方向",
@@ -3394,7 +3385,7 @@
         }
       },
       "presets": {
-        "name": "影像滑桿之前/之後"
+        "name": "影像滑桿之前\/之後"
       }
     },
     "media-with-collection": {
@@ -3460,7 +3451,7 @@
         },
         "description": {
           "label": "影片替代文字",
-          "info": "為使用螢幕閱讀器的客戶描述該影片。 [了解更多](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
+          "info": "為使用螢幕閱讀器的客戶描述該影片。 [了解更多](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video)"
         },
         "video_ratio": {
           "label": "影片比例",
@@ -3798,7 +3789,7 @@
             },
             "custom_liquid": {
               "label": "客製化液體",
-              "info": "添加應用程序片段或其他代碼以創建高級自定義。 [了解更多]（https://shopify.dev/docs/api/liquid）"
+              "info": "添加應用程序片段或其他代碼以創建高級自定義。 [了解更多]（https:\/\/shopify.dev\/docs\/api\/liquid）"
             },
             "page": {
               "label": "頁面中的選項卡內容"
@@ -3944,7 +3935,7 @@
           "settings": {
             "code": {
               "label": "優惠碼",
-              "info": "給顧客一個折扣代碼。 [查看折扣碼](/admin/discounts)"
+              "info": "給顧客一個折扣代碼。 [查看折扣碼](\/admin\/discounts)"
             },
             "apply_button": "應用程式按鈕",
             "apply_button_info": "當客戶點擊此按鈕時，此折扣將在結帳時套用。"
@@ -4179,7 +4170,7 @@
           "content": "免費送貨目標"
         },
         "paragraph": {
-          "content": "確保您已正確配置[運費](/admin/settings/shipping)"
+          "content": "確保您已正確配置[運費](\/admin\/settings\/shipping)"
         },
         "show_free_shipping_goal": {
           "label": "顯示全球免運費"
@@ -4355,8 +4346,8 @@
             },
             "time": {
               "label": "結束時間",
-              "info": "日期格式：YYYY/MM/DD HH:MM 或 YYYY/MM/DD HH:MM AA。",
-              "paragraph": "範例日期格式：2024/06/30 23:59 或 2024/06/30 11:59 PM"
+              "info": "日期格式：YYYY\/MM\/DD HH:MM 或 YYYY\/MM\/DD HH:MM AA。",
+              "paragraph": "範例日期格式：2024\/06\/30 23:59 或 2024\/06\/30 11:59 PM"
             },
             "style": {
               "label": "風格",

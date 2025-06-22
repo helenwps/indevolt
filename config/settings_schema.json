@@ -4,15 +4,15 @@
     "theme_name": "Sleek",
     "theme_version": "1.9.1",
     "theme_author": "FoxEcom",
-    "theme_documentation_url": "https://docs.foxecom.com/sleek-theme",
-    "theme_support_url": "https://help.foxecom.com/"
+    "theme_documentation_url": "https:\/\/docs.foxecom.com\/sleek-theme",
+    "theme_support_url": "https:\/\/help.foxecom.com\/"
   },
   {
     "name": "t:settings_schema.general.name",
     "settings": [
       {
         "type": "paragraph",
-        "content": "[Read How-to](https://foxecom.link/uJmAXn1)"
+        "content": "[Read How-to](https:\/\/foxecom.link\/uJmAXn1)"
       },
       {
         "type": "header",
@@ -24,7 +24,7 @@
         "label": "t:settings_schema.general.settings.enable_rtl.label",
         "default": false
       },
-      { 
+      {
         "type": "text",
         "id": "language_support_rtl",
         "label": "t:settings_schema.general.settings.language_support_rtl.label",
@@ -99,7 +99,7 @@
     "settings": [
       {
         "type": "paragraph",
-        "content": "[Read How-to](https://foxecom.link/hfluvi)"
+        "content": "[Read How-to](https:\/\/foxecom.link\/hfluvi)"
       },
       {
         "type": "color_scheme_group",
@@ -774,7 +774,7 @@
     "settings": [
       {
         "type": "paragraph",
-        "content": "[Read How-to](https://foxecom.link/zyllj1)"
+        "content": "[Read How-to](https:\/\/foxecom.link\/zyllj1)"
       },
       {
         "type": "range",
@@ -975,7 +975,7 @@
     "settings": [
       {
         "type": "paragraph",
-        "content": "[Read How-to](https://foxecom.link/-ou_xy)"
+        "content": "[Read How-to](https:\/\/foxecom.link\/-ou_xy)"
       },
       {
         "type": "select",
@@ -988,7 +988,7 @@
           {
             "value": "card",
             "label": "t:settings_schema.product_cards.settings.style.options__2.label"
-          } 
+          }
         ],
         "default": "standard",
         "label": "t:settings_schema.product_cards.settings.style.label"
@@ -1012,7 +1012,7 @@
           }
         ],
         "default": "left"
-      }, 
+      },
       {
         "type": "color_scheme",
         "id": "pcard_color_scheme",
@@ -1031,15 +1031,15 @@
             "label": "t:settings_schema.global.settings.image_ratio.options__1.label"
           },
           {
-            "value": "1/1",
+            "value": "1\/1",
             "label": "t:settings_schema.global.settings.image_ratio.options__2.label"
           },
           {
-            "value": "3/4",
+            "value": "3\/4",
             "label": "t:settings_schema.global.settings.image_ratio.options__3.label"
           },
           {
-            "value": "4/3",
+            "value": "4\/3",
             "label": "t:settings_schema.global.settings.image_ratio.options__4.label"
           }
         ]
@@ -1082,7 +1082,7 @@
         "type": "header",
         "content": "t:settings_schema.product_cards.settings.header__quick_add.content"
       },
-      { 
+      {
         "type": "checkbox",
         "id": "pcard_show_cart_button",
         "label": "t:settings_schema.product_cards.settings.action_show_add_to_cart.label",
@@ -1282,15 +1282,15 @@
             "label": "t:settings_schema.global.settings.image_ratio.options__1.label"
           },
           {
-            "value": "1/1",
+            "value": "1\/1",
             "label": "t:settings_schema.global.settings.image_ratio.options__2.label"
           },
           {
-            "value": "3/4",
+            "value": "3\/4",
             "label": "t:settings_schema.global.settings.image_ratio.options__3.label"
           },
           {
-            "value": "4/3",
+            "value": "4\/3",
             "label": "t:settings_schema.global.settings.image_ratio.options__4.label"
           }
         ]
@@ -1320,7 +1320,7 @@
     "settings": [
       {
         "type": "paragraph",
-        "content": "[Read How-to](https://foxecom.link/cgnsla)"
+        "content": "[Read How-to](https:\/\/foxecom.link\/cgnsla)"
       },
       {
         "type": "text",
@@ -1343,7 +1343,7 @@
     "settings": [
       {
         "type": "paragraph",
-        "content": "[Read How-to](https://foxecom.link/fi_zgz)"
+        "content": "[Read How-to](https:\/\/foxecom.link\/fi_zgz)"
       },
       {
         "type": "select",
@@ -1398,7 +1398,7 @@
         "type": "richtext",
         "id": "cart_empty_message",
         "label": "t:settings_schema.cart.settings.cart_empty_message.label",
-        "default": "<p>Not sure where to start? <br> Try these collections:</p>"
+        "default": "<p>Not sure where to start? <br> Try these collections:<\/p>"
       },
       {
         "type": "collection_list",
@@ -1497,7 +1497,7 @@
     "settings": [
       {
         "type": "paragraph",
-        "content": "[Read How-to](https://foxecom.link/5OBZxui)"
+        "content": "[Read How-to](https:\/\/foxecom.link\/5OBZxui)"
       },
       {
         "type": "header",

@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin language editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "general": {
     "password_page": {
@@ -16,7 +7,7 @@
       "login_form_password_placeholder": "Tvoja lozinka",
       "login_form_error": "Pogrešna lozinka!",
       "login_form_submit": "Unesi",
-      "admin_link_html": "Jeste li vi vlasnik trgovine? <a href=\"/admin\" class=\"btn--link\">Prijavite se ovdje</a>",
+      "admin_link_html": "Jeste li vi vlasnik trgovine? <a href=\"\/admin\" class=\"btn--link\">Prijavite se ovdje<\/a>",
       "powered_by_shopify_html": "Ovu trgovinu će pokretati {{ shopify }}"
     },
     "social": {
@@ -179,10 +170,10 @@
       "view_product_list": "Pogledajte popis proizvoda",
       "description": "Opis",
       "inventory_in_stock": "Na lageru",
-      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}</strong> na zalihi",
+      "inventory_in_stock_show_count_html": "<strong>{{ quantity }}<\/strong> na zalihi",
       "inventory_low_stock": "Niska zaliha",
-      "inventory_low_stock_one_item_html": "Požurite, još samo <strong>{{ quantity }}</strong> artikal na zalihi.",
-      "inventory_low_stock_many_items_html": "Požurite, još samo <strong>{{ quantity }}</strong> artikala na zalihama.",
+      "inventory_low_stock_one_item_html": "Požurite, još samo <strong>{{ quantity }}<\/strong> artikal na zalihi.",
+      "inventory_low_stock_many_items_html": "Požurite, još samo <strong>{{ quantity }}<\/strong> artikala na zalihama.",
       "inventory_out_of_stock": "Nema na skladištu",
       "inventory_out_of_stock_continue_selling": "Na lageru",
       "sku": "SKU",
@@ -209,25 +200,25 @@
         "multiples_of": "Povećanja od {{ quantity }}",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Maks. {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> u košarici",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> u košarici",
         "note": "Pogledajte pravila o količini"
       },
       "volume_pricing": {
         "title": "Cijene količine",
         "note": "Dostupne su količinske cijene",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "po {{ price }}/ea",
-        "price_at_each_html": "po {{ price }}/ea",
+        "price_at_each": "po {{ price }}\/ea",
+        "price_at_each_html": "po {{ price }}\/ea",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "each": "{{ money }}/kom",
-        "each_html": "{{ money }}/kom"
+        "each": "{{ money }}\/kom",
+        "each_html": "{{ money }}\/kom"
       },
       "pickup_availability": {
         "view_store_info": "Pogledajte informacije o trgovini",
         "check_other_stores": "Provjerite dostupnost u drugim trgovinama",
         "pick_up_available": "Moguće preuzimanje",
-        "pick_up_available_at_html": "Moguće preuzimanje u <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Preuzimanje trenutno nije dostupno u <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Moguće preuzimanje u <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Preuzimanje trenutno nije dostupno u <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Nije moguće učitati dostupnost preuzimanja",
         "refresh": "Osvježiti"
       },
@@ -237,7 +228,7 @@
         "regular_price": "Standardna cijena",
         "sale_price": "Prodajna cijena",
         "unit_price": "Jedinična cijena",
-        "save_price_html": "Spremi <span data-sale-value>{{ amount }}</span>"
+        "save_price_html": "Spremi <span data-sale-value>{{ amount }}<\/span>"
       },
       "share": "Podijelite ovaj proizvod",
       "share_label": "Udio",
@@ -263,7 +254,7 @@
       "xr_button": "Pogledajte u svom prostoru",
       "xr_button_label": "Pregledajte u svom prostoru, učitava stavku u prozoru proširene stvarnosti",
       "include_taxes": "Porez uključen.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Poštarina</a> obračunava se prilikom naplate."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Poštarina<\/a> obračunava se prilikom naplate."
     },
     "modal": {
       "label": "Media galerija"
@@ -391,9 +382,9 @@
       "empty": "Vaša košarica je trenutno prazna.",
       "cart_error": "Došlo je do pogreške prilikom ažuriranja vaše košarice. Molim te pokušaj ponovno.",
       "cart_quantity_error_html": "U svoju košaricu možete dodati samo {{ quantity }} ovog artikla.",
-      "taxes_and_shipping_policy_at_checkout_html": "Porezi i <a href=\"{{ link }}\" class=\"btn--link\">poštarina</a> obračunavaju se prilikom naplate",
+      "taxes_and_shipping_policy_at_checkout_html": "Porezi i <a href=\"{{ link }}\" class=\"btn--link\">poštarina<\/a> obračunavaju se prilikom naplate",
       "taxes_included_but_shipping_at_checkout": "Porez je uključen i poštarina se obračunava na blagajni",
-      "taxes_included_and_shipping_policy_html": "Porez uključen. <a href=\"{{ link }}\" class=\"btn--link\">Dostava</a> i popusti koji se obračunavaju na blagajni.",
+      "taxes_included_and_shipping_policy_html": "Porez uključen. <a href=\"{{ link }}\" class=\"btn--link\">Dostava<\/a> i popusti koji se obračunavaju na blagajni.",
       "taxes_and_shipping_at_checkout": "Porezi i poštarina obračunavaju se prilikom naplate",
       "headings": {
         "product": "Proizvod",
@@ -405,7 +396,7 @@
       "update": "Ažuriraj",
       "login": {
         "title": "Imate račun?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prijavite se</a> za bržu odjavu."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prijavite se<\/a> za bržu odjavu."
       }
     },
     "footer": {
@@ -427,7 +418,7 @@
     "collection_template": {
       "empty": "Nema pronađenih proizvoda",
       "title": "Kolekcija",
-      "use_fewer_filters_html": "Koristite manje filtera ili <a class=\"{{ class }}\" href=\"{{ link }}\">uklonite sve</a>"
+      "use_fewer_filters_html": "Koristite manje filtera ili <a class=\"{{ class }}\" href=\"{{ link }}\">uklonite sve<\/a>"
     },
     "video": {
       "load_video": "Učitaj video: {{ description }}"
@@ -463,8 +454,8 @@
     "quick_order_list": {
       "product_total": "Međuzbroj proizvoda",
       "view_cart": "Pogledaj košaricu",
-      "each": "{{ money }}/kom",
-      "each_html": "{{ money }}/kom",
+      "each": "{{ money }}\/kom",
+      "each_html": "{{ money }}\/kom",
       "product": "Proizvod",
       "variant": "Varijanta",
       "variant_total": "Ukupno varijanti",
@@ -488,13 +479,13 @@
     }
   },
   "localization": {
-    "country_label": "Država/regija",
+    "country_label": "Država\/regija",
     "language_label": "Jezik",
     "update_language": "Ažurirajte jezik",
-    "update_country": "Ažurirajte državu/regiju",
+    "update_country": "Ažurirajte državu\/regiju",
     "search": "traži",
-    "popular_countries_regions": "Popularne zemlje/regije",
-    "country_results_count": "Broj pronađenih zemalja/regija: {{ count }}"
+    "popular_countries_regions": "Popularne zemlje\/regije",
+    "country_results_count": "Broj pronađenih zemalja\/regija: {{ count }}"
   },
   "customer": {
     "account": {
@@ -523,7 +514,7 @@
       "address1": "adresa 1",
       "address2": "Adresa 2",
       "city": "Grad",
-      "country": "Država/regija",
+      "country": "Država\/regija",
       "province": "Pokrajina",
       "zip": "Poštanski broj",
       "phone": "Telefon",
