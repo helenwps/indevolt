@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_q3U4Jn": {
@@ -7,8 +16,8 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-1",
-            "background": "shopify:\/\/shop_images\/Group_155_9c880d25-ab2d-4653-89fc-14c3be6178bd.png",
-            "background_mobile": "shopify:\/\/shop_images\/KV_d3ba0fad-13ee-4985-9693-60bac75c64a6.png",
+            "background": "shopify://shop_images/Group_155_9c880d25-ab2d-4653-89fc-14c3be6178bd.png",
+            "background_mobile": "shopify://shop_images/KV_d3ba0fad-13ee-4985-9693-60bac75c64a6.png",
             "background_image_url": "",
             "image_overlay_opacity": 0,
             "show_content_in_container": false,
@@ -21,7 +30,7 @@
             "description": "",
             "description_size": "text-base",
             "button_label": "",
-            "button_link": "https:\/\/de.indevolt.com\/pages\/jahresmitte-sale",
+            "button_link": "https://de.indevolt.com/pages/jahresmitte-sale",
             "button_style": "btn--primary"
           }
         },
@@ -29,8 +38,8 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-1",
-            "background": "shopify:\/\/shop_images\/2404_79d98486-7470-434a-ba7c-464475a7df3e.jpg",
-            "background_mobile": "shopify:\/\/shop_images\/0513_88d371f1-9c1f-4bef-be60-9ab8d4a19205.jpg",
+            "background": "shopify://shop_images/2404_79d98486-7470-434a-ba7c-464475a7df3e.jpg",
+            "background_mobile": "shopify://shop_images/0513_88d371f1-9c1f-4bef-be60-9ab8d4a19205.jpg",
             "background_image_url": "",
             "image_overlay_opacity": 0,
             "show_content_in_container": false,
@@ -76,45 +85,45 @@
         "featured_collection_weNg9r": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
-            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile1.png",
+            "image": "shopify://shop_images/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
+            "mobile_image": "shopify://shop_images/big-image-mobile1.png",
             "title": "BK1600",
             "description": "Balkonkraftwerk mit Speicher",
             "button_title": "Jetzt kaufen",
-            "button_link": "\/products\/indevolt-bk-1600"
+            "button_link": "/products/indevolt-bk-1600"
           }
         },
         "featured_collection_xmNLUg": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4-2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile2.png",
+            "image": "shopify://shop_images/4-2.jpg",
+            "mobile_image": "shopify://shop_images/big-image-mobile2.png",
             "title": "BK1600 Ultra",
             "description": "Balkonkraftwerk mit Speicher",
             "button_title": "Jetzt kaufen",
-            "button_link": "\/products\/indevolt-bk1600-ultra"
+            "button_link": "/products/indevolt-bk1600-ultra"
           }
         },
         "featured_collection_mjAyak": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4-3_4e95fda7-de99-48eb-a6dc-dcf21b16d797.png",
-            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile3.png",
+            "image": "shopify://shop_images/4-3_4e95fda7-de99-48eb-a6dc-dcf21b16d797.png",
+            "mobile_image": "shopify://shop_images/big-image-mobile3.png",
             "title": "Mikro-Wechselrichter",
             "description": "",
             "button_title": "Jetzt kaufen",
-            "button_link": "\/products\/indevolt-mikrowechselrichter"
+            "button_link": "/products/indevolt-mikrowechselrichter"
           }
         },
         "featured_collection_wBeLed": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4-4_6d2b7f0d-a0b7-482d-965c-d7ba31f4158b.png",
-            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile4.png",
+            "image": "shopify://shop_images/4-4_6d2b7f0d-a0b7-482d-965c-d7ba31f4158b.png",
+            "mobile_image": "shopify://shop_images/big-image-mobile4.png",
             "title": "Zubehör",
             "description": "",
             "button_title": "Mehr erfahren",
-            "button_link": "\/collections\/zubehor"
+            "button_link": "/collections/zubehor"
           }
         }
       },
@@ -129,194 +138,122 @@
         "section_title": "我们的特色分区"
       }
     },
-    "scene_list_CwKJ7z": {
-      "type": "product_collection",
+    "product_collection_FTLMAf": {
+      "type": "product-collection",
       "blocks": {
-        "featured_collection_weNg9r": {
+        "card_jJpyFf": {
           "type": "card",
           "settings": {
-            "custom_image": "shopify:\/\/shop_images\/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
-            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile1.png",
-            "custom_title": "BK1600",
-            "custom_describe": "Balkonkraftwerk mit Speicher",
-            "price":"$600",
-            "original":"$1200",
-            "button_title": "Jetzt kaufen",
-            "button_link": "\/products\/indevolt-bk-1600"
+            "product_item": "indevolt-sf2000",
+            "custom_image": "shopify://shop_images/Group_255_ed424e4c-7de6-4138-85da-611081d9ead7.png",
+            "mobile_image": "shopify://shop_images/mob3_be69a1bf-718d-4675-8af5-b1957662239c.png",
+            "custom_title": "SolidFlex 2000 + SFA1800",
+            "custom_describe": "",
+            "price": "1.398,00 €",
+            "original": "2.098,00 €",
+            "button_text": "Mehr erfahren",
+            "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040578659"
           }
         },
-        "featured_collection_xmNLUg": {
+        "card_rT9e6n": {
           "type": "card",
           "settings": {
-            "custom_image": "shopify:\/\/shop_images\/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
-            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile1.png",
-            "custom_title": "BK1600",
-            "custom_describe": "Balkonkraftwerk mit Speicher",
-            "price":"$600",
-            "original":"$1200",
-            "button_title": "Jetzt kaufen",
-            "button_link": "\/products\/indevolt-bk-1600"
+            "product_item": "indevolt-sf2000",
+            "custom_image": "shopify://shop_images/Group_295.png",
+            "mobile_image": "shopify://shop_images/mob3_be69a1bf-718d-4675-8af5-b1957662239c.png",
+            "custom_title": "SolidFlex 2000 + SFA1800",
+            "custom_describe": "4*440W Bifaziales Solarmodul + 4*Metalldachhalter ",
+            "price": "1.946,00 €",
+            "original": "2.765,00 €",
+            "button_text": "Mehr erfahren",
+            "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040840803"
           }
         },
-        "featured_collection_mjAyak": {
+        "card_WnKpLe": {
           "type": "card",
           "settings": {
-            "custom_image": "shopify:\/\/shop_images\/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
-            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile1.png",
-            "custom_title": "BK1600",
-            "custom_describe": "Balkonkraftwerk mit Speicher",
-            "price":"$600",
-            "original":"$1200",
-            "button_title": "Jetzt kaufen",
-            "button_link": "\/products\/indevolt-bk-1600"
+            "product_item": "indevolt-sf2000",
+            "custom_image": "shopify://shop_images/Group_256.png",
+            "mobile_image": "shopify://shop_images/mob3_be69a1bf-718d-4675-8af5-b1957662239c.png",
+            "custom_title": "SolidFlex 2000 + SFA1800",
+            "custom_describe": "4*440W Bifaziales Solarmodul + 4*Flachdachhalter ",
+            "price": "1.986,00 €",
+            "original": "2.805,00 €",
+            "button_text": "Mehr erfahren",
+            "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040873571"
           }
         },
-        "featured_collection_wBeLed": {
+        "card_TW7Upe": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4-4_6d2b7f0d-a0b7-482d-965c-d7ba31f4158b.png",
-            "mobile_image": "shopify:\/\/shop_images\/big-image-mobile4.png",
-            "title": "Zubehör",
-            "description": "",
-            "button_title": "Mehr erfahren",
-            "button_link": "\/collections\/zubehor"
+            "product_item": "indevolt-sf2000",
+            "custom_image": "shopify://shop_images/Group_257_5c168e03-16bd-4c20-acd0-0a015ba436a3.png",
+            "mobile_image": "shopify://shop_images/mob4_4c2cc375-9c43-42be-94c0-a22b662deef5.png",
+            "custom_title": "SolidFlex 2000 + SFA1800",
+            "custom_describe": "4*440W Bifaziales Solarmodul + 2*Dachhalter",
+            "price": "2.026,00 €",
+            "original": "2.845,00 €",
+            "button_text": "Mehr erfahren",
+            "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040939107"
           }
         }
       },
       "block_order": [
-        "featured_collection_weNg9r",
-        "featured_collection_xmNLUg",
-        "featured_collection_mjAyak",
-        "featured_collection_wBeLed"
+        "card_jJpyFf",
+        "card_rT9e6n",
+        "card_WnKpLe",
+        "card_TW7Upe"
       ],
-      "name": "产品推荐列表",
+      "name": "产品推荐",
       "settings": {
-        "title": "产品推荐列表"
-      }
-    },
-    "featured_collection_MXQFFk": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "color_scheme": "scheme-6c0ef897-e749-4265-9534-90b771c45859",
-        "header_layout": "vertical",
-        "heading": "Empfehlung für das Produkt",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "text_size": "text-base",
-        "show_collection_description": false,
-        "collection": "mega-menu-featured-products",
-        "limit": 8,
+        "title": "Produktempfehlung",
         "columns": 4,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "grid_layout": "standard",
-        "enable_slider": true,
-        "controls_position": "inside",
-        "pcard_image_ratio": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "show_all_button_on_top": false,
-        "button_label": "",
-        "button_style": "btn--primary",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
+        "controls_position": "inside"
       }
     },
-    "card_images_YfYkKC": {
-      "type": "card-images",
+    "product_coupon_KwiHgH": {
+      "type": "product-coupon",
       "blocks": {
-        "image_card_wqEYFA": {
-          "type": "image_card",
+        "card_waLpJr": {
+          "type": "card",
           "settings": {
-            "color_scheme": "scheme-4",
-            "image_overlay_opacity": 0,
-            "heading": "Care for Your Beauty",
-            "heading_size": "hd2",
-            "subheading": "The Vacation Shop",
-            "description": "<p>We create safe products that really work and are designed to make you feel good<\/p>",
-            "description_size": "text-lg",
-            "button_label": "Shop Skincare",
-            "button_style": "btn--primary",
-            "content_position": "middle-left",
-            "content_alignment": "left",
-            "content_spacing": "large",
-            "card_link": "",
-            "content_position_mobile": "top-center",
-            "content_alignment_mobile": "center"
+            "image": "shopify://shop_images/1_b1926bf0-38e4-46a6-917c-b3100781cd73.png",
+            "mobile_image": "shopify://shop_images/3001.png",
+            "title": "Jetzt kaufen und sparen",
+            "button_title": "Mehr erfahren >",
+            "button_link": "https://de.indevolt.com/pages/jetztkaufenundsparen"
           }
         },
-        "image_card_gQwfAa": {
-          "type": "image_card",
+        "card_DWmKQB": {
+          "type": "card",
           "settings": {
-            "color_scheme": "",
-            "image_overlay_opacity": 0,
-            "heading": "Show your Sparkle",
-            "heading_size": "hd2",
-            "subheading": "The Vacation Shop",
-            "description": "<p>We create safe products that really work and are designed to make you feel good<\/p>",
-            "description_size": "text-lg",
-            "button_label": "Shop Makeup",
-            "button_style": "btn--primary",
-            "content_position": "middle-left",
-            "content_alignment": "left",
-            "content_spacing": "large",
-            "card_link": "",
-            "content_position_mobile": "top-center",
-            "content_alignment_mobile": "center"
+            "image": "shopify://shop_images/pc_SF2000-BK1600.png",
+            "mobile_image": "shopify://shop_images/3002.png",
+            "title": "Produktvergleich",
+            "button_title": "Mehr erfahren >",
+            "button_link": "https://de.indevolt.com/pages/produktvergleich"
           }
         },
-        "image_card_944yhH": {
-          "type": "image_card",
+        "card_CGAafz": {
+          "type": "card",
           "settings": {
-            "color_scheme": "",
-            "image_overlay_opacity": 0,
-            "heading": "Care for Your Beauty",
-            "heading_size": "hd2",
-            "subheading": "The Vacation Shop",
-            "description": "<p>We create safe products that really work and are designed to make you feel good<\/p>",
-            "description_size": "text-lg",
-            "button_label": "Shop Accessories",
-            "button_style": "btn--primary",
-            "content_position": "middle-left",
-            "content_alignment": "left",
-            "content_spacing": "large",
-            "card_link": "",
-            "content_position_mobile": "top-center",
-            "content_alignment_mobile": "center"
+            "image": "shopify://shop_images/image3.png",
+            "mobile_image": "shopify://shop_images/13.png",
+            "title": "5% Prämie für deine Empfehlung",
+            "button_title": "Mehr erfahren >",
+            "button_link": "https://de.indevolt.com/pages/empfehlungsprogram"
           }
         }
       },
       "block_order": [
-        "image_card_wqEYFA",
-        "image_card_gQwfAa",
-        "image_card_944yhH"
+        "card_waLpJr",
+        "card_DWmKQB",
+        "card_CGAafz"
       ],
-      "custom_css": [
-        ".card-images {--header-padding-bottom: 2.6rem;}",
-        "@media (min-width: 1280px) {.card-media__content-wrapper {max-width: 32rem; }}"
-      ],
+      "name": "产品优惠",
       "settings": {
-        "color_scheme": "",
-        "subheading": "",
-        "heading": "Hot this week",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "description": "",
-        "description_size": "text-base",
-        "image_ratio": "adapt",
-        "enable_equal_height": false,
-        "columns_desktop": 2,
-        "column_gap": "extra-small",
-        "enable_slider": true,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": true,
-        "divider_width": "full"
+        "title": "Empfehlungen für den Einstieg"
       }
     },
     "rich_text_J3XnPC": {
@@ -472,12 +409,12 @@
         "heading_size": "h2",
         "heading_highlight_style": "none",
         "subheading": "",
-        "description": "<p>Jetzt anmelden und 20€ Rabatt sichern.<\/p>",
+        "description": "<p>Jetzt anmelden und 20€ Rabatt sichern.</p>",
         "text_size": "text-base",
         "alignment": "center",
         "design": "design-1",
         "form_width": 500,
-        "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https:\/\/de.indevolt.com\/policies\/privacy-policy\">Datenschutzrichtlinie<\/a> zu<\/p>",
+        "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https://de.indevolt.com/policies/privacy-policy\">Datenschutzrichtlinie</a> zu</p>",
         "newsletter_term_size": "text-base",
         "button_style": "btn--primary",
         "padding_top": 50,
@@ -490,9 +427,8 @@
   "order": [
     "slideshow_q3U4Jn",
     "scene_list_CwKJ7V",
-    "scene_list_CwKJ7z",
-    "featured_collection_MXQFFk",
-    "card_images_YfYkKC",
+    "product_collection_FTLMAf",
+    "product_coupon_KwiHgH",
     "rich_text_J3XnPC",
     "custom_content_dxQmWd",
     "newsletter_BhHPzj"
