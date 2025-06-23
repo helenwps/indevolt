@@ -1,66 +1,53 @@
-{% comment %} {%- liquid
-  assign collection = section.blocks
-  assign columns_desktop = section.settings.columns
+ {%- liquid
+  assign motion_delay = 50
 
-  assign columns_tablet = columns_desktop | minus: 1
-  if columns_desktop < 3 or request.design_mode
-    assign columns_tablet = columns_desktop
-  endif
-
-  assign columns_mobile = section.settings.columns_mobile | plus: 0
-  assign item_css_class = 'f-column'
-
-  assign enable_slider = false
-  if section.settings.enable_slider and products_to_display > columns_desktop
-    assign enable_slider = true
-    assign item_css_class = item_css_class | append: ' swiper-slide'
-  endif
-
-  assign is_metro = false
-  if section.settings.grid_layout == 'metro' and enable_slider == false
-  assign is_metro = true
-  endif
-
--%} {% endcomment %}
-{% comment %} {%- if is_metro -%}
-  {%- render 'product-grid-metro-style',
-    section_id: section.id,
-    columns_desktop: columns_desktop,
-    columns_tablet: columns_tablet,
-    columns_mobile: columns_mobile
-  -%}
-{%- endif -%} {% endcomment %}
-{% comment %} {%- capture image_sizes -%}
-(max-width: 767px) calc((100vw - 30px) / {{ columns_mobile }}),
-(max-width: 1023px) calc((100vw - 30px) / {{ columns_tablet }}),
-{{ settings.page_width | divided_by: columns_desktop }}px
-{%- endcapture -%} {% endcomment %}
-
-{% comment %} {{ 'section-product-collection.css' | asset_url | stylesheet_tag }} {% endcomment %}
+-%}
 <style>
+   .product-collection{margin-top:118px}
+   .product-collection h2{ font-size: 46px;font-weight: 700;text-align:center;color:#000}
+   .product-collection-box{margin-top:57px}
+   .product-collection-box .slick-track{display:flex; gap:1rem}
+   .product-collection-box .custom-product-title,.product-collection-box .custom-product-price{margin-top:20px;text-align: center; font-size: 20px;font-weight: 600;color: #1A1A1A;}
+   .product-collection-box .custom-product-describe{min-height:34px;margin-top:5px;line-height: normal;font-size:14px;font-weight: 400;color: #1A1A1A;text-align: center;}
+   .product-collection-box .custom-product-price{margin-top:1rem;color: #3250C3;}
+   .product-collection-box .custom-product-price .original-price{font-weight: 500;color: #8D8D8D;text-decoration: line-through;}
+   .product-collection-box .custom-product-button{display:flex;left: 50%;transform: translateX(-50%);margin-top:14px;max-width:220px;min-width:220px}
+   .slick-dotted .slick-dots{visibility:hidden}
+ @media (max-width: 1024px) {
+ .product-collection-box .custom-product-button{min-width:160px;max-width:160px}
+}
+ @media (max-width: 1023px) {
+ .slick-dotted .slick-dots {margin-top:30px;display: flex ;visibility:visible;gap:8px;align-items: center;justify-content: center;}
+ .slick-dotted .slick-dots .slick-active button{ background: #3250C3;}
+ .slick-dotted .slick-dots button {
+    padding:0px;
+    width: 20px;
+    height: 4px;
+    border-radius:4px;
+    background: #D9D9D9;
+    color: transparent;
+    transition: all .4s ease;
+  }
+}
+ @media (max-width: 768px) {
+  .product-collection{margin-top:60px}
+  .product-collection h2{ font-size: 28px;}
+  .product-collection-box{margin-top:30px}
+  .product-collection-box .item{border-radius: 20px;background: #F5F5F5;padding-bottom: 34px;}
+  .product-collection-box .custom-product-describe{padding:0 4rem}
 
-  .section-product-collection{margin-top:120px;color: #1A1A1A;}
-  .section__header-wrap h2{ text-align:center}
-  .product-box{margin-top:60px;display: flex;justify-content: space-between;gap:16px;text-align: center;font-weight: 600;}
-  .custom-product-title{min-height:48px;max-height:48px;margin-top:17px;font-size: 20px;display: -webkit-box;-webkit-line-clamp: 2;
-  -webkit-box-orient: vertical; overflow: hidden;text-overflow: ellipsis;}
-  .custom-product-describe{font-size:18px;font-weight: 400;color:#1D1D1D}
-  .custom-product-price{margin-top:18px;font-weight: 500;color: #3250C3;}
-  .custom-product-price .original-price{text-decoration-line: line-through;color: #8D8D8D;}
-  .custom-product-button{margin-top:14px}
+}
+
 </style>
 <div class="section section-product-collection section--padding page-width">
-  <div class="section__wrapper">
-    <div class="section__header-wrap flex lg:flex-col justify-between">
-      <h2><span>wewrwerwerwerwr</span></h2>
-         <div class="swiper swiper-custom-products">
-          {% comment %} swiper-wrapper {% endcomment %}
-          {% comment %} <div class="product-box">
+    <div class="product-collection">
+      <h2> <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"><span>{{section.settings.title}}</span></motion-element></h2>
+      <div class="product-collection-box">
             {% for block in section.blocks %}
               {% assign product = all_products[block.settings.product_item] %}
               {% if product != blank %} 
-                <div class="item " >
-                  <a href="{{ product.url }}" class="custom-product-card">
+                <div class="item slick-slide" >
+                  <a href="{% if block.settings.button_link != blank %}{{  block.settings.button_link }}{% else %}{{ product.url }}{% endif %}" class="custom-product-card">
                     {% if block.settings.custom_image != blank %}
                       <div class="custom-product-image">
                         {{
@@ -80,74 +67,49 @@
                     {% endif %}
                     
                     <h3 class="custom-product-title">
-                      {{ block.settings.custom_title | default: block.settings.title }}213124
+                      {{ block.settings.custom_title | default: block.settings.title }}
                     </h3>
                     <div class="custom-product-describe">
-                      {{ block.settings.custom_describe }}12412412
+                      {{ block.settings.custom_describe }}
                     </div>
                     <div class="custom-product-price">
-                      <span class="current-price"> {{ block.settings.price | money }}234234</span>
-                      <span class="original-price">{{ block.settings.original | money }}234234</span>
+                      <span class="current-price"> {{ block.settings.price | money }}</span>
+                      <span class="original-price">{{ block.settings.original | money }}</span>
                      
                     </div>
                     
                     <button class="btn btn--primary links custom-product-button">
                       {{ block.settings.button_text }} 
-                      Mehr erfahren
                     </button>
                   </a>
                 </div>
                {% endif %}
             {% endfor %} 
-          </div> {% endcomment %}
-          <div class="product-box"></div>
-          {% if section.settings.show_dots %}
-            <div class="swiper-pagination"></div>
-          {% endif %}
-          
-          {% if section.settings.show_arrows %}
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          {% endif %}
-        </div>
+          </div>
+
+
   
     </div>
-  
-  </div>
-
 </div>
-{% comment %} <script src="{{ 'product-collection.js' | asset_url }}" defer="defer"></script> {% endcomment %}
- <script>
-  {% comment %} document.addEventListener('DOMContentLoaded', function() {
-    const swiper = new FoxTheme.Swiper('.swiper-custom-products', {
-      slidesPerView: {{ section.settings.slides_per_view_mobile }},
-      spaceBetween: 15,
-      loop: {% if section.blocks.size > 3 %}true{% else %}false{% endif %},
-      autoplay: {{ section.settings.autoplay | json }} ? {
-        delay: {{ section.settings.autoplay_speed }},
-        disableOnInteraction: false,
-      } : false,
-      pagination: {{ section.settings.show_dots | json }} ? {
-        el: '.swiper-pagination',
-        clickable: true,
-      } : false,
-      navigation: {{ section.settings.show_arrows | json }} ? {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      } : false,
-      breakpoints: {
-        640: {
-          slidesPerView: {{ section.settings.slides_per_view_tablet }},
-          spaceBetween: 20
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    $('.product-collection-box').slick({
+      dots: true,
+      arrows: false,
+      slidesToShow: 4,
+      responsive: [ // 响应式配置
+        {
+          breakpoint: 1023,
+          settings: { slidesToShow: 2 }
         },
-        1024: {
-          slidesPerView: {{ section.settings.slides_per_view_desktop }},
-          spaceBetween: 30
+        {
+          breakpoint: 640,
+          settings: { slidesToShow: 1 }
         }
-      }
+      ]
     });
-  }); {% endcomment %}
- </script>
+  });
+</script>
 {% schema %}
 {
   "name": "product_collection",
@@ -235,6 +197,16 @@
           "type": "text",
           "id": "custom_describe",
           "label": "自定义描述"
+        },
+         {
+          "type": "text",
+          "id": "price",
+          "label": "定价"
+        },
+         {
+          "type": "text",
+          "id": "original",
+          "label": "原价"
         },
         {
           "type": "text",

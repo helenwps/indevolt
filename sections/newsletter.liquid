@@ -1,8 +1,9 @@
 {%- style -%}
-  .section-{{ section.id }} .newsletter__form {
-    width: var(--form-width);
-    max-width: 100%;
-  }
+  .section-{{ section.id }} .newsletter__form {width: var(--form-width);max-width: 100%;}
+  .section-{{ section.id }} .describe{ margin-top:12px;font-size: 18px;color: #B1B1B1;}
+  .section-{{ section.id }} .form-control{ border-radius: 8px;}
+  .section-{{ section.id }} .section__heade{padding-bottom:3rem}
+  .section-{{ section.id }} .newsletter-form__button{height: -webkit-fill-available;width: 8.4rem;top:0px;right: -0.1rem;border-radius: 0px 8px 8px 0px;}
 {%- endstyle -%}
 
 {% liquid
@@ -32,7 +33,7 @@
 %}
 
 <div
-  class="section section-{{ section.id }} section--padding newsletter color-{{ section.settings.color_scheme }}"
+  class="section section-{{ section.id }} section--padding  color-{{ section.settings.color_scheme }}"
   style="--section-padding-top: {{ section.settings.padding_top }}px;--section-padding-bottom: {{ section.settings.padding_bottom }}px;"
 >
   <div
@@ -72,7 +73,7 @@
           <motion-element
             data-motion="fade-up"
             data-motion-delay="{{ motion_delay }}"
-            class="block rich-text__text rte {{ section.settings.text_size }}"
+            class="block rich-text__text rte {{ section.settings.text_size }} describe"
           >
             {{- section.settings.description -}}
           </motion-element>
