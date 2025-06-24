@@ -20,6 +20,23 @@
   endif
 -%}
 {{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
+<style>
+  .section-{{ section.id }} .slideshow__title,.section-{{ section.id }} .slideshow__text {max-width:64.5rem!important;line-height:22px;text-align: left; color: #fff;}
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .brand-box{ display: flex;gap: 25px;}
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__subtitle{ margin-top:30px; font-size:24px;font-weight:500;color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 44, 97, 0.10);}
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title {margin-top:16+px;line-height:50px;font-size: 48px;font-weight:800;color:#fff;
+  text-shadow: 1px 1px 2px rgba(0, 44, 97, 0.10);}
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__description{ margin-top:16px; line-height:22px;max-width:36rem}
+  .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__subtitle{ font-size: 28px;font-weight:600;color: #EC5E15;}
+  .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__title {margin-top:7px;line-height:58px;font-size: 48px;font-weight:800;color:#000}
+  .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__description{margin-top:24px;font-size: 20px;color: #000;font-weight: 500;}
+  .section-{{ section.id }} .slideshow__buttons{ margin-top:20px}
+  @media (max-width: 767.98px) {
+    .section-{{ section.id }} .slideshow__title,.section-{{ section.id }} .slideshow__text{ text-align:center}
+    .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__subtitle{font-size:18px}
+  }
+</style>
 <script src="{{ 'slideshow-component.js' | asset_url }}" defer="defer"></script>
 <div
   class="section section-{{ section.id }} section--slideshow{% if section.settings.container != 'full' %} page-width{% endif %}"
@@ -125,7 +142,7 @@
 
                       <motion-element
                         class="w-full h-full block{% if background_default == blank %} md:hidden{% endif %}"
-                        data-motion="fade-in"
+                        data-motion="fade-out"
                         hold
                       >
                         <picture class="media media--height media-wrapper block w-full h-full relative overflow-hidden">
@@ -173,13 +190,27 @@
             {%- liquid
               assign text_alignment = block.settings.text_alignment
               assign description_size = block.settings.description_size
+              assign brand_logo1 = block.settings.brand_logo_image1
+              assign brand_logo2 = block.settings.brand_logo_image2
               assign animate_delay = 250
             -%}
             <div
               class="slideshow__content content-overlay--{{ block.settings.content_position_mobile }} md:content-overlay--{{ block.settings.content_position }} flex flex-col page-width focus-none color-{{ block.settings.color_scheme }}{% if show_text_below and slider_layout != 'split' %} mobile-color-scheme-1{% endif %}{% if color_scheme_inherit %} color-scheme-inherit{% endif %}{% if block.settings.show_content_in_container %} slideshow__content--in-container{% endif %}"
               tabindex="-1"
             >
+             
               <div class="slideshow__text rich-text text-{{ text_alignment_mobile }} md:text-{{ text_alignment }}">
+               {%- if brand_logo1 != blank or brand_logo2 != blank -%}
+                  <div class="brand-box">
+                    {%- if brand_logo1 != blank -%}
+                      <img src="{{ brand_logo1 | img_url: '110x' }}" alt="品牌Logo 1" />
+                    {%- endif -%}
+                    
+                    {%- if brand_logo2 != blank -%}
+                       <img src="{{ brand_logo2 | img_url: '110x' }}" alt="品牌Logo 1" />
+                    {%- endif -%}           
+              </div>
+              {%- endif -%}
                 {%- unless block.settings.subheading == blank -%}
                   <div class="slideshow__subtitle rich-text__subheading text-subheading">
                     <motion-element
@@ -242,7 +273,7 @@
                       </a>
                     </motion-element>
                   </div>
-                  {%- assign animate_delay = animate_delay | plus: 100 -%}
+                  {%- assign animate_delay = animate_delay | plus: 800 -%}
                 {%- endunless -%}
               </div>
             </div>
@@ -440,9 +471,14 @@
           "info": "t:sections.slideshow.blocks.slide_item.settings.image_mobile.info"
         },
         {
-          "type": "url",
-          "id": "background_image_url",
-          "label": "图片链接"
+          "type": "image_picker",
+          "id": "brand_logo_image1",
+          "label": "品牌logo1"
+        },
+        {
+          "type": "image_picker",
+          "id": "brand_logo_image2",
+          "label": "品牌logo2"
         },
         {
           "type": "range",

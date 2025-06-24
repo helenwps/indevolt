@@ -62,7 +62,7 @@
     white-space: nowrap;
   }
   .content-wrapper h2,.content-wrapper h4{
-    line-height: normal;
+    line-height: 22px;
     color:#fff
   }
   .content-wrapper .grid-title{font-size: 40px;font-weight: 700;}
