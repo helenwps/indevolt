@@ -1885,6 +1885,7 @@ summary::-webkit-details-marker {
 .announcement-bar__content {
   padding-inline: 2rem;
 }
+.announcement-bar__content a{padding-left: 20px;color: #FFEA00;}
 .announcement-bar__timer .countdown-timer .countdown-timer__block {
   min-width: 3rem;
   margin: 0 0.75rem;
@@ -1899,6 +1900,7 @@ summary::-webkit-details-marker {
   }
 }
 @media (max-width: 639.98px) {
+  .announcement-bar__content{ font-size: 12px;}
   .announcement-bar {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;

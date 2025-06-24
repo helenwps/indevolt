@@ -23,8 +23,10 @@
 .coupon-list .grid-item:nth-child(3) .coupon-content-wrapper{ margin-top:34px;margin-left:28px}
 .product-coupon-wrapper .slick-slide{display: block;}
  @media (max-width: 767px) {
+  .coupon-list .grid-item .coupon-content-wrapper { margin-top: 24px!important; margin-left: 0px!important;text-align: center}
   .section-two-column-list{ margin-top:60px}
   .product-coupon-wrapper .title{ font-size:28px}
+  .coupon-list .grid-item .coupon-content-wrapper{margin-top:30px;margin-left:28px}
   .coupon-list .slick-track{ display: flex;gap: 1rem;}
   .coupon-list .grid-item:nth-child(1){ height:auto}
   .product-coupon-wrapper .coupon-list { grid-template-columns: 1fr;gap: 1rem;margin-top: 30px;color: #fff;}
@@ -32,6 +34,8 @@
   .coupon-list .grid-item:nth-child(2),
   .coupon-list .grid-item:nth-child(3) { grid-column: auto; grid-row: auto;   height: auto }
   .coupon-list .grid-item { min-height: 350px }
+  .coupon-list .coupon-content-wrapper h2{ font-size: 20px;}
+  .coupon-list .coupon-content-wrapper h4{ margin-top:10px;font-size: 12px;}
 }
 </style>
 {% liquid
@@ -98,22 +102,22 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     // 只在移动端初始化Slick
-      if (window.innerWidth <= 749) {
+      if (window.innerWidth <= 768) {
         $('.coupon-list').slick({
             dots: true,
             arrows: false,
             slidesToShow: 1,
             responsive: [ // 响应式配置
               {
-                breakpoint: 640,
-                settings: { slidesToShow: 1 }
+                breakpoint: 767,
+                settings: { slidesToShow: 1, centerMode: true }
               }
-            ]
+            ] 
           });
           
-        // 响应窗口大小变化
+     // 响应窗口大小变化
         $(window).on('resize', function() {
-          if (window.innerWidth > 749) {
+          if (window.innerWidth > 767) {
             if ($('.coupon-list').hasClass('slick-initialized')) {
               $('.coupon-list').slick('unslick');
             }
@@ -125,8 +129,8 @@
                 slidesToShow: 1,
                 responsive: [ // 响应式配置
                   {
-                    breakpoint: 640,
-                    settings: { slidesToShow: 1 }
+                    breakpoint: 767,
+                    settings: { slidesToShow: 1, centerMode: true}
                   }
                 ]
               });
