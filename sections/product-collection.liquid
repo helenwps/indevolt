@@ -43,6 +43,7 @@
     <div class="product-collection">
       <h2> <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"><span>{{section.settings.title}}</span></motion-element></h2>
       <div class="product-collection-box">
+      
             {% for block in section.blocks %}
               {% assign product = all_products[block.settings.product_item] %}
               {% if product != blank %} 
@@ -127,48 +128,7 @@
       "type": "text",
       "id": "title",
       "label": "标题"
-    },
-    {
-      "type": "range",
-      "id": "columns",
-      "label": "t:sections.all.grid.columns_desktop.label",
-      "min": 2,
-      "max": 6,
-      "step": 1,
-      "default": 4
-    },
-     {
-      "type": "select",
-      "id": "columns_mobile",
-      "options": [
-        {
-          "value": "1",
-          "label": "t:sections.all.mobile.columns_mobile.options__1.label"
-        },
-        {
-          "value": "2",
-          "label": "t:sections.all.mobile.columns_mobile.options__2.label"
-        }
-      ],
-      "default": "1",
-      "label": "t:sections.all.mobile.columns_mobile.label"
-    },
-       {
-      "type": "select",
-      "id": "controls_position",
-      "label": "t:sections.slideshow.settings.pagination_position.label",
-      "options": [
-        {
-          "value": "inside",
-          "label": "t:sections.slideshow.settings.pagination_position.options__1.label"
-        },
-        {
-          "value": "outside",
-          "label": "t:sections.slideshow.settings.pagination_position.options__2.label"
-        }
-      ],
-      "default": "inside",
-    },
+    }
   ],
  "blocks": [
     {
