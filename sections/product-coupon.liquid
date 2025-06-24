@@ -98,7 +98,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     // 只在移动端初始化Slick
-      if (window.innerWidth <= 767) {
+      if (window.innerWidth <= 749) {
         $('.coupon-list').slick({
             dots: true,
             arrows: false,
@@ -113,7 +113,7 @@
           
         // 响应窗口大小变化
         $(window).on('resize', function() {
-          if (window.innerWidth > 767) {
+          if (window.innerWidth > 749) {
             if ($('.coupon-list').hasClass('slick-initialized')) {
               $('.coupon-list').slick('unslick');
             }
