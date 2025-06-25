@@ -206,10 +206,7 @@
       ],
       "name": "产品推荐",
       "settings": {
-        "title": "Produktempfehlung",
-        "columns": 4,
-        "columns_mobile": "1",
-        "controls_position": "inside"
+        "title": "Produktempfehlung"
       }
     },
     "product_coupon_KwiHgH": {
@@ -256,149 +253,6 @@
         "title": "Empfehlungen für den Einstieg"
       }
     },
-    "rich_text_J3XnPC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_jLVTiL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Spring styles to wear together or apart, whatever the weather.",
-            "heading_size": "h1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "button_jYDXnF": {
-          "type": "button",
-          "settings": {
-            "button_label": "About Us",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jLVTiL",
-        "button_jYDXnF"
-      ],
-      "custom_css": [
-        ".rich-text {max-width: 76rem; margin: 0 auto;}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "custom_content_dxQmWd": {
-      "type": "custom-content",
-      "blocks": {
-        "image_card_cGCnqG": {
-          "type": "image_card",
-          "settings": {
-            "color_scheme": "",
-            "image_ratio": "adapt",
-            "image_overlay_opacity": 0,
-            "heading": "News, tips, reviews",
-            "heading_size": "h2",
-            "heading_highlight_style": "none",
-            "subheading": "",
-            "description": "",
-            "button_label": "View Our Blog",
-            "button_style": "btn--primary",
-            "content_position": "bottom-center",
-            "content_alignment": "center",
-            "content_spacing": "large",
-            "card_link": "",
-            "color_scheme_mobile": "",
-            "show_text_below": false,
-            "content_alignment_mobile": "center",
-            "width": "33%",
-            "alignment": "center",
-            "block_custom_class": ""
-          }
-        },
-        "image_card_6PehkE": {
-          "type": "image_card",
-          "settings": {
-            "color_scheme": "",
-            "image_ratio": "adapt",
-            "image_overlay_opacity": 0,
-            "heading": "Stores near you",
-            "heading_size": "h2",
-            "heading_highlight_style": "none",
-            "subheading": "",
-            "description": "",
-            "button_label": "Find A Store",
-            "button_style": "btn--primary",
-            "content_position": "bottom-center",
-            "content_alignment": "center",
-            "content_spacing": "large",
-            "card_link": "",
-            "color_scheme_mobile": "",
-            "show_text_below": false,
-            "content_alignment_mobile": "center",
-            "width": "33%",
-            "alignment": "center",
-            "block_custom_class": ""
-          }
-        },
-        "image_card_GKVG6K": {
-          "type": "image_card",
-          "settings": {
-            "color_scheme": "",
-            "image_ratio": "adapt",
-            "image_overlay_opacity": 0,
-            "heading": "On the gram",
-            "heading_size": "h2",
-            "heading_highlight_style": "none",
-            "subheading": "",
-            "description": "",
-            "button_label": "@Glossy_store",
-            "button_style": "btn--primary",
-            "content_position": "bottom-center",
-            "content_alignment": "center",
-            "content_spacing": "large",
-            "card_link": "",
-            "color_scheme_mobile": "",
-            "show_text_below": false,
-            "content_alignment_mobile": "center",
-            "width": "33%",
-            "alignment": "center",
-            "block_custom_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_card_cGCnqG",
-        "image_card_6PehkE",
-        "image_card_GKVG6K"
-      ],
-      "custom_css": [
-        ".card-media--large .content-overlay {--padding-y: 5rem; --padding-x: 3rem;}",
-        "@media (max-width: 767px) {.card-media--large .content-overlay {--padding-y: 3rem; --padding-x: 2rem; }}"
-      ],
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "enable_sticky_column": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "swipe_on_mobile": true,
-        "columns_mobile": "1",
-        "padding_top": 60,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "newsletter_BhHPzj": {
       "type": "newsletter",
       "name": "t:sections.newsletter.presets.name",
@@ -422,6 +276,248 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "flexible_scene_list_AwPzpT": {
+      "type": "flexible-scene-list",
+      "blocks": {
+        "card_V6aXeT": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/amax.png",
+            "mobile_image": "shopify://shop_images/mob1111111111.png",
+            "title": "Balkon",
+            "description": "Den begrenzten Raum optimal nutzen, flexibel und",
+            "product_img": "shopify://shop_images/SF2000_SFA1800_5_440W_Bifaziale_Solarpanels_4_Flachdachhalter_4_Paar.jpg",
+            "product_title": "",
+            "product_des": "",
+            "product_price": "",
+            "product_link": ""
+          }
+        },
+        "card_LEjQRi": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/bmax.png",
+            "mobile_image": "shopify://shop_images/mob222222.png",
+            "title": "Garten",
+            "description": "Genug Sonnenlicht nutzen, um die beste Leistung zu erzielen.",
+            "product_img": "shopify://shop_images/SF2000_SFA1800_5_440W_Bifaziale_Solarpanels_4_Dachhalter_2_Paar.jpg",
+            "product_title": "",
+            "product_des": "",
+            "product_price": "",
+            "product_link": ""
+          }
+        },
+        "card_zdCQqN": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/cmax.png",
+            "mobile_image": "shopify://shop_images/mob3333333.png",
+            "title": "Schrägdach",
+            "description": "Durch Schrägdach-Montage lässt sich die Solarstromausbeute um 20% erhöhen!",
+            "product_img": "shopify://shop_images/SF2000_SFA1800_5_430W_TOPCon_Solarpanels_4_Balkonhalter_4_Paar.jpg",
+            "product_title": "",
+            "product_des": "",
+            "product_price": "",
+            "product_link": ""
+          }
+        },
+        "card_EeN3Bj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/dmax.png",
+            "mobile_image": "shopify://shop_images/mob44444444.png",
+            "title": "Flachdach",
+            "description": "Die Installation von Solarmodulen auf Flachdächern verringert Windwiderstand und Lärm und sorgt für Stabilität.",
+            "product_title": "",
+            "product_des": "",
+            "product_price": "",
+            "product_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_V6aXeT",
+        "card_LEjQRi",
+        "card_zdCQqN",
+        "card_EeN3Bj"
+      ],
+      "name": "自定义场景列表",
+      "settings": {
+        "title": "Flexibler Installationsort"
+      }
+    },
+    "brand_list_Bb7KJE": {
+      "type": "brand-list",
+      "blocks": {
+        "card_pcGKxw": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo1.jpg",
+            "description": "„Mit dem Indevolt BK1600 holen Sie sich mehr als ein Balkonkraftwerk nach Hause - Sie erleben UnabhangigkeitNachhaltigkeit und innovative Energieversorgung in einem kompakten System.\""
+          }
+        },
+        "card_KxFCJY": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo2.jpg",
+            "description": "„Ein echtes Highlight war für mich die intelligente Energieverteilung: An einem durchschnittlichen Sonnentag konnte ich problemlos mehrere energieintensive Geräte gleichzeitig betreiben, ohne das Stromnetz zu belasten.\""
+          }
+        },
+        "card_gYb8yP": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo3.jpg",
+            "description": "„Das Indevolt BK1600 überzeugt als Al-ln-One-Lösung für alle, die ihre eigene Energie dezentral erzeugen und nutzen möchten.\""
+          }
+        },
+        "card_WcqGtf": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo4.jpg",
+            "description": "„Die erfolgreiche Kombination von leistungsstarker PV-Technologie und effizienter Speicherlösung in einem kompakten, benutzerfreundlichen Paket überzeugt. Dieses Konzept macht das System zur idealen Wahl für Stadtbewohner und Mieter, die ohne bauliche Veränderungen in die Solarenergie einsteigen.\""
+          }
+        }
+      },
+      "block_order": [
+        "card_pcGKxw",
+        "card_KxFCJY",
+        "card_gYb8yP",
+        "card_WcqGtf"
+      ],
+      "name": "品牌列表",
+      "settings": {
+        "title": "Bekannt aus",
+        "logo_title": "Befürwortet von",
+        "logo_pc_image": "shopify://shop_images/LOGO_dc405a6c-b6c9-4738-8c1c-ae2ce3b988bd.png",
+        "logo_mobile_image": "shopify://shop_images/Group_112_037c594a-02f8-40fa-814a-c4870f44c0e5.png"
+      }
+    },
+    "video_list_Aqz79r": {
+      "type": "video-list",
+      "blocks": {
+        "card_XGwY9C": {
+          "type": "card",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=vfW3lj9f0Zg"
+          }
+        },
+        "card_mCz6Xy": {
+          "type": "card",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=vfW3lj9f0Zg"
+          }
+        },
+        "card_NCXmiD": {
+          "type": "card",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=vfW3lj9f0Zg"
+          }
+        },
+        "card_HFmDHA": {
+          "type": "card",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=vfW3lj9f0Zg"
+          }
+        }
+      },
+      "block_order": [
+        "card_XGwY9C",
+        "card_mCz6Xy",
+        "card_NCXmiD",
+        "card_HFmDHA"
+      ],
+      "name": "视频列表",
+      "settings": {
+        "title": "Ausgewählte Videos von Experten"
+      }
+    },
+    "service_info_fXRMQ8": {
+      "type": "service-info",
+      "blocks": {
+        "card_GMn6G6": {
+          "type": "card",
+          "settings": {
+            "image_pc": "shopify://shop_images/555.png",
+            "image_mobile": "shopify://shop_images/555.png",
+            "start": "shopify://shop_images/start.svg",
+            "content": "Andreas Heinrich",
+            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
+          }
+        },
+        "card_6RBLCK": {
+          "type": "card",
+          "settings": {
+            "image_pc": "shopify://shop_images/555.png",
+            "image_mobile": "shopify://shop_images/555.png",
+            "start": "shopify://shop_images/start.svg",
+            "content": "Andreas Heinrich",
+            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
+          }
+        },
+        "card_xkk4M8": {
+          "type": "card",
+          "settings": {
+            "image_pc": "shopify://shop_images/555.png",
+            "image_mobile": "shopify://shop_images/555.png",
+            "start": "shopify://shop_images/start.svg",
+            "content": "Andreas Heinrich",
+            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
+          }
+        },
+        "card_YFFyYh": {
+          "type": "card",
+          "settings": {
+            "image_pc": "shopify://shop_images/555.png",
+            "image_mobile": "shopify://shop_images/555.png",
+            "start": "shopify://shop_images/start.svg",
+            "content": "Andreas Heinrich",
+            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
+          }
+        }
+      },
+      "block_order": [
+        "card_GMn6G6",
+        "card_6RBLCK",
+        "card_xkk4M8",
+        "card_YFFyYh"
+      ],
+      "name": "评价列表",
+      "settings": {
+        "title": "Kundenbewertungen"
+      }
+    },
+    "contact_us_9MhAHR": {
+      "type": "contact-us",
+      "blocks": {
+        "card_ckkGmP": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/646401_31f22922-6c9c-456b-8535-77d14ad2894a.png",
+            "title": "Sende eine E-Mail",
+            "content": "service@indevolt.com>"
+          }
+        },
+        "card_eNgQdh": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/646402_e9a5f2ff-5239-41ca-ab4a-a5c5f7d18a4d.png",
+            "title": "Ruf uns an",
+            "content": "0049 174 3150766"
+          }
+        }
+      },
+      "block_order": [
+        "card_ckkGmP",
+        "card_eNgQdh"
+      ],
+      "name": "评价列表",
+      "settings": {
+        "title": "Kundenbewertungen",
+        "image_pc": "shopify://shop_images/image_98bbf6b3-8163-4316-8234-5c5315c845b1.png",
+        "link_title": "Mehr erfahren >",
+        "link_url": "https://de.indevolt.com/pages/partner"
+      }
     }
   },
   "order": [
@@ -429,8 +525,11 @@
     "scene_list_CwKJ7V",
     "product_collection_FTLMAf",
     "product_coupon_KwiHgH",
-    "rich_text_J3XnPC",
-    "custom_content_dxQmWd",
-    "newsletter_BhHPzj"
+    "newsletter_BhHPzj",
+    "flexible_scene_list_AwPzpT",
+    "brand_list_Bb7KJE",
+    "video_list_Aqz79r",
+    "service_info_fXRMQ8",
+    "contact_us_9MhAHR"
   ]
 }
