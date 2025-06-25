@@ -1,0 +1,140 @@
+<style>
+ 
+</style>
+<div class="section section-contact-us">
+  <div class="product-collection product-slider-container">
+    <!-- 主轮播 -->
+      <div class="main-slider">
+           {% for block in section.blocks %}
+            <div class="slide">
+            {% if block.settings.image != blank %}
+                  <picture>
+                    <!-- 移动端图片 -->
+                    <source
+                      media="(max-width: 749px)"
+                      srcset="
+                        {{ block.settings.image | img_url: '800x' }} 1x,
+                        {{ block.settings.image | img_url: '1600x' }} 2x
+                      "
+                    >
+
+                    <!-- 桌面端图片 -->
+                    <source
+                      media="(min-width: 750px)"
+                      srcset="
+                        {{ block.settings.image | img_url: '1200x' }} 1x,
+                        {{ block.settings.image | img_url: '2400x' }} 2x
+                      "
+                    >
+
+                    <!-- 默认图片 -->
+                    <img
+                      src="{{ block.settings.image | img_url: '1200x' }}"
+                      alt="{{ block.settings.title | escape }}"
+                      class="grid-image"
+                      loading="lazy"
+                      width="{{ block.settings.image.width }}"
+                      height="{{ block.settings.image.height }}"
+                    >
+                  </picture>
+                {% else %}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+            </div>
+        {% endfor %}
+
+      </div>
+  
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $('.review-carousel').slick({
+      slidesToShow: 4, // 显示两屏半
+      slidesToScroll: 1, // 每次滚动一屏
+      infinite: true, // 无限循环
+      arrows: false, // 隐藏默认箭头
+      dots: true,    // 显示分页指示器
+      fade: false,   // 是否使用淡入淡出效果
+      speed: 800,    // 切换速度
+      cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1)', // 动画曲线
+      infinite: true,
+      autoplay: false,
+      vertical: true, // 垂直滚动
+      verticalSwiping: true, // 允许垂直滑动
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            vertical: false, // 在小屏幕上改为水平滚动
+            verticalSwiping: false
+          }
+        }
+      ]
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "contact-us",
+  "tag": "section",
+  "class": "section section-contact-us",
+  "max_blocks": 4,
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题",
+      "default": "Partnerschaft mit Indevolt"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_pc",
+      "label": "大图"
+    },
+    {
+      "type": "text",
+      "id": "link_title",
+      "label": "跳转标题",
+      "default": "Mehr erfahren >"
+    },
+    {
+      "type": "text",
+      "id": "link_url",
+      "label": "跳转链接",
+      "default": "https://de.indevolt.com/pages/partner"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "review item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "图片"
+        },
+         {
+          "type": "text",
+          "id": "title",
+          "label": "标题"
+        },
+         {
+          "type": "textarea",
+          "id": "content",
+          "label": "描述"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "评价列表"
+    }
+  ]
+}
+{% endschema %}

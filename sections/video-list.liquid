@@ -1,199 +1,172 @@
- <style>
-    {% comment %} .product-slider-container {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 0 20px;
-    } {% endcomment %}
-    
-    .main-slider {
-      margin-top:60px;
-      margin-bottom: 15px;
-    }
-    
-    .main-slider .slide {
-      padding: 0 10px;
-    }
-    
-    .main-slider img {
-      width: 100%;
-      height: 600px;
-      object-fit: cover;
-      display: block;
-    }
-    
-    .thumbnail-slider {
+<style>
+  .section-video-list .slick-track {
+    display: flex;
+    gap: 1rem;
+  }
+  .iframe-carousel-container {
+    margin-top: 58px;
+    position: relative;
+  }
 
-    }
-    
-    .thumbnail-slider .slide {
-      padding: 0 5px;
-      cursor: pointer;
-      opacity: 0.6;
-      transition: opacity 0.3s ease;
-    }
-    
-    .thumbnail-slider .slide.slick-current {
-      opacity: 1;
-    }
-    
-    .thumbnail-slider img {
-      width: 100%;
-      height: 80px;
-      object-fit: cover;
-      display: block;
-      border: 2px solid transparent;
-      transition: border-color 0.3s ease;
-    }
-    
-    .thumbnail-slider .slick-current img {
-      border-color: #333;
-    }
-    
-    /* 自定义箭头样式 */
-    .slick-prev, .slick-next {
-      width: 40px;
-      height: 40px;
-      z-index: 10;
-    }
-    
-    .slick-prev:before, .slick-next:before {
-      font-size: 40px;
-      color: #333;
-    }
-    
-    .slick-prev {
-      left: -25px;
-    }
-    
-    .slick-next {
-      right: -25px;
-    }
-  </style>
-<div class="section section-video-list section--padding page-width" >
+  .iframe-carousel .carousel-slide {
+    box-sizing: border-box;
+  }
+  .iframe-carousel iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+  }
+  .slide-caption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .carousel-arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .carousel-arrows button {
+    background: rgba(50, 80, 195, 0.8);
+    border: none;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    padding: 0px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s;
+  }
+
+  .carousel-arrows button:hover {
+    background: rgba(50, 80, 195, 1);
+  }
+  .carousel-arrows button.prev-arrow {
+    left: 1rem;
+  }
+  .carousel-arrows button.next-arrow {
+    right: 1rem;
+  }
+  @media (max-width: 767.98px) {
+      .section-video-list{ margin:0px 1.24rem}
+      .iframe-carousel-container{margin-top:30px}
+      .section-video-list .slick-track{gap:0px}
+      .iframe-carousel iframe{height:189px}
+      .section-video-list .slick-dotted .slick-dots{margin-top:0px}
+  }
+</style>
+<div class="section section-video-list">
   <div class="product-collection product-slider-container">
-    <h2><span>{{ section.settings.title }}</span></h2>
+    <h2>
+      <span>{{ section.settings.title }}</span>
+    </h2>
     <!-- 主轮播 -->
-    <div class="main-slider">
-         {% for block in section.blocks %}
-          <div class="slide">
-          {% if block.settings.image != blank %}
-                <picture>
-                  <!-- 移动端图片 -->
-                  <source
-                    media="(max-width: 749px)"
-                    srcset="
-                      {{ block.settings.image | img_url: '800x' }} 1x,
-                      {{ block.settings.image | img_url: '1600x' }} 2x
-                    "
-                  >
+    {% comment %}
+      <div class="main-slider">
+           {% for block in section.blocks %}
+            <div class="slide">
+            {% if block.settings.image != blank %}
+                  <picture>
+                    <!-- 移动端图片 -->
+                    <source
+                      media="(max-width: 749px)"
+                      srcset="
+                        {{ block.settings.image | img_url: '800x' }} 1x,
+                        {{ block.settings.image | img_url: '1600x' }} 2x
+                      "
+                    >
 
-                  <!-- 桌面端图片 -->
-                  <source
-                    media="(min-width: 750px)"
-                    srcset="
-                      {{ block.settings.image | img_url: '1200x' }} 1x,
-                      {{ block.settings.image | img_url: '2400x' }} 2x
-                    "
-                  >
+                    <!-- 桌面端图片 -->
+                    <source
+                      media="(min-width: 750px)"
+                      srcset="
+                        {{ block.settings.image | img_url: '1200x' }} 1x,
+                        {{ block.settings.image | img_url: '2400x' }} 2x
+                      "
+                    >
 
-                  <!-- 默认图片 -->
-                  <img
-                    src="{{ block.settings.image | img_url: '1200x' }}"
-                    alt="{{ block.settings.title | escape }}"
-                    class="grid-image"
-                    loading="lazy"
-                    width="{{ block.settings.image.width }}"
-                    height="{{ block.settings.image.height }}"
-                  >
-                </picture>
-              {% else %}
-                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-              {% endif %}
-          </div>
-      {% endfor %}
-    
-    </div>
-    
-    <!-- 缩略图导航 -->
-    <div class="thumbnail-slider">
-       {% for block in section.blocks %}
-      <div class="slide">
-        {% if block.settings.image != blank %}
-                <picture>
-                  <!-- 移动端图片 -->
-                  <source
-                    media="(max-width: 749px)"
-                    srcset="
-                      {{ block.settings.image | img_url: '800x' }} 1x,
-                      {{ block.settings.image | img_url: '1600x' }} 2x
-                    "
-                  >
+                    <!-- 默认图片 -->
+                    <img
+                      src="{{ block.settings.image | img_url: '1200x' }}"
+                      alt="{{ block.settings.title | escape }}"
+                      class="grid-image"
+                      loading="lazy"
+                      width="{{ block.settings.image.width }}"
+                      height="{{ block.settings.image.height }}"
+                    >
+                  </picture>
+                {% else %}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+            </div>
+        {% endfor %}
 
-                  <!-- 桌面端图片 -->
-                  <source
-                    media="(min-width: 750px)"
-                    srcset="
-                      {{ block.settings.image | img_url: '1200x' }} 1x,
-                      {{ block.settings.image | img_url: '2400x' }} 2x
-                    "
-                  >
-
-                  <!-- 默认图片 -->
-                  <img
-                    src="{{ block.settings.image | img_url: '1200x' }}"
-                    alt="{{ block.settings.title | escape }}"
-                    class="grid-image"
-                    loading="lazy"
-                    width="{{ block.settings.image.width }}"
-                    height="{{ block.settings.image.height }}"
-                  >
-                </picture>
-              {% else %}
-                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-              {% endif %}
       </div>
-      {% endfor %}
+    {% endcomment %}
+    <div class="iframe-carousel-container">
+      <div class="iframe-carousel">
+        {% for block in section.blocks %}
+          <!-- 示例循环，替换为你的实际内容 -->
+          <div class="carousel-slide">
+            {% comment %} <iframe src="{{  block.settings.video_url }}" frameborder="0" controls allowfullscreen loading="eager"></iframe> {% endcomment %}
+            <iframe
+              src="https://www.youtube.com/embed/{{ block.settings.video_url }}?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;mute=1&enablejsapi=1"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              class="embed-responsive-item"
+              loading="eager"
+            ></iframe>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="carousel-arrows">
+        <button class="prev-arrow">❮</button>
+        <button class="next-arrow">❯</button>
+      </div>
     </div>
   </div>
-
 </div>
- <script>
-    $(document).ready(function(){
-      // 初始化主轮播
-      $('.main-slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.thumbnail-slider'
-      });
-      
-      // 初始化缩略图轮播
-      $('.thumbnail-slider').slick({
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        asNavFor: '.main-slider',
-        dots: false,
-        arrows: false,
-        centerMode: true,
-        focusOnSelect: true,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 3
-            }
+<script>
+  $(document).ready(function () {
+    $('.iframe-carousel').slick({
+      slidesToShow: 2.5, // 显示两屏半
+      slidesToScroll: 1, // 每次滚动一屏
+      infinite: true, // 无限循环
+      arrows: true, // 显示箭头
+      prevArrow: $('.prev-arrow'), // 自定义上一页箭头
+      nextArrow: $('.next-arrow'), // 自定义下一页箭头
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
           },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 2
-            }
-          }
-        ]
-      });
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1.5,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            dots: true,
+          },
+        },
+      ],
     });
-  </script>
+  });
+</script>
 {% schema %}
 {
   "name": "video-list",
@@ -217,11 +190,11 @@
       "name": "video item",
       "settings": [
         {
-        "type": "video_url",
-        "id": "video_url",
-        "accept": ["vimeo", "youtube"],
-        "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "label": "视频",
+          "type": "video_url",
+          "id": "video_url",
+          "accept": ["vimeo", "youtube"],
+          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+          "label": "视频"
         }
       ]
     }

@@ -1,47 +1,43 @@
  <style>
-    {% comment %} .product-slider-container {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 0 20px;
-    } {% endcomment %}
-    .section-flexible-scene-list{}
     .section-flexible-scene-list .flex-title-box{ position: absolute;max-width:394px;bottom: 40px;left:48px;font-size: 16px;color: #fff;}
     .section-flexible-scene-list .flex-title-box h4{font-size: 36px;color: #fff;}
-    .main-slider {
-      margin-top:60px;
-      margin-bottom: 15px;
-    }
-    
-    .main-slider .slide {
+    .section-flexible-scene-list .product-tip{ display: flex;padding:10px 20px;align-items: center;position: absolute; top:40px;right:48px;
+    border-radius: 8px;background: #fff;}
+    .section-flexible-scene-list .product-tip img{width: 110px;height:110px;}
+    .section-flexible-scene-list .product-tip p {margin:0px 0px 10px}
+    .section-flexible-scene-list .product-tip .price {font-size: 12px;font-weight: 600;}
+    .section-flexible-scene-list .main-slider .product-tip img{width: 110px;height:110px;}
+    .section-flexible-scene-list .main-slider { margin-top:60px; margin-bottom: 15px;}
+    .section-flexible-scene-list .main-slider .slide {
       position: relative;
       padding: 0 10px;
     }
     
-    .main-slider img {
+    .section-flexible-scene-list .main-slider img {
       width: 100%;
       height: 600px;
       object-fit: cover;
       border-radius: 20px;
       display: block;
     }
-    .thumbnail-slider .slick-list{padding:0px!important}
-    .thumbnail-slider .slick-track{
+    .section-flexible-scene-list .thumbnail-slider .slick-list{padding:0px!important}
+    .section-flexible-scene-list .thumbnail-slider .slick-track{
       display: flex;
       width:100%!important
     }
   
-    .thumbnail-slider .slide {
+   .section-flexible-scene-list  .thumbnail-slider .slide {
       padding: 0 5px;
       cursor: pointer;
       opacity: 0.6;
       transition: opacity 0.3s ease;
     }
     
-    .thumbnail-slider .slide.slick-current {
+    .section-flexible-scene-list .thumbnail-slider .slide.slick-current {
       opacity: 1;
     }
     
-    .thumbnail-slider img {
+    .section-flexible-scene-list .thumbnail-slider img {
       width: 100%;
       height: 158px!important;
       border-radius: 20px;
@@ -51,28 +47,20 @@
       transition: border-color 0.3s ease;
     }
     
-    .thumbnail-slider .slick-current img {
+    .section-flexible-scene-list .thumbnail-slider .slick-current img {
       border-color: #333;
     }
-    
-    /* 自定义箭头样式 */
-    .slick-prev, .slick-next {
-      width: 40px;
-      height: 40px;
-      z-index: 10;
-    }
-    
-    .slick-prev:before, .slick-next:before {
-      font-size: 40px;
-      color: #333;
-    }
-    
-    .slick-prev {
-      left: -25px;
-    }
-    
-    .slick-next {
-      right: -25px;
+    @media (max-width: 767.98px) {
+      .section-flexible-scene-list .main-slider{margin-top:30px}
+      .section-flexible-scene-list .main-slider img{border-radius:8px;height: 27rem}
+      .section-flexible-scene-list .thumbnail-slider {display:none}
+      .section-flexible-scene-list .product-tip{padding:0px;top:20px;right:20px}
+      .section-flexible-scene-list .main-slider .product-tip img{height:10rem}
+      .section-flexible-scene-list .main-slider .product-tip .title{display:none}
+      .section-flexible-scene-list .flex-title-box {left:20px;bottom:20px;padding-right:20px}
+      .section-flexible-scene-list .flex-title-box h4{font-size:20px}
+      .section-flexible-scene-list .flex-title-box .flex-des{font-size:14px}
+      
     }
   </style>
 <div class="section section-flexible-scene-list section--padding page-width" >
@@ -84,16 +72,13 @@
           <div class="slide">
           {% if block.settings.image != blank %}
                 <picture>
-                  <!-- 移动端图片 -->
                   <source
                     media="(max-width: 749px)"
                     srcset="
-                      {{ block.settings.image | img_url: '800x' }} 1x,
-                      {{ block.settings.image | img_url: '1600x' }} 2x
+                      {{ block.settings.mobile_image | img_url: '800x' }} 1x,
+                      {{ block.settings.mobile_image | img_url: '1600x' }} 2x
                     "
                   >
-
-                  <!-- 桌面端图片 -->
                   <source
                     media="(min-width: 750px)"
                     srcset="
@@ -101,8 +86,6 @@
                       {{ block.settings.image | img_url: '2400x' }} 2x
                     "
                   >
-
-                  <!-- 默认图片 -->
                   <img
                     src="{{ block.settings.image | img_url: '1200x' }}"
                     alt="{{ block.settings.title | escape }}"
@@ -115,7 +98,7 @@
               {% else %}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {% endif %}
-
+              
             {% if block.settings.title != blank or  block.settings.description != blank %}
                 <div class="flex-title-box">
                     <h4 class="flex-title"> 
@@ -126,6 +109,44 @@
                     </div> 
                </div>
             {% endif %}
+            {% if block.settings.product_img != blank%}
+              <div class="product-tip">
+                <div class="img-box">
+                    <picture>
+                      <source
+                        media="(max-width: 749px)"
+                        srcset="
+                          {{ block.settings.product_img | img_url: '800x' }} 1x,
+                          {{ block.settings.product_img | img_url: '1600x' }} 2x
+                        "
+                      >
+                      <source
+                        media="(min-width: 750px)"
+                        srcset="
+                          {{ block.settings.product_img | img_url: '1200x' }} 1x,
+                          {{ block.settings.product_img | img_url: '2400x' }} 2x
+                        "
+                      >
+                      <img
+                        src="{{ block.settings.product_img | img_url: '1200x' }}"
+                        alt="{{ block.settings.title | escape }}"
+                        class="grid-image"
+                        loading="lazy"
+                        width="{{ block.settings.image.width }}"
+                        height="{{ block.settings.image.height }}"
+                      >
+                    </picture>
+                    </div>
+                    <div class="title">
+                      <a href="{{ block.settings.product_link  }}" alt="block.settings.product_title">
+                        <h4>{{ block.settings.product_title}}</h4>
+                        <p>{{ block.settings.product_des }}</p>
+                        <div class="price">{{ block.settings.product_price }}</div>
+                      </a>
+                    </div>
+                    
+              </div>
+              {% endif %}
           </div>
       {% endfor %}
     
@@ -137,7 +158,6 @@
       <div class="slide">
         {% if block.settings.image != blank %}
                 <picture>
-                  <!-- 移动端图片 -->
                   <source
                     media="(max-width: 749px)"
                     srcset="
@@ -145,8 +165,6 @@
                       {{ block.settings.image | img_url: '1600x' }} 2x
                     "
                   >
-
-                  <!-- 桌面端图片 -->
                   <source
                     media="(min-width: 750px)"
                     srcset="
@@ -154,8 +172,6 @@
                       {{ block.settings.image | img_url: '2400x' }} 2x
                     "
                   >
-
-                  <!-- 默认图片 -->
                   <img
                     src="{{ block.settings.image | img_url: '1200x' }}"
                     alt="{{ block.settings.title | escape }}"
@@ -182,10 +198,24 @@
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.thumbnail-slider'
+        asNavFor: '.thumbnail-slider',
+        responsive:[
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+               dots: true,
+            }
+          }
+        ]
       });
       
-      // 初始化缩略图轮播
       $('.thumbnail-slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -258,10 +288,25 @@
           "id": "product_img",
           "label": "产品图片"
         },
+         {
+          "type": "text",
+          "id": "product_title",
+          "label": "产品标题"
+        },
+         {
+          "type": "text",
+          "id": "product_des",
+          "label": "产品描述"
+        },
+           {
+          "type": "text",
+          "id": "product_price",
+          "label": "产品价格"
+        },
         {
           "type": "url",
           "id": "product_link",
-          "label": "按钮链接"
+          "label": "产品链接"
         }
       ]
     }
