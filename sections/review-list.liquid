@@ -10,14 +10,14 @@
       <div class="main-slider">
            {% for block in section.blocks %}
             <div class="slide">
-            {% if block.settings.image != blank %}
+            {% if block.settings.image_pc != blank %}
                   <picture>
                     <!-- 移动端图片 -->
                     <source
                       media="(max-width: 749px)"
                       srcset="
-                        {{ block.settings.image | img_url: '800x' }} 1x,
-                        {{ block.settings.image | img_url: '1600x' }} 2x
+                        {{ block.settings.image_mobile | img_url: '800x' }} 1x,
+                        {{ block.settings.image_mobile | img_url: '1600x' }} 2x
                       "
                     >
 
@@ -25,19 +25,19 @@
                     <source
                       media="(min-width: 750px)"
                       srcset="
-                        {{ block.settings.image | img_url: '1200x' }} 1x,
-                        {{ block.settings.image | img_url: '2400x' }} 2x
+                        {{ block.settings.image_pc | img_url: '1200x' }} 1x,
+                        {{ block.settings.image_pc | img_url: '2400x' }} 2x
                       "
                     >
 
                     <!-- 默认图片 -->
                     <img
-                      src="{{ block.settings.image | img_url: '1200x' }}"
+                      src="{{ block.settings.image_pc | img_url: '1200x' }}"
                       alt="{{ block.settings.title | escape }}"
                       class="grid-image"
                       loading="lazy"
-                      width="{{ block.settings.image.width }}"
-                      height="{{ block.settings.image.height }}"
+                      width="{{ block.settings.image_pc.width }}"
+                      height="{{ block.settings.image_pc.height }}"
                     >
                   </picture>
                 {% else %}

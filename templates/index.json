@@ -138,29 +138,29 @@
         "section_title": "我们的特色分区"
       }
     },
-    "product_collection_FTLMAf": {
+    "product_collection_tDncTn": {
       "type": "product-collection",
       "blocks": {
-        "card_jJpyFf": {
+        "card_XkdcXz": {
           "type": "card",
           "settings": {
-            "product_item": "indevolt-sf2000",
+            "product_item": "bk1600-ultra-balkonkraftwerk-mit-speicher",
             "custom_image": "shopify://shop_images/Group_255_ed424e4c-7de6-4138-85da-611081d9ead7.png",
-            "mobile_image": "shopify://shop_images/mob3_be69a1bf-718d-4675-8af5-b1957662239c.png",
+            "mobile_image": "shopify://shop_images/Group_255_ed424e4c-7de6-4138-85da-611081d9ead7.png",
             "custom_title": "SolidFlex 2000 + SFA1800",
             "custom_describe": "",
             "price": "1.398,00 €",
             "original": "2.098,00 €",
             "button_text": "Mehr erfahren",
-            "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040578659"
+            "button_link": ""
           }
         },
-        "card_rT9e6n": {
+        "card_8nnA4a": {
           "type": "card",
           "settings": {
-            "product_item": "indevolt-sf2000",
+            "product_item": "bk1600-balkonkraftwerk-mit-speicher",
             "custom_image": "shopify://shop_images/Group_295.png",
-            "mobile_image": "shopify://shop_images/mob3_be69a1bf-718d-4675-8af5-b1957662239c.png",
+            "mobile_image": "shopify://shop_images/Group_295.png",
             "custom_title": "SolidFlex 2000 + SFA1800",
             "custom_describe": "4*440W Bifaziales Solarmodul + 4*Metalldachhalter ",
             "price": "1.946,00 €",
@@ -169,12 +169,12 @@
             "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040840803"
           }
         },
-        "card_WnKpLe": {
+        "card_FQAcNi": {
           "type": "card",
           "settings": {
-            "product_item": "indevolt-sf2000",
+            "product_item": "indevolt-860w-solarpanels-430w-2er-pack",
             "custom_image": "shopify://shop_images/Group_256.png",
-            "mobile_image": "shopify://shop_images/mob3_be69a1bf-718d-4675-8af5-b1957662239c.png",
+            "mobile_image": "shopify://shop_images/Group_256.png",
             "custom_title": "SolidFlex 2000 + SFA1800",
             "custom_describe": "4*440W Bifaziales Solarmodul + 4*Flachdachhalter ",
             "price": "1.986,00 €",
@@ -183,12 +183,12 @@
             "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040873571"
           }
         },
-        "card_TW7Upe": {
+        "card_gWcNV9": {
           "type": "card",
           "settings": {
-            "product_item": "indevolt-sf2000",
+            "product_item": "bk1600-balkonkraftwerk-mit-speicher",
             "custom_image": "shopify://shop_images/Group_257_5c168e03-16bd-4c20-acd0-0a015ba436a3.png",
-            "mobile_image": "shopify://shop_images/mob4_4c2cc375-9c43-42be-94c0-a22b662deef5.png",
+            "mobile_image": "shopify://shop_images/Group_257_5c168e03-16bd-4c20-acd0-0a015ba436a3.png",
             "custom_title": "SolidFlex 2000 + SFA1800",
             "custom_describe": "4*440W Bifaziales Solarmodul + 2*Dachhalter",
             "price": "2.026,00 €",
@@ -199,14 +199,14 @@
         }
       },
       "block_order": [
-        "card_jJpyFf",
-        "card_rT9e6n",
-        "card_WnKpLe",
-        "card_TW7Upe"
+        "card_XkdcXz",
+        "card_8nnA4a",
+        "card_FQAcNi",
+        "card_gWcNV9"
       ],
       "name": "产品推荐",
       "settings": {
-        "title": "Produktempfehlung"
+        "title": ""
       }
     },
     "product_coupon_KwiHgH": {
@@ -251,30 +251,6 @@
       "name": "产品优惠",
       "settings": {
         "title": "Empfehlungen für den Einstieg"
-      }
-    },
-    "newsletter_BhHPzj": {
-      "type": "newsletter",
-      "name": "t:sections.newsletter.presets.name",
-      "settings": {
-        "color_scheme": "scheme-inverse",
-        "layout": "vertical",
-        "heading": "20€ Rabatt sichern",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "<p>Jetzt anmelden und 20€ Rabatt sichern.</p>",
-        "text_size": "text-base",
-        "alignment": "center",
-        "design": "design-1",
-        "form_width": 500,
-        "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https://de.indevolt.com/policies/privacy-policy\">Datenschutzrichtlinie</a> zu</p>",
-        "newsletter_term_size": "text-base",
-        "button_style": "btn--primary",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
       }
     },
     "flexible_scene_list_AwPzpT": {
@@ -432,10 +408,10 @@
         "title": "Ausgewählte Videos von Experten"
       }
     },
-    "service_info_fXRMQ8": {
-      "type": "service-info",
+    "review_list_XNNiXX": {
+      "type": "review-list",
       "blocks": {
-        "card_GMn6G6": {
+        "card_YH9LNL": {
           "type": "card",
           "settings": {
             "image_pc": "shopify://shop_images/555.png",
@@ -445,7 +421,7 @@
             "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
           }
         },
-        "card_6RBLCK": {
+        "card_gD7KCd": {
           "type": "card",
           "settings": {
             "image_pc": "shopify://shop_images/555.png",
@@ -455,7 +431,7 @@
             "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
           }
         },
-        "card_xkk4M8": {
+        "card_jVWgDL": {
           "type": "card",
           "settings": {
             "image_pc": "shopify://shop_images/555.png",
@@ -465,7 +441,17 @@
             "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
           }
         },
-        "card_YFFyYh": {
+        "card_Pq9FhP": {
+          "type": "card",
+          "settings": {
+            "image_pc": "shopify://shop_images/555.png",
+            "image_mobile": "shopify://shop_images/555.png",
+            "start": "shopify://shop_images/start.svg",
+            "content": "Andreas Heinrich",
+            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
+          }
+        },
+        "card_38DYVV": {
           "type": "card",
           "settings": {
             "image_pc": "shopify://shop_images/555.png",
@@ -477,20 +463,21 @@
         }
       },
       "block_order": [
-        "card_GMn6G6",
-        "card_6RBLCK",
-        "card_xkk4M8",
-        "card_YFFyYh"
+        "card_YH9LNL",
+        "card_gD7KCd",
+        "card_jVWgDL",
+        "card_Pq9FhP",
+        "card_38DYVV"
       ],
       "name": "评价列表",
       "settings": {
         "title": "Kundenbewertungen"
       }
     },
-    "contact_us_9MhAHR": {
+    "contact_us_VEC9Cb": {
       "type": "contact-us",
       "blocks": {
-        "card_ckkGmP": {
+        "card_p6gFYF": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/646401_31f22922-6c9c-456b-8535-77d14ad2894a.png",
@@ -498,7 +485,7 @@
             "content": "service@indevolt.com>"
           }
         },
-        "card_eNgQdh": {
+        "card_YcAehM": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/646402_e9a5f2ff-5239-41ca-ab4a-a5c5f7d18a4d.png",
@@ -508,28 +495,62 @@
         }
       },
       "block_order": [
-        "card_ckkGmP",
-        "card_eNgQdh"
+        "card_p6gFYF",
+        "card_YcAehM"
       ],
-      "name": "评价列表",
+      "name": "联系我们",
       "settings": {
-        "title": "Kundenbewertungen",
+        "title": "Partnerschaft mit Indevolt",
         "image_pc": "shopify://shop_images/image_98bbf6b3-8163-4316-8234-5c5315c845b1.png",
         "link_title": "Mehr erfahren >",
         "link_url": "https://de.indevolt.com/pages/partner"
+      }
+    },
+    "service_info_9aT6Kj": {
+      "type": "service-info",
+      "name": "服务信息",
+      "settings": {
+        "title": "Indevolt Vorteile",
+        "image_pc": "shopify://shop_images/20250331110945.png",
+        "image_mobile": "shopify://shop_images/20250331111010.png"
+      }
+    },
+    "newsletter_BhHPzj": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-inverse",
+        "layout": "vertical",
+        "heading": "20€ Rabatt sichern",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "<p>Jetzt anmelden und 20€ Rabatt sichern.</p>",
+        "text_size": "text-base",
+        "alignment": "center",
+        "design": "design-1",
+        "form_width": 500,
+        "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https://de.indevolt.com/policies/privacy-policy\">Datenschutzrichtlinie</a> zu</p>",
+        "newsletter_term_size": "text-base",
+        "button_style": "btn--primary",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
       }
     }
   },
   "order": [
     "slideshow_q3U4Jn",
     "scene_list_CwKJ7V",
-    "product_collection_FTLMAf",
+    "product_collection_tDncTn",
     "product_coupon_KwiHgH",
-    "newsletter_BhHPzj",
     "flexible_scene_list_AwPzpT",
     "brand_list_Bb7KJE",
     "video_list_Aqz79r",
-    "service_info_fXRMQ8",
-    "contact_us_9MhAHR"
+    "review_list_XNNiXX",
+    "contact_us_VEC9Cb",
+    "service_info_9aT6Kj",
+    "newsletter_BhHPzj"
   ]
 }
