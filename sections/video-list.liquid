@@ -67,62 +67,30 @@
     <h2>
       <span>{{ section.settings.title }}</span>
     </h2>
-    <!-- 主轮播 -->
-    {% comment %}
-      <div class="main-slider">
-           {% for block in section.blocks %}
-            <div class="slide">
-            {% if block.settings.image != blank %}
-                  <picture>
-                    <!-- 移动端图片 -->
-                    <source
-                      media="(max-width: 749px)"
-                      srcset="
-                        {{ block.settings.image | img_url: '800x' }} 1x,
-                        {{ block.settings.image | img_url: '1600x' }} 2x
-                      "
-                    >
-
-                    <!-- 桌面端图片 -->
-                    <source
-                      media="(min-width: 750px)"
-                      srcset="
-                        {{ block.settings.image | img_url: '1200x' }} 1x,
-                        {{ block.settings.image | img_url: '2400x' }} 2x
-                      "
-                    >
-
-                    <!-- 默认图片 -->
-                    <img
-                      src="{{ block.settings.image | img_url: '1200x' }}"
-                      alt="{{ block.settings.title | escape }}"
-                      class="grid-image"
-                      loading="lazy"
-                      width="{{ block.settings.image.width }}"
-                      height="{{ block.settings.image.height }}"
-                    >
-                  </picture>
-                {% else %}
-                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                {% endif %}
-            </div>
-        {% endfor %}
-
-      </div>
-    {% endcomment %}
     <div class="iframe-carousel-container">
       <div class="iframe-carousel">
         {% for block in section.blocks %}
           <!-- 示例循环，替换为你的实际内容 -->
+        {%- liquid
+            if block.settings.video_url != blank
+              assign video_url_id = video_url_id | default: block.settings.video_url.id
+            endif 
+          -%}
           <div class="carousel-slide">
             {% comment %} <iframe src="{{  block.settings.video_url }}" frameborder="0" controls allowfullscreen loading="eager"></iframe> {% endcomment %}
             <iframe
-              src="https://www.youtube.com/embed/{{ block.settings.video_url }}?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;mute=1&enablejsapi=1"
+              src="https://www.youtube.com/embed/{{ video_url_id }}?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=0&amp;loop=1&amp;mute=1&enablejsapi=1"
               allow="autoplay; encrypted-media"
               allowfullscreen
               class="embed-responsive-item"
               loading="eager"
             ></iframe>
+               <!-- <iframe
+            src="https://www.youtube.com/embed/{{ video_url_id }}?playsinline=1&controls=1{% if autoplay %}&autoplay=1{% endif %}{% if muted %}&mute=1{% endif %}{% if loop %}&loop=1{% endif %}&playlist={{ video_url_id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}"
+            allow="autoplay; encrypted-media"
+            allowfullscreen="allowfullscreen"
+          ></iframe> -->
+          
           </div>
         {% endfor %}
       </div>

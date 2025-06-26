@@ -17,7 +17,7 @@
         "announcement_bar_npRHcX": {
           "type": "announcement_bar",
           "settings": {
-            "text": "Jahresmitte Sale: Genieße jetzt die besten Preise - Spare bis zu 44%!<a href=\"\/pages\/jahresmitte-sale\">Mehr erfahren →<\/a>",
+            "text": "Jahresmitte Sale: Genieße jetzt die besten Preise - Spare bis zu 44%!<a href=\"/pages/jahresmitte-sale\">Mehr erfahren →</a>",
             "link": ""
           }
         }
@@ -46,9 +46,9 @@
             "promotions_width": 78,
             "promotion_columns": 2,
             "promo_image_1": [
-              "indevolt-sf2000",
-              "indevolt-bk1600-ultra",
-              "indevolt-bk-1600"
+              "solidflex-2000-balkonkraftwerk-mit-speicher",
+              "bk1600-ultra-balkonkraftwerk-mit-speicher",
+              "bk1600-balkonkraftwerk-mit-speicher"
             ],
             "heading_1": "Balkonkraftwerk mit Speicher",
             "heading_size_1": "h5",

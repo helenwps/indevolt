@@ -3,8 +3,8 @@
   .section-brand-list .product-collection{padding:118px 0px}
   .brand-main-slider{margin-top:58px;}
   .brand-main-slider .slick-track {display: flex;gap:16px}
-  .brand-main-slider .slide {padding:40px 35px;background:#fff}
-  .brand-main-slider .slide .detail{ margin-top:30px;line-height:30px;font-size:22px;color: #666;overflow-wrap: break-word;}
+  .brand-main-slider .slide {min-height:388px;max-height:388px;background:#fff}
+  .brand-main-slider .slide .detail{ margin-top:10px;padding:0px 20px;line-height:30px;font-size:22px;color: #666;overflow-wrap: break-word;word-break:break-all}
   .slick-dotted .slick-dots {margin-top:30px;display: flex ;visibility:visible;gap:8px;align-items: center;justify-content: center;}
  .slick-dotted .slick-dots .slick-active button{ background: #3250C3;}
  .slick-dotted .slick-dots button {
@@ -18,12 +18,15 @@
   }
   .logo-title{margin-top:118px}
   .logo-box{margin-top:58px}
+  @media (max-width: 1024px) {
+    .brand-main-slider .slide .detail{line-height:28px;font-size:16px}
+  }
   @media (max-width: 767.98px) {
      .section-brand-list .product-collection{padding:56px 0px 56px;}
      .brand-main-slider{margin-top:0px;}
      .brand-main-slider .slick-track {margin-top:30px;gap:0px}
-     .brand-main-slider .slide{min-height:210px;max-height:210px;padding:24px 18px}
-     .brand-main-slider .slide .detail{margin-top:20px;line-height:16px;font-size:12px}
+     .brand-main-slider .slide{min-height:210px;max-height:210px;}
+     .brand-main-slider .slide .detail{margin-top:20px;line-height:20px;font-size:14px}
      .slick-dotted .slick-dots{margin-top:0px}
      .logo-title{margin-top:30px}
      .logo-box{margin:30px 30px 0px 30px}
@@ -114,9 +117,9 @@
       arrows: false,
       autoplay:true,
       responsive: [ 
-         {
+        {
           breakpoint: 1024,
-          settings: { slidesToShow: 2, centerMode: true }
+          settings: { slidesToShow: 2, }
         },
         {
           breakpoint: 767,
