@@ -1,10 +1,18 @@
 <style>
- 
+ .section-service-info {margin-bottom:120px}
+ .section-service-info .service-image{ margin-top:57px;height:509px;}
+  @media (max-width: 768px) {
+     .section-service-info {margin-bottom:60px}
+    .section-service-info .service-image{ margin-top: 30px; height: 268px;}
+  }
 </style>
-<div class="section section-service-info">
+{% liquid
+    assign motion_delay = 50
+%}
+<div class="section  section--padding page-width section-service-info">
   <div class="product-collection product-slider-container">
     <h2>
-      <span>{{ section.settings.title }}</span>
+      <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"> <span>{{ section.settings.title }}</span></motion-element>
     </h2>
     {% if section.settings.image_pc != blank %}
         <picture>
@@ -30,7 +38,7 @@
           <img
             src="{{ section.settings.image_pc | img_url: '1200x' }}"
             alt="{{ section.settings.title | escape }}"
-            class="grid-image"
+            class="service-image"
             loading="lazy"
             width="{{ section.settings.image_pc.width }}"
             height="{{ section.settings.image_pc.height }}"
@@ -103,21 +111,7 @@
   ],
   "presets": [
     {
-      "name": "服务信息",
-      "blocks": [
-        {
-          "type": "card"
-        },
-        {
-          "type": "card"
-        },
-        {
-          "type": "card"
-        },
-        {
-          "type": "card"
-        }
-      ]
+      "name": "服务信息"
     }
   ]
 }

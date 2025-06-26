@@ -63,9 +63,12 @@
       
     }
   </style>
+{% liquid
+    assign motion_delay = 50
+%}
 <div class="section section-flexible-scene-list section--padding page-width" >
   <div class="product-collection product-slider-container">
-    <h2><span>{{ section.settings.title }}</span></h2>
+    <h2> <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"><span>{{ section.settings.title }}</span></motion-element></h2>
     <!-- 主轮播 -->
     <div class="main-slider">
          {% for block in section.blocks %}

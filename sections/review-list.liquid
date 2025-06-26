@@ -1,81 +1,261 @@
 <style>
- 
+  .review-main-slider {
+    position: relative;
+    margin-top: 57px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .review-main-slider .slick-slide {
+    margin: 0 8px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.8s ease;
+    cursor: pointer;
+  }
+
+  .review-main-slider .slick-slide .item-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    height: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateZ(0); /* 启用硬件加速 */
+    backface-visibility: hidden; /* 修复边缘锯齿 */
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+  }
+  .review-main-slider .slick-slide img.grid-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    transform-origin: center center;
+    border-radius: 12px;
+    -webkit-transform: translateZ(0);
+  }
+
+  .review-main-slider .slick-slide:hover img.grid-image {
+    transform: scale(1.05);
+  }
+
+  .review-main-slider .slick-track {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .review-main-slider .review-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 53px 53px;
+    border-radius: 0 0 12px 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    text-align: center;
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.8s ease;
+    opacity: 0;
+  }
+
+  .review-main-slider .slick-slide:hover .review-content {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .review-main-slider .review-content img.start-image {
+    height: 12px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  .review-main-slider .review-content .details {
+    margin-top: 15px;
+    line-height: 19px;
+    font-size: 16px;
+  }
+
+  .review-main-slider .review-content .user {
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  /* 响应式调整 */
+  @media (max-width: 767px) {
+    .review-main-slider {
+      margin-top: 30px;
+    }
+    .review-main-slider .slick-slide .item-box {
+      height: 270px;
+    }
+    .review-main-slider .slick-slide .item-box,
+    .review-main-slider .slick-slide img.grid-image {
+      border-radius: 8px; /* 移动端圆角稍小 */
+    }
+    .review-main-slider .review-content {
+      transform: initial;
+      opacity: 1;
+      padding: 15px 20px 30px;
+    }
+
+    .review-main-slider .review-content .details {
+      font-size: 14px;
+    }
+
+    .review-main-slider .review-content .user {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+  }
 </style>
+{% liquid
+  assign motion_delay = 50
+%}
 <div class="section section-review-list">
   <div class="product-collection product-slider-container">
     <h2>
-      <span>{{ section.settings.title }}</span>
+      <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}">
+        <span>{{ section.settings.title }}</span></motion-element
+      >
     </h2>
     <!-- 主轮播 -->
-      <div class="main-slider">
-           {% for block in section.blocks %}
-            <div class="slide">
+    <div class="review-main-slider">
+      {% for block in section.blocks %}
+        <div class="item-box">
+         <div class="image-container">
+          {% if block.settings.image_pc != blank %}
+            <picture>
+              <!-- 移动端图片 -->
+              <source
+                media="(max-width: 749px)"
+                srcset="
+                  {{ block.settings.image_mobile | img_url: '800x' }} 1x,
+                  {{ block.settings.image_mobile | img_url: '1600x' }} 2x
+                "
+              >
+
+              <!-- 桌面端图片 -->
+              <source
+                media="(min-width: 750px)"
+                srcset="
+                  {{ block.settings.image_pc | img_url: '1200x' }} 1x,
+                  {{ block.settings.image_pc | img_url: '2400x' }} 2x
+                "
+              >
+
+              <!-- 默认图片 -->
+              <img
+                src="{{ block.settings.image_pc | img_url: '1200x' }}"
+                alt="{{ block.settings.title | escape }}"
+                class="grid-image"
+                loading="lazy"
+                width="{{ block.settings.image_pc.width }}"
+                height="{{ block.settings.image_pc.height }}"
+              >
+            </picture>
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+          </div>
+          <div class="review-content">
             {% if block.settings.image_pc != blank %}
-                  <picture>
-                    <!-- 移动端图片 -->
-                    <source
-                      media="(max-width: 749px)"
-                      srcset="
-                        {{ block.settings.image_mobile | img_url: '800x' }} 1x,
-                        {{ block.settings.image_mobile | img_url: '1600x' }} 2x
-                      "
-                    >
+              <picture>
+                <!-- 移动端图片 -->
+                <source
+                  media="(max-width: 749px)"
+                  srcset="
+                    {{ block.settings.start | img_url: '800x' }} 1x,
+                    {{ block.settings.start | img_url: '1600x' }} 2x
+                  "
+                >
 
-                    <!-- 桌面端图片 -->
-                    <source
-                      media="(min-width: 750px)"
-                      srcset="
-                        {{ block.settings.image_pc | img_url: '1200x' }} 1x,
-                        {{ block.settings.image_pc | img_url: '2400x' }} 2x
-                      "
-                    >
+                <!-- 桌面端图片 -->
+                <source
+                  media="(min-width: 750px)"
+                  srcset="
+                    {{ block.settings.start | img_url: '1200x' }} 1x,
+                    {{ block.settings.start | img_url: '2400x' }} 2x
+                  "
+                >
 
-                    <!-- 默认图片 -->
-                    <img
-                      src="{{ block.settings.image_pc | img_url: '1200x' }}"
-                      alt="{{ block.settings.title | escape }}"
-                      class="grid-image"
-                      loading="lazy"
-                      width="{{ block.settings.image_pc.width }}"
-                      height="{{ block.settings.image_pc.height }}"
-                    >
-                  </picture>
-                {% else %}
-                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                {% endif %}
-            </div>
-        {% endfor %}
-
-      </div>
-  
+                <!-- 默认图片 -->
+                <img
+                  src="{{ block.settings.start | img_url: '1200x' }}"
+                  alt="{{ block.settings.title | escape }}"
+                  class="start-image"
+                  loading="lazy"
+                  width="{{ block.settings.start.width }}"
+                  height="{{ block.settings.start.height }}"
+                >
+              </picture>
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+            <div class="details">{{ block.settings.content }}</div>
+            <div class="user">{{ block.settings.name }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 <script>
   $(document).ready(function () {
-    $('.review-carousel').slick({
-      slidesToShow: 4, // 显示两屏半
-      slidesToScroll: 1, // 每次滚动一屏
-      infinite: true, // 无限循环
-      arrows: false, // 隐藏默认箭头
-      dots: true,    // 显示分页指示器
-      fade: false,   // 是否使用淡入淡出效果
-      speed: 800,    // 切换速度
-      cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1)', // 动画曲线
+    $('.review-main-slider').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1,
+      speed: 3000,
       infinite: true,
-      autoplay: false,
-      vertical: true, // 垂直滚动
-      verticalSwiping: true, // 允许垂直滑动
+      arrows: false,
+      dots: false,
+      pauseOnHover: true,
+      pauseOnFocus: true,
+      cssEase: 'linear',
+      variableWidth: false,
+      centerMode: false,
       responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
         {
           breakpoint: 768,
           settings: {
-            vertical: false, // 在小屏幕上改为水平滚动
-            verticalSwiping: false
-          }
-        }
-      ]
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            centerMode: true,
+            autoplay: false, 
+            autoplaySpeed: 0,
+            pauseOnHover: false,
+            pauseOnFocus: false
+          },
+        },
+      ],
     });
   });
+  $('.review-main-slider')
+    .on('mouseenter', function () {
+      $(this).slick('slickPause');
+    })
+    .on('mouseleave', function () {
+      $(this).slick('slickPlay');
+    });
 </script>
 {% schema %}
 {
@@ -109,17 +289,17 @@
           "id": "image_mobile",
           "label": "手机端图片"
         },
-         {
+        {
           "type": "image_picker",
           "id": "start",
           "label": "星级"
         },
-         {
+        {
           "type": "text",
           "id": "content",
           "label": "内容"
         },
-         {
+        {
           "type": "text",
           "id": "name",
           "label": "用户"

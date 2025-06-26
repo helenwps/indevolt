@@ -62,7 +62,6 @@
         "slide_U9bPyj"
       ],
       "custom_css": [
-        ".slideshow__text {max-width: 46rem;}",
         "@media (max-width: 767px) {.slideshow__text {margin: 0 auto; }}",
         "@media (min-width: 1280px) {.slideshow__text {padding-inline: 3.2rem; }}"
       ],

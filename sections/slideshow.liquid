@@ -21,28 +21,39 @@
 -%}
 {{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
 <style>
-  .section-{{ section.id }} .slideshow__title,.section-{{ section.id }} .slideshow__text {max-width:64.5rem!important;line-height:22px;text-align: left; color: #fff;}
+  .section-{{ section.id }} .slideshow__title,.section-{{ section.id }} .slideshow__text {text-align: left; color: #fff;}
   .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .brand-box{ display: flex;gap: 25px;}
-  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__subtitle{ margin-top:30px; font-size:24px;font-weight:500;color: #fff;
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__subtitle{ margin-top:30px;line-height:29px; font-size:24px;font-weight:500;color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 44, 97, 0.10);}
-  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title {margin-top:16px;line-height:50px;font-size: 48px;font-weight:800;color:#fff;
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__subtitle strong{color: #FFB800;}
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title {margin-top:16px;line-height:58px;font-size: 48px;font-weight:800;color:#fff;
   text-shadow: 1px 1px 2px rgba(0, 44, 97, 0.10);}
-  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__description{ margin-top:16px; line-height:22px;max-width:36rem}
-  .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__subtitle{ font-size: 28px;font-weight:600;color: #EC5E15;}
-  .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__title {margin-top:7px;line-height:58px;font-size: 48px;font-weight:800;color:#000}
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title .block{display: flex;align-items: center;}
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title span{margin-left: 8px; padding: 0px 8px;border-radius: 4px;
+    background: #3250C3;font-size: 16px;font-weight: 400;line-height: 28px;letter-spacing: normal;}
+  .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__description{max-width:363px; margin-top:16px; line-height:24px;}
+  .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__subtitle{line-height:34px; font-size: 28px;font-weight:600;color: #EC5E15;}
+  .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__title {line-height:58px;font-size: 48px;font-weight:800;color:#000}
   .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__description{margin-top:24px;font-size: 20px;color: #000;font-weight: 500;}
-  .section-{{ section.id }} .slideshow__buttons{ margin-top:20px}
+  .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__title span{ display:block}
+  .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text p{margin-top:24px;line-height: 24px;font-size:20px}
+  .section-{{ section.id }} .slideshow__buttons{ margin-top:45px}
   @media (max-width: 768px) {
-    .section-{{ section.id }} .slideshow__title,.section-{{ section.id }} .slideshow__text{top:44px; padding:0px; text-align:center}
-    .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__subtitle{font-size:18px}
+    .section-{{ section.id }} .slideshow__content{padding:4.4rem;}
+    .section-{{ section.id }} .slideshow__title,.section-{{ section.id }} .slideshow__text{ text-align:center}
+    .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__subtitle{line-height:22px;font-size:18px}
     .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__title,
-    .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title{margin-top:3px;line-height:30px;font-size:28px}
-    .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__description{margin-top:9px;font-size:16px}
-    .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title{margin-top:8px;}
-    .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__subtitle{ margin-top:0px;font-size:16px}
-    .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__description{margin-top:16px; padding: 0px 40px; font-size:14px}
+    .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title{margin-top:3px;line-height:34px;font-size:28px}
+    .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__title{max-width:24.8rem;}
+    .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__description{margin-top:9px;font-size:20px}
+    .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text p{margin-top:9px;line-height: 19x;font-size:16px}
+    .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title{display:flex;justify-content: center;margin-top:8px;}
+    .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__title span{font-size:12px;line-height:16px}
+    .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__subtitle{ margin-top:0px;line-height:19px;font-size:16px}
+    .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__description{max-width:28.4rem;margin-top:14px; line-height: 17px;font-size:14px}
     .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .brand-box{display: none}
     .section-{{ section.id }} .slideshow__buttons{ margin-top:14px}
+    .section-{{ section.id }} .swiper-slide:nth-child(odd)  .slideshow__buttons{ margin-top:30px}
   }
 </style>
 <script src="{{ 'slideshow-component.js' | asset_url }}" defer="defer"></script>
@@ -643,7 +654,7 @@
           ]
         },
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "subheading",
           "label": "t:sections.all.subheading.label"
         },
