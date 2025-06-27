@@ -374,25 +374,25 @@
         "card_XGwY9C": {
           "type": "card",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=uFcnPu05YFU"
+            "video_url": "https://www.youtube.com/watch?v=0m0xi7hpnHI"
           }
         },
         "card_mCz6Xy": {
           "type": "card",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=vfW3lj9f0Zg"
+            "video_url": "https://www.youtube.com/watch?v=0m0xi7hpnHI"
           }
         },
         "card_NCXmiD": {
           "type": "card",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=vfW3lj9f0Zg"
+            "video_url": "https://www.youtube.com/watch?v=0m0xi7hpnHI"
           }
         },
         "card_HFmDHA": {
           "type": "card",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=vfW3lj9f0Zg"
+            "video_url": "https://www.youtube.com/watch?v=0m0xi7hpnHI"
           }
         }
       },
@@ -410,24 +410,24 @@
     "review_list_XNNiXX": {
       "type": "review-list",
       "blocks": {
-        "card_YH9LNL": {
-          "type": "card",
-          "settings": {
-            "image_pc": "shopify://shop_images/555.png",
-            "image_mobile": "shopify://shop_images/555.png",
-            "start": "shopify://shop_images/start.svg",
-            "content": "Andreas Heinrich",
-            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
-          }
-        },
         "card_gD7KCd": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify://shop_images/555.png",
-            "image_mobile": "shopify://shop_images/555.png",
+            "image_pc": "shopify://shop_images/111.png",
+            "image_mobile": "shopify://shop_images/111.png",
             "start": "shopify://shop_images/start.svg",
-            "content": "Andreas Heinrich",
-            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
+            "content": "Die Installation war super einfach – meine Familie und ich haben das in 10 Minuten hinbekommen. Ideal für alle, die gerne selbst Hand anlegen!",
+            "name": "Max Schmidt"
+          }
+        },
+        "card_YH9LNL": {
+          "type": "card",
+          "settings": {
+            "image_pc": "shopify://shop_images/222.png",
+            "image_mobile": "shopify://shop_images/222.png",
+            "start": "shopify://shop_images/start.svg",
+            "content": "Mit einer Kapazität von 1600Wh deckt es super gut unseren Strombedarf nachts. Ich kann es echt empfehlen!",
+            "name": "Hans Müller"
           }
         },
         "card_jVWgDL": {
@@ -436,34 +436,34 @@
             "image_pc": "shopify://shop_images/555.png",
             "image_mobile": "shopify://shop_images/555.png",
             "start": "shopify://shop_images/start.svg",
-            "content": "Andreas Heinrich",
-            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
+            "content": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht.",
+            "name": "Andreas Heinrich"
           }
         },
         "card_Pq9FhP": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify://shop_images/555.png",
-            "image_mobile": "shopify://shop_images/555.png",
+            "image_pc": "shopify://shop_images/333.png",
+            "image_mobile": "shopify://shop_images/333.png",
             "start": "shopify://shop_images/start.svg",
-            "content": "Andreas Heinrich",
-            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
+            "content": "Leicht und perfekt für den Campinggebrauch. Die 1600Wh Kapazität sind klasse! Ich kann mehrere Geräte gleichzeitig nutzen.",
+            "name": "Michail Cohen"
           }
         },
         "card_38DYVV": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify://shop_images/555.png",
-            "image_mobile": "shopify://shop_images/555.png",
+            "image_pc": "shopify://shop_images/444.png",
+            "image_mobile": "shopify://shop_images/444.png",
             "start": "shopify://shop_images/start.svg",
-            "content": "Andreas Heinrich",
-            "name": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht"
+            "content": "Philipp BeckerDas bidirektionale Laden ist einfach super! Bei schlechtem Wetter muss ich mir keine Sorgen um die Stromspeicherung machen.",
+            "name": "Philipp Becker"
           }
         }
       },
       "block_order": [
-        "card_YH9LNL",
         "card_gD7KCd",
+        "card_YH9LNL",
         "card_jVWgDL",
         "card_Pq9FhP",
         "card_38DYVV"
@@ -501,6 +501,7 @@
       "settings": {
         "title": "Partnerschaft mit Indevolt",
         "image_pc": "shopify://shop_images/image_98bbf6b3-8163-4316-8234-5c5315c845b1.png",
+        "image_mobile": "shopify://shop_images/mob_5b70ebdf-d468-412b-9699-d77d8e7d1dfe.png",
         "link_title": "Mehr erfahren >",
         "link_url": "https://de.indevolt.com/pages/partner"
       }

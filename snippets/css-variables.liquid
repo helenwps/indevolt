@@ -173,9 +173,10 @@
       --color-product-price-sale: {{ scheme.settings.product_price_sale.red }},{{ scheme.settings.product_price_sale.green }},{{ scheme.settings.product_price_sale.blue }};
       --color-foreground-lighten-60: {{ color_text_lighten_60 }};
       --color-foreground-lighten-19: {{ color_text_lighten_19 }};
-      --color-button: #3250C3;
-      --color-button-text: #ffffff;
-      --color-button-hover-background: #3250C3
+      --color-button: rgba(50,80,195,0.9);
+      --color-button-text:  rgba(255,255,255,1);
+      --color-button-before: rgba(50,80,195,1);
+      --color-button-hover-background: rgba(50,80,195,1);
     {%- endcapture -%}
     .color-{{ scheme.id }} {
       {{ css_vars }}

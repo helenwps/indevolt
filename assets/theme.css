@@ -2876,7 +2876,9 @@ input:is([type=radio])::after {
 }
 
 :root {
+   /* --color-swiper-controls: var(--color-foreground); */
   --color-swiper-controls: var(--color-foreground);
+  --color-swiper-controls-dots:50,80,195;
   --swiper-navigation-size: 4.8rem;
   --swiper-navigation-icon-size: 2rem;
   --swiper-navigation-offset-x: 2.4rem;
@@ -2955,7 +2957,8 @@ input:is([type=radio])::after {
 .swiper-pagination-bullet {
   position: relative;
   opacity: 1;
-  background: var(--swiper-pagination-bullet-inactive-color, rgba(var(--color-swiper-controls), 0.2));
+  /* background: var(--swiper-pagination-bullet-inactive-color, rgba(var(--color-swiper-controls), 0.2)); */
+   background: var(--swiper-pagination-bullet-inactive-color, rgba(255,255,255, 0.5));
   transition: all 0.3s;
   border-radius: 1rem;
 }
@@ -2973,7 +2976,7 @@ input:is([type=radio])::after {
   top: 0;
   inset-inline-start: 0;
   border-radius: 1rem;
-  background: var(--swiper-pagination-color, rgb(var(--color-swiper-controls)));
+  background: var(--swiper-pagination-color, rgb(var(--color-swiper-controls-dots)));
   width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
   height: 100%;
   transition: all 0.3s;
@@ -2988,7 +2991,7 @@ input:is([type=radio])::after {
 }
 .swiper-pagination-bullets-animate .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 5rem;
-  background: rgba(var(--color-swiper-controls), 0.2);
+  background: rgba(var(--color-swiper-controls-dots), 0.2);
   overflow: hidden;
 }
 .swiper-pagination-bullets-animate .swiper-pagination-bullet.swiper-pagination-bullet-active:after {

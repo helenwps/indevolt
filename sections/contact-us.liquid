@@ -1,7 +1,7 @@
 <style>
   .section-contact-us{margin-top:120px}
   .section-contact-us .box{display:flex;padding:39px 57px;justify-content: space-between;border-radius: 20px;background: #F5F5F5;}
-  .section-contact-us .box .left-image{ height:303px;width:572px;}
+  .section-contact-us .box .left-image{ width:572px;}
   .section-contact-us .box .right{text-align:center}
   .section-contact-us .box .right h2{line-height:44px;font-size:36px;}
   .section-contact-us .box .right a{margin-top:12px;line-height: 19px;font-size: 16px;color: #3250C3;}
@@ -12,9 +12,13 @@
   .section-contact-us .methods .details{margin-top:6px;color: #000;}
     @media (max-width: 768px) {
       .section-contact-us{margin-top:60px}
-      .section-contact-us .box .left-image{height:176px;width:295px;}
+      .section-contact-us .box{padding:30px 20px}
       .section-contact-us .box .right{margin-top:3rem}
-      .section-contact-us .box,.section-contact-us .methods ul{flex-flow: wrap;}
+      .section-contact-us .box .right img{width: 32px;height:32px}
+      .section-contact-us .box,.section-contact-us .methods ul{margin-top:2rem;flex-flow: wrap;justify-content: center;}
+      .section-contact-us .methods ul{gap:2rem;line-height:15px;font-size:12px}
+      .section-contact-us .box,.section-contact-us .methods ul li{width: 100%;}
+      .section-contact-us .methods .details{margin-top:0px}
       .section-contact-us .box .right h2{line-height:24px;font-size: 20px;}
       .section-contact-us .box .right a{margin-top:3px;line-height:17px;font-size: 14px;}
     }

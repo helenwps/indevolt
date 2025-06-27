@@ -119,7 +119,7 @@
   assign motion_delay = 50
 %}
 <div class="section section-review-list">
-  <div class="product-collection product-slider-container">
+  <div class="product-collection ">
     <h2>
       <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}">
         <span>{{ section.settings.title }}</span></motion-element
@@ -127,82 +127,73 @@
     </h2>
     <!-- 主轮播 -->
     <div class="review-main-slider">
-      {% for block in section.blocks %}
-        <div class="item-box">
-         {% comment %} <div class="image-container"> {% endcomment %}
-          {% if block.settings.image_pc != blank %}
-            <picture>
-              <!-- 移动端图片 -->
-              <source
-                media="(max-width: 749px)"
-                srcset="
-                  {{ block.settings.image_mobile | img_url: '800x' }} 1x,
-                  {{ block.settings.image_mobile | img_url: '1600x' }} 2x
-                "
-              >
-
-              <!-- 桌面端图片 -->
-              <source
-                media="(min-width: 750px)"
-                srcset="
-                  {{ block.settings.image_pc | img_url: '1200x' }} 1x,
-                  {{ block.settings.image_pc | img_url: '2400x' }} 2x
-                "
-              >
-
-              <!-- 默认图片 -->
-              <img
-                src="{{ block.settings.image_pc | img_url: '1200x' }}"
-                alt="{{ block.settings.title | escape }}"
-                class="grid-image"
-                loading="lazy"
-                width="{{ block.settings.image_pc.width }}"
-                height="{{ block.settings.image_pc.height }}"
-              >
-            </picture>
-          {% else %}
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-          {% endif %}
-          {% comment %} </div> {% endcomment %}
-          <div class="review-content">
-            {% if block.settings.image_pc != blank %}
-              <picture>
-                <!-- 移动端图片 -->
-                <source
-                  media="(max-width: 749px)"
-                  srcset="
-                    {{ block.settings.start | img_url: '800x' }} 1x,
-                    {{ block.settings.start | img_url: '1600x' }} 2x
-                  "
-                >
-
-                <!-- 桌面端图片 -->
-                <source
-                  media="(min-width: 750px)"
-                  srcset="
-                    {{ block.settings.start | img_url: '1200x' }} 1x,
-                    {{ block.settings.start | img_url: '2400x' }} 2x
-                  "
-                >
-
-                <!-- 默认图片 -->
-                <img
-                  src="{{ block.settings.start | img_url: '1200x' }}"
-                  alt="{{ block.settings.title | escape }}"
-                  class="start-image"
-                  loading="lazy"
-                  width="{{ block.settings.start.width }}"
-                  height="{{ block.settings.start.height }}"
-                >
-              </picture>
-            {% else %}
-              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-            {% endif %}
-            <div class="details">{{ block.settings.content }}</div>
-            <div class="user">{{ block.settings.name }}</div>
-          </div>
-        </div>
-      {% endfor %}
+          {% for block in section.blocks %}
+            <div class="grid-item block-{{ forloop.index }}">
+              <div class="image-container">
+                {% if block.settings.image_pc != blank %}
+                  <picture>
+                    <source
+                      media="(max-width: 749px)"
+                      srcset="
+                        {{ block.settings.image_mobile | img_url: '800x' }} 1x,
+                        {{ block.settings.image_mobile | img_url: '1600x' }} 2x
+                      "
+                    >
+                    <source
+                      media="(min-width: 750px)"
+                      srcset="
+                        {{ block.settings.image_pc | img_url: '1200x' }} 1x,
+                        {{ block.settings.image_pc | img_url: '2400x' }} 2x
+                      "
+                    >
+                    <img
+                      src="{{ block.settings.image_pc | img_url: '1200x' }}"
+                      alt="{{ block.settings.title | escape }}"
+                      class="grid-image"
+                      loading="lazy"
+                      width="{{ block.settings.image_pc.width }}"
+                      height="{{ block.settings.image_pc.height }}"
+                    >
+                  </picture>
+                {% else %}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+              </div>
+              <div class="review-content">
+                {% if block.settings.image_pc != blank %}
+                  <picture>
+                    <source
+                      media="(max-width: 749px)"
+                      srcset="
+                        {{ block.settings.start | img_url: '800x' }} 1x,
+                        {{ block.settings.start | img_url: '1600x' }} 2x
+                      "
+                    >
+                    <source
+                      media="(min-width: 750px)"
+                      srcset="
+                        {{ block.settings.start | img_url: '1200x' }} 1x,
+                        {{ block.settings.start | img_url: '2400x' }} 2x
+                      "
+                    >
+                    <img
+                      src="{{ block.settings.start | img_url: '1200x' }}"
+                      alt="{{ block.settings.title | escape }}"
+                      class="start-image"
+                      loading="lazy"
+                      width="{{ block.settings.start.width }}"
+                      height="{{ block.settings.start.height }}"
+                    >
+                  </picture>
+                {% else %}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                <div class="details">{{ block.settings.content }}</div>
+                <div class="user">{{ block.settings.name }}</div>
+              </div>
+            </div>
+          {% endfor %}
+       
     </div>
   </div>
 </div>
@@ -222,6 +213,9 @@
       cssEase: 'linear',
       variableWidth: false,
       centerMode: false,
+      swipe: true,       // 明确开启
+      touchMove: true,   // 明确开启
+      draggable: true,   // 明确开启
       responsive: [
         {
           breakpoint: 1200,
@@ -238,24 +232,28 @@
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
-            centerMode: true,
-            autoplay: false, 
-            autoplaySpeed: 0,
-            pauseOnHover: false,
-            pauseOnFocus: false
+              slidesToShow: 1,
+              centerMode: true,
+              centerPadding: '20px',
+              autoplay: false,
+              pauseOnHover: false,
+              swipeToSlide: true,
+              touchThreshold: 3, // 移动端更低阈值
+              swipeThreshold: 20, // 移动端更低阈值
+              speed: 300, // 移动端最快的动画
+              cssEase: 'cubic-bezier(0.165, 0.84, 0.44, 1)' // 更流畅的贝塞尔曲线
           },
         },
       ],
     });
   });
-  $('.review-main-slider')
-    .on('mouseenter', function () {
-      $(this).slick('slickPause');
-    })
-    .on('mouseleave', function () {
-      $(this).slick('slickPlay');
-    });
+  // $('.review-main-slider')
+  //   .on('mouseenter', function () {
+  //     $(this).slick('slickPause');
+  //   })
+  //   .on('mouseleave', function () {
+  //     $(this).slick('slickPlay');
+  //   });
 </script>
 {% schema %}
 {
