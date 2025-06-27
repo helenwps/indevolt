@@ -42,6 +42,10 @@ if (!customElements.get('slideshow-component')) {
           allowTouchMove: true,
           threshold: 2,
           effect: 'fade',
+          navigation: {  // 新增导航箭头配置
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
           on: {
             init: this.handleAfterInit.bind(this),
           },

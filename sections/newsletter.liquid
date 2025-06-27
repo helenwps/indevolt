@@ -4,6 +4,10 @@
   .section-{{ section.id }} .form-control{ border-radius: 8px;}
   .section-{{ section.id }} .section__heade{padding-bottom:3rem}
   .section-{{ section.id }} .newsletter-form__button{height: -webkit-fill-available;width: 8.4rem;top:0px;right: -0.1rem;border-radius: 0px 8px 8px 0px;}
+  @media (max-width: 767px) {
+     .section-{{ section.id }} .describe{ margin-top:0px;}
+     .section-{{ section.id }} .newsletter__form .rich-text__text p{ font-size:12px}
+  }
 {%- endstyle -%}
 
 {% liquid

@@ -1,14 +1,86 @@
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
- <style>
-  .footer__wrapper{ padding-top:4rem;padding-bottom:4rem}
-  .footer__top summary{ font-size:16px;}
-  .footer__top { font-size:14px}
-  .footer__copyright-content{ font-size:12px}
-  .social-box{ margin-top:22px}
-  .footer .section-divider .border-top{ border-block-start: .1rem solid #B1B1B1;}
-  .footer-image-box__text p{ font-weight: 400;color: #b1b1b1;}
-  .footer-accordion-details .accordion-details__content .reversed-link{ color: #B1B1B1;}
- </style>
+<style>
+  .footer__wrapper {
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+  }
+  .footer__top summary {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .footer__top {
+    font-size: 14px;
+  }
+  .footer__copyright-content {
+    font-size: 12px;
+  }
+  .social-box {
+    margin-top: 22px;
+  }
+  .footer .section-divider .border-top {
+    border-block-start: 0.1rem solid #b1b1b1;
+  }
+  .footer-image-box__text p {
+    font-weight: 400;
+    color: #b1b1b1;
+  }
+  .footer-accordion-details .accordion-details__content li {
+    line-height: 22px;
+    padding-top: 0px;
+    padding-bottom: 0.6rem;
+    font-size: 14px;
+  }
+  .footer-accordion-details .accordion-details__content .reversed-link {
+    color: #b1b1b1;
+  }
+  .footer-accordion-details .accordion-details__content li:hover .reversed-link {
+    background: none;
+    text-decoration: underline;
+  }
+  .footer-accordion-details .export-box {
+    display: flex;
+    margin-top: 27px;
+    gap: 20px;
+    align-items: center;
+  }
+  .footer__top-wrapper {
+    padding-top: 40px;
+    border-top: 1px solid #b1b1b1;
+  }
+  .footer .section-divider {
+    display: none;
+  }
+  .logo-wrap {
+    padding-bottom: 21px;
+    border-bottom: 1px solid #b1b1b1;
+  }
+  .new-footer-bottom {
+    padding: 16px 0px;
+    gap: 48px;
+  }
+  .new-links ul {
+    gap: 16px;
+  }
+  .new-links li a {
+    line-height: 15px;
+    font-size: 12px;
+    color: #b1b1b1;
+  }
+  .new-links li:hover a {
+    text-decoration: underline;
+  }
+   @media (max-width: 767px) {
+      .list-payment{justify-content: start;}
+      .footer__top-wrapper{border:none}
+      .logo-wrap{flex-flow: column-reverse;gap: 40px;  align-items: start;border-bottom:none}
+      .new-footer-bottom{gap:0px;flex-flow: column-reverse;}
+      .new-links ul{gap:0px}
+      .new-links ul li{margin-right:20px}
+      .new-links ul li a{text-decoration: underline;}
+      .footer__copyright{width:100%;border-bottom: 1px solid #b1b1b1;padding-bottom: 5px;}
+  }
+
+</style>
 <script src="{{ 'footer.js' | asset_url }}" defer="defer"></script>
 {%- liquid
   assign socials = 'facebook,instagram,youtube,tiktok,twitter,pinterest,snapchat,tumblr,vimeo'
@@ -212,7 +284,6 @@
                             </h3>
                             <span class="flex items-center lg:hidden">{%- render 'icon-plus-toggle' -%}</span>
                           </summary>
-                      
                         {%- endif -%}
                         <div class="accordion-details__content footer-image-box">
                           {% if block.settings.image != blank %}
@@ -253,9 +324,29 @@
                         </div>
                         {%- if show_social -%}
                           <div class="social-box">
-                          {%- render 'social-icons', class: 'footer__list-social', size: 'large' -%}
+                            {%- render 'social-icons', class: 'footer__list-social', size: 'large' -%}
                           </div>
-                        {%- endif -%} 
+                          <div class="export-box">
+                            <a href="https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=indevolt">
+                              <img
+                                src="{{ 'idealo.de.svg' | file_url  }}"
+                                alt="weiter zu idealo.de"
+                                width="44"
+                                height="44"
+                                loading="lazy"
+                              >
+                            </a>
+                            <a href="https://www.coupons.de/gutscheine/indevolt">
+                              <img
+                                src="{{ 'coupons.de.png' | file_url  }}"
+                                alt="indevolt"
+                                width="108"
+                                height="25"
+                                loading="lazy"
+                              >
+                            </a>
+                          </div>
+                        {%- endif -%}
                       </{{ tag }}>
                       {%- assign motion_delay = motion_delay | plus: 50 -%}
                     {%- when 'newsletter' -%}
@@ -317,38 +408,18 @@
               {%- endif -%}
             </div>
 
-            {% comment %} {%- if show_social -%}
-              {%- render 'social-icons', class: 'footer__list-social', size: 'large' -%}
-            {%- endif -%} {% endcomment %}
+            {% comment %}
+              {%- if show_social -%}
+                {%- render 'social-icons', class: 'footer__list-social', size: 'large' -%}
+              {%- endif -%}
+            {% endcomment %}
           </div>
         {% endif %}
-        <div class="footer__bottom-row flex justify-between items-center">
-          <div class="footer__copyright">
-            <p class="footer__copyright-content">
-              &copy; {{ 'now' | date: '%Y' }}
-              <a class="link-underline" href="{{ routes.root_url }}">{{ shop.name }}</a>.
-              <span>{{ powered_by_link }}</span>
-            </p>
-
-            {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
-              <div class="footer__follow-on-shop">
-                {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
-                {% # theme-check-disable %}
-                {{ shop | login_button: action: 'follow' }}
-                {% # theme-check-enable %}
-              </div>
-            {%- endif -%}
-          </div>
+        <div class="flex justify-between items-center logo-wrap">
+          <a href="/"
+            ><img src="{{ 'logo-white.svg' | file_url  }}" alt="logo" width="148" height="18" loading="lazy"
+          ></a>
           <div class="footer__info flex items-center">
-            {% if section.settings.footer_bottom_menu != blank %}
-              <ul class="linklist linklist--horizontal list-unstyled">
-                {% for link in linklists[section.settings.footer_bottom_menu].links %}
-                  <li>
-                    <a href="{{ link.url }}" class="reversed-link">{{ link.title | escape }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
             {%- if section.settings.payment_enable -%}
               <div class="footer__payment">
                 <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
@@ -364,6 +435,37 @@
           </div>
         </div>
       </motion-element>
+
+      <div class="footer__bottom-row flex justify-start items-center new-footer-bottom">
+        <div class="footer__copyright">
+          <p class="footer__copyright-content">
+            &copy; {{ 'now' | date: '%Y' }}
+            <a class="link-underline" href="{{ routes.root_url }}">{{ shop.name }}</a>.
+            <span>{{ powered_by_link }}</span>
+          </p>
+
+          {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
+            <div class="footer__follow-on-shop">
+              {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
+              {% # theme-check-disable %}
+              {{ shop | login_button: action: 'follow' }}
+              {% # theme-check-enable %}
+            </div>
+          {%- endif -%}
+        </div>
+
+        <div class="new-links">
+          {% if section.settings.footer_bottom_menu != blank %}
+            <ul class="flex linklist linklist--horizontal list-unstyled">
+              {% for link in linklists[section.settings.footer_bottom_menu].links %}
+                <li>
+                  <a href="{{ link.url }}" class="reversed-link">{{ link.title | escape }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </div>
     </div>
   </div>
 </footer>
@@ -789,6 +891,19 @@
           "id": "order_first",
           "label": "t:sections.footer.blocks.newsletter.settings.order_first.label",
           "default": true
+        }
+      ]
+    },
+    {
+      "type": "new_bottom_list",
+      "name": "new_bottom_list",
+      "settings": [
+        {
+          "type": "link_list",
+          "id": "links",
+          "default": "footer",
+          "label": "底部新菜单",
+          "info": "底部新菜单"
         }
       ]
     }
