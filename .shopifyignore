@@ -1,5 +1,3 @@
 # 忽略所有JSON配置文件
-config/*.json
-
-# 或具体忽略settings_data.json
 config/settings_data.json
+config/settings_schema.json
