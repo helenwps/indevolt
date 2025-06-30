@@ -12,7 +12,9 @@
   .section-contact-us .methods .details{margin-top:6px;color: #000;}
   .section-contact-us .methods .details a{color: #000;}
   .section-contact-us .methods .details a:hover{color: #3250C3;}
+  .mobile-show{ display:none}
     @media (max-width: 768px) {
+      .mobile-show{ display:block}
       .section-contact-us{margin-top:60px}
       .section-contact-us .box{padding:30px 20px}
       .section-contact-us .box .right{margin-top:3rem}
@@ -101,7 +103,8 @@
                 >
               </picture>
               <div class="tit">{{ block.settings.title }}</div>
-              <div class="details">{{ block.settings.content }}</div>
+              <div class="details pc-show">{{ block.settings.content }}</div>
+              <div class="details mobile-show"><a href="tel:+49%20(0)174%203150766">{{ block.settings.content }}</a></div>
             </li>
           {% endfor %}
         </ul>

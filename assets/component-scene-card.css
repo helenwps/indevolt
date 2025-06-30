@@ -67,6 +67,26 @@
   .content-wrapper .grid-title{font-size: 40px;font-weight: 700;}
   .content-wrapper .grid-des{margin-top:20px;font-size: 18px;font-weight: 500;}
   .content-wrapper .links{margin-top:30px;padding:10px 20px;max-width: 136px;left: 50%;transform: translateX(-50%);}
+    @media screen and (min-width: 2560px) and (max-width: 3839px) {
+      .grid-item {
+        height: 700px;
+      }
+    }
+
+    /* 4K/UHD 屏幕 (3840x2160) */
+    @media screen and (min-width: 3840px) {
+      .grid-item {
+        height: 800px;
+      }
+    }
+
+    /* 5K/8K 超高清屏幕 */
+    @media screen and (min-width: 5120px) {
+      .grid-item {
+        height: 900px;
+        max-width: 1600px;
+      }
+    }
    @media screen and (max-width: 1400px) {
      .grid-item{border-radius: 8px;height:400px;}
   }
