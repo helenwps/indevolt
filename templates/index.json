@@ -17,7 +17,7 @@
           "settings": {
             "color_scheme": "scheme-1",
             "background": "shopify://shop_images/banner_active.jpg",
-            "background_mobile": "shopify://shop_images/mobile_banner_active.jpg",
+            "background_mobile": "shopify://shop_images/kv-mobile.jpg",
             "image_overlay_opacity": 0,
             "show_content_in_container": true,
             "content_position": "middle-left",
@@ -46,9 +46,9 @@
             "content_position": "middle-left",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "SolidFlex 2000",
+            "title": "SolidFlex 2000NEW",
             "heading_size": "hd1",
-            "subheading": "Sonderangebot: €899 €1199",
+            "subheading": "Sonderangebot:<strong> €899</strong> €1199",
             "description": "<p>Der weltweit erste Balkonkraftwerk-Speicher mit halb-fester Batterie<br/></p>",
             "description_size": "text-base",
             "button_label": "Mehr erfahren",
@@ -143,7 +143,7 @@
         "card_XkdcXz": {
           "type": "card",
           "settings": {
-            "product_item": "bk1600-ultra-balkonkraftwerk-mit-speicher",
+            "product_item": "solidflex-2000-balkonkraftwerk-mit-speicher",
             "custom_image": "shopify://shop_images/Group_255_ed424e4c-7de6-4138-85da-611081d9ead7.png",
             "mobile_image": "shopify://shop_images/Group_255_ed424e4c-7de6-4138-85da-611081d9ead7.png",
             "custom_title": "SolidFlex 2000 + SFA1800",
@@ -151,7 +151,7 @@
             "price": "1.398,00 €",
             "original": "2.098,00 €",
             "button_text": "Mehr erfahren",
-            "button_link": ""
+            "button_link": "https://de.indevolt.com/products/solidflex-2000-balkonkraftwerk-mit-speicher?variant=43445040578659"
           }
         },
         "card_8nnA4a": {
@@ -165,7 +165,7 @@
             "price": "1.946,00 €",
             "original": "2.765,00 €",
             "button_text": "Mehr erfahren",
-            "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040840803"
+            "button_link": "https://de.indevolt.com/products/solidflex-2000-balkonkraftwerk-mit-speicher?variant=43445040840803"
           }
         },
         "card_FQAcNi": {
@@ -179,7 +179,7 @@
             "price": "1.986,00 €",
             "original": "2.805,00 €",
             "button_text": "Mehr erfahren",
-            "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040873571"
+            "button_link": "https://de.indevolt.com/products/solidflex-2000-balkonkraftwerk-mit-speicher?variant=43445040873571"
           }
         },
         "card_gWcNV9": {
@@ -193,7 +193,7 @@
             "price": "2.026,00 €",
             "original": "2.845,00 €",
             "button_text": "Mehr erfahren",
-            "button_link": "https://de.indevolt.com/products/indevolt-sf2000?variant=43445040939107"
+            "button_link": "https://de.indevolt.com/products/solidflex-2000-balkonkraftwerk-mit-speicher?variant=43445040939107"
           }
         }
       },
@@ -352,13 +352,61 @@
             "image": "shopify://shop_images/logo4.jpg",
             "description": "„Die erfolgreiche Kombination von leistungsstarker PV-Technologie und effizienter Speicherlösung in einem kompakten, benutzerfreundlichen Paket überzeugt. Dieses Konzept macht das System zur idealen Wahl für Stadtbewohner und Mieter, die ohne bauliche Veränderungen in die Solarenergie einsteigen.\""
           }
+        },
+        "card_QfmeGX": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo5.png",
+            "description": "„Das Indevolt BK1600 verbindet fortschrittliche Effizienz, praxisgerechte Speicherkapazität und benutzerfreundliche Bedienung in einem durchdachten Komplettsystem und markiert damit einen bedeutenden Entwicklungsschritt in Richtung urbaner Energieautonomie für Stadtbewohnerinnen und Stadtbewohner.\""
+          }
+        },
+        "card_HeAnUj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo6.png",
+            "description": "„Obwohl der initiale Anschaffungspreis hoch erscheinen mag, rechtfertigen die langfristigen Einsparungen und der Beitrag zum Klimaschutz diese Investition. Das Indevolt BK1600 ist somit mehr als nur ein Produkt – es ist ein Schritt in Richtung einer nachhaltigeren und unabhängigeren Energieversorgung für Stadtbewohner.\""
+          }
+        },
+        "card_8niDBE": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo7.png",
+            "description": "„Die Kombination aus Balkonkraftwerk und integriertem Speicher in einer kompakten Einheit differenziert Indevolt von zahlreichen Wettbewerbern.\""
+          }
+        },
+        "card_WQiLkH": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo8.png",
+            "description": "„BK1600 ist ein kompakter Hybrid-Speicher mit bereits ab Werk integriertem Wechselrichter. Dies spart Platz und vereinfacht die Inbetriebnahme. \""
+          }
+        },
+        "card_Nrfwak": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo9.png",
+            "description": "„Günstige Kombi aus Hausakku und Powerstation. Mit einem aktuellen Preis ist das Indevolt BK1600 bereits dann attraktiv, wenn man es als stationaren Akku fürBalkonkraftwerke mit der Option zur Optimierung seines dynamischen Stromtarifs verwenden will.\""
+          }
+        },
+        "card_Be3FxM": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo10.png",
+            "description": "„Der Energiespeicher BK1600 für Balkonkraftwerke lässt sich in Drittanbieterplattformen integrieren, was eine Echtzeit-Fernsteuerung sowie die Teilnahme an Strommarkttransaktionen ermöglicht.\""
+          }
         }
       },
       "block_order": [
         "card_pcGKxw",
         "card_KxFCJY",
         "card_gYb8yP",
-        "card_WcqGtf"
+        "card_WcqGtf",
+        "card_QfmeGX",
+        "card_HeAnUj",
+        "card_8niDBE",
+        "card_WQiLkH",
+        "card_Nrfwak",
+        "card_Be3FxM"
       ],
       "name": "品牌列表",
       "settings": {
@@ -374,13 +422,13 @@
         "card_XGwY9C": {
           "type": "card",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=0m0xi7hpnHI"
+            "video_url": "https://www.youtube.com/watch?v=uFcnPu05YFU"
           }
         },
         "card_mCz6Xy": {
           "type": "card",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=0m0xi7hpnHI"
+            "video_url": "https://www.youtube.com/watch?v=vfW3lj9f0Zg"
           }
         },
         "card_NCXmiD": {
@@ -392,7 +440,7 @@
         "card_HFmDHA": {
           "type": "card",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=0m0xi7hpnHI"
+            "video_url": "https://www.youtube.com/watch?v=exANxLkMfXA"
           }
         }
       },
@@ -430,16 +478,6 @@
             "name": "Hans Müller"
           }
         },
-        "card_jVWgDL": {
-          "type": "card",
-          "settings": {
-            "image_pc": "shopify://shop_images/555.png",
-            "image_mobile": "shopify://shop_images/555.png",
-            "start": "shopify://shop_images/start.svg",
-            "content": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht.",
-            "name": "Andreas Heinrich"
-          }
-        },
         "card_Pq9FhP": {
           "type": "card",
           "settings": {
@@ -459,14 +497,24 @@
             "content": "Philipp BeckerDas bidirektionale Laden ist einfach super! Bei schlechtem Wetter muss ich mir keine Sorgen um die Stromspeicherung machen.",
             "name": "Philipp Becker"
           }
+        },
+        "card_jVWgDL": {
+          "type": "card",
+          "settings": {
+            "image_pc": "shopify://shop_images/555.png",
+            "image_mobile": "shopify://shop_images/555.png",
+            "start": "shopify://shop_images/start.svg",
+            "content": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht.",
+            "name": "Andreas Heinrich"
+          }
         }
       },
       "block_order": [
         "card_gD7KCd",
         "card_YH9LNL",
-        "card_jVWgDL",
         "card_Pq9FhP",
-        "card_38DYVV"
+        "card_38DYVV",
+        "card_jVWgDL"
       ],
       "name": "评价列表",
       "settings": {
@@ -481,7 +529,7 @@
           "settings": {
             "image": "shopify://shop_images/646401_31f22922-6c9c-456b-8535-77d14ad2894a.png",
             "title": "Sende eine E-Mail",
-            "content": "service@indevolt.com>"
+            "content": "<a href=\"mailto:sales@indevolt.com\" alt=\"sales@indevolt.com\">sales@indevolt.com</a>"
           }
         },
         "card_YcAehM": {
@@ -489,7 +537,7 @@
           "settings": {
             "image": "shopify://shop_images/646402_e9a5f2ff-5239-41ca-ab4a-a5c5f7d18a4d.png",
             "title": "Ruf uns an",
-            "content": "0049 174 3150766"
+            "content": "+49 (0)174 3150766"
           }
         }
       },
@@ -530,7 +578,7 @@
         "alignment": "center",
         "design": "design-1",
         "form_width": 500,
-        "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https://de.indevolt.com/policies/privacy-policy\">Datenschutzrichtlinie</a> zu</p>",
+        "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https://de.indevolt.com/policies/privacy-policy\">Datenschutzrichtlinie</a> zu.</p>",
         "newsletter_term_size": "text-base",
         "button_style": "btn--primary",
         "padding_top": 50,

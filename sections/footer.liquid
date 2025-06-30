@@ -37,22 +37,23 @@
     background: none;
     text-decoration: underline;
   }
-  .footer-accordion-details .export-box {
+  .export-box {
     display: flex;
+    margin-bottom:20px;
     margin-top: 27px;
     gap: 20px;
     align-items: center;
   }
   .footer__top-wrapper {
     padding-top: 40px;
-    border-top: 1px solid #b1b1b1;
+    border-top: 1px solid hsla(0, 0%, 100%, .2);
   }
   .footer .section-divider {
     display: none;
   }
   .logo-wrap {
     padding-bottom: 21px;
-    border-bottom: 1px solid #b1b1b1;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .2);
   }
   .new-footer-bottom {
     padding: 16px 0px;
@@ -69,7 +70,11 @@
   .new-links li:hover a {
     text-decoration: underline;
   }
+  .mobile-show{ display:none}
    @media (max-width: 767px) {
+      .pc-show{ display:none}
+      .mobile-show{ display:block}
+      .footer__payment{margin-top:20px}
       .list-payment{justify-content: start;}
       .footer__top-wrapper{border:none}
       .logo-wrap{flex-flow: column-reverse;gap: 40px;  align-items: start;border-bottom:none}
@@ -77,7 +82,7 @@
       .new-links ul{gap:0px}
       .new-links ul li{margin-right:20px}
       .new-links ul li a{text-decoration: underline;}
-      .footer__copyright{width:100%;border-bottom: 1px solid #b1b1b1;padding-bottom: 5px;}
+      .footer__copyright{width:100%;border-bottom: 1px solid hsla(0, 0%, 100%, .2);padding-bottom: 5px;}
   }
 
 </style>
@@ -323,16 +328,16 @@
                           {%- endif -%}
                         </div>
                         {%- if show_social -%}
-                          <div class="social-box">
+                          <div class="social-box pc-show">
                             {%- render 'social-icons', class: 'footer__list-social', size: 'large' -%}
                           </div>
-                          <div class="export-box">
+                          <div class="export-box  pc-show">
                             <a href="https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=indevolt">
                               <img
                                 src="{{ 'idealo.de.svg' | file_url  }}"
                                 alt="weiter zu idealo.de"
-                                width="44"
-                                height="44"
+                                width="70"
+                                height="70"
                                 loading="lazy"
                               >
                             </a>
@@ -396,6 +401,34 @@
         endif
       %}
       <motion-element class="block" data-motion="fade-up" data-motion-delay="50">
+         {%- if show_social -%}
+          <div class="mobile-export-wrap mobile-show">
+                <div class="export-box">
+                  <a href="https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=indevolt">
+                    <img
+                      src="{{ 'idealo.de.svg' | file_url  }}"
+                      alt="weiter zu idealo.de"
+                      width="70"
+                      height="70"
+                      loading="lazy"
+                    >
+                  </a>
+                  <a href="https://www.coupons.de/gutscheine/indevolt">
+                    <img
+                      src="{{ 'coupons.de.png' | file_url  }}"
+                      alt="indevolt"
+                      width="108"
+                      height="25"
+                      loading="lazy"
+                    >
+                  </a>
+                </div>
+                <div class="social-box">
+                  {%- render 'social-icons', class: 'footer__list-social', size: 'large' -%}
+                </div>
+              </div>
+            {%- endif -%}
+                        
         {% if enable_country_selector or enable_language_selector or show_social %}
           <div class="footer__bottom-row flex justify-between">
             <div class="footer__localization relative z-2 flex items-center">
@@ -439,9 +472,10 @@
       <div class="footer__bottom-row flex justify-start items-center new-footer-bottom">
         <div class="footer__copyright">
           <p class="footer__copyright-content">
-            &copy; {{ 'now' | date: '%Y' }}
+            <!-- &copy; {{ 'now' | date: '%Y' }}
             <a class="link-underline" href="{{ routes.root_url }}">{{ shop.name }}</a>.
-            <span>{{ powered_by_link }}</span>
+            <span>{{ powered_by_link }}</span> -->
+                 Copyright @ 2025 Power Genius GmbH alle Rechte vorbehalten.
           </p>
 
           {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}

@@ -4,6 +4,9 @@
   .section-{{ section.id }} .form-control{ border-radius: 8px;}
   .section-{{ section.id }} .section__heade{padding-bottom:3rem}
   .section-{{ section.id }} .newsletter-form__button{height: -webkit-fill-available;width: 8.4rem;top:0px;right: -0.1rem;border-radius: 0px 8px 8px 0px;}
+  .section-{{ section.id }} .check-item{display: flex;align-items:baseline;gap: 10px;}
+  #footer-subscription-email-opt-in:is([type=checkbox],[type=radio]){width: 12px;height: 12px;}
+  #footer-subscription-email-opt-in:is([type=checkbox],[type=radio]):after{inset-inline-start: .3rem;inset-block-start: .1rem;}
   @media (max-width: 767px) {
      .section-{{ section.id }} .describe{ margin-top:0px;}
      .section-{{ section.id }} .newsletter__form .rich-text__text p{ font-size:12px}
@@ -97,7 +100,8 @@
         button_style: section.settings.button_style
       %}
       {%- if section.settings.newsletter_term != blank -%}
-        <div class="rich-text__text rte {{ section.settings.newsletter_term_size }}">
+        <div class="rich-text__text rte {{ section.settings.newsletter_term_size }} check-item">
+          <input id="footer-subscription-email-opt-in" type="checkbox" class="opt-in-checkbox" checked>
           {{ section.settings.newsletter_term }}
         </div>
       {%- endif -%}
