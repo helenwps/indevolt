@@ -244,6 +244,7 @@
   color: currentColor;
 }
 .product__block--title .product__title {
+  font-size: 32px;;
   word-break: break-word;
   margin: 0;
 }

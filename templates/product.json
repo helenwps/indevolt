@@ -20,6 +20,7 @@
       "blocks": {
         "badges": {
           "type": "badges",
+          "disabled": true,
           "settings": {
             "show_soldout_badge": true,
             "show_sale_badge": true,
@@ -32,6 +33,12 @@
             "heading_size": "h1"
           }
         },
+        "klaviyo_reviews_average_rating_rpKRhh": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -42,6 +49,7 @@
         },
         "inventory": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "text_style": "body",
             "inventory_threshold": 10,
@@ -73,11 +81,11 @@
             "layout": "horizontal",
             "title_font": "body",
             "title_size": "text-base",
-            "icon_1": "package",
-            "heading_1": "Orders over $50 ship free",
-            "icon_2": "currency-circle-dollar",
-            "heading_2": "30 day returns",
-            "icon_3": "star-four",
+            "icon_1": "certificate",
+            "heading_1": "Bequem bezahlen",
+            "icon_2": "truck",
+            "heading_2": "Zuverlässige Lieferung",
+            "icon_3": "truck",
             "heading_3": ""
           }
         },
@@ -96,51 +104,12 @@
             "image_ratio": "adapt",
             "enable_quick_add": true
           }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Overview",
-            "icon": "none",
-            "content": "<p>A clinically proven, non-sticky, vegan lip treatment that delivers the intense hydration of a lip mask with a sweet sheer tint using food-grade, non-artificial flavor. Designed for sensitive, irritated lips, this cushiony treatment delivers instant comfort to rescue dry, chapped lips.</p>",
-            "custom_liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How to use",
-            "icon": "none",
-            "content": "<p>Apply generously to lips for hydration and comfort. Use at night for an overnight mask.</p>",
-            "custom_liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Ingredients",
-            "icon": "none",
-            "content": "<ul><li>Dulce De Leche</li><li>Ube vanilla</li><li>Watermelon kiwi</li><li>Blood orange vanilla</li></ul>",
-            "custom_liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
-        "addons": {
-          "type": "addons",
-          "settings": {
-            "show_share": true,
-            "show_ask_question": true
-          }
         }
       },
       "block_order": [
         "badges",
         "title",
+        "klaviyo_reviews_average_rating_rpKRhh",
         "price",
         "description",
         "inventory",
@@ -148,11 +117,7 @@
         "buy_buttons",
         "icon_with_text",
         "pickup_availability",
-        "complementary",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "addons"
+        "complementary"
       ],
       "custom_css": [
         ".loox-rating {margin-top: -1rem;}"
@@ -171,10 +136,12 @@
     },
     "video_aKTtWe": {
       "type": "video",
-      "name": "t:sections.video.name",
+      "name": "视频介绍",
       "settings": {
         "container": "fixed",
+        "video": "shopify://files/videos/PC (2).mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/mob4-3_1c90a7a9-0e1f-4dae-b673-3ce3bd63dc79.png",
         "video_ratio": "adapt",
         "description": "",
         "enable_video_autoplay": false,
@@ -191,106 +158,25 @@
       "type": "service-info",
       "name": "服务信息",
       "settings": {
-        "title": "",
+        "title": "产品功能",
         "image_pc": "shopify://shop_images/9095c418edab3eb1070530f4b11900bb_ec61eca3-3003-440b-b170-0d37936f870c.png"
       }
     },
-    "testimonials_8JHr3L": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_dhi3Xf": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "text": "<p>This clay mask deeply cleanses my pores and leaves my skin feeling smooth and refreshed. Perfect for weekly use.</p>",
-            "author": "Jaroslava K.",
-            "bio": "Verified Buyer",
-            "product": "",
-            "icon": "none"
-          }
-        },
-        "testimonial_D7Mq7i": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "text": "<p>This moisturizer left my skin feeling incredibly soft and hydrated. No greasy residue. Perfect for daily use!</p>",
-            "author": "Alexandra M.",
-            "bio": "Verified Buyer",
-            "product": "",
-            "icon": "none"
-          }
-        },
-        "testimonial_33tAjm": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "text": "<p>The serum noticeably reduced my fine lines after a few weeks. Lightweight and absorbs quickly. Highly recommend!</p>",
-            "author": "Danielle S.",
-            "bio": "Verified Buyer",
-            "product": "",
-            "icon": "none"
-          }
-        },
-        "testimonial_dDRMwy": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "text": "<p>Great cleanser! It removes makeup effortlessly without drying out my skin. My face feels refreshed and clean.</p>",
-            "author": "Elizabeth R.",
-            "bio": "Verified Buyer",
-            "product": "",
-            "icon": "none"
-          }
-        },
-        "testimonial_RgfDDw": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "text": "<p>Love this sunscreen! It's non-greasy and blends well with makeup. Offers great protection without causing breakouts.</p>",
-            "author": "Kimberly J.",
-            "bio": "Verified Buyer",
-            "product": "",
-            "icon": "none"
-          }
-        },
-        "testimonial_abi6JN": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "text": "<p>This eye cream is a game-changer. Reduced puffiness and dark circles significantly. Gentle on sensitive skin.</p>",
-            "author": "Victoria H.",
-            "bio": "Verified Buyer",
-            "product": "",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_dhi3Xf",
-        "testimonial_D7Mq7i",
-        "testimonial_33tAjm",
-        "testimonial_dDRMwy",
-        "testimonial_RgfDDw",
-        "testimonial_abi6JN"
-      ],
-      "custom_css": [],
+    "video_mnPyqD": {
+      "type": "video",
+      "name": "全屏视频",
       "settings": {
-        "color_scheme": "scheme-2",
-        "heading": "Over 2,000 Happy reviews",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "subheading": "",
+        "container": "full",
+        "video": "shopify://files/videos/飞书20250626-151201.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_ratio": "adapt",
         "description": "",
-        "text_size": "text-base",
-        "card_color_scheme": "",
-        "card_layout": "1",
-        "columns_desktop": 4,
-        "column_gap": "medium",
-        "enable_slider": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 80,
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -328,7 +214,7 @@
         "subheading_XLgqVJ": {
           "type": "subheading",
           "settings": {
-            "subheading": "Safety Ingredients"
+            "subheading": ""
           }
         },
         "heading_J7mctK": {
@@ -377,7 +263,7 @@
         "subheading_MCECPj": {
           "type": "subheading",
           "settings": {
-            "subheading": "Safety Ingredients"
+            "subheading": ""
           }
         },
         "heading_kpxn8L": {
@@ -403,6 +289,7 @@
       ],
       "settings": {
         "color_scheme": "",
+        "video": "shopify://files/videos/WeChat_20240903172427.mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_ratio": "1/1",
         "description": "",
@@ -414,67 +301,6 @@
         "text_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "image_gallery_CNbRPb": {
-      "type": "image-gallery",
-      "blocks": {
-        "image_eYgYRD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/4-3pc.png",
-            "link": ""
-          }
-        },
-        "image_beHppX": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "image_XhTKrd": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "image_rak6hb": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_eYgYRD",
-        "image_beHppX",
-        "image_XhTKrd",
-        "image_rak6hb"
-      ],
-      "name": "t:sections.image-gallery.name",
-      "settings": {
-        "color_scheme": "",
-        "header_layout": "vertical",
-        "heading": "<strong>Mehr Optionen bei Verwendung</strong>",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--primary",
-        "social_media": "none",
-        "columns": 3,
-        "column_gap": "small",
-        "row_gap": "inherit",
-        "image_ratio": "1/1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 50,
-        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -589,11 +415,10 @@
     "main",
     "video_aKTtWe",
     "service_info_3WBMzF",
-    "testimonials_8JHr3L",
+    "video_mnPyqD",
     "rich_text_7rBwdd",
     "image_with_text_MgddA8",
     "video_with_text_rRVqrq",
-    "image_gallery_CNbRPb",
     "collapsible_tabs_phAkEE",
     "related-products"
   ]
