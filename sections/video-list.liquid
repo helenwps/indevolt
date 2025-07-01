@@ -1,30 +1,116 @@
 <style>
-  .section-video-list .slick-track {display: flex;gap: 1.6rem;}
-
+  .section-video-list .slick-track {
+    display: flex !important;
+    gap: 1.6rem;
+  }
   
-  .iframe-carousel-container {margin-top: 58px;position: relative; }
-  .iframe-carousel{ display: flex;gap: 16px;justify-content: flex-start;}
-  .iframe-carousel .carousel-slide { flex: 1;box-sizing: border-box;margin-left: 0; }
-  .video-container {position: relative;width: 100%;padding-bottom: 56.25%;border-radius: 12px;overflow: hidden;}
-
-  .iframe-carousel iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;border: none}     
-  .slide-caption {text-align: center;margin-top: 10px;font-size: 16px}
-  .carousel-arrows {position: absolute;top: 50%;width: 100%;display: flex;justify-content: space-between;transform: translateY(-50%);
-    z-index: 10}
-  .carousel-arrows button {background:rgba(118, 118, 118, 0.2);border: none;width: 48px;height: 48px;border-radius: 50%;padding: 0px;
-   font-size: 14px;cursor: pointer;color: #fff;transition: all 0.3s}
-  .carousel-arrows button:hover {background: rgba(118, 118, 118, 0.5)}
-  .carousel-arrows button.prev-arrow {left: 60px;}
-  .carousel-arrows button.next-arrow {right: 60px;}
+  .iframe-carousel-container, .iframe-carousel {
+    position: relative;
+    margin-top:60px;
+    width: 100%;
+  }
+  
+  .iframe-carousel {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+  }
+  
+  .iframe-carousel .carousel-slide {
+    flex: 1 1 0;
+    min-width: 240px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 0px;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #000;
+  }
+  
+  .iframe-carousel iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: none;
+    display: block;
+  }
+  
+  .carousel-arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 10;
+    pointer-events: none; /* 防止挡住轮播内容，按钮本身 pointer-events: all */
+  }
+  .carousel-arrows button {
+    position: relative;
+    background: rgba(118, 118, 118, 0.2);
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 0; /* 隐藏文本 */
+    cursor: pointer;
+    color: #fff;
+    transition: background 0.3s;
+    pointer-events: all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-arrows button:hover {
+    background: rgba(118, 118, 118, 0.5);
+  }
+  .carousel-arrows button.prev-arrow,
+  .carousel-arrows button.next-arrow {
+    left: unset;
+    right: unset;
+  }
+  
+  .carousel-arrows button.prev-arrow::after,
+  .carousel-arrows button.next-arrow::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .carousel-arrows button.prev-arrow::after {
+    transform: rotate(45deg);
+    margin-left: 4px;
+  }
+  
+  .carousel-arrows button.next-arrow::after {
+    transform: rotate(-135deg);
+    margin-right: 4px;
+  }
+  
+  /* 按钮位置 */
+  .carousel-arrows button.prev-arrow { margin-left: 60px; }
+  .carousel-arrows button.next-arrow { margin-right: 60px; }
   @media (max-width: 767.98px) {
-    .section-video-list{ margin:0px 1.24rem}
-    .iframe-carousel-container{margin-top:30px}
-    .section-video-list .slick-track{gap:0px}
-    .iframe-carousel iframe{height:189px}
+    {% comment %} .section-video-list { margin:0px 0rem } {% endcomment %}
+    .iframe-carousel-container { margin-top:30px }
+    .section-video-list .slick-track { gap:0px }
+    .iframe-carousel .carousel-slide {  margin-left: 0px;min-width: 180px; }
+    .video-container { border-radius: 8px; }
     .section-video-list .slick-dotted .slick-dots{margin-top:0px}
-    .carousel-arrows button{width:38px;height:38px}
-    .carousel-arrows button.prev-arrow{left:10px}
-    .carousel-arrows button.next-arrow {right: 10px}
+    .carousel-arrows button { width: 38px; height: 38px; }
+    .carousel-arrows button.prev-arrow { margin-left: 10px; }
+    .carousel-arrows button.next-arrow { margin-right: 10px; }
 
   }
 
@@ -90,11 +176,8 @@
     let $carousel = $('.iframe-carousel').slick({
         slidesToShow: 2.5,
         slidesToScroll: 1,
-        infinite: true,
-        initialSlide: 1,
-        arrows: true,
-        speed: 300,
-        adaptiveHeight: true,
+        infinite: false,
+        initialSlide: 0,
         centerMode: false,
         variableWidth: false,
         prevArrow: $('.prev-arrow'),
@@ -115,21 +198,14 @@
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 767.98,
                 settings: {
                     slidesToShow: 1,
-                    dots: true,
                     variableWidth: false
                 }
             }
         ]
     });
-
-    // 初始化后强制归零
-    $carousel.on('init', function(event, slick) {
-      console.log(11111)
-        $('.section-video-list .slick-track').css('transform', 'translate3d(0px, 0px, 0px)');
-    }).slick('init'); // 手动触发init事件
 
     // 暂停其他视频当新幻灯片激活时
     $carousel.on('beforeChange', function(event, slick, currentSlide, nextSlide) {

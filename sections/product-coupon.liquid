@@ -1,145 +1,193 @@
 <style>
-.section-two-column-list{ margin-top:118px }
-.product-coupon-wrapper .title{line-height: normal;color: #000;text-align: center;font-size: 46px;font-weight: 700;}
-.product-coupon-wrapper .coupon-list{display: grid;grid-template-columns: 1fr 1fr; gap: 1rem;margin-top:60px;color:#fff}
-.product-coupon-wrapper .coupon-list .grid-item{cursor: pointer;}
-.coupon-list .coupon-content-wrapper{ position: relative; text-align: left; color:#fff}
-.coupon-list .coupon-content-wrapper h2{color:#fff}
-.coupon-list .coupon-content-wrapper a:hover{text-decoration: underline;}
-.coupon-list .grid-item:nth-child(1) {
-    grid-column: 1; grid-row: 1 / span 2; 
-    height:716px
-}
-.coupon-list .grid-item:nth-child(1) .coupon-content-wrapper{ margin-top:30px;margin-left:45px}
-.coupon-list .grid-item:nth-child(2) {
-    height:350px;
-    grid-column: 2; grid-row: 1; 
-}
-.coupon-list .grid-item:nth-child(2) .coupon-content-wrapper{ margin-top:30px;margin-left:28px}
-.coupon-list .grid-item:nth-child(3) {
-    height:350px;
-    grid-column: 2; grid-row: 2; 
-}
-.coupon-list .grid-item:nth-child(3) .coupon-content-wrapper{ margin-top:34px;margin-left:28px}
-.product-coupon-wrapper .slick-slide{display: block;}
- @media (max-width: 767px) {
-  .coupon-list .grid-item .coupon-content-wrapper { margin-top: 24px!important; margin-left: 0px!important;text-align: center}
-  .section-two-column-list{ margin-top:60px;padding:0px}
-  .product-coupon-wrapper .title{ padding: 0px 4.8rem;font-size:28px}
-  .coupon-list .grid-item .coupon-content-wrapper{margin-top:30px;margin-left:28px}
-  .coupon-list .slick-track{ display: flex;gap: 1rem;}
-  .coupon-list .grid-item:nth-child(1){ height:auto}
-  .product-coupon-wrapper .coupon-list { grid-template-columns: 1fr;gap: 1rem;margin-top: 30px;color: #fff;}
-  .coupon-list .grid-item:nth-child(1),
-  .coupon-list .grid-item:nth-child(2),
-  .coupon-list .grid-item:nth-child(3) { grid-column: auto; grid-row: auto;   height: auto }
-  .coupon-list .grid-item { min-height: 350px }
-  .coupon-list .coupon-content-wrapper h2{ font-size: 20px;}
-  .coupon-list .coupon-content-wrapper h4{ margin-top:10px;font-size: 12px;}
-}
-</style>
-{% liquid
-    assign motion_delay = 50
-%}
-<div class="section section--padding page-width section-two-column-list" >
-  <div class="product-coupon-wrapper">
-    <h2 class="title">    
-      <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"><span>{{section.settings.title}}</span></motion-element>
-    </h2>
-    <div class="coupon-list">
-          {% for block in section.blocks %}
-            <div class="grid-item block-{{ forloop.index }}">
-              <div class="image-container">
-                {% if block.settings.image != blank %}
-                  <picture>
-                    <!-- 移动端图片 -->
-                    <source
-                      media="(max-width: 749px)"
-                      srcset="
-                        {{ block.settings.image | img_url: '800x' }} 1x,
-                        {{ block.settings.image | img_url: '1600x' }} 2x
-                      "
-                    >
-
-                    <!-- 桌面端图片 -->
-                    <source
-                      media="(min-width: 750px)"
-                      srcset="
-                        {{ block.settings.image | img_url: '1200x' }} 1x,
-                        {{ block.settings.image | img_url: '2400x' }} 2x
-                      "
-                    >
-
-                    <!-- 默认图片 -->
-                    <img
-                      src="{{ block.settings.image | img_url: '1200x' }}"
-                      alt="{{ block.settings.title | escape }}"
-                      class="grid-image"
-                      loading="lazy"
-                      width="{{ block.settings.image.width }}"
-                      height="{{ block.settings.image.height }}"
-                    >
-                  </picture>
-                {% else %}
-                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                {% endif %}
-              </div>
-              <div class="coupon-content-wrapper">
-                <h2 class="grid-title">{{ block.settings.title }}</h2>
-                <h4 class="grid-des">{{ block.settings.description }}</h4>
-                {% if block.settings.button_link != blank %} 
-                    <a href="{{ block.settings.button_link }}" class="grid-button">
-                      {{ block.settings.button_title }}
-                    </a>
-                {% endif %} 
-              </div>
+  .section-two-column-list {
+    margin-top: 118px;
+  }
+  .product-coupon-wrapper .title {
+    line-height: normal;
+    color: #000;
+    text-align: center;
+    font-size: clamp(28px, 5vw, 46px);
+    font-weight: 700;
+    padding: 0 4.8rem;
+  }
+  .product-coupon-wrapper .coupon-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 60px;
+    color: #fff;
+  }
+  .coupon-list .grid-item {
+    cursor: pointer;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  .coupon-list .coupon-content-wrapper {
+    position: relative;
+    text-align: left;
+    color: #fff;
+    padding: 0 24px 24px 24px;
+  }
+  .coupon-list .coupon-content-wrapper h2,
+  .coupon-list .coupon-content-wrapper h4 {
+    color: #fff;
+    margin: 0;
+  }
+  .coupon-list .coupon-content-wrapper h4 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  {% comment %} .coupon-list .coupon-content-wrapper a.grid-button {
+    display: inline-block;
+    margin-top: 18px;
+  } {% endcomment %}
+  .coupon-list .coupon-content-wrapper a.grid-button:hover {
+    text-decoration: underline;
+  }
+  .grid-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .coupon-list .grid-item:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    height: 716px;
+  }
+  .coupon-list .grid-item:nth-child(1) .coupon-content-wrapper {
+    margin-top: 30px;
+    margin-left: 45px;
+  }
+  .coupon-list .grid-item:nth-child(2) {
+    height: 350px;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .coupon-list .grid-item:nth-child(2) .coupon-content-wrapper {
+    margin-top: 30px;
+    margin-left: 28px;
+  }
+  .coupon-list .grid-item:nth-child(3) {
+    height: 350px;
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .coupon-list .grid-item:nth-child(3) .coupon-content-wrapper {
+    margin-top: 34px;
+    margin-left: 28px;
+  }
+  .product-coupon-wrapper .slick-slide {
+    display: block;
+  }
+  
+  @media (max-width: 767px) {
+    .coupon-list .grid-item .coupon-content-wrapper { margin-top: 24px!important; margin-left: 0px!important;text-align: center}
+    .section-two-column-list{ margin-top:60px;padding:0px}
+    .product-coupon-wrapper .title{ padding: 0px 4.8rem;font-size:28px}
+    .coupon-list .grid-item .coupon-content-wrapper{margin-top:30px;margin-left:28px}
+    .coupon-list .slick-track{ display: flex;gap: 1.6rem;}
+    .coupon-list .grid-item:nth-child(1){ height:auto}
+    .product-coupon-wrapper .coupon-list { grid-template-columns: 1fr;gap: 1rem;margin-top: 30px;color: #fff;}
+    .coupon-list .grid-item:nth-child(1),
+    .coupon-list .grid-item:nth-child(2),
+    .coupon-list .grid-item:nth-child(3) { grid-column: auto; grid-row: auto;   height: auto }
+    .coupon-list .grid-item { min-height: 350px }
+    .coupon-list .coupon-content-wrapper h2{ font-size: 20px;}
+    .coupon-list .coupon-content-wrapper h4{ margin-top:10px;font-size: 12px;}
+  }
+  </style>
+  
+  <div class="section section--padding page-width section-two-column-list">
+    <div class="product-coupon-wrapper">
+      <h2 class="title">
+        <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}">
+          <span>{{ section.settings.title }}</span>
+        </motion-element>
+      </h2>
+      <div class="coupon-list">
+        {% for block in section.blocks %}
+          <div class="grid-item block-{{ forloop.index }}">
+            <div class="image-container">
+              {% if block.settings.image != blank %}
+                <picture>
+                  <source
+                    media="(max-width: 749px)"
+                    srcset="
+                      {{ block.settings.mobile_image | default: block.settings.image | img_url: '800x' }} 1x,
+                      {{ block.settings.mobile_image | default: block.settings.image | img_url: '1600x' }} 2x
+                    "
+                  >
+                  <source
+                    media="(min-width: 750px)"
+                    srcset="
+                      {{ block.settings.image | img_url: '1200x' }} 1x,
+                      {{ block.settings.image | img_url: '2400x' }} 2x
+                    "
+                  >
+                  <img
+                    src="{{ block.settings.image | img_url: '1200x' }}"
+                    alt="{{ block.settings.title | escape }}"
+                    class="grid-image"
+                    loading="lazy"
+                    width="100%"
+                    height="100%"
+                  >
+                </picture>
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
             </div>
-          {% endfor %}
-       
+            <div class="coupon-content-wrapper">
+              <h2 class="grid-title">{{ block.settings.title }}</h2>
+              <h4 class="grid-des">{{ block.settings.description }}</h4>
+              {% if block.settings.button_link != blank %}
+                <a href="{{ block.settings.button_link }}" class="grid-button">
+                  {{ block.settings.button_title }}
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
-</div>
-<script>
+  <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // 只在移动端初始化Slick
-      if (window.innerWidth <= 768) {
-        $('.coupon-list').slick({
-            dots: true,
-            arrows: false,
-            slidesToShow: 1,
-            responsive: [ // 响应式配置
-              {
-                breakpoint: 767,
-                settings: { slidesToShow: 1, centerMode: true }
-              }
-            ] 
-          });
-          
-     // 响应窗口大小变化
-        $(window).on('resize', function() {
-          if (window.innerWidth > 767) {
-            if ($('.coupon-list').hasClass('slick-initialized')) {
-              $('.coupon-list').slick('unslick');
-            }
-          } else {
-            if (!$('.coupon-list').hasClass('slick-initialized')) {
-              $('.coupon-list').slick({
-                dots: true,
-                arrows: false,
-                slidesToShow: 1,
-                responsive: [ // 响应式配置
-                  {
-                    breakpoint: 767,
-                    settings: { slidesToShow: 1, centerMode: true}
-                  }
-                ]
-              });
-            }
-          }
+    var $couponList = $('.coupon-list');
+    var mql = window.matchMedia('(max-width: 767px)');
+    function slickInit() {
+      if (!$couponList.hasClass('slick-initialized')) {
+        $couponList.slick({
+          dots: true,
+          arrows: false,
+          slidesToShow: 1,
+          centerMode: true,
+          adaptiveHeight: true,
+          mobileFirst: true
         });
       }
+    }
+    function slickDestroy() {
+      if ($couponList.hasClass('slick-initialized')) {
+        $couponList.slick('unslick');
+      }
+    }
+    function checkSlick() {
+      if (mql.matches) {
+        slickInit();
+      } else {
+        slickDestroy();
+      }
+    }
+    checkSlick();
+    mql.addEventListener('change', checkSlick);
   });
-</script>
+  </script>
 {% schema %}
 {
   "name": "sections.two-column-list",

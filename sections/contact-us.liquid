@@ -13,6 +13,20 @@
   .section-contact-us .methods .details a{color: #000;}
   .section-contact-us .methods .details a:hover{color: #3250C3;}
   .mobile-show{ display:none}
+    @media (max-width: 1024px) {
+      .section-contact-us .methods .details{word-break: break-all; white-space: nowrap}
+      .section-contact-us .methods ul{margin-top:20px}
+      .section-contact-us .box{gap:20px}
+    }
+    @media (max-width: 911px) {
+      .section-contact-us .box{padding: 29px 27px;gap:20px}
+      .section-contact-us .box .right{padding-right：0px}
+      .section-contact-us .methods .details{margin-top:0px; word-break: break-all; white-space: nowrap}
+      .section-contact-us .box .right h2{line-height: 30px;font-size: 30px;}
+      .section-contact-us .methods ul{margin-top:20px}
+      .section-contact-us .methods .tit{margin-top:5px;}
+      .section-contact-us .box .right img{width:40px;height:40px}
+    }
     @media (max-width: 768px) {
       .mobile-show{ display:block}
       .section-contact-us{margin-top:60px}

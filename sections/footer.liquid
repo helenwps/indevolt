@@ -35,7 +35,8 @@
   }
   .footer-accordion-details .accordion-details__content li:hover .reversed-link {
     background: none;
-    text-decoration: underline;
+    text-decoration: none;
+    color:#fff
   }
   .export-box {
     display: flex;
@@ -493,7 +494,7 @@
             <ul class="flex linklist linklist--horizontal list-unstyled">
               {% for link in linklists[section.settings.footer_bottom_menu].links %}
                 <li>
-                  <a href="{{ link.url }}" class="reversed-link">{{ link.title | escape }}</a>
+                  <a href="{{ link.url }}">{{ link.title | escape }}</a>
                 </li>
               {% endfor %}
             </ul>
