@@ -933,6 +933,11 @@
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
         },
         {
+          "type": "image_picker",
+          "id": "content_image_1",
+          "label": "内容大图"
+        },
+        {
           "type": "select",
           "id": "icon_2",
           "options": [
@@ -1032,6 +1037,10 @@
           "type": "image_picker",
           "id": "image_2",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.image_2.label"
+        },   {
+          "type": "image_picker",
+          "id": "content_image_2",
+          "label": "内容大图"
         },
         {
           "type": "inline_richtext",
@@ -1147,7 +1156,8 @@
           "default": "Heading",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
-        }
+        },
+       
       ]
     },
     {
@@ -1415,6 +1425,18 @@
           "label": "Jetzt bestellen"
         }
       ]
+    },
+    {
+      "type": "logistics",
+      "name": "物流信息",
+      "settings": [
+       {
+          "type": "checkbox",
+          "id": "enable_sticky_info",
+          "default": true,
+          "label": "t:sections.main-product.settings.enable_sticky_info.label"
+        }
+      ],
     },
   ],
   "settings": [

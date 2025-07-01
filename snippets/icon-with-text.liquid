@@ -15,6 +15,19 @@
     icon_1: 'check',
   %}
 {% endcomment %}
+<style>
+  .icon-with-text__item {
+    flex-flow: wrap;
+    width: 100%;
+  }
+  .content-img {
+    width: 100%;
+  }
+  .content-img img {
+    width: auto;
+    height: 2.8rem;
+  }
+</style>
 {%- liquid
   assign title_font = title_font | default: 'heading'
   assign layout = layout | default: 'horizontal'
@@ -47,6 +60,35 @@
       <span class="inline-richtext {{ heading_css_class }}">
         {{- heading_1 -}}
       </span>
+      {%- if content_image_1 != blank -%}
+        <div class="content-img">
+          <picture>
+            <source
+              media="(max-width: 749px)"
+              srcset="
+                {{ content_image_1 | img_url: '800x' }} 1x,
+                {{ content_image_1 | img_url: '1600x' }} 2x
+              "
+            >
+            <source
+              media="(min-width: 750px)"
+              srcset="
+                {{ content_image_1 | img_url: '1200x' }} 1x,
+                {{ content_image_1 | img_url: '2400x' }} 2x
+              "
+            >
+            <img
+              src="{{ content_image_1 | img_url: '1200x' }}"
+              alt="{{content_image_1 | escape }}"
+              loading="lazy"
+              width="{{ content_image_1.width }}"
+              height="{{ content_image_1.height }}"
+            >
+          </picture>
+        </div>
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
     </li>
   {%- endif -%}
   {%- if heading_2 != blank -%}
@@ -69,6 +111,35 @@
       <span class="inline-richtext {{ heading_css_class }}">
         {{- heading_2 -}}
       </span>
+       {%- if content_image_2 != blank -%}
+        <div class="content-img">
+          <picture>
+            <source
+              media="(max-width: 749px)"
+              srcset="
+                {{ content_image_2 | img_url: '800x' }} 1x,
+                {{ content_image_2 | img_url: '1600x' }} 2x
+              "
+            >
+            <source
+              media="(min-width: 750px)"
+              srcset="
+                {{ content_image_2 | img_url: '1200x' }} 1x,
+                {{ content_image_2 | img_url: '2400x' }} 2x
+              "
+            >
+            <img
+              src="{{ content_image_2 | img_url: '1200x' }}"
+              alt="{{content_image_2 | escape }}"
+              loading="lazy"
+              width="{{ content_image_2.width }}"
+              height="{{ content_image_2.height }}"
+            >
+          </picture>
+        </div>
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
     </li>
   {%- endif -%}
   {%- if heading_3 != blank -%}

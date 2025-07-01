@@ -5,8 +5,13 @@
   .product__tax_new{padding:18px 23px;border-radius: 8px;background: #EBF1FF;color:#666}
   .product__tax_new .title{line-height:17px;font-size:14px;font-weight: 700;}
   .product__tax_new .content, .product__tax_new .taxes-popup .text,.product__tax_new .item-content{margin-top:6px;line-height:15px;font-size:12px;font-weight: 400;}
-  .product__tax_new .taxes-popup .text{font-weight:700;color: #3250C3;text-decoration: underline;text-align: right;cursor:pointer}
+  .product__tax_new .taxes-popup .text{color: #3250C3;text-decoration: underline;cursor:pointer}
   .product__tax_new .item-content{ display: flex;align-items: center; gap: 4px;margin-top:13px;}
+
+  .logistics-box{padding:19px 24px;border-radius: 20px;background: #F3F4F7;}
+  .logistics-box ul{display: grid;grid-template-columns: 1fr 1fr;}
+  .logistics-box li{display: inline-flex;align-items: center;line-height:35px;font-size: 14px;color: #6A6A6A;}
+   
 </style>
 {%- liquid
   assign product_form_id = 'product-form-' | append: section.id
@@ -402,6 +407,16 @@
               product_id: product.id
             -%}
           </div>
+        {%- when 'logistics' -%}
+          <div class="logistics-box">
+             <ul>
+              <li> {%- render 'icon-light',size:'small' -%}30 Tage Rückgaberecht</li>
+              <li> {%- render 'icon-light',size:'small' -%}10 Jahre Garantie</li>
+              <li> {%- render 'icon-light',size:'small' -%}Kostenlose und schnelle Lieferung</li>
+              <li> {%- render 'icon-light',size:'small' -%}Lebenslanger Kundenservice</li>
+              <li> {%- render 'icon-light',size:'small' -%}30 Tage Preisgarantie</li>
+             </ul>
+          </div>
         {%- when 'pickup_availability' -%}
           <div
             class="product__block product__block--{{ block.type }}"
@@ -586,8 +601,10 @@
               title_size: block.settings.title_size,
               title_font: block.settings.title_font,
               heading_1: block.settings.heading_1,
+              content_image_1: block.settings.content_image_1,
               image_1: block.settings.image_1,
               icon_1: block.settings.icon_1,
+              content_image_2: block.settings.content_image_2,
               heading_2: block.settings.heading_2,
               image_2: block.settings.image_2,
               icon_2: block.settings.icon_2,
