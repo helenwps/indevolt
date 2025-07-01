@@ -169,9 +169,9 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "In den Warenkorb legen",
+      "add_to_cart": "In den Warenkorb",
       "add_all_to_cart": "Alles in den Warenkorb legen",
-      "buy_it_now": "Kaufe es jetzt",
+      "buy_it_now": "Jetzt Kaufen",
       "choose_options": "Wählen Sie Optionen",
       "choose_product_options": "Wählen Sie Optionen für {{ product_name }}",
       "quick_view": "Schnellansicht",

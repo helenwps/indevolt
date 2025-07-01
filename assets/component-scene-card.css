@@ -69,22 +69,21 @@
   .content-wrapper .links{margin-top:30px;padding:10px 20px;max-width: 136px;left: 50%;transform: translateX(-50%);}
     @media screen and (min-width: 2560px) and (max-width: 3839px) {
       .grid-item {
-        height: 700px;
+        height: 800px;
       }
     }
 
     /* 4K/UHD 屏幕 (3840x2160) */
     @media screen and (min-width: 3840px) {
       .grid-item {
-        height: 800px;
+        height: 900px;
       }
     }
 
     /* 5K/8K 超高清屏幕 */
     @media screen and (min-width: 5120px) {
       .grid-item {
-        height: 900px;
-        max-width: 1600px;
+        height:1200px;
       }
     }
    @media screen and (max-width: 1400px) {

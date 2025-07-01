@@ -78,7 +78,7 @@
           </select>
           {%- render 'icon-caret-down' -%}
         </div>
-        {%- if section.settings.show_quantity -%}
+        {% comment %} {%- if section.settings.show_quantity -%}
           <div id="QuantitySticky-{{ section.id }}">
             {%- liquid
               assign qty_class = ''
@@ -126,10 +126,27 @@
               </button>
             </quantity-input>
           </div>
-        {% endif %}
+        {% endif %} {% endcomment %}
         <div class="product-form__buttons flex items-center">
           {%- if section.settings.show_atc_button -%}
             <button
+              type="submit"
+              name="add"
+              class="product-form__submit btn {% if show_dynamic_checkout_buttons and product.selling_plan_groups == empty %}btn--white{% else %}btn--secondary{% endif %} w-full"
+              {% if product.selected_or_first_available_variant.available == false %}
+                disabled
+              {% endif %}
+            >
+              <span>
+                {%- if product.selected_or_first_available_variant.available -%}
+                  {{ 'products.product.add_to_cart' | t }}
+                {%- else -%}
+                  {{ 'products.product.sold_out' | t }}
+                {%- endif -%}
+              </span>
+              {% render 'loading-spinner' %}
+            </button>
+             <button
               type="submit"
               name="add"
               class="product-form__submit btn {% if show_dynamic_checkout_buttons and product.selling_plan_groups == empty %}btn--secondary{% else %}btn--primary{% endif %} w-full"
@@ -139,7 +156,7 @@
             >
               <span>
                 {%- if product.selected_or_first_available_variant.available -%}
-                  {{ 'products.product.add_to_cart' | t }}
+                    {{ 'products.product.buy_it_now' | t }}
                 {%- else -%}
                   {{ 'products.product.sold_out' | t }}
                 {%- endif -%}

@@ -1373,7 +1373,49 @@
           "visible_if": "{{ block.settings.property_type == 'checkbox' }}"
         }
       ]
-    }
+    },
+    {
+      "type": "taxs",
+      "name": "新增免税",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "0 % MwSt. auf PV-Sets in Deutschland",
+          "label": "免税标题"
+        },
+        {
+          "type": "text",
+          "id": "content",
+          "default": "Hiermit bestätigen Sie, das Sie die Voraussetzungen für eine umsatzsteuerfreie Lieferung gemäß § 12 Abs. 3 von Deutschland erfüllen. ",
+          "label": "免税描述"
+        },
+        {
+          "type": "text",
+          "id": "taxs_title",
+          "default": "Erfahren Sie mehr.",
+          "label": "免税弹框标题"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "taxs_popup_content",
+          "default": "Erfahren Sie mehr.",
+          "label": "免税弹框内容"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading_1",
+          "default": "Hinweis: Bestellungen werden in mehreren Sendungen verschickt.",
+          "label": "Hinweis content"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading_2",
+          "default": "Jetzt bestellen, Versand bis zum 31. August.",
+          "label": "Jetzt bestellen"
+        }
+      ]
+    },
   ],
   "settings": [
     {

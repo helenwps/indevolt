@@ -37,6 +37,7 @@ body.sticky-atc-bar-enabled {
   background: none;
 }
 .sticky-atc-bar .select {
+  display: none;
   max-width: 25rem;
 }
 .sticky-atc-bar .select select {
@@ -76,12 +77,22 @@ body.sticky-atc-bar-enabled {
   }
 }
 @media (max-width: 767.98px) {
+  .sticky-atc-bar__product{display: flex;}
+  .sticky-atc-bar__inner{    gap: 2.3rem;}
+  .sticky-atc-bar__product-image,.sticky-atc-bar__product-title{display: none;}
   .sticky-atc-bar__form {
     width: 100%;
   }
   .sticky-atc-bar .product-form__buttons {
     flex-grow: 1;
   }
+  .sticky-atc-bar .product-form__submit{ max-width: 138px;white-space: normal;line-height: 15px; font-size: 12px;}
+}
+@media (max-width: 390px){
+  .sticky-atc-bar .product-form__submit{max-width: 118px;}
+}
+@media (max-width: 320px){
+  .sticky-atc-bar .product-form__submit{max-width: 85px;}
 }
 @media (min-width: 1280px) {
   .sticky-atc-bar.page-width--full {

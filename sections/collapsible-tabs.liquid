@@ -38,7 +38,9 @@
 %}
 
 <div
-  class="section section-{{ section.id }} section--padding section--collapsible-tabs section-header-{{ section.settings.header_layout }} page-width page-width--{{ section.settings.container }} color-{{ section.settings.color_scheme }}{{ section_css_class }}"
+  class="section section-{{ section.id }} section--padding section--collapsible-tabs section-header-{{ section.settings.header_layout }} page-width 
+  {% comment %} page-width--{{ section.settings.container }}  {% endcomment %}
+  color-{{ section.settings.color_scheme }}{{ section_css_class }}"
   style="--section-padding-top: {{ section.settings.padding_top }}px;--section-padding-bottom: {{ section.settings.padding_bottom }}px;"
   data-id="{{ section.id }}"
 >

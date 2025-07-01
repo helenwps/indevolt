@@ -1,3 +1,13 @@
+<style>
+  .product__block--price .f-price-item--sale{font-size:24px; font-weight:500;background: linear-gradient(180deg, #3250c3, #91affa);
+    -webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+  .product__block--price .f-price-item--regular{font-size:18px}
+  .product__tax_new{padding:18px 23px;border-radius: 8px;background: #EBF1FF;color:#666}
+  .product__tax_new .title{line-height:17px;font-size:14px;font-weight: 700;}
+  .product__tax_new .content, .product__tax_new .taxes-popup .text,.product__tax_new .item-content{margin-top:6px;line-height:15px;font-size:12px;font-weight: 400;}
+  .product__tax_new .taxes-popup .text{font-weight:700;color: #3250C3;text-decoration: underline;text-align: right;cursor:pointer}
+  .product__tax_new .item-content{ display: flex;align-items: center; gap: 4px;margin-top:13px;}
+</style>
 {%- liquid
   assign product_form_id = 'product-form-' | append: section.id
 -%}
@@ -53,20 +63,61 @@
                 <span class="text-sm text-subtext">{{ 'products.product.volume_pricing.note' | t }}</span>
               </div>
             {%- endif -%}
-            <div class="product__tax rte">
+            {% comment %} <div class="product__tax rte">   
               {%- if cart.taxes_included -%}
                 {{ 'products.product.include_taxes' | t }}
               {%- endif -%}
               {%- if shop.shipping_policy.body != blank -%}
                 {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
               {%- endif -%}
-            </div>
+            </div> {% endcomment %}
             {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
             {%- form 'product', product, id: product_form_installment_id, class: 'installment' -%}
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
               {{ form | payment_terms }}
             {%- endform -%}
           </div>
+        {%- when 'taxs' -%}
+          <div class="product__tax_new">
+              {%- if block.settings.title -%}
+                <h3 class="title">{{block.settings.title}}</h3>
+              {%- endif -%}
+               {%- if block.settings.content -%}
+                <div class="content">{{block.settings.content}}</div>
+              {% endif %}
+              {%- if block.settings.taxs_title!=blank and block.settings.taxs_title!=blank -%}
+                <div class="taxes-popup">
+                  <div
+                    class="text"
+                    aria-controls="PopupModal-{{ block.id }}"
+                    aria-haspopup="dialog"
+                  >
+                    {{block.settings.taxs_title}}
+                  </div>
+                  <basic-modal id="PopupModal-{{ block.id }}" class="drawer modal" style="--modal-width: 77rem;">
+                    <div class="fixed-overlay" aria-controls="PopupModal-{{ block.id }}"></div>
+                    <div class="drawer__inner">
+                      <button
+                        class="drawer__close-btn"
+                        aria-controls="PopupModal-{{ block.id }}"
+                        aria-label="{{ 'accessibility.close' | t }}"
+                      >
+                        {% render 'icon-close' %}
+                      </button>
+                      <div class="drawer__body v-scrollable h-full">
+                        {{block.settings.taxs_popup_content}}
+                      </div>
+                    </div>
+                  </basic-modal>
+              </div>
+              {% endif %}
+              {%- if block.settings.heading_1 != blank -%}
+                 <div class="item-content"> {%- render 'icon-light',size:'small' -%}{{ block.settings.heading_1 }}</div>           
+              {%- endif -%}
+               {%- if block.settings.heading_2 != blank -%}
+                 <div class="item-content"> {%- render 'icon-car',size:'small' -%}{{ block.settings.heading_2 }}</div>           
+              {%- endif -%}
+          </div>  
         {%- when 'inventory' -%}
           <div
             class="product__block product__block--{{ block.type }}{% if block.settings.text_style == 'uppercase' %} text-upper{% elsif block.settings.text_style == 'subtitle' %} text-upper text-subtext{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} hidden{% endif %}"
@@ -124,7 +175,7 @@
         {%- when 'description' -%}
           {%- if product.description != blank -%}
             <div
-              class="product__block product__block--{{ block.type }} rte"
+              class="product__block product__block--{{ block.type }} rte product-description"
               {{ block.shopify_attributes }}
             >
               {{ product.description }}

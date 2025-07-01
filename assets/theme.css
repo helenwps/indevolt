@@ -4390,15 +4390,20 @@ input:is([type=radio])::after {
   }
 }
 
-.reversed-link {
+.reversed-link{
+  --reversed-link-gap: 0.1rem;
+  background: linear-gradient(to var(--transform-origin-end), currentColor, currentColor) 0 var(--reversed-link-gap)/0 var(--reversed-link-gap) no-repeat;
+  background-position-x: var(--transform-origin-end);
+  background-position-y: bottom;
+  transition: background-size var(--animation-default);
+}
+.header__menu .reversed-link{
   --reversed-link-gap: 0.2rem;
-  /* background: linear-gradient(to var(--transform-origin-end), currentColor, currentColor) 0 var(--reversed-link-gap)/0 var(--reversed-link-gap) no-repeat; */
   background: linear-gradient(to var(--transform-origin-end), #3250C3, #3250C3) 0 var(--reversed-link-gap)/0 var(--reversed-link-gap) no-repeat;
   background-position-x: var(--transform-origin-end);
   background-position-y: bottom;
   transition: background-size var(--animation-default);
 }
-
 .list-disc {
   list-style-type: disc;
   list-style-position: inside;
