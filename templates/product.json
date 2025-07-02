@@ -86,19 +86,10 @@
             "show_gift_card_recipient": true
           }
         },
-        "icon_with_text_3zTWzn": {
-          "type": "icon-with-text",
-          "name": "物流信息",
+        "logistics_qJzbbA": {
+          "type": "logistics",
           "settings": {
-            "layout": "horizontal",
-            "title_font": "heading",
-            "title_size": "h5",
-            "icon_1": "heart",
-            "heading_1": "30 Tage Rückgaberecht",
-            "icon_2": "gift",
-            "heading_2": "10 Jahre Garantie",
-            "icon_3": "package",
-            "heading_3": "Kostenlose und schnelle Lieferung"
+            "enable_sticky_info": true
           }
         },
         "icon_with_text": {
@@ -110,7 +101,9 @@
             "title_size": "text-base",
             "icon_1": "certificate",
             "heading_1": "Bequem bezahlen",
+            "content_image_1": "shopify://shop_images/4pccard.png",
             "icon_2": "truck",
+            "content_image_2": "shopify://shop_images/4pctrack.png",
             "heading_2": "Zuverlässige Lieferung",
             "icon_3": "truck",
             "heading_3": ""
@@ -143,7 +136,7 @@
         "inventory",
         "variant_picker",
         "buy_buttons",
-        "icon_with_text_3zTWzn",
+        "logistics_qJzbbA",
         "icon_with_text",
         "pickup_availability",
         "complementary"

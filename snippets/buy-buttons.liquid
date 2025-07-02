@@ -356,24 +356,24 @@
             <!-- 可选：数量 -->
             <input type="hidden" name="quantity" value="1">
 
-            <button
+         <button
               id="ProductSubmitButton1-{{ section_id }}"
-              type="submit"
+            type="submit"
               name="checkout"
               class="product-form__submit btn btn--primary"
-              {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
-                disabled
-              {% endif %}
-            >
-              <span>
-                {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
-                  {{ 'products.product.sold_out' | t }}
-                {%- else -%}
+            {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
+              disabled
+            {% endif %}
+          >
+            <span>
+              {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
+                {{ 'products.product.sold_out' | t }}
+              {%- else -%}
                    {{ 'products.product.buy_it_now' | t }}
-                {%- endif -%}
-              </span>
-              {%- render 'loading-spinner' -%}
-            </button>
+              {%- endif -%}
+            </span>
+            {%- render 'loading-spinner' -%}
+          </button>
           </form>
         {% comment %} {%- liquid
           if product.quantity_price_breaks_configured? != true
