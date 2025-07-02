@@ -17,7 +17,6 @@
           "settings": {
             "color_scheme": "scheme-1",
             "background": "shopify://shop_images/banner_active.jpg",
-            "background_mobile": "shopify://shop_images/kv-mobile.jpg",
             "image_overlay_opacity": 0,
             "show_content_in_container": true,
             "content_position": "middle-left",
@@ -38,7 +37,6 @@
           "settings": {
             "color_scheme": "scheme-1",
             "background": "shopify://shop_images/banner2.jpg",
-            "background_mobile": "shopify://shop_images/mobile_banner2.jpg",
             "brand_logo_image1": "shopify://shop_images/brand_logo1.png",
             "brand_logo_image2": "shopify://shop_images/brand_logo2.png",
             "image_overlay_opacity": 0,
@@ -84,8 +82,8 @@
         "featured_collection_weNg9r": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/4-1_b1f70ab2-28d9-42f0-8b5b-a76962496205.png",
-            "mobile_image": "shopify://shop_images/big-image-mobile1.png",
+            "image": "shopify://shop_images/scene1.jpg",
+            "mobile_image": "shopify://shop_images/scene1_mobile.jpg",
             "title": "BK1600",
             "description": "Balkonkraftwerk mit Speicher",
             "button_title": "Jetzt kaufen",
@@ -95,8 +93,8 @@
         "featured_collection_xmNLUg": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/4-2.jpg",
-            "mobile_image": "shopify://shop_images/big-image-mobile2.png",
+            "image": "shopify://shop_images/scene2.jpg",
+            "mobile_image": "shopify://shop_images/scene2_mobile.jpg",
             "title": "BK1600 Ultra",
             "description": "Balkonkraftwerk mit Speicher",
             "button_title": "Jetzt kaufen",
@@ -106,8 +104,8 @@
         "featured_collection_mjAyak": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/4-3_4e95fda7-de99-48eb-a6dc-dcf21b16d797.png",
-            "mobile_image": "shopify://shop_images/big-image-mobile3.png",
+            "image": "shopify://shop_images/scene3.jpg",
+            "mobile_image": "shopify://shop_images/scene3_mobile.jpg",
             "title": "Mikro-Wechselrichter",
             "description": "",
             "button_title": "Jetzt kaufen",
@@ -117,8 +115,8 @@
         "featured_collection_wBeLed": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/4-4_6d2b7f0d-a0b7-482d-965c-d7ba31f4158b.png",
-            "mobile_image": "shopify://shop_images/big-image-mobile4.png",
+            "image": "shopify://shop_images/scene4.png",
+            "mobile_image": "shopify://shop_images/scene4_mobile.jpg",
             "title": "Zubehör",
             "description": "",
             "button_title": "Mehr erfahren",
@@ -143,9 +141,7 @@
         "card_XkdcXz": {
           "type": "card",
           "settings": {
-            "product_item": "solidflex-2000-balkonkraftwerk-mit-speicher",
-            "custom_image": "shopify://shop_images/Group_255_ed424e4c-7de6-4138-85da-611081d9ead7.png",
-            "mobile_image": "shopify://shop_images/Group_255_ed424e4c-7de6-4138-85da-611081d9ead7.png",
+            "product_item": "indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag",
             "custom_title": "SolidFlex 2000 + SFA1800",
             "custom_describe": "",
             "price": "1.398,00 €",
@@ -157,9 +153,7 @@
         "card_8nnA4a": {
           "type": "card",
           "settings": {
-            "product_item": "bk1600-balkonkraftwerk-mit-speicher",
-            "custom_image": "shopify://shop_images/Group_295.png",
-            "mobile_image": "shopify://shop_images/Group_295.png",
+            "product_item": "indevolt-bk1600",
             "custom_title": "SolidFlex 2000 + SFA1800",
             "custom_describe": "4*440W Bifaziales Solarmodul + 4*Metalldachhalter ",
             "price": "1.946,00 €",
@@ -171,9 +165,7 @@
         "card_FQAcNi": {
           "type": "card",
           "settings": {
-            "product_item": "indevolt-860w-solarpanels-430w-2er-pack",
-            "custom_image": "shopify://shop_images/Group_256.png",
-            "mobile_image": "shopify://shop_images/Group_256.png",
+            "product_item": "indevolt-flexibel-zonnepaneel-225w-4-pack",
             "custom_title": "SolidFlex 2000 + SFA1800",
             "custom_describe": "4*440W Bifaziales Solarmodul + 4*Flachdachhalter ",
             "price": "1.986,00 €",
@@ -185,9 +177,7 @@
         "card_gWcNV9": {
           "type": "card",
           "settings": {
-            "product_item": "bk1600-balkonkraftwerk-mit-speicher",
-            "custom_image": "shopify://shop_images/Group_257_5c168e03-16bd-4c20-acd0-0a015ba436a3.png",
-            "mobile_image": "shopify://shop_images/Group_257_5c168e03-16bd-4c20-acd0-0a015ba436a3.png",
+            "product_item": "indevolt-slimme-stekker",
             "custom_title": "SolidFlex 2000 + SFA1800",
             "custom_describe": "4*440W Bifaziales Solarmodul + 2*Dachhalter",
             "price": "2.026,00 €",
@@ -214,8 +204,8 @@
         "card_waLpJr": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/1_b1926bf0-38e4-46a6-917c-b3100781cd73.png",
-            "mobile_image": "shopify://shop_images/3001.png",
+            "image": "shopify://shop_images/coupon1.png",
+            "mobile_image": "shopify://shop_images/coupon1_mobile.png",
             "title": "Jetzt kaufen und sparen",
             "button_title": "Mehr erfahren >",
             "button_link": "https://de.indevolt.com/pages/jetztkaufenundsparen"
@@ -224,8 +214,8 @@
         "card_DWmKQB": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/pc_SF2000-BK1600.png",
-            "mobile_image": "shopify://shop_images/3002.png",
+            "image": "shopify://shop_images/coupon2.png",
+            "mobile_image": "shopify://shop_images/coupon2_mobile.png",
             "title": "Produktvergleich",
             "button_title": "Mehr erfahren >",
             "button_link": "https://de.indevolt.com/pages/produktvergleich"
@@ -234,8 +224,8 @@
         "card_CGAafz": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/image3.png",
-            "mobile_image": "shopify://shop_images/13.png",
+            "image": "shopify://shop_images/coupon3.png",
+            "mobile_image": "shopify://shop_images/coupon3_mobile.png",
             "title": "5% Prämie für deine Empfehlung",
             "button_title": "Mehr erfahren >",
             "button_link": "https://de.indevolt.com/pages/empfehlungsprogram"
@@ -258,11 +248,10 @@
         "card_V6aXeT": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/amax.png",
-            "mobile_image": "shopify://shop_images/mob1111111111.png",
+            "image": "shopify://shop_images/flex-scene1.png",
+            "mobile_image": "shopify://shop_images/flex-scene1-mobile.png",
             "title": "Balkon",
             "description": "Den begrenzten Raum optimal nutzen, flexibel und",
-            "product_img": "shopify://shop_images/SF2000_SFA1800_5_440W_Bifaziale_Solarpanels_4_Flachdachhalter_4_Paar.jpg",
             "product_title": "",
             "product_des": "",
             "product_price": "",
@@ -272,11 +261,10 @@
         "card_LEjQRi": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/bmax.png",
-            "mobile_image": "shopify://shop_images/mob222222.png",
+            "image": "shopify://shop_images/flex-scene2.png",
+            "mobile_image": "shopify://shop_images/flex-scene-mobile2.png",
             "title": "Garten",
             "description": "Genug Sonnenlicht nutzen, um die beste Leistung zu erzielen.",
-            "product_img": "shopify://shop_images/SF2000_SFA1800_5_440W_Bifaziale_Solarpanels_4_Dachhalter_2_Paar.jpg",
             "product_title": "",
             "product_des": "",
             "product_price": "",
@@ -286,11 +274,10 @@
         "card_zdCQqN": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/cmax.png",
-            "mobile_image": "shopify://shop_images/mob3333333.png",
+            "image": "shopify://shop_images/flex-scene3.png",
+            "mobile_image": "shopify://shop_images/flex-scene3-mobile.png",
             "title": "Schrägdach",
             "description": "Durch Schrägdach-Montage lässt sich die Solarstromausbeute um 20% erhöhen!",
-            "product_img": "shopify://shop_images/SF2000_SFA1800_5_430W_TOPCon_Solarpanels_4_Balkonhalter_4_Paar.jpg",
             "product_title": "",
             "product_des": "",
             "product_price": "",
@@ -300,8 +287,8 @@
         "card_EeN3Bj": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/dmax.png",
-            "mobile_image": "shopify://shop_images/mob44444444.png",
+            "image": "shopify://shop_images/flex-scene4.png",
+            "mobile_image": "shopify://shop_images/flex-scene4-mobile.png",
             "title": "Flachdach",
             "description": "Die Installation von Solarmodulen auf Flachdächern verringert Windwiderstand und Lärm und sorgt für Stabilität.",
             "product_title": "",
@@ -349,14 +336,14 @@
         "card_WcqGtf": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/logo4.jpg",
+            "image": "shopify://shop_images/logo4.png",
             "description": "„Die erfolgreiche Kombination von leistungsstarker PV-Technologie und effizienter Speicherlösung in einem kompakten, benutzerfreundlichen Paket überzeugt. Dieses Konzept macht das System zur idealen Wahl für Stadtbewohner und Mieter, die ohne bauliche Veränderungen in die Solarenergie einsteigen.\""
           }
         },
         "card_QfmeGX": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/logo5.png",
+            "image": "shopify://shop_images/logo5.jpg",
             "description": "„Das Indevolt BK1600 verbindet fortschrittliche Effizienz, praxisgerechte Speicherkapazität und benutzerfreundliche Bedienung in einem durchdachten Komplettsystem und markiert damit einen bedeutenden Entwicklungsschritt in Richtung urbaner Energieautonomie für Stadtbewohnerinnen und Stadtbewohner.\""
           }
         },
@@ -412,8 +399,8 @@
       "settings": {
         "title": "Bekannt aus",
         "logo_title": "Befürwortet von",
-        "logo_pc_image": "shopify://shop_images/LOGO_dc405a6c-b6c9-4738-8c1c-ae2ce3b988bd.png",
-        "logo_mobile_image": "shopify://shop_images/Group_112_037c594a-02f8-40fa-814a-c4870f44c0e5.png"
+        "logo_pc_image": "shopify://shop_images/logo-list.png",
+        "logo_mobile_image": "shopify://shop_images/logo-list-mobile.png"
       }
     },
     "video_list_Aqz79r": {
@@ -461,8 +448,8 @@
         "card_gD7KCd": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify://shop_images/111.png",
-            "image_mobile": "shopify://shop_images/111.png",
+            "image_pc": "shopify://shop_images/review1.png",
+            "image_mobile": "shopify://shop_images/review1.png",
             "start": "shopify://shop_images/start.svg",
             "content": "Die Installation war super einfach – meine Familie und ich haben das in 10 Minuten hinbekommen. Ideal für alle, die gerne selbst Hand anlegen!",
             "name": "Max Schmidt"
@@ -471,8 +458,8 @@
         "card_YH9LNL": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify://shop_images/222.png",
-            "image_mobile": "shopify://shop_images/222.png",
+            "image_pc": "shopify://shop_images/review2.png",
+            "image_mobile": "shopify://shop_images/review2.png",
             "start": "shopify://shop_images/start.svg",
             "content": "Mit einer Kapazität von 1600Wh deckt es super gut unseren Strombedarf nachts. Ich kann es echt empfehlen!",
             "name": "Hans Müller"
@@ -481,8 +468,8 @@
         "card_Pq9FhP": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify://shop_images/333.png",
-            "image_mobile": "shopify://shop_images/333.png",
+            "image_pc": "shopify://shop_images/review3.png",
+            "image_mobile": "shopify://shop_images/review3.png",
             "start": "shopify://shop_images/start.svg",
             "content": "Leicht und perfekt für den Campinggebrauch. Die 1600Wh Kapazität sind klasse! Ich kann mehrere Geräte gleichzeitig nutzen.",
             "name": "Michail Cohen"
@@ -491,8 +478,8 @@
         "card_38DYVV": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify://shop_images/444.png",
-            "image_mobile": "shopify://shop_images/444.png",
+            "image_pc": "shopify://shop_images/review4.png",
+            "image_mobile": "shopify://shop_images/review4.png",
             "start": "shopify://shop_images/start.svg",
             "content": "Philipp BeckerDas bidirektionale Laden ist einfach super! Bei schlechtem Wetter muss ich mir keine Sorgen um die Stromspeicherung machen.",
             "name": "Philipp Becker"
@@ -501,8 +488,8 @@
         "card_jVWgDL": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify://shop_images/555.png",
-            "image_mobile": "shopify://shop_images/555.png",
+            "image_pc": "shopify://shop_images/review5.png",
+            "image_mobile": "shopify://shop_images/review5.png",
             "start": "shopify://shop_images/start.svg",
             "content": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht.",
             "name": "Andreas Heinrich"
@@ -527,7 +514,7 @@
         "card_p6gFYF": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/646401_31f22922-6c9c-456b-8535-77d14ad2894a.png",
+            "image": "shopify://shop_images/email.png",
             "title": "Sende eine E-Mail",
             "content": "<a href=\"mailto:sales@indevolt.com\" alt=\"sales@indevolt.com\">sales@indevolt.com</a>"
           }
@@ -535,7 +522,7 @@
         "card_YcAehM": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/646402_e9a5f2ff-5239-41ca-ab4a-a5c5f7d18a4d.png",
+            "image": "shopify://shop_images/iphone.png",
             "title": "Ruf uns an",
             "content": "+49 (0)174 3150766"
           }
@@ -548,8 +535,8 @@
       "name": "联系我们",
       "settings": {
         "title": "Partnerschaft mit Indevolt",
-        "image_pc": "shopify://shop_images/image_98bbf6b3-8163-4316-8234-5c5315c845b1.png",
-        "image_mobile": "shopify://shop_images/mob_5b70ebdf-d468-412b-9699-d77d8e7d1dfe.png",
+        "image_pc": "shopify://shop_images/contactus.png",
+        "image_mobile": "shopify://shop_images/contactus-mobile.png",
         "link_title": "Mehr erfahren >",
         "link_url": "https://de.indevolt.com/pages/partner"
       }
@@ -559,8 +546,8 @@
       "name": "服务信息",
       "settings": {
         "title": "Indevolt Vorteile",
-        "image_pc": "shopify://shop_images/20250331110945.png",
-        "image_mobile": "shopify://shop_images/20250331111010.png"
+        "image_pc": "shopify://shop_images/service_896480f5-9ff1-42ef-8edb-90066e2bd70a.png",
+        "image_mobile": "shopify://shop_images/service-mobile.png"
       }
     },
     "newsletter_BhHPzj": {
