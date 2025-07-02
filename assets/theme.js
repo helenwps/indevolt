@@ -9,14 +9,14 @@ FoxTheme.config = {
   isTouch: 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0,
   isRTL: document.documentElement.getAttribute('dir') === 'rtl',
 };
-console.log(
-  '%c' +
-    window.FoxTheme.settings.themeName +
-    ' theme (v' +
-    window.FoxTheme.settings.themeVersion +
-    ') by Foxecom | Learn more https://foxecom.com/products/sleek-shopify-theme',
-  'font-size: 14px; color: #FF5C00;'
-);
+// console.log(
+//   '%c' +
+//     window.FoxTheme.settings.themeName +
+//     ' theme (v' +
+//     window.FoxTheme.settings.themeVersion +
+//     ') by Foxecom | Learn more https://foxecom.com/products/sleek-shopify-theme',
+//   'font-size: 14px; color: #FF5C00;'
+// );
 (function () {
   // Detect browser has support local storage.
   try {

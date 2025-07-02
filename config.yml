@@ -1,12 +1,12 @@
 development:
   password: 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
-  theme_id: "141708361962"
+  theme_id: "141710885098"
   store: 0tthp6-yr.myshopify.com
 production:
   password: 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
-  theme_id: "141608845546"
+  theme_id: "141710885098"
   store: 0tthp6-yr.myshopify.com
 staging:
   password: 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
-  theme_id: "141608845546"
+  theme_id: "141710885098"
   store: 0tthp6-yr.myshopify.com
