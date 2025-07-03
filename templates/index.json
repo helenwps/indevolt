@@ -14,9 +14,11 @@
       "blocks": {
         "slide_JhU8hg": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-1",
             "background": "shopify://shop_images/banner_active.jpg",
+            "background_mobile": "shopify://shop_images/banner_active_mobile.jpg",
             "image_overlay_opacity": 0,
             "show_content_in_container": true,
             "content_position": "middle-left",
@@ -37,6 +39,7 @@
           "settings": {
             "color_scheme": "scheme-1",
             "background": "shopify://shop_images/banner2.jpg",
+            "background_mobile": "shopify://shop_images/banner2_mobile.jpg",
             "brand_logo_image1": "shopify://shop_images/brand_logo1.png",
             "brand_logo_image2": "shopify://shop_images/brand_logo2.png",
             "image_overlay_opacity": 0,
@@ -44,7 +47,7 @@
             "content_position": "middle-left",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "SolidFlex 2000 <span>NEW</span>",
+            "title": "SolidFlex 2000 NEW",
             "heading_size": "hd1",
             "subheading": "Sonderangebot:<strong> €899</strong> <span>€1199</span>",
             "description": "<p>Der weltweit erste Balkonkraftwerk-Speicher mit halb-fester Batterie<br/></p>",
@@ -84,32 +87,32 @@
           "settings": {
             "image": "shopify://shop_images/scene1.jpg",
             "mobile_image": "shopify://shop_images/scene1_mobile.jpg",
-            "title": "BK1600",
-            "description": "Balkonkraftwerk mit Speicher",
-            "button_title": "Jetzt kaufen",
-            "button_link": "/products/indevolt-bk-1600"
+            "title": "Balkonkraftwerk mit Speicher",
+            "description": "",
+            "button_title": "Meer informatie",
+            "button_link": "shopify://collections/balkonkraftwerk-mit-speicher"
           }
         },
         "featured_collection_xmNLUg": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/scene2.jpg",
-            "mobile_image": "shopify://shop_images/scene2_mobile.jpg",
-            "title": "BK1600 Ultra",
-            "description": "Balkonkraftwerk mit Speicher",
-            "button_title": "Jetzt kaufen",
-            "button_link": "/products/indevolt-bk1600-ultra"
+            "image": "shopify://shop_images/scene3.jpg",
+            "mobile_image": "shopify://shop_images/scene3_mobile.jpg",
+            "title": "Balkon Zonne-energiesysteem",
+            "description": "",
+            "button_title": "Meer informatie",
+            "button_link": "shopify://collections/balkon-zonne-energiesysteem"
           }
         },
         "featured_collection_mjAyak": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/scene3.jpg",
+            "image": "shopify://shop_images/scene2.png",
             "mobile_image": "shopify://shop_images/scene3_mobile.jpg",
-            "title": "Mikro-Wechselrichter",
+            "title": "Zonnepaneel",
             "description": "",
-            "button_title": "Jetzt kaufen",
-            "button_link": "/products/indevolt-mikrowechselrichter"
+            "button_title": "Meer informatie",
+            "button_link": "shopify://collections/zonnepaneel"
           }
         },
         "featured_collection_wBeLed": {
@@ -117,10 +120,10 @@
           "settings": {
             "image": "shopify://shop_images/scene4.png",
             "mobile_image": "shopify://shop_images/scene4_mobile.jpg",
-            "title": "Zubehör",
+            "title": "Accessoires",
             "description": "",
-            "button_title": "Mehr erfahren",
-            "button_link": "/collections/zubehor"
+            "button_title": "Meer informatie",
+            "button_link": "shopify://collections/accessoires"
           }
         }
       },
@@ -142,56 +145,56 @@
           "type": "card",
           "settings": {
             "product_item": "indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag",
-            "custom_title": "SolidFlex 2000 + SFA1800",
+            "custom_title": "BK1600 Ultra",
             "custom_describe": "",
-            "price": "1.398,00 €",
-            "original": "2.098,00 €",
+            "price": "899.00 €",
+            "original": "",
             "button_text": "Mehr erfahren",
             "button_link": "https://de.indevolt.com/products/solidflex-2000-balkonkraftwerk-mit-speicher?variant=43445040578659"
+          }
+        },
+        "card_gWcNV9": {
+          "type": "card",
+          "settings": {
+            "product_item": "indevolt-slimme-meter",
+            "custom_title": "P1 Meter Reader",
+            "custom_describe": "",
+            "price": "29.00 €",
+            "original": "",
+            "button_text": "Mehr erfahren",
+            "button_link": "shopify://products/indevolt-slimme-meter"
           }
         },
         "card_8nnA4a": {
           "type": "card",
           "settings": {
             "product_item": "indevolt-bk1600",
-            "custom_title": "SolidFlex 2000 + SFA1800",
-            "custom_describe": "4*440W Bifaziales Solarmodul + 4*Metalldachhalter ",
-            "price": "1.946,00 €",
-            "original": "2.765,00 €",
+            "custom_title": "BK1600 ",
+            "custom_describe": "",
+            "price": "799.00 €",
+            "original": "",
             "button_text": "Mehr erfahren",
-            "button_link": "https://de.indevolt.com/products/solidflex-2000-balkonkraftwerk-mit-speicher?variant=43445040840803"
+            "button_link": "shopify://products/indevolt-bk1600"
           }
         },
         "card_FQAcNi": {
           "type": "card",
           "settings": {
             "product_item": "indevolt-flexibel-zonnepaneel-225w-4-pack",
-            "custom_title": "SolidFlex 2000 + SFA1800",
-            "custom_describe": "4*440W Bifaziales Solarmodul + 4*Flachdachhalter ",
-            "price": "1.986,00 €",
-            "original": "2.805,00 €",
+            "custom_title": "Flexibel Zonnepaneel (225W, 4-pack)",
+            "custom_describe": "",
+            "price": "659.00 €",
+            "original": "",
             "button_text": "Mehr erfahren",
-            "button_link": "https://de.indevolt.com/products/solidflex-2000-balkonkraftwerk-mit-speicher?variant=43445040873571"
-          }
-        },
-        "card_gWcNV9": {
-          "type": "card",
-          "settings": {
-            "product_item": "indevolt-slimme-stekker",
-            "custom_title": "SolidFlex 2000 + SFA1800",
-            "custom_describe": "4*440W Bifaziales Solarmodul + 2*Dachhalter",
-            "price": "2.026,00 €",
-            "original": "2.845,00 €",
-            "button_text": "Mehr erfahren",
-            "button_link": "https://de.indevolt.com/products/solidflex-2000-balkonkraftwerk-mit-speicher?variant=43445040939107"
+            "button_link": "shopify://products/indevolt-flexibel-zonnepaneel-225w-4-pack"
           }
         }
       },
       "block_order": [
         "card_XkdcXz",
+        "card_gWcNV9",
         "card_8nnA4a",
-        "card_FQAcNi",
-        "card_gWcNV9"
+        "card_FQAcNi"
       ],
       "name": "产品推荐",
       "settings": {

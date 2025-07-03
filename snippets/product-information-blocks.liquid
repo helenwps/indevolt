@@ -11,6 +11,7 @@
   .logistics-box{padding:19px 24px;border-radius: 20px;background: #F3F4F7;}
   .logistics-box ul{display: grid;grid-template-columns: 1fr 1fr;}
   .logistics-box li{display: inline-flex;align-items: center;line-height:35px;font-size: 14px;color: #6A6A6A;}
+  .logistics-box li .icon{margin-right:5px;}
    
 </style>
 {%- liquid
@@ -410,11 +411,11 @@
         {%- when 'logistics' -%}
           <div class="logistics-box">
              <ul>
-              <li> {%- render 'icon-light',size:'small' -%}30 Tage Rückgaberecht</li>
-              <li> {%- render 'icon-light',size:'small' -%}10 Jahre Garantie</li>
-              <li> {%- render 'icon-light',size:'small' -%}Kostenlose und schnelle Lieferung</li>
-              <li> {%- render 'icon-light',size:'small' -%}Lebenslanger Kundenservice</li>
-              <li> {%- render 'icon-light',size:'small' -%}30 Tage Preisgarantie</li>
+              <li> {% render 'icon-car-blue', size:'small'%}30-Day Return Policy</li>
+              <li> {%- render 'icon-love',size:'small' -%}10-Year Warranty</li>
+              <li> {%- render 'icon-double-arrow',size:'small' -%}Free and Fast Shipping</li>
+              <li> {%- render 'icon-chat',size:'small' -%}Lifetime Customer Support</li>
+              <li> {%- render 'icon-money',size:'small' -%}30-Day Price Guarantee</li>
              </ul>
           </div>
         {%- when 'pickup_availability' -%}

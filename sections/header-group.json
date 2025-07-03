@@ -41,47 +41,36 @@
         "custom_card_HxmVda": {
           "type": "custom_card",
           "settings": {
-            "menu_title": "Katalog",
+            "menu_title": "Catalogus",
             "menu_columns": 2,
-            "promotions_width": 78,
+            "promotions_width": 76,
             "promotion_columns": 2,
             "promo_image_1": [
-              "solidflex-2000-balkonkraftwerk-mit-speicher",
-              "bk1600-ultra-balkonkraftwerk-mit-speicher",
-              "bk1600-balkonkraftwerk-mit-speicher"
+              "indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag",
+              "indevolt-bk1600"
             ],
             "heading_1": "Balkonkraftwerk mit Speicher",
             "heading_size_1": "h5",
             "description_1": "",
             "promotion_link_1": "",
             "promo_image_2": [
-              "indevolt-mikrowechselrichter",
-              "indevolt-2000w-balkonkraftwerk-mit-mikrowechselrichter-deye-m200g4"
+              "indevolt-slimme-meter"
             ],
             "heading_2": "",
             "heading_size_2": "h5",
             "description_2": "",
             "promotion_link_2": "",
             "promo_image_3": [
-              "indevolt-bifacial-monocrystalline-solarpanel",
-              "indevolt-860w-solarpanels-430w-2er-pack",
-              "indevolt-flexibles-solarpanel"
+              "indevolt-flexibel-zonnepaneel-225w-4-pack"
             ],
             "heading_3": "",
             "heading_size_3": "h5",
             "description_3": "",
             "promotion_link_3": "",
             "promo_image_4": [
-              "indevolt-smart-plug",
-              "indevolt-smarter-stromzahler",
-              "indevolt-solarmodul-balkonhalterungen-1-paar",
-              "shelly-pro-3em-120a",
-              "indevolt-solarbank-schuko-anschlusskabel-5m",
-              "indevolt-solarmodul-dachhalterungen-1-paar",
-              "balkongelander-halterung-rundhaken-2paar",
-              "halterung-fur-flachdach-und-garten-2-paar",
-              "indevolt-halterung-fur-dachziegel",
-              "indevolt-halterung-fur-bitumen-und-metalldach"
+              "indevolt-slimme-stekker",
+              "indevolt-slimme-meter",
+              "indevolt-ac-verlengkabel-voor-bk1600-5m"
             ],
             "heading_4": "",
             "heading_size_4": "h5",
