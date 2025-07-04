@@ -47,9 +47,9 @@
             "content_position": "middle-left",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "SolidFlex 2000 NEW",
+            "title": "SolidFlex 2000 <span>NEW</span>",
             "heading_size": "hd1",
-            "subheading": "Sonderangebot:<strong> €899</strong> €1199",
+            "subheading": "Sonderangebot:<strong> €899</strong> <span>€1199</span>",
             "description": "<p>Der weltweit erste Balkonkraftwerk-Speicher mit halb-fester Batterie<br/></p>",
             "description_size": "text-base",
             "button_label": "Mehr erfahren",
@@ -89,7 +89,7 @@
             "mobile_image": "shopify://shop_images/scene1_mobile.jpg",
             "title": "Balkon Zonne-energiesysteem met Opslag",
             "description": "",
-            "button_title": "Mehr erfahren",
+            "button_title": "Meer informatie",
             "button_link": "shopify://products/indevolt-bk1600"
           }
         },
@@ -100,7 +100,7 @@
             "mobile_image": "shopify://shop_images/scene2_mobile.jpg",
             "title": "Balkon Zonne-energiesysteem",
             "description": "",
-            "button_title": "Mehr erfahren",
+            "button_title": "Meer informatie",
             "button_link": "shopify://collections/balkon-zonne-energiesysteem"
           }
         },
@@ -111,7 +111,7 @@
             "mobile_image": "shopify://shop_images/scene3_mobile.jpg",
             "title": "Zonnepaneel",
             "description": "",
-            "button_title": "Mehr erfahren",
+            "button_title": "Meer informatie",
             "button_link": "shopify://collections/zonnepaneel"
           }
         },
@@ -122,7 +122,7 @@
             "mobile_image": "shopify://shop_images/scene4_mobile.jpg",
             "title": "Accessoires",
             "description": "",
-            "button_title": "Mehr erfahren",
+            "button_title": "Meer informatie",
             "button_link": "shopify://collections/accessoires"
           }
         }
