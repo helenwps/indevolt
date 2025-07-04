@@ -18,7 +18,7 @@
           "type": "menu",
           "settings": {
             "block_width": 25,
-            "heading": "Produkte",
+            "heading": "Producten",
             "heading_size": "h4",
             "menu": "foooter-produkte",
             "open_default": false,
@@ -29,7 +29,7 @@
           "type": "menu",
           "settings": {
             "block_width": 25,
-            "heading": "Support",
+            "heading": "Ondersteuning",
             "heading_size": "h4",
             "menu": "footer-support",
             "open_default": false,
@@ -40,7 +40,7 @@
           "type": "menu",
           "settings": {
             "block_width": 25,
-            "heading": "Unternehmen",
+            "heading": "Bedrijf",
             "heading_size": "h4",
             "menu": "footer-unternehmen",
             "open_default": false,

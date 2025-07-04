@@ -87,10 +87,10 @@
           "settings": {
             "image": "shopify://shop_images/scene1.jpg",
             "mobile_image": "shopify://shop_images/scene1_mobile.jpg",
-            "title": "Balkonkraftwerk mit Speicher",
+            "title": "Balkon Zonne-energiesysteem met Opslag",
             "description": "",
             "button_title": "Meer informatie",
-            "button_link": "shopify://collections/balkonkraftwerk-mit-speicher"
+            "button_link": "shopify://products/indevolt-bk1600"
           }
         },
         "featured_collection_xmNLUg": {
@@ -247,7 +247,7 @@
       "disabled": true,
       "name": "产品优惠",
       "settings": {
-        "title": "Empfehlungen für den Einstieg"
+        "title": "Flexibele Installatielocaties"
       }
     },
     "flexible_scene_list_AwPzpT": {
@@ -259,7 +259,7 @@
             "image": "shopify://shop_images/flex-scene1.png",
             "mobile_image": "shopify://shop_images/flex-scene1-mobile.png",
             "title": "Balkon",
-            "description": "Den begrenzten Raum optimal nutzen, flexibel und",
+            "description": "Optimaliseer het gebruik van beperkte ruimte, installeer flexibel en eenvoudig.",
             "product_title": "",
             "product_des": "",
             "product_price": "",
@@ -271,8 +271,8 @@
           "settings": {
             "image": "shopify://shop_images/flex-scene2.png",
             "mobile_image": "shopify://shop_images/flex-scene-mobile2.png",
-            "title": "Garten",
-            "description": "Genug Sonnenlicht nutzen, um die beste Leistung zu erzielen.",
+            "title": "Tuin",
+            "description": "Maak gebruik van genoeg zonlicht om de beste prestaties te behalen.",
             "product_title": "",
             "product_des": "",
             "product_price": "",
@@ -284,8 +284,8 @@
           "settings": {
             "image": "shopify://shop_images/flex-scene3.png",
             "mobile_image": "shopify://shop_images/flex-scene3-mobile.png",
-            "title": "Schrägdach",
-            "description": "Durch Schrägdach-Montage lässt sich die Solarstromausbeute um 20% erhöhen!",
+            "title": "Platte dak",
+            "description": "De installatie van zonnepanelen op hellende daken kan de zonne-energieopbrengst met 20% verhogen!",
             "product_title": "",
             "product_des": "",
             "product_price": "",
@@ -297,8 +297,8 @@
           "settings": {
             "image": "shopify://shop_images/flex-scene4.png",
             "mobile_image": "shopify://shop_images/flex-scene4-mobile.png",
-            "title": "Flachdach",
-            "description": "Die Installation von Solarmodulen auf Flachdächern verringert Windwiderstand und Lärm und sorgt für Stabilität.",
+            "title": "Hellend dak",
+            "description": "Het installeren van zonnepanelen op platte daken vermindert de windweerstand en het geluid en zorgt voor stabiliteit.",
             "product_title": "",
             "product_des": "",
             "product_price": "",
@@ -403,11 +403,10 @@
         "card_Nrfwak",
         "card_Be3FxM"
       ],
-      "disabled": true,
       "name": "品牌列表",
       "settings": {
-        "title": "Bekannt aus",
-        "logo_title": "Befürwortet von",
+        "title": "",
+        "logo_title": "Erkenning en Prijzen",
         "logo_pc_image": "shopify://shop_images/logo-list.png",
         "logo_mobile_image": "shopify://shop_images/logo-list-mobile.png"
       }
@@ -513,6 +512,7 @@
         "card_38DYVV",
         "card_jVWgDL"
       ],
+      "disabled": true,
       "name": "评价列表",
       "settings": {
         "title": "Kundenbewertungen"
@@ -525,7 +525,7 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/email.png",
-            "title": "Sende eine E-Mail",
+            "title": "E-mail",
             "content": "<a href=\"mailto:sales@indevolt.com\" alt=\"sales@indevolt.com\">sales@indevolt.com</a>"
           }
         },
@@ -533,7 +533,7 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/iphone.png",
-            "title": "Ruf uns an",
+            "title": "Telefoon",
             "content": "+49 (0)174 3150766"
           }
         }
@@ -544,10 +544,10 @@
       ],
       "name": "联系我们",
       "settings": {
-        "title": "Partnerschaft mit Indevolt",
+        "title": "Neem Contact Met Ons Op",
         "image_pc": "shopify://shop_images/contactus.png",
         "image_mobile": "shopify://shop_images/contactus-mobile.png",
-        "link_title": "Mehr erfahren >",
+        "link_title": "",
         "link_url": "https://de.indevolt.com/pages/partner"
       }
     },
@@ -555,9 +555,9 @@
       "type": "service-info",
       "name": "服务信息",
       "settings": {
-        "title": "Indevolt Vorteile",
-        "image_pc": "shopify://shop_images/service_896480f5-9ff1-42ef-8edb-90066e2bd70a.png",
-        "image_mobile": "shopify://shop_images/service-mobile.png"
+        "title": "Voordelen van Indevolt",
+        "image_pc": "shopify://shop_images/service.png",
+        "image_mobile": "shopify://shop_images/service-mobile_f45d2a52-7bdf-4e60-8647-41fd59463685.png"
       }
     },
     "newsletter_BhHPzj": {
@@ -566,16 +566,16 @@
       "settings": {
         "color_scheme": "scheme-inverse",
         "layout": "vertical",
-        "heading": "20€ Rabatt sichern",
+        "heading": "<strong>20€ korting veiligstellen</strong>",
         "heading_size": "h2",
         "heading_highlight_style": "none",
         "subheading": "",
-        "description": "<p>Jetzt anmelden und 20€ Rabatt sichern.</p>",
+        "description": "<p>Meld je nu aan en veilig 20€ korting.</p>",
         "text_size": "text-base",
         "alignment": "center",
         "design": "design-1",
         "form_width": 500,
-        "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https://de.indevolt.com/policies/privacy-policy\">Datenschutzrichtlinie</a> zu.</p>",
+        "newsletter_term": "<p>Ik stem in met de inhoud van het <a href=\"/nl/policies/privacy-policy\" title=\"/nl/policies/privacy-policy\"><span style=\"text-decoration:underline\">privacybeleid</span></a>.</p>",
         "newsletter_term_size": "text-base",
         "button_style": "btn--primary",
         "padding_top": 50,

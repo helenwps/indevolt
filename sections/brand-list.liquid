@@ -1,7 +1,7 @@
 <style>
-  .section-brand-list{background:#F5F5F5}
+  .section-brand-list{margin-top: 118px;background:#F5F5F5}
   .section-brand-list .product-collection{padding:118px 0px}
-  .brand-main-slider{margin-top:58px;}
+  .brand-main-slider{margin-top:58px;margin-bottom:120px;}
   .brand-main-slider .slick-list { transform: translate3d(0, 0, 0);}
   .brand-main-slider .slick-track {display: flex;gap:16px}
   .brand-main-slider .slide {min-height:388px;max-height:388px;background:#fff;  transition: all 0.3s ease;cursor: pointer;}
@@ -17,19 +17,19 @@
     color: transparent;
     transition: all .4s ease;
   }
-  .logo-title{margin-top:118px}
+  {% comment %} .logo-title{margin-top:118px} {% endcomment %}
   .logo-box{margin-top:58px}
   @media (max-width: 1280px) {
     .brand-main-slider .slide .detail{line-height:26px;font-size:18px}
   }
   @media (max-width: 768px) {
-     .section-brand-list .product-collection{padding:56px 2rem;}
-     .brand-main-slider{margin-top:0px;}
+     .section-brand-list{margin-top:60px}
+     .section-brand-list .product-collection{padding:56px 0rem;}
+     .brand-main-slider{margin-top:0px;margin-bottom:30px}
      .brand-main-slider .slick-track {margin-top:30px;gap:0px}
      .brand-main-slider .slide{min-height:250px;max-height:250px;}
      .brand-main-slider .slide .detail{margin-top:0px;padding:18px 19px;line-height:20px;font-size:14px}
      .slick-dotted .slick-dots{margin-top:0px}
-     .logo-title{margin-top:30px}
      .logo-box{margin:30px 30px 0px 30px}
   }
 </style>
@@ -38,6 +38,7 @@
 %}
 <div class="section section-brand-list">
   <div class="product-collection product-slider-container">
+    {% if section.settings.title !=blank %}
     <h2>
        <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"><span>{{ section.settings.title }}</span></motion-element>
     </h2>
@@ -78,6 +79,7 @@
         </div>
       {% endfor %}
     </div>
+    {% endif %}
      <h2 class="logo-title">
        <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"> <span>{{ section.settings.logo_title }}</span></motion-element>
     </h2>
