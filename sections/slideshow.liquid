@@ -352,12 +352,12 @@
         </div>
       {%- endfor -%}
     </div>
-    {%- if show_dots -%}
+    {%- if show_dots and section.blocks.size > 2 -%}
       <div class="swiper-controls bg-none color-{{ section.blocks.first.settings.color_scheme }}">
         <div class="swiper-pagination swiper-pagination-bullets-animate"></div>
       </div>
         <!-- 新增箭头按钮 -->
-      <button class="swiper-button-prev" aria-label="Previous slide"></button>
+      <button class="swiper-button-prev" aria-label="Previous slide" ></button>
       <button class="swiper-button-next" aria-label="Next slide"></button>
     {%- endif -%}
   </slideshow-component>

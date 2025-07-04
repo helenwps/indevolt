@@ -351,13 +351,21 @@
           </span>
           {%- render 'loading-spinner' -%}
         </button>
- <form method="post" action="/checkout" id="BuyNowForm-{{ section_id }}">
-            <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-            <!-- 可选：数量 -->
-            <input type="hidden" name="quantity" value="1">
-
-         <button
-              id="ProductSubmitButton1-{{ section_id }}"
+        {% comment %} {%- liquid
+          if product.quantity_price_breaks_configured? != true
+            if show_dynamic_checkout
+              echo form | payment_button
+            endif
+          endif
+        -%} {% endcomment %}
+      </div>
+      <div class="product-form__error-message blocks-radius-md alert alert--error" role="alert" hidden></div>
+    {%- endform -%}
+      <form method="post" action="/checkout" id="BuyNowForm-{{ section_id }}">
+        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+        <input type="hidden" name="quantity" value="1">
+        <button
+            id="ProductSubmitButton1-{{ section_id }}"
             type="submit"
               name="checkout"
               class="product-form__submit btn btn--primary"
@@ -369,23 +377,12 @@
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
-                   {{ 'products.product.buy_it_now' | t }}
+                  {{ 'products.product.buy_it_now' | t }}
               {%- endif -%}
             </span>
             {%- render 'loading-spinner' -%}
           </button>
-          </form>
-        {% comment %} {%- liquid
-          if product.quantity_price_breaks_configured? != true
-            if show_dynamic_checkout
-              echo form | payment_button
-            endif
-          endif
-        -%} {% endcomment %}
-      </div>
-      
-      <div class="product-form__error-message blocks-radius-md alert alert--error" role="alert" hidden></div>
-    {%- endform -%}
+      </form>
   </div>
 {%- else -%}
   <div class="product-form">
@@ -403,10 +400,7 @@
 {%- endif -%}
 <script>
   $(document).ready(function () {
-     console.log(1111)
-        {% comment %} console.log(22222,{{section_id}},2222222222) {% endcomment %}
         document.getElementById('ProductSubmitButton1-{{ section_id }}').addEventListener('click', function(e) {
-          console.lgo(123123)
             e.preventDefault();
             var variantId = '{{ product.selected_or_first_available_variant.id }}';
             window.location.href = '/checkout?variant=' + variantId + '&quantity=1';

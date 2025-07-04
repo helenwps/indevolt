@@ -47,7 +47,7 @@
             "content_position": "middle-left",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "SolidFlex 2000 NEW",
+            "title": "SolidFlex 2000 <span>NEW</span>",
             "heading_size": "hd1",
             "subheading": "Sonderangebot:<strong> €899</strong> <span>€1199</span>",
             "description": "<p>Der weltweit erste Balkonkraftwerk-Speicher mit halb-fester Batterie<br/></p>",
@@ -145,6 +145,8 @@
           "type": "card",
           "settings": {
             "product_item": "indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag",
+            "custom_image": "shopify://shop_images/bk1600u1.webp",
+            "mobile_image": "shopify://shop_images/bk1600u1.webp",
             "custom_title": "BK1600 Ultra",
             "custom_describe": "",
             "price": "899.00 €",
@@ -169,6 +171,8 @@
           "type": "card",
           "settings": {
             "product_item": "indevolt-bk1600",
+            "custom_image": "shopify://shop_images/bk1600.webp",
+            "mobile_image": "shopify://shop_images/bk1600.webp",
             "custom_title": "BK1600 ",
             "custom_describe": "",
             "price": "799.00 €",
@@ -240,6 +244,7 @@
         "card_DWmKQB",
         "card_CGAafz"
       ],
+      "disabled": true,
       "name": "产品优惠",
       "settings": {
         "title": "Empfehlungen für den Einstieg"
@@ -398,6 +403,7 @@
         "card_Nrfwak",
         "card_Be3FxM"
       ],
+      "disabled": true,
       "name": "品牌列表",
       "settings": {
         "title": "Bekannt aus",
@@ -440,6 +446,7 @@
         "card_NCXmiD",
         "card_HFmDHA"
       ],
+      "disabled": true,
       "name": "视频列表",
       "settings": {
         "title": "Ausgewählte Videos von Experten"
