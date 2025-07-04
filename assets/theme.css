@@ -2103,6 +2103,7 @@ summary::-webkit-details-marker {
     border-radius: var(--blocks-radius-mobile);
   }
 }
+
 button,
 .btn {
   --buttons-transform-default: capitalize;
@@ -2122,12 +2123,15 @@ button,
   border-radius: var(--buttons-radius, 0);
   padding: 0 var(--buttons-padding);
   height: var(--buttons-height);
-  line-height: 30px;
+  line-height:40px;
   font-family: var(--font-button-family);
   font-weight: var(--font-button-weight);
   letter-spacing: var(--buttons-letter-spacing, 0);
-  text-transform: var(--buttons-transform, var(--buttons-transform-default));
+  /* text-transform: var(--buttons-transform, var(--buttons-transform-default)); */
   box-sizing: border-box;
+}
+@media (max-width:  767.98) {
+  button,.btn { height: 3rem; line-height:30px;}
 }
 button[disabled],
 .btn[disabled] {

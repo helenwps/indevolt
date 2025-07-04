@@ -101,7 +101,7 @@
       %}
       {%- if section.settings.newsletter_term != blank -%}
         <div class="rich-text__text rte {{ section.settings.newsletter_term_size }} check-item">
-          <input id="footer-subscription-email-opt-in" type="checkbox" class="opt-in-checkbox" checked>
+          <input id="footer-subscription-email-opt-in" type="checkbox" class="opt-in-checkbox" required>
           {{ section.settings.newsletter_term }}
         </div>
       {%- endif -%}

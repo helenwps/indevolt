@@ -47,9 +47,9 @@
             "content_position": "middle-left",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "SolidFlex 2000 <span>NEW</span>",
+            "title": "SolidFlex 2000 NEW",
             "heading_size": "hd1",
-            "subheading": "Sonderangebot:<strong> €899</strong> <span>€1199</span>",
+            "subheading": "Sonderangebot:<strong> €899</strong> €1199",
             "description": "<p>Der weltweit erste Balkonkraftwerk-Speicher mit halb-fester Batterie<br/></p>",
             "description_size": "text-base",
             "button_label": "Mehr erfahren",
@@ -89,18 +89,18 @@
             "mobile_image": "shopify://shop_images/scene1_mobile.jpg",
             "title": "Balkon Zonne-energiesysteem met Opslag",
             "description": "",
-            "button_title": "Meer informatie",
+            "button_title": "Mehr erfahren",
             "button_link": "shopify://products/indevolt-bk1600"
           }
         },
         "featured_collection_xmNLUg": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/scene3.jpg",
-            "mobile_image": "shopify://shop_images/scene3_mobile.jpg",
+            "image": "shopify://shop_images/scene2.jpg",
+            "mobile_image": "shopify://shop_images/scene2_mobile.jpg",
             "title": "Balkon Zonne-energiesysteem",
             "description": "",
-            "button_title": "Meer informatie",
+            "button_title": "Mehr erfahren",
             "button_link": "shopify://collections/balkon-zonne-energiesysteem"
           }
         },
@@ -111,18 +111,18 @@
             "mobile_image": "shopify://shop_images/scene3_mobile.jpg",
             "title": "Zonnepaneel",
             "description": "",
-            "button_title": "Meer informatie",
+            "button_title": "Mehr erfahren",
             "button_link": "shopify://collections/zonnepaneel"
           }
         },
         "featured_collection_wBeLed": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/scene4.png",
+            "image": "shopify://shop_images/scene4.jpg",
             "mobile_image": "shopify://shop_images/scene4_mobile.jpg",
             "title": "Accessoires",
             "description": "",
-            "button_title": "Meer informatie",
+            "button_title": "Mehr erfahren",
             "button_link": "shopify://collections/accessoires"
           }
         }
@@ -145,9 +145,9 @@
           "type": "card",
           "settings": {
             "product_item": "indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag",
-            "custom_image": "shopify://shop_images/bk1600u1.webp",
+            "custom_image": "shopify://shop_images/ultra1.png",
             "mobile_image": "shopify://shop_images/bk1600u1.webp",
-            "custom_title": "BK1600 Ultra",
+            "custom_title": "Indevolt BK1600 Ultra",
             "custom_describe": "",
             "price": "899.00 €",
             "original": "",
@@ -159,6 +159,8 @@
           "type": "card",
           "settings": {
             "product_item": "indevolt-slimme-meter",
+            "custom_image": "shopify://shop_images/Rectangle.png",
+            "mobile_image": "shopify://shop_images/Rectangle.png",
             "custom_title": "P1 Meter Reader",
             "custom_describe": "",
             "price": "29.00 €",
@@ -171,8 +173,8 @@
           "type": "card",
           "settings": {
             "product_item": "indevolt-bk1600",
-            "custom_image": "shopify://shop_images/bk1600.webp",
-            "mobile_image": "shopify://shop_images/bk1600.webp",
+            "custom_image": "shopify://shop_images/bk1600.png",
+            "mobile_image": "shopify://shop_images/bk1600.png",
             "custom_title": "BK1600 ",
             "custom_describe": "",
             "price": "799.00 €",
@@ -185,6 +187,8 @@
           "type": "card",
           "settings": {
             "product_item": "indevolt-flexibel-zonnepaneel-225w-4-pack",
+            "custom_image": "shopify://shop_images/solar.png",
+            "mobile_image": "shopify://shop_images/solar.png",
             "custom_title": "Flexibel Zonnepaneel (225W, 4-pack)",
             "custom_describe": "",
             "price": "659.00 €",
@@ -202,7 +206,7 @@
       ],
       "name": "产品推荐",
       "settings": {
-        "title": "Produktempfehlung"
+        "title": "Productaanbeveling"
       }
     },
     "product_coupon_KwiHgH": {
@@ -314,7 +318,7 @@
       ],
       "name": "自定义场景列表",
       "settings": {
-        "title": "Flexibler Installationsort"
+        "title": "Flexibele Plaatsen"
       }
     },
     "brand_list_Bb7KJE": {
