@@ -121,10 +121,10 @@
         "padding_bottom": 100
       }
     },
-    "image_with_text_TdUHat": {
+    "image_with_text_kPUheB": {
       "type": "image-with-text",
       "blocks": {
-        "heading_FGLAWK": {
+        "heading_cndngj": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Voorkom Energieverspilling door Real-time Monitoring</strong>",
@@ -132,7 +132,7 @@
             "heading_highlight_style": "none"
           }
         },
-        "text_qGJAAQ": {
+        "text_wk6n73": {
           "type": "text",
           "settings": {
             "text": "<p>De intelligente slimme meter beschikt over een geïntegreerde chip die het energieverbruik in real-time registreert en binnen 5 seconden reageert op uw aanpassingen.</p>",
@@ -141,8 +141,8 @@
         }
       },
       "block_order": [
-        "heading_FGLAWK",
-        "text_qGJAAQ"
+        "heading_cndngj",
+        "text_wk6n73"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -162,10 +162,10 @@
         "divider_width": "fixed"
       }
     },
-    "image_with_text_eHCzCx": {
+    "image_with_text_3MQzPU": {
       "type": "image-with-text",
       "blocks": {
-        "heading_iEcwt8": {
+        "heading_ENp7Ew": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Eenvoudige Installatie</strong>",
@@ -173,17 +173,17 @@
             "heading_highlight_style": "none"
           }
         },
-        "text_zJC4Pp": {
+        "text_bHb4UC": {
           "type": "text",
           "settings": {
-            "text": "<p>Bevestig de meter eenvoudig aan de rail en u bent klaar om te gaan! Geschikt voor de meeste toepassingen.<br/><br/></p>",
+            "text": "<p>Bevestig de meter eenvoudig aan de rail en u bent klaar om te gaan! Geschikt voor de meeste toepassingen.</p>",
             "text_size": "text-lg"
           }
         }
       },
       "block_order": [
-        "heading_iEcwt8",
-        "text_zJC4Pp"
+        "heading_ENp7Ew",
+        "text_bHb4UC"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -203,10 +203,10 @@
         "divider_width": "fixed"
       }
     },
-    "image_with_text_43dyVe": {
+    "image_with_text_L67EDY": {
       "type": "image-with-text",
       "blocks": {
-        "heading_FagBHP": {
+        "heading_gUm6AL": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Wi-Fi en Bluetooth Connectiviteit</strong>",
@@ -214,7 +214,7 @@
             "heading_highlight_style": "none"
           }
         },
-        "text_Jem7Qj": {
+        "text_wRteTP": {
           "type": "text",
           "settings": {
             "text": "<p>Kies tussen twee verbindingsopties en verbeter het signaal met de antenne-extensie.</p>",
@@ -223,8 +223,8 @@
         }
       },
       "block_order": [
-        "heading_FagBHP",
-        "text_Jem7Qj"
+        "heading_gUm6AL",
+        "text_wRteTP"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -244,10 +244,10 @@
         "divider_width": "fixed"
       }
     },
-    "image_with_text_yc6aVx": {
+    "image_with_text_Q6YctJ": {
       "type": "image-with-text",
       "blocks": {
-        "heading_jMcpUG": {
+        "heading_WAyFph": {
           "type": "heading",
           "settings": {
             "heading": "Beheer Energie met de Smart App",
@@ -255,17 +255,17 @@
             "heading_highlight_style": "none"
           }
         },
-        "text_nAXGHR": {
+        "text_UrCiRD": {
           "type": "text",
           "settings": {
-            "text": "<p>Volg uw energieverbruik in real-time via de Energy Ease-app en activeer alleen de stroomvoorziening die u nodig heeft.<br/><br/></p>",
+            "text": "<p>Volg uw energieverbruik in real-time via de Energy Ease-app en activeer alleen de stroomvoorziening die u nodig heeft.</p>",
             "text_size": "text-lg"
           }
         }
       },
       "block_order": [
-        "heading_jMcpUG",
-        "text_nAXGHR"
+        "heading_WAyFph",
+        "text_UrCiRD"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -292,11 +292,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/smartmeter-simg1.png",
+            "image": "shopify://shop_images/solarpanel1.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Indevolt Slimme Meter</h5>",
+            "text": "<p> Flexibles Solarpanel ×4</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -308,11 +308,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/smartmeter-simg2.png",
+            "image": "shopify://shop_images/solarpanel2.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Huidige transformator</h5>",
+            "text": "<h5>Solarkabel ×2</h5>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -324,7 +324,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/smartmeter-simg3.jpg",
+            "image": "shopify://shop_images/solarpanel3.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
@@ -335,18 +335,33 @@
             "button_link": "",
             "mobile_layout": "inherit"
           }
+        },
+        "column_kLXYPz": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image_width": "medium",
+            "title": "Column",
+            "heading_size": "h4",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--underline",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
         }
       },
       "block_order": [
         "column_ppme79",
         "column_6eYcFq",
-        "column_6mMR7m"
+        "column_6mMR7m",
+        "column_kLXYPz"
       ],
-      "custom_css": [],
       "settings": {
         "color_scheme": "",
-        "heading": "Lieferumfang",
-        "heading_size": "h1",
+        "heading": "Leveringsomvang",
+        "heading_size": "hd2",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
@@ -362,10 +377,10 @@
         "divider_width": "fixed"
       }
     },
-    "parameter_gkgTje": {
+    "parameter_MCPY6c": {
       "type": "parameter",
       "blocks": {
-        "card_nAKkKd": {
+        "card_LYWhYC": {
           "type": "card",
           "settings": {
             "title": "Productmodel",
@@ -373,7 +388,7 @@
             "note": ""
           }
         },
-        "card_c8XKAL": {
+        "card_8bwHK3": {
           "type": "card",
           "settings": {
             "title": "Connectiviteit",
@@ -381,7 +396,7 @@
             "note": ""
           }
         },
-        "card_zi4fW9": {
+        "card_mP8iNt": {
           "type": "card",
           "settings": {
             "title": "Technische parameters",
@@ -389,7 +404,7 @@
             "note": ""
           }
         },
-        "card_xDEwTq": {
+        "card_Fhrd9a": {
           "type": "card",
           "settings": {
             "title": "Bedrijfstemperatuur",
@@ -397,7 +412,7 @@
             "note": ""
           }
         },
-        "card_4kqzc8": {
+        "card_jBnG3t": {
           "type": "card",
           "settings": {
             "title": "Meetnauwkeurigheid",
@@ -405,7 +420,7 @@
             "note": ""
           }
         },
-        "card_gpcA3a": {
+        "card_LW3bBH": {
           "type": "card",
           "settings": {
             "title": "Compatibiliteit",
@@ -415,47 +430,16 @@
         }
       },
       "block_order": [
-        "card_nAKkKd",
-        "card_c8XKAL",
-        "card_zi4fW9",
-        "card_xDEwTq",
-        "card_4kqzc8",
-        "card_gpcA3a"
+        "card_LYWhYC",
+        "card_8bwHK3",
+        "card_mP8iNt",
+        "card_Fhrd9a",
+        "card_jBnG3t",
+        "card_LW3bBH"
       ],
       "name": "参数列表",
       "settings": {
         "title": "Technische Gegevens"
-      }
-    },
-    "download_iTycjN": {
-      "type": "download",
-      "blocks": {
-        "card_Mn8GWF": {
-          "type": "card",
-          "settings": {
-            "title": "Indevolt Smart Meter(SMD1)",
-            "content": "Instructiehandleiding",
-            "date": "2024-01-21",
-            "pdf_file": "https://cdn.shopify.com/s/files/1/0596/6367/9587/files/SMD1_20241212173533.pdf?v=1733996174"
-          }
-        },
-        "card_pibFU9": {
-          "type": "card",
-          "settings": {
-            "title": "Indevolt Smart Meter(SMD3)",
-            "content": "Instructiehandleiding",
-            "date": "2024-01-21",
-            "pdf_file": "https://cdn.shopify.com/s/files/1/0596/6367/9587/files/SMD3_20241212173854.pdf?v=1733996358"
-          }
-        }
-      },
-      "block_order": [
-        "card_Mn8GWF",
-        "card_pibFU9"
-      ],
-      "name": "下载列表",
-      "settings": {
-        "title": "Downloads"
       }
     },
     "related-products": {
@@ -486,13 +470,12 @@
   "order": [
     "breadcrumbs",
     "main",
-    "image_with_text_TdUHat",
-    "image_with_text_eHCzCx",
-    "image_with_text_43dyVe",
-    "image_with_text_yc6aVx",
+    "image_with_text_kPUheB",
+    "image_with_text_3MQzPU",
+    "image_with_text_L67EDY",
+    "image_with_text_Q6YctJ",
     "multicolumn_Mxt4d3",
-    "parameter_gkgTje",
-    "download_iTycjN",
+    "parameter_MCPY6c",
     "related-products"
   ]
 }

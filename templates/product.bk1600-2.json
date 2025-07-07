@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -136,7 +145,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Met de Indevolt BK1600 kun je de energie die je zonnepanelen opwekken efficiënt omzetten in wisselstroom voor je huis. Overtollige energie wordt opgeslagen in batterijen, zodat je op elk moment, zelfs 's nachts, toegang hebt tot een betrouwbare energiebron. Op deze manier kun je je huis 24/7 van zonne-energie voorzien, je afhankelijkheid van het energienet verlagen en kosten besparen.<br/><br/></p>",
-            "text_size": "text-base"
+            "text_size": "text-lg"
           }
         }
       },
@@ -736,22 +745,102 @@
           "type": "card",
           "settings": {
             "title": "Nominale Capaciteit",
-            "content": "Veiligheid EMC/Normen: IEC62619, UN38.3, IEC/EN 62109-1, IEC/EN 62109-2, IEC/EN 61000-6-1, IEC/EN 61000-6-2",
+            "content": "1636 Wh",
             "note": ""
           }
         },
         "card_4UmxE3": {
           "type": "card",
           "settings": {
-            "title": "Afmetingen",
-            "content": "Veiligheid EMC/Normen: IEC62619, UN38.3, IEC/EN 62109-1, IEC/EN 62109-2, IEC/EN 61000-6-1, IEC/EN 61000-6-2",
+            "title": "Bedrijfstemperatuur",
+            "content": "-20~45℃",
             "note": ""
           }
         },
         "card_AeqKFh": {
           "type": "card",
           "settings": {
-            "title": "Afmetingen",
+            "title": "Type Batterij",
+            "content": "LifePO4",
+            "note": ""
+          }
+        },
+        "card_3kUp9y": {
+          "type": "card",
+          "settings": {
+            "title": "Levensduur",
+            "content": "Levensduur",
+            "note": ""
+          }
+        },
+        "card_TKPDxL": {
+          "type": "card",
+          "settings": {
+            "title": "Beschermingsklasse",
+            "content": "IP54",
+            "note": ""
+          }
+        },
+        "card_yiAJqq": {
+          "type": "card",
+          "settings": {
+            "title": "Garantietermijn",
+            "content": "10 jaar ",
+            "note": ""
+          }
+        },
+        "card_RiTXBw": {
+          "type": "card",
+          "settings": {
+            "title": "Aanslusstype",
+            "content": "Bluetooth, 2.4GHz Wi-Fi, 4G",
+            "note": ""
+          }
+        },
+        "card_mKYzaT": {
+          "type": "card",
+          "settings": {
+            "title": "AC Energie (Off-Grid)",
+            "content": "1200W (Max. 1800W, 15s)",
+            "note": ""
+          }
+        },
+        "card_bnWnJR": {
+          "type": "card",
+          "settings": {
+            "title": "Levenscyclus",
+            "content": "6000 cycli tot 80% capaciteit",
+            "note": ""
+          }
+        },
+        "card_dnqMW9": {
+          "type": "card",
+          "settings": {
+            "title": "Bedrijfsvoltage",
+            "content": "10 ~ 60V DC ",
+            "note": ""
+          }
+        },
+        "card_kF43AQ": {
+          "type": "card",
+          "settings": {
+            "title": "Aangesloten AC Aansluiting",
+            "content": "800W ",
+            "note": ""
+          }
+        },
+        "card_DUf7jM": {
+          "type": "card",
+          "settings": {
+            "title": "MPPT Invoer",
+            "content": "1200W (2 MPPT, elk 600W)",
+            "note": ""
+          }
+        },
+        "card_KbgYFR": {
+          "type": "card",
+          "settings": {
+            "title": "Naleving Certificering",
             "content": "Veiligheid EMC/Normen: IEC62619, UN38.3, IEC/EN 62109-1, IEC/EN 62109-2, IEC/EN 61000-6-1, IEC/EN 61000-6-2",
             "note": "Netcode: Netinvoeding VDE4105"
           }
@@ -762,7 +851,17 @@
         "card_UgaPTr",
         "card_4hVx9E",
         "card_4UmxE3",
-        "card_AeqKFh"
+        "card_AeqKFh",
+        "card_3kUp9y",
+        "card_TKPDxL",
+        "card_yiAJqq",
+        "card_RiTXBw",
+        "card_mKYzaT",
+        "card_bnWnJR",
+        "card_dnqMW9",
+        "card_kF43AQ",
+        "card_DUf7jM",
+        "card_KbgYFR"
       ],
       "name": "参数列表",
       "settings": {
@@ -775,15 +874,25 @@
         "card_dGmGcB": {
           "type": "card",
           "settings": {
-            "title": "Indevolt Flexible Solar Panel (225W, 4-pack)",
+            "title": "Indevolt BK1600",
             "content": "Gebruiksaanwijzing",
-            "date": "2024-01-01",
-            "pdf_file": ""
+            "date": "2024-01-21",
+            "pdf_file": "https://cdn.shopify.com/s/files/1/0596/6367/9587/files/Indevolt_BK1600.pdf?v=1737610402"
+          }
+        },
+        "card_PNiXXA": {
+          "type": "card",
+          "settings": {
+            "title": "Indevolt BK1600",
+            "content": "Datasheet",
+            "date": "2025-03-05",
+            "pdf_file": "https://cdn.shopify.com/s/files/1/0596/6367/9587/files/Indevolt_BK1600_Datenblatt.pdf?v=1741153227"
           }
         }
       },
       "block_order": [
-        "card_dGmGcB"
+        "card_dGmGcB",
+        "card_PNiXXA"
       ],
       "name": "下载列表",
       "settings": {
@@ -904,7 +1013,7 @@
         "collapsible_item_hfpgfN",
         "collapsible_item_tc7P6R"
       ],
-      "name": "t:sections.collapsible-tabs.presets.name",
+      "name": "FAQ",
       "settings": {
         "container": "fixed",
         "color_scheme": "",

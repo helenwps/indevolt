@@ -121,34 +121,34 @@
         "padding_bottom": 100
       }
     },
-    "image_with_text_TdUHat": {
+    "image_with_text_kPUheB": {
       "type": "image-with-text",
       "blocks": {
-        "heading_FGLAWK": {
+        "heading_cndngj": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Voorkom Energieverspilling door Real-time Monitoring</strong>",
+            "heading": "<strong>Energie op aanvraag</strong>",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
-        "text_qGJAAQ": {
+        "text_wk6n73": {
           "type": "text",
           "settings": {
-            "text": "<p>De intelligente slimme meter beschikt over een geïntegreerde chip die het energieverbruik in real-time registreert en binnen 5 seconden reageert op uw aanpassingen.</p>",
+            "text": "<p>Monitoring en controle met de slimme stekker.<br/><br/></p>",
             "text_size": "text-lg"
           }
         }
       },
       "block_order": [
-        "heading_FGLAWK",
-        "text_qGJAAQ"
+        "heading_cndngj",
+        "text_wk6n73"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/smartmeter-img1.jpg",
+        "image": "shopify://shop_images/smartplug-img1.jpg",
         "image_height": "adapt",
         "layout": "text_first",
         "desktop_content_position": "center",
@@ -162,34 +162,34 @@
         "divider_width": "fixed"
       }
     },
-    "image_with_text_eHCzCx": {
+    "image_with_text_3MQzPU": {
       "type": "image-with-text",
       "blocks": {
-        "heading_iEcwt8": {
+        "heading_ENp7Ew": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Eenvoudige Installatie</strong>",
+            "heading": "<strong>Plug & Play</strong>",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
-        "text_zJC4Pp": {
+        "text_bHb4UC": {
           "type": "text",
           "settings": {
-            "text": "<p>Bevestig de meter eenvoudig aan de rail en u bent klaar om te gaan! Geschikt voor de meeste toepassingen.<br/><br/></p>",
+            "text": "<p>Bespaar op dure elektricien kosten. Terwijl slimme meters installatie op een rail vereisen, is de slimme stekker binnen slechts 3 seconden gebruiksklaar.</p>",
             "text_size": "text-lg"
           }
         }
       },
       "block_order": [
-        "heading_iEcwt8",
-        "text_zJC4Pp"
+        "heading_ENp7Ew",
+        "text_bHb4UC"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/smartmeter-img2.jpg",
+        "image": "shopify://shop_images/smartplug-img2.jpg",
         "image_height": "adapt",
         "layout": "image_first",
         "desktop_content_position": "center",
@@ -203,77 +203,78 @@
         "divider_width": "fixed"
       }
     },
-    "image_with_text_43dyVe": {
-      "type": "image-with-text",
+    "rich_text_CqTqgF": {
+      "type": "rich-text",
       "blocks": {
-        "heading_FagBHP": {
+        "heading_6d3En4": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Wi-Fi en Bluetooth Connectiviteit</strong>",
+            "heading": "<strong>Intelligente afstandsbediening & energiebewaking</strong>",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_R3yQHa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stel een Wi-Fi-verbinding in en pas uw energie gemakkelijk vanaf elke locatie aan. De slimme stekker registreert automatisch het realtime energieverbruik en helpt energieverspilling te voorkomen.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6d3En4",
+        "text_R3yQHa"
+      ],
+      "name": "标题1",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "service_info_Fhqx97": {
+      "type": "service-info",
+      "name": "图片1",
+      "settings": {
+        "title": "",
+        "image_pc": "shopify://shop_images/smartplug-img3.jpg",
+        "image_mobile": "shopify://shop_images/smartplug-img3.jpg"
+      }
+    },
+    "image_with_text_L67EDY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gUm6AL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Krachtige functies in een compact ontwerp</strong>",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
-        "text_Jem7Qj": {
+        "text_wRteTP": {
           "type": "text",
           "settings": {
-            "text": "<p>Kies tussen twee verbindingsopties en verbeter het signaal met de antenne-extensie.</p>",
+            "text": "<p>De brandwerende PC-behuizing is bestand tegen vet, zuur en alkali. Met een maximaal ingangsvermogen van 3680 W zorgt deze voor uw veiligheid.</p>",
             "text_size": "text-lg"
           }
         }
       },
       "block_order": [
-        "heading_FagBHP",
-        "text_Jem7Qj"
+        "heading_gUm6AL",
+        "text_wRteTP"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/smartmeter-img3.jpg",
+        "image": "shopify://shop_images/smartplug-img4.jpg",
         "image_height": "adapt",
         "layout": "text_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "image_with_text_yc6aVx": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_jMcpUG": {
-          "type": "heading",
-          "settings": {
-            "heading": "Beheer Energie met de Smart App",
-            "heading_size": "hd2",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_nAXGHR": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Volg uw energieverbruik in real-time via de Energy Ease-app en activeer alleen de stroomvoorziening die u nodig heeft.<br/><br/></p>",
-            "text_size": "text-lg"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jMcpUG",
-        "text_nAXGHR"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image": "shopify://shop_images/smartmeter-img4.jpg",
-        "image_height": "adapt",
-        "layout": "image_first",
         "desktop_content_position": "center",
         "desktop_content_alignment": "left",
         "enable_parallax": false,
@@ -292,11 +293,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/smartmeter-simg1.png",
+            "image": "shopify://shop_images/smarplug-simg1.png",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Indevolt Slimme Meter</h5>",
+            "text": "<h5>Slimme Stekker</h5>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -308,27 +309,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/smartmeter-simg2.png",
+            "image": "shopify://shop_images/smartplug-simg2.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Huidige transformator</h5>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_6mMR7m": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/smartmeter-simg3.jpg",
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<h5>Kabelbinder ×24</h5>",
+            "text": "<h5>Gebruikershandleiding</h5>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -339,14 +324,12 @@
       },
       "block_order": [
         "column_ppme79",
-        "column_6eYcFq",
-        "column_6mMR7m"
+        "column_6eYcFq"
       ],
-      "custom_css": [],
       "settings": {
         "color_scheme": "",
-        "heading": "Lieferumfang",
-        "heading_size": "h1",
+        "heading": "Leveringsomvang",
+        "heading_size": "hd2",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
@@ -362,18 +345,34 @@
         "divider_width": "fixed"
       }
     },
-    "parameter_gkgTje": {
+    "parameter_MCPY6c": {
       "type": "parameter",
       "blocks": {
-        "card_nAKkKd": {
+        "card_LYWhYC": {
           "type": "card",
           "settings": {
             "title": "Productmodel",
-            "content": "SMD3",
+            "content": "SP16",
             "note": ""
           }
         },
-        "card_c8XKAL": {
+        "card_8bwHK3": {
+          "type": "card",
+          "settings": {
+            "title": "TechnicTechnische parameters",
+            "content": "110-250V 50/60Hz 16A, MAX 3680Wal parameters",
+            "note": ""
+          }
+        },
+        "card_mP8iNt": {
+          "type": "card",
+          "settings": {
+            "title": "Bedrijfstemperatuur",
+            "content": "-20℃ tot 50℃",
+            "note": ""
+          }
+        },
+        "card_Fhrd9a": {
           "type": "card",
           "settings": {
             "title": "Connectiviteit",
@@ -381,31 +380,15 @@
             "note": ""
           }
         },
-        "card_zi4fW9": {
+        "card_jBnG3t": {
           "type": "card",
           "settings": {
-            "title": "Technische parameters",
-            "content": "3x230/400V, 50/60Hz",
+            "title": "Installatie",
+            "content": "Plug & Play",
             "note": ""
           }
         },
-        "card_xDEwTq": {
-          "type": "card",
-          "settings": {
-            "title": "Bedrijfstemperatuur",
-            "content": "-40℃ tot 70℃",
-            "note": ""
-          }
-        },
-        "card_4kqzc8": {
-          "type": "card",
-          "settings": {
-            "title": "Meetnauwkeurigheid",
-            "content": "Actief ±1%, Reactief ±2%",
-            "note": ""
-          }
-        },
-        "card_gpcA3a": {
+        "card_LW3bBH": {
           "type": "card",
           "settings": {
             "title": "Compatibiliteit",
@@ -415,43 +398,33 @@
         }
       },
       "block_order": [
-        "card_nAKkKd",
-        "card_c8XKAL",
-        "card_zi4fW9",
-        "card_xDEwTq",
-        "card_4kqzc8",
-        "card_gpcA3a"
+        "card_LYWhYC",
+        "card_8bwHK3",
+        "card_mP8iNt",
+        "card_Fhrd9a",
+        "card_jBnG3t",
+        "card_LW3bBH"
       ],
       "name": "参数列表",
       "settings": {
         "title": "Technische Gegevens"
       }
     },
-    "download_iTycjN": {
+    "download_KmMViJ": {
       "type": "download",
       "blocks": {
-        "card_Mn8GWF": {
+        "card_g9kb84": {
           "type": "card",
           "settings": {
-            "title": "Indevolt Smart Meter(SMD1)",
+            "title": "Indevolt Smart Plug SP16",
             "content": "Instructiehandleiding",
             "date": "2024-01-21",
-            "pdf_file": "https://cdn.shopify.com/s/files/1/0596/6367/9587/files/SMD1_20241212173533.pdf?v=1733996174"
-          }
-        },
-        "card_pibFU9": {
-          "type": "card",
-          "settings": {
-            "title": "Indevolt Smart Meter(SMD3)",
-            "content": "Instructiehandleiding",
-            "date": "2024-01-21",
-            "pdf_file": "https://cdn.shopify.com/s/files/1/0596/6367/9587/files/SMD3_20241212173854.pdf?v=1733996358"
+            "pdf_file": "https://cdn.shopify.com/s/files/1/0596/6367/9587/files/Indevolt_Smart_Plug_SP16.pdf?v=1736134981"
           }
         }
       },
       "block_order": [
-        "card_Mn8GWF",
-        "card_pibFU9"
+        "card_g9kb84"
       ],
       "name": "下载列表",
       "settings": {
@@ -486,13 +459,14 @@
   "order": [
     "breadcrumbs",
     "main",
-    "image_with_text_TdUHat",
-    "image_with_text_eHCzCx",
-    "image_with_text_43dyVe",
-    "image_with_text_yc6aVx",
+    "image_with_text_kPUheB",
+    "image_with_text_3MQzPU",
+    "rich_text_CqTqgF",
+    "service_info_Fhqx97",
+    "image_with_text_L67EDY",
     "multicolumn_Mxt4d3",
-    "parameter_gkgTje",
-    "download_iTycjN",
+    "parameter_MCPY6c",
+    "download_KmMViJ",
     "related-products"
   ]
 }
