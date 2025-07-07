@@ -50,14 +50,15 @@
   }
   .content-wrapper {
     position: absolute;
+    width:100%;
     top: 50px;
     left: 50%;
+    padding:0px 20px;
     transform: translate(-50%, 0%);
     display: flex;
     flex-flow: column;
     text-align: center;
     z-index: 2;
-    white-space: nowrap;
   }
   .content-wrapper h2,.content-wrapper h4{
     line-height: 22px;

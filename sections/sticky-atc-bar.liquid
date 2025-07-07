@@ -47,6 +47,7 @@
         </div>
       </div>
       {%- assign product_form_id = 'product-form-' | append: section.id -%}
+      <div class="btn-wrapper">
       {%- form 'product',
         product,
         id: product_form_id,
@@ -146,23 +147,6 @@
               </span>
               {% render 'loading-spinner' %}
             </button>
-             <button
-              type="submit"
-              name="add"
-              class="product-form__submit btn {% if show_dynamic_checkout_buttons and product.selling_plan_groups == empty %}btn--secondary{% else %}btn--primary{% endif %} w-full"
-              {% if product.selected_or_first_available_variant.available == false %}
-                disabled
-              {% endif %}
-            >
-              <span>
-                {%- if product.selected_or_first_available_variant.available -%}
-                    {{ 'products.product.buy_it_now' | t }}
-                {%- else -%}
-                  {{ 'products.product.sold_out' | t }}
-                {%- endif -%}
-              </span>
-              {% render 'loading-spinner' %}
-            </button>
           {% endif %}
           {%- if product.quantity_price_breaks_configured? != true -%}
             {%- if show_dynamic_checkout_buttons -%}
@@ -173,6 +157,29 @@
           {%- endif -%}
         </div>
       {%- endform -%}
+       <form method="post" action="/checkout" id="BuyNowForm-{{ section_id }}">
+        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+        <input type="hidden" name="quantity" value="1">
+        <button
+            id="ProductSubmitButton1-{{ section_id }}"
+            type="submit"
+              name="checkout"
+              class="product-form__submit btn btn--primary"
+            {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
+              disabled
+            {% endif %}
+          >
+            <span>
+              {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
+                {{ 'products.product.sold_out' | t }}
+              {%- else -%}
+                  {{ 'products.product.buy_it_now' | t }}
+              {%- endif -%}
+            </span>
+            {%- render 'loading-spinner' -%}
+          </button>
+      </form>
+      </div>
     </sticky-atc-bar>
     <script type="application/json">
       {{ product.variants | json }}

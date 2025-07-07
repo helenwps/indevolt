@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -54,7 +45,7 @@
             "heading": "Power Genius GmbH",
             "heading_size": "h4",
             "image_width": 150,
-            "text": "<p>Email: <a href=\"mailto:service@indevolt.com\">service@indevolt.com</a></p>",
+            "text": "<p>Email: <a href=\"mailto:service@indevolt.com\">service@indevolt.com<\/a><\/p>",
             "button_label": "",
             "button_link": "",
             "open_default": false,
@@ -68,8 +59,8 @@
             "block_width": 25,
             "heading": "20€ Rabatt sichern",
             "heading_size": "h2",
-            "newsletter_description": "<p>Jetzt anmelden und 20€ Rabatt sichern.<br/></p>",
-            "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https://de.indevolt.com/policies/privacy-policy\">Datenschutzrichtlinie</a> zu</p>",
+            "newsletter_description": "<p>Jetzt anmelden und 20€ Rabatt sichern.<br\/><\/p>",
+            "newsletter_term": "<p>Ich stimme dem Inhalt der <a href=\"https:\/\/de.indevolt.com\/policies\/privacy-policy\">Datenschutzrichtlinie<\/a> zu<\/p>",
             "newsletter_text_alignment": "left",
             "form_width": 465,
             "order_first": true

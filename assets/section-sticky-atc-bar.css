@@ -13,6 +13,7 @@ body.sticky-atc-bar-enabled {
   transition: cubic-bezier(0.4, 0, 0.2, 1) 0.3s all;
   transform: translate3d(0, 100%, 0);
 }
+.btn-wrapper{display: flex;gap:10px}
 .sticky-atc-bar--show {
   transform: translate3d(0, 0, 0);
   bottom: var(--mobile-sticky-bar-height, 0px);
