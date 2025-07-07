@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -112,168 +121,183 @@
         "padding_bottom": 100
       }
     },
-    "image_with_text_kPUheB": {
-      "type": "image-with-text",
+    "service_info_DP9iQP": {
+      "type": "service-info",
+      "name": "产品图片1",
+      "settings": {
+        "title": "",
+        "image_pc": "shopify://shop_images/first-img.png",
+        "image_mobile": "shopify://shop_images/first-img.png"
+      }
+    },
+    "rich_text_7rBwdd": {
+      "type": "rich-text",
       "blocks": {
-        "heading_cndngj": {
+        "heading_cUbnWW": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Voorkom Energieverspilling door Real-time Monitoring</strong>",
-            "heading_size": "hd2",
+            "heading": "Ultraleicht und schnell zu installieren",
+            "heading_size": "h1",
             "heading_highlight_style": "none"
           }
         },
-        "text_wk6n73": {
+        "text_FFzGhL": {
           "type": "text",
           "settings": {
-            "text": "<p>De intelligente slimme meter beschikt over een geïntegreerde chip die het energieverbruik in real-time registreert en binnen 5 seconden reageert op uw aanpassingen.</p>",
+            "text": "<p>Leichtes und kompaktes Design：Mit einem ultraleichten Gewicht von 4,3kg, was 70% leichter ist als PV-Paneele aus Glas mit derselben Leistung, sodass es leicht zu transportieren und zu installieren ist.<br/><br/></p>",
             "text_size": "text-base"
           }
         }
       },
       "block_order": [
-        "heading_cndngj",
-        "text_wk6n73"
+        "heading_cUbnWW",
+        "text_FFzGhL"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "custom_css": [
+        ".rich-text__heading {max-width: 65rem; margin: 0 auto;}"
+      ],
+      "name": "标题2",
       "settings": {
-        "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/smartmeter-img1.jpg",
-        "image_height": "adapt",
-        "layout": "text_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
+        "content_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "service_info_cKmYiw": {
+      "type": "service-info",
+      "disabled": true,
+      "name": "产品图片2",
+      "settings": {
+        "title": ""
+      }
+    },
+    "rich_text_3nVrdN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TAGtiA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Flexibel für unterschiedliche Oberflächen</strong>",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_t3EAEx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Flexible Solarmodule, die um 213° gebogen werden können. Du kannst das Solarpanel überall anbringen – auf runden Balkonen, gewölbten Wänden oder sogar auf dem Dach von Wohnmobilen.<br/><br/></p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TAGtiA",
+        "text_t3EAEx"
+      ],
+      "name": "标题3",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
     },
-    "image_with_text_3MQzPU": {
-      "type": "image-with-text",
+    "service_info_gMHMj4": {
+      "type": "service-info",
+      "name": "产品图片3",
+      "settings": {
+        "title": "",
+        "image_pc": "shopify://shop_images/second-img.jpg",
+        "image_mobile": "shopify://shop_images/second-img.jpg"
+      }
+    },
+    "rich_text_Lf7VjA": {
+      "type": "rich-text",
       "blocks": {
-        "heading_ENp7Ew": {
+        "heading_GjKP7X": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Eenvoudige Installatie</strong>",
-            "heading_size": "hd2",
+            "heading": "<strong>25% hohe Solarumwandlungsrate</strong>",
+            "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
         },
-        "text_bHb4UC": {
+        "text_PUUeJV": {
           "type": "text",
           "settings": {
-            "text": "<p>Bevestig de meter eenvoudig aan de rail en u bent klaar om te gaan! Geschikt voor de meeste toepassingen.</p>",
+            "text": "<p>Flexible Solarmodule nutzen den Balkonbereich mit 2 x 225W Solarmodulen voll aus, um Strom zu erzeugen. Die Umwandlungsrate beträgt bis zu 25%, was für das Leben zu Hause und unerwartete Stromausfälle sehr gut geeignet ist.<br/><br/></p>",
             "text_size": "text-base"
           }
         }
       },
       "block_order": [
-        "heading_ENp7Ew",
-        "text_bHb4UC"
+        "heading_GjKP7X",
+        "text_PUUeJV"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "标题4",
       "settings": {
-        "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/smartmeter-img2.jpg",
-        "image_height": "adapt",
-        "layout": "image_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
+        "content_alignment": "center",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
     },
-    "image_with_text_L67EDY": {
-      "type": "image-with-text",
+    "service_info_N6QfNp": {
+      "type": "service-info",
+      "name": "产品图片4",
+      "settings": {
+        "title": "",
+        "image_pc": "shopify://shop_images/third-img.jpg",
+        "image_mobile": "shopify://shop_images/third-img.jpg"
+      }
+    },
+    "rich_text_kfArr6": {
+      "type": "rich-text",
       "blocks": {
-        "heading_gUm6AL": {
+        "heading_VDcEgE": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Wi-Fi en Bluetooth Connectiviteit</strong>",
-            "heading_size": "hd2",
+            "heading": "<strong>Super wetterbeständig und wasserdicht</strong>",
+            "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
         },
-        "text_wRteTP": {
+        "text_3ka4Ke": {
           "type": "text",
           "settings": {
-            "text": "<p>Kies tussen twee verbindingsopties en verbeter het signaal met de antenne-extensie.</p>",
+            "text": "<p>Wasserdicht gemäß IP68, hält rauen Bedingungen von -20°C bis 65°C stand. Gewährleistet die elektrische Sicherheitsleistung von Photovoltaikmodulen und -systemen.<br/><br/></p>",
             "text_size": "text-base"
           }
         }
       },
       "block_order": [
-        "heading_gUm6AL",
-        "text_wRteTP"
+        "heading_VDcEgE",
+        "text_3ka4Ke"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "标题5",
       "settings": {
-        "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/smartmeter-img3.jpg",
-        "image_height": "adapt",
-        "layout": "text_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
+        "content_alignment": "center",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
     },
-    "image_with_text_Q6YctJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_WAyFph": {
-          "type": "heading",
-          "settings": {
-            "heading": "Beheer Energie met de Smart App",
-            "heading_size": "hd2",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_UrCiRD": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Volg uw energieverbruik in real-time via de Energy Ease-app en activeer alleen de stroomvoorziening die u nodig heeft.</p>",
-            "text_size": "text-base"
-          }
-        }
-      },
-      "block_order": [
-        "heading_WAyFph",
-        "text_UrCiRD"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
+    "service_info_qmKjLc": {
+      "type": "service-info",
+      "name": "产品图片5",
       "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image": "shopify://shop_images/smartmeter-img4.jpg",
-        "image_height": "adapt",
-        "layout": "image_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
+        "title": "",
+        "image_pc": "shopify://shop_images/four-img.jpg",
+        "image_mobile": "shopify://shop_images/four-img.jpg"
       }
     },
     "multicolumn_Mxt4d3": {
@@ -327,16 +351,17 @@
             "mobile_layout": "inherit"
           }
         },
-        "column_kLXYPz": {
+        "column_Lix6qc": {
           "type": "column",
           "settings": {
             "show_image": true,
-            "image_width": "medium",
-            "title": "Column",
+            "image": "shopify://shop_images/solarpanel4.jpg",
+            "image_width": "extra-large",
+            "title": "",
             "heading_size": "h4",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<h5>Kabelbinder ×24</h5>",
             "text_size": "text-base",
-            "button_label": "Button label",
+            "button_label": "",
             "button_style": "btn--underline",
             "button_link": "",
             "mobile_layout": "inherit"
@@ -347,12 +372,13 @@
         "column_ppme79",
         "column_6eYcFq",
         "column_6mMR7m",
-        "column_kLXYPz"
+        "column_Lix6qc"
       ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "",
-        "heading": "Leveringsomvang",
-        "heading_size": "hd2",
+        "heading": "Lieferumfang",
+        "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
@@ -366,71 +392,6 @@
         "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "fixed"
-      }
-    },
-    "parameter_MCPY6c": {
-      "type": "parameter",
-      "blocks": {
-        "card_LYWhYC": {
-          "type": "card",
-          "settings": {
-            "title": "Productmodel",
-            "content": "SMD3",
-            "note": ""
-          }
-        },
-        "card_8bwHK3": {
-          "type": "card",
-          "settings": {
-            "title": "Connectiviteit",
-            "content": "Bluetooth en Wi-Fi",
-            "note": ""
-          }
-        },
-        "card_mP8iNt": {
-          "type": "card",
-          "settings": {
-            "title": "Technische parameters",
-            "content": "3x230/400V, 50/60Hz",
-            "note": ""
-          }
-        },
-        "card_Fhrd9a": {
-          "type": "card",
-          "settings": {
-            "title": "Bedrijfstemperatuur",
-            "content": "-40℃ tot 70℃",
-            "note": ""
-          }
-        },
-        "card_jBnG3t": {
-          "type": "card",
-          "settings": {
-            "title": "Meetnauwkeurigheid",
-            "content": "Actief ±1%, Reactief ±2%",
-            "note": ""
-          }
-        },
-        "card_LW3bBH": {
-          "type": "card",
-          "settings": {
-            "title": "Compatibiliteit",
-            "content": "Indevolt BK1600",
-            "note": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_LYWhYC",
-        "card_8bwHK3",
-        "card_mP8iNt",
-        "card_Fhrd9a",
-        "card_jBnG3t",
-        "card_LW3bBH"
-      ],
-      "name": "参数列表",
-      "settings": {
-        "title": "Technische Gegevens"
       }
     },
     "related-products": {
@@ -461,12 +422,16 @@
   "order": [
     "breadcrumbs",
     "main",
-    "image_with_text_kPUheB",
-    "image_with_text_3MQzPU",
-    "image_with_text_L67EDY",
-    "image_with_text_Q6YctJ",
+    "service_info_DP9iQP",
+    "rich_text_7rBwdd",
+    "service_info_cKmYiw",
+    "rich_text_3nVrdN",
+    "service_info_gMHMj4",
+    "rich_text_Lf7VjA",
+    "service_info_N6QfNp",
+    "rich_text_kfArr6",
+    "service_info_qmKjLc",
     "multicolumn_Mxt4d3",
-    "parameter_MCPY6c",
     "related-products"
   ]
 }

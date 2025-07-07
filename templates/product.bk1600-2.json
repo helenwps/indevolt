@@ -59,9 +59,9 @@
             "title_size": "text-base",
             "icon_1": "certificate",
             "heading_1": "Orders over $50 ship free",
-            "content_image_1": "shopify:\/\/shop_images\/card.png",
+            "content_image_1": "shopify://shop_images/card.png",
             "icon_2": "truck",
-            "content_image_2": "shopify:\/\/shop_images\/track.png",
+            "content_image_2": "shopify://shop_images/track.png",
             "heading_2": "30 day returns",
             "icon_3": "star-four",
             "heading_3": ""
@@ -117,8 +117,8 @@
       "name": "产品图片1",
       "settings": {
         "title": "",
-        "image_pc": "shopify:\/\/shop_images\/bk1600-img1.png",
-        "image_mobile": "shopify:\/\/shop_images\/bk1600-img-mobile1.png"
+        "image_pc": "shopify://shop_images/bk1600-img1.png",
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile1.png"
       }
     },
     "rich_text_7rBwdd": {
@@ -135,7 +135,7 @@
         "text_FFzGhL": {
           "type": "text",
           "settings": {
-            "text": "<p>Met de Indevolt BK1600 kun je de energie die je zonnepanelen opwekken efficiënt omzetten in wisselstroom voor je huis. Overtollige energie wordt opgeslagen in batterijen, zodat je op elk moment, zelfs 's nachts, toegang hebt tot een betrouwbare energiebron. Op deze manier kun je je huis 24\/7 van zonne-energie voorzien, je afhankelijkheid van het energienet verlagen en kosten besparen.<br\/><br\/><\/p>",
+            "text": "<p>Met de Indevolt BK1600 kun je de energie die je zonnepanelen opwekken efficiënt omzetten in wisselstroom voor je huis. Overtollige energie wordt opgeslagen in batterijen, zodat je op elk moment, zelfs 's nachts, toegang hebt tot een betrouwbare energiebron. Op deze manier kun je je huis 24/7 van zonne-energie voorzien, je afhankelijkheid van het energienet verlagen en kosten besparen.<br/><br/></p>",
             "text_size": "text-base"
           }
         }
@@ -162,8 +162,8 @@
       "name": "t:sections.video.name",
       "settings": {
         "container": "fixed",
-        "video": "shopify:\/\/files\/videos\/bk1600-video2.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/bk1600-video2.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_ratio": "adapt",
         "description": "",
         "enable_video_autoplay": true,
@@ -176,21 +176,13 @@
         "divider_width": "fixed"
       }
     },
-    "service_info_cKmYiw": {
-      "type": "service-info",
-      "disabled": true,
-      "name": "产品图片2",
-      "settings": {
-        "title": ""
-      }
-    },
     "image_with_text_GgWtdp": {
       "type": "image-with-text",
       "blocks": {
         "heading_63cgQW": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Compact en krachtig<\/strong>",
+            "heading": "<strong>Compact en krachtig</strong>",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
@@ -198,7 +190,7 @@
         "text_dJmGfA": {
           "type": "text",
           "settings": {
-            "text": "<p>Technologie voor naadloos stapelen, compacte architectuur, vermindert volume en gewicht met 30% vergeleken met vergelijkbare producten.<br\/><br\/><\/p>",
+            "text": "<p>Technologie voor naadloos stapelen, compacte architectuur, vermindert volume en gewicht met 30% vergeleken met vergelijkbare producten.<br/><br/></p>",
             "text_size": "text-lg"
           }
         }
@@ -211,7 +203,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify:\/\/shop_images\/bk1600-small1.jpg",
+        "image": "shopify://shop_images/bk1600-small1.jpg",
         "image_height": "adapt",
         "layout": "image_first",
         "desktop_content_position": "center",
@@ -238,7 +230,7 @@
         "heading_qQJhGR": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Bidirectionele Oplaadtechnologie<\/strong>",
+            "heading": "<strong>Bidirectionele Oplaadtechnologie</strong>",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
@@ -246,7 +238,7 @@
         "text_iBQFQM": {
           "type": "text",
           "settings": {
-            "text": "<p>De BK1600 stelt je niet alleen in staat om energie van zonne-energie op te slaan, maar ook om energie van het net te onttrekken. Wanneer er weinig zonlicht is, kan de ingebouwde bidirectionele omvormer het net gebruiken om de batterij van de BK1600 op te laden, overbelasting (SOC te laag) te voorkomen en het energieniveau op peil te houden.<br\/><br\/><\/p>",
+            "text": "<p>De BK1600 stelt je niet alleen in staat om energie van zonne-energie op te slaan, maar ook om energie van het net te onttrekken. Wanneer er weinig zonlicht is, kan de ingebouwde bidirectionele omvormer het net gebruiken om de batterij van de BK1600 op te laden, overbelasting (SOC te laag) te voorkomen en het energieniveau op peil te houden.<br/><br/></p>",
             "text_size": "text-lg"
           }
         }
@@ -259,9 +251,9 @@
       "name": "t:sections.video-with-text.name",
       "settings": {
         "color_scheme": "scheme-1",
-        "video": "shopify:\/\/files\/videos\/bk1600-small2.mp4",
+        "video": "shopify://files/videos/bk1600-small2.mp4",
         "video_url": "",
-        "video_ratio": "4\/3",
+        "video_ratio": "4/3",
         "description": "",
         "enable_video_autoplay": true,
         "enable_video_looping": true,
@@ -288,7 +280,7 @@
         "heading_dgrNLC": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Lichtgewicht en Draagbaar: Plug-and-Play<\/strong>",
+            "heading": "<strong>Lichtgewicht en Draagbaar: Plug-and-Play</strong>",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
@@ -296,7 +288,7 @@
         "text_Df6BzV": {
           "type": "text",
           "settings": {
-            "text": "<p>De BK1600 is niet alleen extreem licht, maar ook ongelooflijk eenvoudig te installeren! Je kunt het zelf gemakkelijk opzetten zonder professionele hulp. Dit betekent: tijd besparen en geld besparen!<br\/><br\/><\/p>",
+            "text": "<p>De BK1600 is niet alleen extreem licht, maar ook ongelooflijk eenvoudig te installeren! Je kunt het zelf gemakkelijk opzetten zonder professionele hulp. Dit betekent: tijd besparen en geld besparen!<br/><br/></p>",
             "text_size": "text-lg"
           }
         }
@@ -309,9 +301,9 @@
       "name": "t:sections.video-with-text.name",
       "settings": {
         "color_scheme": "scheme-1",
-        "video": "shopify:\/\/files\/videos\/bk1600-small3.mp4",
+        "video": "shopify://files/videos/bk1600-small3.mp4",
         "video_url": "",
-        "video_ratio": "4\/3",
+        "video_ratio": "4/3",
         "description": "",
         "enable_video_autoplay": true,
         "enable_video_looping": true,
@@ -331,7 +323,7 @@
         "heading_RBt8QG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Geavanceerde topologie                              van vermogenselektronica<\/strong>",
+            "heading": "<strong>Geavanceerde topologie                              van vermogenselektronica</strong>",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
@@ -339,7 +331,7 @@
         "text_hdPXjb": {
           "type": "text",
           "settings": {
-            "text": "<p>Technologie voor naadloos stapelen, compacte architectuur, vermindert volume en gewicht met 30% vergeleken met vergelijkbare producten.<br\/><br\/><\/p>",
+            "text": "<p>Technologie voor naadloos stapelen, compacte architectuur, vermindert volume en gewicht met 30% vergeleken met vergelijkbare producten.<br/><br/></p>",
             "text_size": "text-lg"
           }
         }
@@ -352,7 +344,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify:\/\/shop_images\/bk1600-small4.jpg",
+        "image": "shopify://shop_images/bk1600-small4.jpg",
         "image_height": "adapt",
         "layout": "text_first",
         "desktop_content_position": "center",
@@ -372,7 +364,7 @@
         "heading_XLg844": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Communicatie<\/strong>",
+            "heading": "<strong>Communicatie</strong>",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
@@ -380,7 +372,7 @@
         "text_VMtdqg": {
           "type": "text",
           "settings": {
-            "text": "<p>Lokale netwerkverbinding: Het BK1600 zonne-energiesysteem verstuurt gegevens via Wi-Fi of 4G naar de cloud en ondersteunt lokale bediening via Bluetooth, allemaal zonder afhankelijkheid van de cloud. API's zijn beschikbaar voor naadloze integratie met smart home-platforms van derden.<br\/><br\/><\/p>",
+            "text": "<p>Lokale netwerkverbinding: Het BK1600 zonne-energiesysteem verstuurt gegevens via Wi-Fi of 4G naar de cloud en ondersteunt lokale bediening via Bluetooth, allemaal zonder afhankelijkheid van de cloud. API's zijn beschikbaar voor naadloze integratie met smart home-platforms van derden.<br/><br/></p>",
             "text_size": "text-lg"
           }
         }
@@ -393,7 +385,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify:\/\/shop_images\/bk1600-small5.png",
+        "image": "shopify://shop_images/bk1600-small5.png",
         "image_height": "adapt",
         "layout": "image_first",
         "desktop_content_position": "center",
@@ -413,7 +405,7 @@
         "heading_TAGtiA": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>5 Flexibele Oplaadmethoden<\/strong>",
+            "heading": "<strong>5 Flexibele Oplaadmethoden</strong>",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -421,7 +413,7 @@
         "text_t3EAEx": {
           "type": "text",
           "settings": {
-            "text": "<p>Profiteer van een stabiele energiebron via wisselstroombronnen die ervoor zorgen dat je systeem altijd voldoende energie heeft, zelfs bij zwak zonlicht of slecht weer. Diverse oplaadopties voldoen aan verschillende oplaadbehoeften in verschillende scenario's.<br\/><br\/><\/p>",
+            "text": "<p>Profiteer van een stabiele energiebron via wisselstroombronnen die ervoor zorgen dat je systeem altijd voldoende energie heeft, zelfs bij zwak zonlicht of slecht weer. Diverse oplaadopties voldoen aan verschillende oplaadbehoeften in verschillende scenario's.<br/><br/></p>",
             "text_size": "text-lg"
           }
         }
@@ -445,8 +437,8 @@
       "name": "产品图片3",
       "settings": {
         "title": "",
-        "image_pc": "shopify:\/\/shop_images\/bk1600-img5.png",
-        "image_mobile": "shopify:\/\/shop_images\/bk1600-img-mobile5.png"
+        "image_pc": "shopify://shop_images/bk1600-img5.png",
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile5.png"
       }
     },
     "rich_text_Lf7VjA": {
@@ -463,8 +455,8 @@
         "text_PUUeJV": {
           "type": "text",
           "settings": {
-            "text": "<p>Wanneer de elektriciteitsmeter detecteert dat overtollige energie teruggeleverd kan worden aan het net, slaat de BK1600-energieopslag deze energie op in de batterij. Deze intelligente regeling maximaliseert de energie-efficiëntie en helpt je moeiteloos energieverspilling te voorkomen.<br\/><br\/><\/p>",
-            "text_size": "text-base"
+            "text": "<p>Wanneer de elektriciteitsmeter detecteert dat overtollige energie teruggeleverd kan worden aan het net, slaat de BK1600-energieopslag deze energie op in de batterij. Deze intelligente regeling maximaliseert de energie-efficiëntie en helpt je moeiteloos energieverspilling te voorkomen.<br/><br/></p>",
+            "text_size": "text-lg"
           }
         }
       },
@@ -487,8 +479,8 @@
       "name": "产品图片4",
       "settings": {
         "title": "",
-        "image_pc": "shopify:\/\/shop_images\/bk1600-img4.png",
-        "image_mobile": "shopify:\/\/shop_images\/bk1600-img-mobile4.png"
+        "image_pc": "shopify://shop_images/bk1600-img4.png",
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile4.png"
       }
     },
     "rich_text_kfArr6": {
@@ -497,7 +489,7 @@
         "heading_VDcEgE": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Dynamisch Elektriciteitstarief<\/strong>",
+            "heading": "<strong>Dynamisch Elektriciteitstarief</strong>",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -505,8 +497,8 @@
         "text_3ka4Ke": {
           "type": "text",
           "settings": {
-            "text": "<p>Met de Indevolt-app ontvang je real-time meldingen over elektriciteitsprijzen en kun je eenvoudig je oplaad- en ontlaadplannen beheren. Stel je doelprijs in, en het systeem laadt automatisch op bij lage prijzen en ontlaadt bij hoge prijzen. Bespaar geld en verdien extra inkomen!<br\/><br\/><\/p>",
-            "text_size": "text-base"
+            "text": "<p>Met de Indevolt-app ontvang je real-time meldingen over elektriciteitsprijzen en kun je eenvoudig je oplaad- en ontlaadplannen beheren. Stel je doelprijs in, en het systeem laadt automatisch op bij lage prijzen en ontlaadt bij hoge prijzen. Bespaar geld en verdien extra inkomen!<br/><br/></p>",
+            "text_size": "text-lg"
           }
         }
       },
@@ -529,8 +521,8 @@
       "name": "t:sections.video.name",
       "settings": {
         "container": "fixed",
-        "video": "shopify:\/\/files\/videos\/bk1600-video3.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/bk1600-video3.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_ratio": "adapt",
         "description": "",
         "enable_video_autoplay": true,
@@ -557,8 +549,8 @@
         "text_nXppkq": {
           "type": "text",
           "settings": {
-            "text": "<p>De BK1600 biedt uitstekende flexibiliteit en kan eenvoudig worden uitgebreid tot maximaal 3 eenheden. Dit biedt u een indrukwekkende opslagcapaciteit van 4908Wh. Met een krachtige output van 3600W kan het moeiteloos meerdere apparaten tegelijk van stroom voorzien. Bovendien kunt u tot 3600W aan zonne-energie invoeren om optimaal gebruik te maken van de voordelen van hernieuwbare energie.<br\/><br\/><\/p>",
-            "text_size": "text-base"
+            "text": "<p>Indevolt Smart AI ontwikkelt op maat gemaakte energiebeheeroplossingen op basis van nauwkeurige big data-analyse. Door historische elektriciteitsverbruiksdata te gebruiken en rekening te houden met weerfactoren, voorspelt onze technologie je uurlijkse elektriciteitsverbruik voor de dag. Tegelijkertijd schatten we de verwachte zonne-energieopbrengst op basis van de weersvoorspelling en de prestaties van je fotovoltaïsche systeem. Dankzij de integratie van dynamische elektriciteitsprijzen en actuele batterijstatusinformatie kun je de kosten per kilowattuur in real-time volgen. Op deze manier bepalen we automatisch de optimale oplaad- en ontlaadstrategieën om je energiekosten te maximaliseren en energiefacturering te optimaliseren.<br/><br/></p>",
+            "text_size": "text-lg"
           }
         }
       },
@@ -566,7 +558,7 @@
         "heading_EPq7Hd",
         "text_nXppkq"
       ],
-      "name": "标题5",
+      "name": "标题6",
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
@@ -578,11 +570,53 @@
     },
     "service_info_qmKjLc": {
       "type": "service-info",
-      "name": "产品图片5",
+      "name": "产品图片6",
       "settings": {
         "title": "",
-        "image_pc": "shopify:\/\/shop_images\/bk1600-img6.png",
-        "image_mobile": "shopify:\/\/shop_images\/bk1600-img-mobile6.png"
+        "image_pc": "shopify://shop_images/bk1600-img7.png",
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile7.png"
+      }
+    },
+    "rich_text_TpBtPC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Q8aW7a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Parallelle Uitbreiding",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_LW8jJi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>De BK1600 biedt uitstekende flexibiliteit en kan eenvoudig worden uitgebreid tot maximaal 3 eenheden. Dit biedt u een indrukwekkende opslagcapaciteit van 4908Wh. Met een krachtige output van 3600W kan het moeiteloos meerdere apparaten tegelijk van stroom voorzien. Bovendien kunt u tot 3600W aan zonne-energie invoeren om optimaal gebruik te maken van de voordelen van hernieuwbare energie.</p>",
+            "text_size": "text-lg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q8aW7a",
+        "text_LW8jJi"
+      ],
+      "name": "标题7",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "service_info_QCUkaq": {
+      "type": "service-info",
+      "name": "产品图片7",
+      "settings": {
+        "title": "",
+        "image_pc": "shopify://shop_images/bk1600-img6.png",
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile6.png"
       }
     },
     "multicolumn_Mxt4d3": {
@@ -592,11 +626,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify:\/\/shop_images\/solarpanel1.jpg",
+            "image": "shopify://shop_images/solarpanel1.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<p> Flexibles Solarpanel ×4<\/p>",
+            "text": "<p> Flexibles Solarpanel ×4</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -608,11 +642,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify:\/\/shop_images\/solarpanel2.jpg",
+            "image": "shopify://shop_images/solarpanel2.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Solarkabel ×2<\/h5>",
+            "text": "<h5>Solarkabel ×2</h5>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -624,11 +658,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify:\/\/shop_images\/solarpanel3.jpg",
+            "image": "shopify://shop_images/solarpanel3.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Kabelbinder ×24<\/h5>",
+            "text": "<h5>Kabelbinder ×24</h5>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -640,11 +674,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify:\/\/shop_images\/solarpanel4.jpg",
+            "image": "shopify://shop_images/solarpanel4.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Kabelbinder ×24<\/h5>",
+            "text": "<h5>Kabelbinder ×24</h5>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -686,39 +720,39 @@
           "type": "card",
           "settings": {
             "title": "Afmetingen",
-            "content": "Veiligheid EMC\/Normen: IEC62619, UN38.3, IEC\/EN 62109-1, IEC\/EN 62109-2, IEC\/EN 61000-6-1, IEC\/EN 61000-6-2",
-            "note": "Netcode: Netinvoeding VDE4105"
+            "content": "300x215x250 mm",
+            "note": ""
           }
         },
         "card_UgaPTr": {
           "type": "card",
           "settings": {
-            "title": "Afmetingen",
-            "content": "Veiligheid EMC\/Normen: IEC62619, UN38.3, IEC\/EN 62109-1, IEC\/EN 62109-2, IEC\/EN 61000-6-1, IEC\/EN 61000-6-2",
-            "note": "Netcode: Netinvoeding VDE4105"
+            "title": "Gewicht",
+            "content": "16 kg",
+            "note": ""
           }
         },
         "card_4hVx9E": {
           "type": "card",
           "settings": {
-            "title": "Afmetingen",
-            "content": "Veiligheid EMC\/Normen: IEC62619, UN38.3, IEC\/EN 62109-1, IEC\/EN 62109-2, IEC\/EN 61000-6-1, IEC\/EN 61000-6-2",
-            "note": "Netcode: Netinvoeding VDE4105"
+            "title": "Nominale Capaciteit",
+            "content": "Veiligheid EMC/Normen: IEC62619, UN38.3, IEC/EN 62109-1, IEC/EN 62109-2, IEC/EN 61000-6-1, IEC/EN 61000-6-2",
+            "note": ""
           }
         },
         "card_4UmxE3": {
           "type": "card",
           "settings": {
             "title": "Afmetingen",
-            "content": "Veiligheid EMC\/Normen: IEC62619, UN38.3, IEC\/EN 62109-1, IEC\/EN 62109-2, IEC\/EN 61000-6-1, IEC\/EN 61000-6-2",
-            "note": "Netcode: Netinvoeding VDE4105"
+            "content": "Veiligheid EMC/Normen: IEC62619, UN38.3, IEC/EN 62109-1, IEC/EN 62109-2, IEC/EN 61000-6-1, IEC/EN 61000-6-2",
+            "note": ""
           }
         },
         "card_AeqKFh": {
           "type": "card",
           "settings": {
             "title": "Afmetingen",
-            "content": "Veiligheid EMC\/Normen: IEC62619, UN38.3, IEC\/EN 62109-1, IEC\/EN 62109-2, IEC\/EN 61000-6-1, IEC\/EN 61000-6-2",
+            "content": "Veiligheid EMC/Normen: IEC62619, UN38.3, IEC/EN 62109-1, IEC/EN 62109-2, IEC/EN 61000-6-1, IEC/EN 61000-6-2",
             "note": "Netcode: Netinvoeding VDE4105"
           }
         }
@@ -764,7 +798,7 @@
           "settings": {
             "icon": "none",
             "heading": "Hoeveel fotovoltaïsche ingangen kunnen op de Indevolt BK1600 worden aangesloten en wat is het maximale ondersteunende fotovoltaïsche oplaadvermogen?",
-            "content": "<p>De Indevolt BK1600 heeft 2 fotovoltaïsche ingangsinterfaces en ondersteunt tot 1200W fotovoltaïsch oplaadvermogen.<br\/><br\/><\/p>",
+            "content": "<p>De Indevolt BK1600 heeft 2 fotovoltaïsche ingangsinterfaces en ondersteunt tot 1200W fotovoltaïsch oplaadvermogen.<br/><br/></p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -775,7 +809,7 @@
           "settings": {
             "icon": "none",
             "heading": "Welke specificaties van fotovoltaïsche modules worden aanbevolen voor de Indevolt BK1600?",
-            "content": "<p>a. We raden aan dat het stroomverbruik van de fotovoltaïsche module voor elke MPPT tussen 350 en 600W ligt.b. De open-circuit spanning van de fotovoltaïsche modules mag niet hoger zijn dan 60V.<\/p>",
+            "content": "<p>a. We raden aan dat het stroomverbruik van de fotovoltaïsche module voor elke MPPT tussen 350 en 600W ligt.b. De open-circuit spanning van de fotovoltaïsche modules mag niet hoger zijn dan 60V.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -786,7 +820,7 @@
           "settings": {
             "icon": "none",
             "heading": "Kan de Indevolt BK1600 de batterij opladen via het huishoudelijk elektriciteitsnet?",
-            "content": "<p>Ja, je kunt het apparaat opladen wanneer de elektriciteitsprijzen laag zijn en het gebruiken om te ontladen wanneer de prijzen hoog zijn, waardoor je bespaart op je elektriciteitsrekening. We raden aan het net te gebruiken om het apparaat goed op te laden wanneer de batterijcapaciteit laag is (bijv. minder dan 10%) en de fotovoltaïsche prestaties slecht zijn.<\/p>",
+            "content": "<p>Ja, je kunt het apparaat opladen wanneer de elektriciteitsprijzen laag zijn en het gebruiken om te ontladen wanneer de prijzen hoog zijn, waardoor je bespaart op je elektriciteitsrekening. We raden aan het net te gebruiken om het apparaat goed op te laden wanneer de batterijcapaciteit laag is (bijv. minder dan 10%) en de fotovoltaïsche prestaties slecht zijn.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -797,7 +831,7 @@
           "settings": {
             "icon": "none",
             "heading": "Kan ik de Indevolt BK1600 buiten gebruiken?",
-            "content": "<p>Ja, hoewel we aanraden om het apparaat niet buiten te plaatsen om langdurige blootstelling aan zonlicht of regen te vermijden, wat de levensduur kan verkorten. Je kunt het onder een dakoverstek of onder fotovoltaïsche modules plaatsen.<\/p>",
+            "content": "<p>Ja, hoewel we aanraden om het apparaat niet buiten te plaatsen om langdurige blootstelling aan zonlicht of regen te vermijden, wat de levensduur kan verkorten. Je kunt het onder een dakoverstek of onder fotovoltaïsche modules plaatsen.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -808,7 +842,7 @@
           "settings": {
             "icon": "none",
             "heading": "De behuizing van de Indevolt BK1600 wordt heet na langdurig gebruik. Is dit normaal?",
-            "content": "<p>Een lichte temperatuurstijging na langdurige werking is normaal en heeft geen invloed op de levensduur van het apparaat. Bovendien heeft de Indevolt BK1600 een overtemperatuurbeschermingsfunctie om een veilige werking te waarborgen. Kinderen en huisdieren moeten contact vermijden tijdens de werking van de Indevolt BK1600.<\/p>",
+            "content": "<p>Een lichte temperatuurstijging na langdurige werking is normaal en heeft geen invloed op de levensduur van het apparaat. Bovendien heeft de Indevolt BK1600 een overtemperatuurbeschermingsfunctie om een veilige werking te waarborgen. Kinderen en huisdieren moeten contact vermijden tijdens de werking van de Indevolt BK1600.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -819,7 +853,7 @@
           "settings": {
             "icon": "none",
             "heading": "Hoe levert de Indevolt BK1600 stroom aan huishoudelijke apparaten na een stroomuitval?",
-            "content": "<p>De Indevolt BK1600 heeft een onafhankelijke off-grid uitgang. Je kunt de voedingskabel direct op de Indevolt BK1600 aansluiten, die 1200W wisselstroom gedurende 15 seconden kan leveren en een piekuitgang van 1800W.<\/p>",
+            "content": "<p>De Indevolt BK1600 heeft een onafhankelijke off-grid uitgang. Je kunt de voedingskabel direct op de Indevolt BK1600 aansluiten, die 1200W wisselstroom gedurende 15 seconden kan leveren en een piekuitgang van 1800W.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -830,7 +864,7 @@
           "settings": {
             "icon": "none",
             "heading": "Welke communicatieprotocollen ondersteunt de Indevolt BK1600?",
-            "content": "<p>a. Ondersteunt Wi-Fi 2.4 GHz-verbinding voor koppeling aan je huisinternet.b. 4G-netwerk: Als er geen Wi-Fi-omgeving is, ondersteunt het apparaat zelf 4G-module-netwerken, waardoor je het apparaat nog steeds op afstand kunt bedienen en informatie kunt weergeven.c. Lokale Bluetooth-communicatie stelt je in staat om via de app verbinding te maken met het apparaat en de status in real-time te controleren.<br\/><br\/><\/p>",
+            "content": "<p>a. Ondersteunt Wi-Fi 2.4 GHz-verbinding voor koppeling aan je huisinternet.b. 4G-netwerk: Als er geen Wi-Fi-omgeving is, ondersteunt het apparaat zelf 4G-module-netwerken, waardoor je het apparaat nog steeds op afstand kunt bedienen en informatie kunt weergeven.c. Lokale Bluetooth-communicatie stelt je in staat om via de app verbinding te maken met het apparaat en de status in real-time te controleren.<br/><br/></p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -841,7 +875,7 @@
           "settings": {
             "icon": "none",
             "heading": "Hoe schakelt de Indevolt BK1600 tussen het netverbonden huishoudelijke modus en de draagbare modus?",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.<\/p>",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -852,7 +886,7 @@
           "settings": {
             "icon": "none",
             "heading": "Wanneer wordt de batterij van de Indevolt BK1600 opgeladen en ontladen?",
-            "content": "<p>Opladen of ontladen kan plaatsvinden in de volgende twee situaties:  <\/p><p>    a. Wanneer de fotovoltaïsche ingang de output van de bidirectionele omvormer overschrijdt, zal de batterij opladen. Anders zal de batterij ontladen.  <\/p><p>    b. Opladen is gebaseerd op de elektriciteitsprijsinformatie op het moment van gebruik: als de prijs laag is, wordt er opgeladen, en als de prijs hoog is, wordt er ontladen. discharge.<br\/><br\/><\/p>",
+            "content": "<p>Opladen of ontladen kan plaatsvinden in de volgende twee situaties:  </p><p>    a. Wanneer de fotovoltaïsche ingang de output van de bidirectionele omvormer overschrijdt, zal de batterij opladen. Anders zal de batterij ontladen.  </p><p>    b. Opladen is gebaseerd op de elektriciteitsprijsinformatie op het moment van gebruik: als de prijs laag is, wordt er opgeladen, en als de prijs hoog is, wordt er ontladen. discharge.<br/><br/></p>",
             "custom_liquid": "",
             "page": "",
             "open": false
@@ -899,6 +933,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "heading": "You may also like",
@@ -928,7 +963,6 @@
     "service_info_DP9iQP",
     "rich_text_7rBwdd",
     "video_7jgXKh",
-    "service_info_cKmYiw",
     "image_with_text_GgWtdp",
     "video_with_text_E7pGig",
     "video_with_text_cG3BwC",
@@ -942,6 +976,8 @@
     "video_j68Qrd",
     "rich_text_HjJg6e",
     "service_info_qmKjLc",
+    "rich_text_TpBtPC",
+    "service_info_QCUkaq",
     "multicolumn_Mxt4d3",
     "parameter_3ctt3j",
     "download_TPWq6m",
