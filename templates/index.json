@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_q3U4Jn": {
@@ -8,8 +17,8 @@
           "disabled": true,
           "settings": {
             "color_scheme": "scheme-1",
-            "background": "shopify:\/\/shop_images\/banner_active.jpg",
-            "background_mobile": "shopify:\/\/shop_images\/banner_active_mobile.jpg",
+            "background": "shopify://shop_images/banner_active.jpg",
+            "background_mobile": "shopify://shop_images/banner_active_mobile.jpg",
             "image_overlay_opacity": 0,
             "show_content_in_container": true,
             "content_position": "middle-left",
@@ -18,10 +27,10 @@
             "title": "Jahresmitte-Sale Upgrade für grüne Energie",
             "heading_size": "hd1",
             "subheading": "Bis zu 44% Rabatt",
-            "description": "<p>12. Juni - 27. Juni<\/p>",
+            "description": "<p>12. Juni - 27. Juni</p>",
             "description_size": "text-base",
             "button_label": "Mehr erfahren",
-            "button_link": "https:\/\/de.indevolt.com\/pages\/jahresmitte-sale",
+            "button_link": "https://de.indevolt.com/pages/jahresmitte-sale",
             "button_style": "btn--primary"
           }
         },
@@ -29,22 +38,22 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-1",
-            "background": "shopify:\/\/shop_images\/banner2.jpg",
-            "background_mobile": "shopify:\/\/shop_images\/banner2_mobile.jpg",
-            "brand_logo_image1": "shopify:\/\/shop_images\/brand_logo1.png",
-            "brand_logo_image2": "shopify:\/\/shop_images\/brand_logo2.png",
+            "background": "shopify://shop_images/banner2.jpg",
+            "background_mobile": "shopify://shop_images/banner2_mobile.jpg",
+            "brand_logo_image1": "shopify://shop_images/brand_logo1.png",
+            "brand_logo_image2": "shopify://shop_images/brand_logo2.png",
             "image_overlay_opacity": 0,
             "show_content_in_container": true,
             "content_position": "middle-left",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "SolidFlex 2000 <span>NEW<\/span>",
+            "title": "SolidFlex 2000 <span>NEW</span>",
             "heading_size": "hd1",
-            "subheading": "Sonderangebot:<strong> €899<\/strong> <span>€1199<\/span>",
-            "description": "<p>Der weltweit erste Balkonkraftwerk-Speicher mit halb-fester Batterie<br\/><\/p>",
+            "subheading": "Sonderangebot:<strong> €899</strong> <span>€1199</span>",
+            "description": "<p>Der weltweit erste Balkonkraftwerk-Speicher mit halb-fester Batterie<br/></p>",
             "description_size": "text-base",
             "button_label": "Mehr erfahren",
-            "button_link": "https:\/\/de.indevolt.com\/products\/indevolt-sf2000",
+            "button_link": "https://de.indevolt.com/products/indevolt-sf2000",
             "button_style": "btn--primary"
           }
         }
@@ -76,45 +85,45 @@
         "featured_collection_weNg9r": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/scene1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/scene1_mobile.jpg",
+            "image": "shopify://shop_images/scene1.jpg",
+            "mobile_image": "shopify://shop_images/scene1_mobile.jpg",
             "title": "Balkon Zonne-energiesysteem met Opslag",
             "description": "",
             "button_title": "Meer informatie",
-            "button_link": "shopify:\/\/products\/indevolt-bk1600"
+            "button_link": "shopify://products/indevolt-bk1600"
           }
         },
         "featured_collection_xmNLUg": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/scene2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/scene2_mobile.jpg",
+            "image": "shopify://shop_images/scene2.jpg",
+            "mobile_image": "shopify://shop_images/scene2_mobile.jpg",
             "title": "Balkon Zonne-energiesysteem",
             "description": "",
             "button_title": "Meer informatie",
-            "button_link": "shopify:\/\/collections\/balkon-zonne-energiesysteem"
+            "button_link": "shopify://collections/balkon-zonne-energiesysteem"
           }
         },
         "featured_collection_mjAyak": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/scene2.png",
-            "mobile_image": "shopify:\/\/shop_images\/scene3_mobile.jpg",
+            "image": "shopify://shop_images/scene2.png",
+            "mobile_image": "shopify://shop_images/scene3_mobile.jpg",
             "title": "Zonnepaneel",
             "description": "",
             "button_title": "Meer informatie",
-            "button_link": "shopify:\/\/collections\/zonnepaneel"
+            "button_link": "shopify://collections/zonnepaneel"
           }
         },
         "featured_collection_wBeLed": {
           "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/scene4.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/scene4_mobile.jpg",
+            "image": "shopify://shop_images/scene4.jpg",
+            "mobile_image": "shopify://shop_images/scene4_mobile.jpg",
             "title": "Accessoires",
             "description": "",
             "button_title": "Meer informatie",
-            "button_link": "shopify:\/\/collections\/accessoires"
+            "button_link": "shopify://collections/accessoires"
           }
         }
       },
@@ -124,6 +133,7 @@
         "featured_collection_mjAyak",
         "featured_collection_wBeLed"
       ],
+      "disabled": true,
       "name": "场景列表",
       "settings": {
         "section_title": "我们的特色分区"
@@ -136,56 +146,56 @@
           "type": "card",
           "settings": {
             "product_item": "indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag",
-            "custom_image": "shopify:\/\/shop_images\/ultra1.png",
-            "mobile_image": "shopify:\/\/shop_images\/bk1600u1.webp",
+            "custom_image": "shopify://shop_images/ultra1.png",
+            "mobile_image": "shopify://shop_images/bk1600u1.webp",
             "custom_title": "Indevolt BK1600 Ultra",
             "custom_describe": "",
             "price": "899.00 €",
             "original": "",
             "button_text": "Mehr erfahren",
-            "button_link": "shopify:\/\/products\/indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag"
+            "button_link": "shopify://products/indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag"
           }
         },
         "card_4jFQbL": {
           "type": "card",
           "settings": {
             "product_item": "indevolt-slimme-meter",
-            "custom_image": "shopify:\/\/shop_images\/Rectangle.png",
-            "mobile_image": "shopify:\/\/shop_images\/Rectangle.png",
+            "custom_image": "shopify://shop_images/Rectangle.png",
+            "mobile_image": "shopify://shop_images/Rectangle.png",
             "custom_title": "P1 Meter Reader",
             "custom_describe": "",
             "price": "29.00 €",
             "original": "",
             "button_text": "Mehr erfahren",
-            "button_link": "shopify:\/\/products\/indevolt-slimme-stekker"
+            "button_link": "shopify://products/indevolt-slimme-stekker"
           }
         },
         "card_8nnA4a": {
           "type": "card",
           "settings": {
             "product_item": "indevolt-bk1600",
-            "custom_image": "shopify:\/\/shop_images\/bk1600.png",
-            "mobile_image": "shopify:\/\/shop_images\/bk1600.png",
+            "custom_image": "shopify://shop_images/bk1600.png",
+            "mobile_image": "shopify://shop_images/bk1600.png",
             "custom_title": "BK1600 ",
             "custom_describe": "",
             "price": "799.00 €",
             "original": "",
             "button_text": "Mehr erfahren",
-            "button_link": "shopify:\/\/products\/indevolt-bk1600"
+            "button_link": "shopify://products/indevolt-bk1600"
           }
         },
         "card_FQAcNi": {
           "type": "card",
           "settings": {
             "product_item": "indevolt-flexibel-zonnepaneel-225w-4-pack",
-            "custom_image": "shopify:\/\/shop_images\/solar.png",
-            "mobile_image": "shopify:\/\/shop_images\/solar.png",
+            "custom_image": "shopify://shop_images/solar.png",
+            "mobile_image": "shopify://shop_images/solar.png",
             "custom_title": "Flexibel Zonnepaneel (225W, 4-pack)",
             "custom_describe": "",
             "price": "659.00 €",
             "original": "",
             "button_text": "Mehr erfahren",
-            "button_link": "shopify:\/\/products\/indevolt-flexibel-zonnepaneel-225w-4-pack"
+            "button_link": "shopify://products/indevolt-flexibel-zonnepaneel-225w-4-pack"
           }
         }
       },
@@ -206,31 +216,31 @@
         "card_waLpJr": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coupon1.png",
-            "mobile_image": "shopify:\/\/shop_images\/coupon1_mobile.png",
+            "image": "shopify://shop_images/coupon1.png",
+            "mobile_image": "shopify://shop_images/coupon1_mobile.png",
             "title": "Jetzt kaufen und sparen",
             "button_title": "Mehr erfahren >",
-            "button_link": "https:\/\/de.indevolt.com\/pages\/jetztkaufenundsparen"
+            "button_link": "https://de.indevolt.com/pages/jetztkaufenundsparen"
           }
         },
         "card_DWmKQB": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coupon2.png",
-            "mobile_image": "shopify:\/\/shop_images\/coupon2_mobile.png",
+            "image": "shopify://shop_images/coupon2.png",
+            "mobile_image": "shopify://shop_images/coupon2_mobile.png",
             "title": "Produktvergleich",
             "button_title": "Mehr erfahren >",
-            "button_link": "https:\/\/de.indevolt.com\/pages\/produktvergleich"
+            "button_link": "https://de.indevolt.com/pages/produktvergleich"
           }
         },
         "card_CGAafz": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coupon3.png",
-            "mobile_image": "shopify:\/\/shop_images\/coupon3_mobile.png",
+            "image": "shopify://shop_images/coupon3.png",
+            "mobile_image": "shopify://shop_images/coupon3_mobile.png",
             "title": "5% Prämie für deine Empfehlung",
             "button_title": "Mehr erfahren >",
-            "button_link": "https:\/\/de.indevolt.com\/pages\/empfehlungsprogram"
+            "button_link": "https://de.indevolt.com/pages/empfehlungsprogram"
           }
         }
       },
@@ -251,8 +261,8 @@
         "card_V6aXeT": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/flex-scene1.png",
-            "mobile_image": "shopify:\/\/shop_images\/flex-scene1-mobile.png",
+            "image": "shopify://shop_images/flex-scene1.png",
+            "mobile_image": "shopify://shop_images/flex-scene1-mobile.png",
             "title": "Balkon",
             "description": "Optimaliseer het gebruik van beperkte ruimte, installeer flexibel en eenvoudig.",
             "product_title": "",
@@ -264,8 +274,8 @@
         "card_LEjQRi": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/flex-scene2.png",
-            "mobile_image": "shopify:\/\/shop_images\/flex-scene-mobile2.png",
+            "image": "shopify://shop_images/flex-scene2.png",
+            "mobile_image": "shopify://shop_images/flex-scene-mobile2.png",
             "title": "Tuin",
             "description": "Maak gebruik van genoeg zonlicht om de beste prestaties te behalen.",
             "product_title": "",
@@ -277,8 +287,8 @@
         "card_zdCQqN": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/flex-scene3.png",
-            "mobile_image": "shopify:\/\/shop_images\/flex-scene3-mobile.png",
+            "image": "shopify://shop_images/flex-scene3.png",
+            "mobile_image": "shopify://shop_images/flex-scene3-mobile.png",
             "title": "Platte dak",
             "description": "De installatie van zonnepanelen op hellende daken kan de zonne-energieopbrengst met 20% verhogen!",
             "product_title": "",
@@ -290,8 +300,8 @@
         "card_EeN3Bj": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/flex-scene4.png",
-            "mobile_image": "shopify:\/\/shop_images\/flex-scene4-mobile.png",
+            "image": "shopify://shop_images/flex-scene4.png",
+            "mobile_image": "shopify://shop_images/flex-scene4-mobile.png",
             "title": "Hellend dak",
             "description": "Het installeren van zonnepanelen op platte daken vermindert de windweerstand en het geluid en zorgt voor stabiliteit.",
             "product_title": "",
@@ -318,70 +328,70 @@
         "card_pcGKxw": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo1.jpg",
+            "image": "shopify://shop_images/logo1.jpg",
             "description": "„Mit dem Indevolt BK1600 holen Sie sich mehr als ein Balkonkraftwerk nach Hause - Sie erleben UnabhangigkeitNachhaltigkeit und innovative Energieversorgung in einem kompakten System.\""
           }
         },
         "card_KxFCJY": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo2.jpg",
+            "image": "shopify://shop_images/logo2.jpg",
             "description": "„Ein echtes Highlight war für mich die intelligente Energieverteilung: An einem durchschnittlichen Sonnentag konnte ich problemlos mehrere energieintensive Geräte gleichzeitig betreiben, ohne das Stromnetz zu belasten.\""
           }
         },
         "card_gYb8yP": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo3.jpg",
+            "image": "shopify://shop_images/logo3.jpg",
             "description": "„Das Indevolt BK1600 überzeugt als Al-ln-One-Lösung für alle, die ihre eigene Energie dezentral erzeugen und nutzen möchten.\""
           }
         },
         "card_WcqGtf": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo4.png",
+            "image": "shopify://shop_images/logo4.png",
             "description": "„Die erfolgreiche Kombination von leistungsstarker PV-Technologie und effizienter Speicherlösung in einem kompakten, benutzerfreundlichen Paket überzeugt. Dieses Konzept macht das System zur idealen Wahl für Stadtbewohner und Mieter, die ohne bauliche Veränderungen in die Solarenergie einsteigen.\""
           }
         },
         "card_QfmeGX": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo5.jpg",
+            "image": "shopify://shop_images/logo5.jpg",
             "description": "„Das Indevolt BK1600 verbindet fortschrittliche Effizienz, praxisgerechte Speicherkapazität und benutzerfreundliche Bedienung in einem durchdachten Komplettsystem und markiert damit einen bedeutenden Entwicklungsschritt in Richtung urbaner Energieautonomie für Stadtbewohnerinnen und Stadtbewohner.\""
           }
         },
         "card_HeAnUj": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo6.png",
+            "image": "shopify://shop_images/logo6.png",
             "description": "„Obwohl der initiale Anschaffungspreis hoch erscheinen mag, rechtfertigen die langfristigen Einsparungen und der Beitrag zum Klimaschutz diese Investition. Das Indevolt BK1600 ist somit mehr als nur ein Produkt – es ist ein Schritt in Richtung einer nachhaltigeren und unabhängigeren Energieversorgung für Stadtbewohner.\""
           }
         },
         "card_8niDBE": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo7.png",
+            "image": "shopify://shop_images/logo7.png",
             "description": "„Die Kombination aus Balkonkraftwerk und integriertem Speicher in einer kompakten Einheit differenziert Indevolt von zahlreichen Wettbewerbern.\""
           }
         },
         "card_WQiLkH": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo8.png",
+            "image": "shopify://shop_images/logo8.png",
             "description": "„BK1600 ist ein kompakter Hybrid-Speicher mit bereits ab Werk integriertem Wechselrichter. Dies spart Platz und vereinfacht die Inbetriebnahme. \""
           }
         },
         "card_Nrfwak": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo9.png",
+            "image": "shopify://shop_images/logo9.png",
             "description": "„Günstige Kombi aus Hausakku und Powerstation. Mit einem aktuellen Preis ist das Indevolt BK1600 bereits dann attraktiv, wenn man es als stationaren Akku fürBalkonkraftwerke mit der Option zur Optimierung seines dynamischen Stromtarifs verwenden will.\""
           }
         },
         "card_Be3FxM": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo10.png",
+            "image": "shopify://shop_images/logo10.png",
             "description": "„Der Energiespeicher BK1600 für Balkonkraftwerke lässt sich in Drittanbieterplattformen integrieren, was eine Echtzeit-Fernsteuerung sowie die Teilnahme an Strommarkttransaktionen ermöglicht.\""
           }
         }
@@ -402,8 +412,8 @@
       "settings": {
         "title": "",
         "logo_title": "Erkenning en Prijzen",
-        "logo_pc_image": "shopify:\/\/shop_images\/logo-list.png",
-        "logo_mobile_image": "shopify:\/\/shop_images\/logo-list-mobile.png"
+        "logo_pc_image": "shopify://shop_images/logo-list.png",
+        "logo_mobile_image": "shopify://shop_images/logo-list-mobile.png"
       }
     },
     "video_list_Aqz79r": {
@@ -412,25 +422,25 @@
         "card_XGwY9C": {
           "type": "card",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=uFcnPu05YFU"
+            "video_url": "https://www.youtube.com/watch?v=uFcnPu05YFU"
           }
         },
         "card_mCz6Xy": {
           "type": "card",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=vfW3lj9f0Zg"
+            "video_url": "https://www.youtube.com/watch?v=vfW3lj9f0Zg"
           }
         },
         "card_NCXmiD": {
           "type": "card",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=0m0xi7hpnHI"
+            "video_url": "https://www.youtube.com/watch?v=0m0xi7hpnHI"
           }
         },
         "card_HFmDHA": {
           "type": "card",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=exANxLkMfXA"
+            "video_url": "https://www.youtube.com/watch?v=exANxLkMfXA"
           }
         }
       },
@@ -452,9 +462,9 @@
         "card_gD7KCd": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify:\/\/shop_images\/review1.png",
-            "image_mobile": "shopify:\/\/shop_images\/review1.png",
-            "start": "shopify:\/\/shop_images\/start.svg",
+            "image_pc": "shopify://shop_images/review1.png",
+            "image_mobile": "shopify://shop_images/review1.png",
+            "start": "shopify://shop_images/start.svg",
             "content": "Die Installation war super einfach – meine Familie und ich haben das in 10 Minuten hinbekommen. Ideal für alle, die gerne selbst Hand anlegen!",
             "name": "Max Schmidt"
           }
@@ -462,9 +472,9 @@
         "card_YH9LNL": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify:\/\/shop_images\/review2.png",
-            "image_mobile": "shopify:\/\/shop_images\/review2.png",
-            "start": "shopify:\/\/shop_images\/start.svg",
+            "image_pc": "shopify://shop_images/review2.png",
+            "image_mobile": "shopify://shop_images/review2.png",
+            "start": "shopify://shop_images/start.svg",
             "content": "Mit einer Kapazität von 1600Wh deckt es super gut unseren Strombedarf nachts. Ich kann es echt empfehlen!",
             "name": "Hans Müller"
           }
@@ -472,9 +482,9 @@
         "card_Pq9FhP": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify:\/\/shop_images\/review3.png",
-            "image_mobile": "shopify:\/\/shop_images\/review3.png",
-            "start": "shopify:\/\/shop_images\/start.svg",
+            "image_pc": "shopify://shop_images/review3.png",
+            "image_mobile": "shopify://shop_images/review3.png",
+            "start": "shopify://shop_images/start.svg",
             "content": "Leicht und perfekt für den Campinggebrauch. Die 1600Wh Kapazität sind klasse! Ich kann mehrere Geräte gleichzeitig nutzen.",
             "name": "Michail Cohen"
           }
@@ -482,9 +492,9 @@
         "card_38DYVV": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify:\/\/shop_images\/review4.png",
-            "image_mobile": "shopify:\/\/shop_images\/review4.png",
-            "start": "shopify:\/\/shop_images\/start.svg",
+            "image_pc": "shopify://shop_images/review4.png",
+            "image_mobile": "shopify://shop_images/review4.png",
+            "start": "shopify://shop_images/start.svg",
             "content": "Philipp BeckerDas bidirektionale Laden ist einfach super! Bei schlechtem Wetter muss ich mir keine Sorgen um die Stromspeicherung machen.",
             "name": "Philipp Becker"
           }
@@ -492,9 +502,9 @@
         "card_jVWgDL": {
           "type": "card",
           "settings": {
-            "image_pc": "shopify:\/\/shop_images\/review5.png",
-            "image_mobile": "shopify:\/\/shop_images\/review5.png",
-            "start": "shopify:\/\/shop_images\/start.svg",
+            "image_pc": "shopify://shop_images/review5.png",
+            "image_mobile": "shopify://shop_images/review5.png",
+            "start": "shopify://shop_images/start.svg",
             "content": "Die App macht es super einfach, den Stromverbrauch zu überwachen, was die Nutzung viel entspannter macht.",
             "name": "Andreas Heinrich"
           }
@@ -519,15 +529,15 @@
         "card_p6gFYF": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/email.png",
+            "image": "shopify://shop_images/email.png",
             "title": "E-mail",
-            "content": "<a href=\"mailto:sales@indevolt.com\" alt=\"sales@indevolt.com\">sales@indevolt.com<\/a>"
+            "content": "<a href=\"mailto:sales@indevolt.com\" alt=\"sales@indevolt.com\">sales@indevolt.com</a>"
           }
         },
         "card_YcAehM": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/iphone.png",
+            "image": "shopify://shop_images/iphone.png",
             "title": "Telefoon",
             "content": "+49 (0)174 3150766"
           }
@@ -540,10 +550,10 @@
       "name": "联系我们",
       "settings": {
         "title": "Neem Contact Met Ons Op",
-        "image_pc": "shopify:\/\/shop_images\/contactus.png",
-        "image_mobile": "shopify:\/\/shop_images\/contactus-mobile.png",
+        "image_pc": "shopify://shop_images/contactus.png",
+        "image_mobile": "shopify://shop_images/contactus-mobile.png",
         "link_title": "",
-        "link_url": "https:\/\/de.indevolt.com\/pages\/partner"
+        "link_url": "https://de.indevolt.com/pages/partner"
       }
     },
     "service_info_9aT6Kj": {
@@ -551,8 +561,8 @@
       "name": "服务信息",
       "settings": {
         "title": "Voordelen van Indevolt",
-        "image_pc": "shopify:\/\/shop_images\/service.png",
-        "image_mobile": "shopify:\/\/shop_images\/service-mobile_f45d2a52-7bdf-4e60-8647-41fd59463685.png"
+        "image_pc": "shopify://shop_images/service.png",
+        "image_mobile": "shopify://shop_images/service-mobile_f45d2a52-7bdf-4e60-8647-41fd59463685.png"
       }
     },
     "newsletter_BhHPzj": {
@@ -561,16 +571,16 @@
       "settings": {
         "color_scheme": "scheme-inverse",
         "layout": "vertical",
-        "heading": "<strong>20€ korting veiligstellen<\/strong>",
+        "heading": "<strong>20€ korting veiligstellen</strong>",
         "heading_size": "h2",
         "heading_highlight_style": "none",
         "subheading": "",
-        "description": "<p>Meld je nu aan en veilig 20€ korting.<\/p>",
+        "description": "<p>Meld je nu aan en veilig 20€ korting.</p>",
         "text_size": "text-base",
         "alignment": "center",
         "design": "design-1",
         "form_width": 500,
-        "newsletter_term": "<p>Ik stem in met de inhoud van het <a href=\"\/nl\/policies\/privacy-policy\" title=\"\/nl\/policies\/privacy-policy\"><span style=\"text-decoration:underline\">privacybeleid<\/span><\/a>.<\/p>",
+        "newsletter_term": "<p>Ik stem in met de inhoud van het <a href=\"/nl/policies/privacy-policy\" title=\"/nl/policies/privacy-policy\"><span style=\"text-decoration:underline\">privacybeleid</span></a>.</p>",
         "newsletter_term_size": "text-base",
         "button_style": "btn--primary",
         "padding_top": 50,
