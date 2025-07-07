@@ -35,7 +35,7 @@
   .mega-menu__list{grid-template-columns:initial;flex: inherit;height: fit-content;gap:24px }
   .mega-menu__link--top{font-size:17px;font-weight:500!important}
   .mega-menu__promotions-grid{grid-template-columns: repeat(1,1fr);}
-  .mega-menu .promotion-item{display: grid;grid-template-columns: repeat(5, 1fr);gap:24px}
+  .mega-menu .promotion-item{display: grid;grid-template-columns: repeat(5, 1fr);gap:16px}
   .mega-menu__item {cursor: pointer; transition: all 0.3s ease;}
   .mega-menu__item--active a{font-weight:700!important;color:#3250c3 }
   .mega-menu__list .mega-menu__item:hover a{font-weight:700!important;color:#3250c3;text-decoration: underline;}
@@ -45,6 +45,10 @@
   .mega-menu .promotion-item.active {
     display: inline-grid;
   }
+  .mega-menu .promotion-item .product-card{ width: 240px;padding:12px 24px 18px 24px;font-weight: 700;font-size: 12px;line-height: 15px;background: #fff;}
+  .mega-menu .promotion-item .media-wrapper{ position: relative; height: 160px;overflow: hidden;}
+  .mega-menu .promotion-item .title{padding:12px 8px 0px 8px;text-align:center}
+  .media-wrapper>img{position: absolute;top: 0px;left: 0px;height: 100%;object-fit: contain;}
 
 {% endstyle %}
 
@@ -201,7 +205,7 @@
                               is: 'image-lazy'
                           }}
                         </div>
-                        {{ product_item.title }}
+                         <div class="title">{{ product_item.title }}</div>
                         </a>
                       </div>
                     {% endfor %} 

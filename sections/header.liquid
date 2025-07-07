@@ -51,8 +51,10 @@
 
 {% style %}
   #shopify-section-{{ section.id }} {
-    --section-padding-top: {{ section.settings.padding_top }}px;
-    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    /* --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px; */
+    --section-padding-top: 12px;
+    --section-padding-bottom: 12px;
     --logo-width: {{ settings.logo_width }}px;
     --logo-width-mobile: {{ settings.logo_width_mobile }}px;
     --color-transparent: {{ section.settings.transparent_header_color.red }},{{ section.settings.transparent_header_color.green }},{{ section.settings.transparent_header_color.blue }};
