@@ -19,6 +19,7 @@
     <h2>
        <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"><span>{{ section.settings.title }}</span></motion-element>
     </h2>
+    {% endif %}
     <div class="parameter-table-box">
       <h4>{{  section.settings.column_title }}</h4>
       <div class="item-box">
@@ -32,7 +33,7 @@
         </ul>
       </div>
     </div>
-    {% endif %}
+
   </div>
 </div>
 
@@ -41,7 +42,7 @@
   "name": "meter-table",
   "tag": "section",
   "class": "section section-meter-table",
-  "max_blocks": 30,
+  "max_blocks": 10,
   "disabled_on": {
     "groups": ["footer", "header", "custom.overlay"]
   },

@@ -123,6 +123,285 @@
         "padding_bottom": 100
       }
     },
+    "meter_parameter_G3taNk": {
+      "type": "meter-parameter",
+      "blocks": {
+        "card_eNFQWn": {
+          "type": "card",
+          "settings": {
+            "title": "Eenvoudig in gebruik",
+            "content": "<ul><li>Standaard bluetooth-netwerkconfiguratie</li><li>Compact ontwerp, geen extra ruimte vereist</li><li>Directe voeding van de P1 Meterlezer, plug-and-play</li></ul>"
+          }
+        },
+        "card_jJ3Lhx": {
+          "type": "card",
+          "settings": {
+            "title": "Hoge Compatibiliteit",
+            "content": "<ul><li>Universeel COM-protocol, hoge compatibiliteit</li><li>Type-C-interface lost het probleem van de stroomvoorziening op voor P1 Meterlezer onder DSMR 5.0</li></ul>"
+          }
+        },
+        "card_kMjdDQ": {
+          "type": "card",
+          "settings": {
+            "title": "Uitstekende Prestatie",
+            "content": "<ul><li>Nauwkeurige meting van elektrische energiedata</li><li>Ondersteuning voor lokale API-interface, efficiënte toegang tot HEMS</li><li>Ondersteuning voor lokale koppeling met micro-opslagsysteem</li></ul>"
+          }
+        },
+        "card_tAEp7x": {
+          "type": "card",
+          "settings": {
+            "title": "Stabiel en Betrouwbaar",
+            "content": "<ul><li>Afstandsbediening software voor visueel databeheer</li><li>Gegevensencryptie zorgt voor veilige en betrouwbare externe transmissie</li></ul>"
+          }
+        },
+        "card_MJnrFR": {
+          "type": "card",
+          "settings": {
+            "title": "Voldoet aan EN303645",
+            "content": "<ul><li>Voldoet aan ETSI EN 303 645 standaard<br/></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "card_eNFQWn",
+        "card_jJ3Lhx",
+        "card_kMjdDQ",
+        "card_tAEp7x",
+        "card_MJnrFR"
+      ],
+      "name": "meter特色列表",
+      "settings": {
+        "title": "P1 Meter lezer Kenmerken"
+      }
+    },
+    "meter_parameter_table_4aNGgG": {
+      "type": "meter-parameter-table",
+      "blocks": {
+        "card_fbHyHM": {
+          "type": "card",
+          "settings": {
+            "title": "Afstandscommunicatie",
+            "content": "<p>2.4GHz WiFi</p>"
+          }
+        },
+        "card_m7dwV3": {
+          "type": "card",
+          "settings": {
+            "title": "WiFi-standaard",
+            "content": "<p>802.11b/g/n</p>"
+          }
+        },
+        "card_hXLNqK": {
+          "type": "card",
+          "settings": {
+            "title": "WiFi-frequentie",
+            "content": "<p>2.412GHz-2.472GHz (CH1-CH13)</p>"
+          }
+        },
+        "card_B8nBwf": {
+          "type": "card",
+          "settings": {
+            "title": "WiFi-uitzendvermogen",
+            "content": "<p>802.11b: +17dBm @ 111Mbps<br/>802.11g: +15dBm @ 54Mbps<br/>802.11n: +14dBm @ HT20, MC57</p>"
+          }
+        },
+        "card_4YmLFW": {
+          "type": "card",
+          "settings": {
+            "title": "Bluetooth-standaard",
+            "content": "<p>BLE5.0</p>"
+          }
+        },
+        "card_fnGAYQ": {
+          "type": "card",
+          "settings": {
+            "title": "Bluetooth-frequentie",
+            "content": "<p>2.402GHz-2.480GHz</p>"
+          }
+        },
+        "card_yVbtae": {
+          "type": "card",
+          "settings": {
+            "title": "Bluetooth-uitzendvermogen",
+            "content": "<p>Max 15dBm</p>"
+          }
+        }
+      },
+      "block_order": [
+        "card_fbHyHM",
+        "card_m7dwV3",
+        "card_hXLNqK",
+        "card_B8nBwf",
+        "card_4YmLFW",
+        "card_fnGAYQ",
+        "card_yVbtae"
+      ],
+      "name": "meter特色表格",
+      "settings": {
+        "title": "P1 Meter lezer Kenmerken",
+        "column_title": "Communicatieparameters"
+      }
+    },
+    "meter_parameter_table_NkrAYR": {
+      "type": "meter-parameter-table",
+      "blocks": {
+        "card_crUgQQ": {
+          "type": "card",
+          "settings": {
+            "title": "Data-interface",
+            "content": "<p>P1-RJ12</p>"
+          }
+        },
+        "card_TtaVg3": {
+          "type": "card",
+          "settings": {
+            "title": "Externe interface",
+            "content": "<p>USB Type-C & RJ12</p>"
+          }
+        },
+        "card_y3BbqN": {
+          "type": "card",
+          "settings": {
+            "title": "Werkspanning",
+            "content": "<p>DC 5.0V ±5%</p>"
+          }
+        },
+        "card_FntWcj": {
+          "type": "card",
+          "settings": {
+            "title": "Werkvermogen",
+            "content": "<p>&lt;1W</p>"
+          }
+        },
+        "card_TqfRGU": {
+          "type": "card",
+          "settings": {
+            "title": "Indicatorlicht",
+            "content": "<p>P1 groene licht toont verbindingsstatus met meter<br/>WiFi blauwe licht toont verbindingsstatus met server</p>"
+          }
+        },
+        "card_f99kRN": {
+          "type": "card",
+          "settings": {
+            "title": "Geheugen",
+            "content": "<p>8MB FLASH<br/></p>"
+          }
+        },
+        "card_QMGCCd": {
+          "type": "card",
+          "settings": {
+            "title": "Werktemperatuur",
+            "content": "<p>-20°C to +50°C</p>"
+          }
+        },
+        "card_LM8gE4": {
+          "type": "card",
+          "settings": {
+            "title": "Werkvochtigheid",
+            "content": "<p>10% ~ 90% RV (geen condensatie)<br/><br/></p>"
+          }
+        },
+        "card_tQYwbk": {
+          "type": "card",
+          "settings": {
+            "title": "Opslagtemperatuur",
+            "content": "<p>-30°C ~ +60°C</p>"
+          }
+        },
+        "card_YqUatG": {
+          "type": "card",
+          "settings": {
+            "title": "Opslagvochtigheid",
+            "content": "<p>≤40% RV (geen condensatie)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "card_crUgQQ",
+        "card_TtaVg3",
+        "card_y3BbqN",
+        "card_FntWcj",
+        "card_TqfRGU",
+        "card_f99kRN",
+        "card_QMGCCd",
+        "card_LM8gE4",
+        "card_tQYwbk",
+        "card_YqUatG"
+      ],
+      "name": "meter特色表格",
+      "settings": {
+        "title": "Hardwareparameters",
+        "column_title": "Hardwareparameters"
+      }
+    },
+    "meter_parameter_table_dLMNyp": {
+      "type": "meter-parameter-table",
+      "blocks": {
+        "card_aH8kBR": {
+          "type": "card",
+          "settings": {
+            "title": "Aantal verbindingen",
+            "content": "<p>Eén P1 meter</p>"
+          }
+        },
+        "card_G7AQtF": {
+          "type": "card",
+          "settings": {
+            "title": "Seriële communicatiesnelheid",
+            "content": "<p>Standaard: 115200bps (configureerbaar)</p>"
+          }
+        },
+        "card_9GyxjJ": {
+          "type": "card",
+          "settings": {
+            "title": "Data-overdrachtsinterval",
+            "content": "<p>Standaard: 5 minuten (60-600s configureerbaar)</p>"
+          }
+        },
+        "card_8CeGAk": {
+          "type": "card",
+          "settings": {
+            "title": "Firmware-upgrade",
+            "content": "<p>Afstandsupgrade/Lokale upgrade</p>"
+          }
+        },
+        "card_MaBc8D": {
+          "type": "card",
+          "settings": {
+            "title": "Gebruik configuratie",
+            "content": "<p>APP/Webpagina</p>"
+          }
+        },
+        "card_Dhx67m": {
+          "type": "card",
+          "settings": {
+            "title": "Software watchdog",
+            "content": "<p>√</p>"
+          }
+        },
+        "card_7TXjWT": {
+          "type": "card",
+          "settings": {
+            "title": "Overig",
+            "content": "<p>Echt-tijd controle</p>"
+          }
+        }
+      },
+      "block_order": [
+        "card_aH8kBR",
+        "card_G7AQtF",
+        "card_9GyxjJ",
+        "card_8CeGAk",
+        "card_MaBc8D",
+        "card_Dhx67m",
+        "card_7TXjWT"
+      ],
+      "name": "meter特色表格",
+      "settings": {
+        "title": "Softwareparameters",
+        "column_title": "Softwareparameters"
+      }
+    },
     "parameter_MCPY6c": {
       "type": "parameter",
       "blocks": {
@@ -183,6 +462,7 @@
         "card_jBnG3t",
         "card_LW3bBH"
       ],
+      "disabled": true,
       "name": "参数列表",
       "settings": {
         "title": "Technische Gegevens"
@@ -192,6 +472,10 @@
   "order": [
     "breadcrumbs",
     "main",
+    "meter_parameter_G3taNk",
+    "meter_parameter_table_4aNGgG",
+    "meter_parameter_table_NkrAYR",
+    "meter_parameter_table_dLMNyp",
     "parameter_MCPY6c"
   ]
 }
