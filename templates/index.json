@@ -159,7 +159,7 @@
         "card_4jFQbL": {
           "type": "card",
           "settings": {
-            "product_item": "indevolt-slimme-meter",
+            "product_item": "indevolt-p1-meter-reader",
             "custom_image": "shopify://shop_images/Rectangle.png",
             "mobile_image": "shopify://shop_images/Rectangle.png",
             "custom_title": "P1 Meter Reader",
@@ -167,7 +167,7 @@
             "price": "29.00 €",
             "original": "",
             "button_text": "Mehr erfahren",
-            "button_link": "shopify://products/indevolt-slimme-stekker"
+            "button_link": "shopify://products/indevolt-p1-meter-reader"
           }
         },
         "card_8nnA4a": {

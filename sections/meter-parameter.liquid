@@ -1,0 +1,80 @@
+<style>
+ 
+  @media (max-width: 768px) {
+   
+  }
+</style>
+{% liquid
+    assign motion_delay = 50
+%}
+<div class="section section-meter-parameter">
+  <div class="product-collection product-slider-container">
+    {% if section.settings.title !=blank %}
+    <h2>
+       <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"><span>{{ section.settings.title }}</span></motion-element>
+    </h2>
+    <div class="brand-main-slider">
+      {% for block in section.blocks %}
+       
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "meter-list",
+  "tag": "section",
+  "class": "section section-meter-list",
+  "max_blocks": 10,
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题",
+      "default": "P1 Meter lezer Kenmerken"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "brand item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "标题"
+        },
+        {
+          "type": "richtext",
+          "id": "feature",
+          "label": "描述"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "meter特色列表",
+      "blocks": [
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

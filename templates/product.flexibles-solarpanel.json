@@ -125,7 +125,7 @@
       "type": "service-info",
       "name": "图片1",
       "settings": {
-        "title": "Kundenbewertungen",
+        "title": "",
         "image_pc": "shopify://shop_images/solarpanel-img1.png",
         "image_mobile": "shopify://shop_images/solarpanel-img-mobile1.png"
       }
@@ -544,30 +544,6 @@
       "settings": {
         "title": "Downloads"
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "limit": 6,
-        "columns": 4,
-        "column_gap": "extra-small",
-        "row_gap": "inherit",
-        "enable_slider": true,
-        "controls_position": "inside",
-        "pcard_image_ratio": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
     }
   },
   "order": [
@@ -584,7 +560,6 @@
     "service_info_Q86gwp",
     "multicolumn_Mxt4d3",
     "parameter_MCPY6c",
-    "download_8Pq6Pi",
-    "related-products"
+    "download_8Pq6Pi"
   ]
 }

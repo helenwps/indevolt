@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -42,14 +51,6 @@
           "type": "description",
           "settings": {}
         },
-        "inventory": {
-          "type": "inventory",
-          "settings": {
-            "text_style": "body",
-            "inventory_threshold": 10,
-            "show_inventory_quantity": true
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -83,9 +84,9 @@
             "title_size": "text-base",
             "icon_1": "package",
             "heading_1": "Orders over $50 ship free",
-            "content_image_1": "shopify:\/\/shop_images\/card.png",
+            "content_image_1": "shopify://shop_images/card.png",
             "icon_2": "currency-circle-dollar",
-            "content_image_2": "shopify:\/\/shop_images\/track.png",
+            "content_image_2": "shopify://shop_images/track.png",
             "heading_2": "30 day returns",
             "icon_3": "star-four",
             "heading_3": ""
@@ -110,7 +111,6 @@
         "price",
         "taxs_T6dEFD",
         "description",
-        "inventory",
         "variant_picker",
         "buy_buttons",
         "logistics_pN3qrf",
@@ -137,8 +137,8 @@
       "name": "产品图片1",
       "settings": {
         "title": "",
-        "image_pc": "shopify:\/\/shop_images\/first-img.png",
-        "image_mobile": "shopify:\/\/shop_images\/first-img.png"
+        "image_pc": "shopify://shop_images/first-img.png",
+        "image_mobile": "shopify://shop_images/first-img.png"
       }
     },
     "rich_text_7rBwdd": {
@@ -155,7 +155,7 @@
         "text_FFzGhL": {
           "type": "text",
           "settings": {
-            "text": "<p>Leichtes und kompaktes Design：Mit einem ultraleichten Gewicht von 4,3kg, was 70% leichter ist als PV-Paneele aus Glas mit derselben Leistung, sodass es leicht zu transportieren und zu installieren ist.<br\/><br\/><\/p>",
+            "text": "<p>Leichtes und kompaktes Design：Mit einem ultraleichten Gewicht von 4,3kg, was 70% leichter ist als PV-Paneele aus Glas mit derselben Leistung, sodass es leicht zu transportieren und zu installieren ist.<br/><br/></p>",
             "text_size": "text-base"
           }
         }
@@ -190,7 +190,7 @@
         "heading_TAGtiA": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Flexibel für unterschiedliche Oberflächen<\/strong>",
+            "heading": "<strong>Flexibel für unterschiedliche Oberflächen</strong>",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -198,7 +198,7 @@
         "text_t3EAEx": {
           "type": "text",
           "settings": {
-            "text": "<p>Flexible Solarmodule, die um 213° gebogen werden können. Du kannst das Solarpanel überall anbringen – auf runden Balkonen, gewölbten Wänden oder sogar auf dem Dach von Wohnmobilen.<br\/><br\/><\/p>",
+            "text": "<p>Flexible Solarmodule, die um 213° gebogen werden können. Du kannst das Solarpanel überall anbringen – auf runden Balkonen, gewölbten Wänden oder sogar auf dem Dach von Wohnmobilen.<br/><br/></p>",
             "text_size": "text-base"
           }
         }
@@ -222,8 +222,8 @@
       "name": "产品图片3",
       "settings": {
         "title": "",
-        "image_pc": "shopify:\/\/shop_images\/second-img.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/second-img.jpg"
+        "image_pc": "shopify://shop_images/second-img.jpg",
+        "image_mobile": "shopify://shop_images/second-img.jpg"
       }
     },
     "rich_text_Lf7VjA": {
@@ -232,7 +232,7 @@
         "heading_GjKP7X": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>25% hohe Solarumwandlungsrate<\/strong>",
+            "heading": "<strong>25% hohe Solarumwandlungsrate</strong>",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -240,7 +240,7 @@
         "text_PUUeJV": {
           "type": "text",
           "settings": {
-            "text": "<p>Flexible Solarmodule nutzen den Balkonbereich mit 2 x 225W Solarmodulen voll aus, um Strom zu erzeugen. Die Umwandlungsrate beträgt bis zu 25%, was für das Leben zu Hause und unerwartete Stromausfälle sehr gut geeignet ist.<br\/><br\/><\/p>",
+            "text": "<p>Flexible Solarmodule nutzen den Balkonbereich mit 2 x 225W Solarmodulen voll aus, um Strom zu erzeugen. Die Umwandlungsrate beträgt bis zu 25%, was für das Leben zu Hause und unerwartete Stromausfälle sehr gut geeignet ist.<br/><br/></p>",
             "text_size": "text-base"
           }
         }
@@ -264,8 +264,8 @@
       "name": "产品图片4",
       "settings": {
         "title": "",
-        "image_pc": "shopify:\/\/shop_images\/third-img.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/third-img.jpg"
+        "image_pc": "shopify://shop_images/third-img.jpg",
+        "image_mobile": "shopify://shop_images/third-img.jpg"
       }
     },
     "rich_text_kfArr6": {
@@ -274,7 +274,7 @@
         "heading_VDcEgE": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Super wetterbeständig und wasserdicht<\/strong>",
+            "heading": "<strong>Super wetterbeständig und wasserdicht</strong>",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -282,7 +282,7 @@
         "text_3ka4Ke": {
           "type": "text",
           "settings": {
-            "text": "<p>Wasserdicht gemäß IP68, hält rauen Bedingungen von -20°C bis 65°C stand. Gewährleistet die elektrische Sicherheitsleistung von Photovoltaikmodulen und -systemen.<br\/><br\/><\/p>",
+            "text": "<p>Wasserdicht gemäß IP68, hält rauen Bedingungen von -20°C bis 65°C stand. Gewährleistet die elektrische Sicherheitsleistung von Photovoltaikmodulen und -systemen.<br/><br/></p>",
             "text_size": "text-base"
           }
         }
@@ -306,8 +306,8 @@
       "name": "产品图片5",
       "settings": {
         "title": "",
-        "image_pc": "shopify:\/\/shop_images\/four-img.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/four-img.jpg"
+        "image_pc": "shopify://shop_images/four-img.jpg",
+        "image_mobile": "shopify://shop_images/four-img.jpg"
       }
     },
     "multicolumn_Mxt4d3": {
@@ -317,11 +317,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify:\/\/shop_images\/solarpanel1.jpg",
+            "image": "shopify://shop_images/solarpanel1.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<p> Flexibles Solarpanel ×4<\/p>",
+            "text": "<p> Flexibles Solarpanel ×4</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -333,11 +333,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify:\/\/shop_images\/solarpanel2.jpg",
+            "image": "shopify://shop_images/solarpanel2.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Solarkabel ×2<\/h5>",
+            "text": "<h5>Solarkabel ×2</h5>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -349,11 +349,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify:\/\/shop_images\/solarpanel3.jpg",
+            "image": "shopify://shop_images/solarpanel3.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Kabelbinder ×24<\/h5>",
+            "text": "<h5>Kabelbinder ×24</h5>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -365,11 +365,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify:\/\/shop_images\/solarpanel4.jpg",
+            "image": "shopify://shop_images/solarpanel4.jpg",
             "image_width": "extra-large",
             "title": "",
             "heading_size": "h4",
-            "text": "<h5>Kabelbinder ×24<\/h5>",
+            "text": "<h5>Kabelbinder ×24</h5>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -403,30 +403,6 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "limit": 6,
-        "columns": 4,
-        "column_gap": "extra-small",
-        "row_gap": "inherit",
-        "enable_slider": true,
-        "controls_position": "inside",
-        "pcard_image_ratio": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
     }
   },
   "order": [
@@ -441,7 +417,6 @@
     "service_info_N6QfNp",
     "rich_text_kfArr6",
     "service_info_qmKjLc",
-    "multicolumn_Mxt4d3",
-    "related-products"
+    "multicolumn_Mxt4d3"
   ]
 }

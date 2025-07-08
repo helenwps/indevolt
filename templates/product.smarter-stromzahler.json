@@ -210,7 +210,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Intelligente afstandsbediening & energiebewaking</strong>",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -430,30 +430,6 @@
       "settings": {
         "title": "Downloads"
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "limit": 6,
-        "columns": 4,
-        "column_gap": "extra-small",
-        "row_gap": "inherit",
-        "enable_slider": true,
-        "controls_position": "inside",
-        "pcard_image_ratio": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
     }
   },
   "order": [
@@ -466,7 +442,6 @@
     "image_with_text_L67EDY",
     "multicolumn_Mxt4d3",
     "parameter_MCPY6c",
-    "download_KmMViJ",
-    "related-products"
+    "download_KmMViJ"
   ]
 }

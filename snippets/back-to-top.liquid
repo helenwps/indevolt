@@ -12,7 +12,13 @@
     background: rgb(var(--color-button));
     color: rgb(var(--color-button-text));
     border: 0;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.08);
   }
+   .back-to-top .btn:not(.btn--plain):not(.btn--underline,.btn--inherit):before, .btn--bordered-icon .button-icon:before{
+     background:none!important;
+   }
+  .back-to-top .btn:hover {background:none!important;border-color:#fff!important;
+    color:rgb(var(--color-button-text))!important;--color-border:none!important;}
   .mobile-sticky-bar-down .back-to-top {
     bottom: calc(var(--sticky-atc-bar-height, 0px) + 1.5rem);
   }
