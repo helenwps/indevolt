@@ -330,7 +330,7 @@
       ],
       "name": "meter特色表格",
       "settings": {
-        "title": "Hardwareparameters",
+        "title": "",
         "column_title": "Hardwareparameters"
       }
     },
@@ -398,74 +398,92 @@
       ],
       "name": "meter特色表格",
       "settings": {
-        "title": "Softwareparameters",
+        "title": "",
         "column_title": "Softwareparameters"
       }
     },
-    "parameter_MCPY6c": {
-      "type": "parameter",
+    "rich_text_FxaXee": {
+      "type": "rich-text",
       "blocks": {
-        "card_LYWhYC": {
-          "type": "card",
+        "heading_Ghc9Ft": {
+          "type": "heading",
           "settings": {
-            "title": "Productmodel",
-            "content": "SMD3",
-            "note": ""
+            "heading": "Werkt met uw Slimme Meter",
+            "heading_size": "hd2",
+            "heading_highlight_style": "none"
           }
         },
-        "card_8bwHK3": {
-          "type": "card",
+        "text_EC8Frm": {
+          "type": "text",
           "settings": {
-            "title": "Connectiviteit",
-            "content": "Bluetooth en Wi-Fi",
-            "note": ""
-          }
-        },
-        "card_mP8iNt": {
-          "type": "card",
-          "settings": {
-            "title": "Technische parameters",
-            "content": "3x230/400V, 50/60Hz",
-            "note": ""
-          }
-        },
-        "card_Fhrd9a": {
-          "type": "card",
-          "settings": {
-            "title": "Bedrijfstemperatuur",
-            "content": "-40℃ tot 70℃",
-            "note": ""
-          }
-        },
-        "card_jBnG3t": {
-          "type": "card",
-          "settings": {
-            "title": "Meetnauwkeurigheid",
-            "content": "Actief ±1%, Reactief ±2%",
-            "note": ""
-          }
-        },
-        "card_LW3bBH": {
-          "type": "card",
-          "settings": {
-            "title": "Compatibiliteit",
-            "content": "Indevolt BK1600",
-            "note": ""
+            "text": "<p>De P1 Meter Reader klik in de P1-poort van uw slimme meter en toont u het elektriciteits- en gasverbruik van uw huis. De P1 Meter Reader is compatibel met de meeste moderne meters in Europa, en bij moderne slimme meters hebt u zelfs geen voedingsadapter nodig! Steek hem in, maak verbinding met Wi-Fi en u bent klaar. Controleer of mijn slimme meter compatibel is? om er zeker van te zijn dat deze compatibel is.</p>",
+            "text_size": "text-lg"
           }
         }
       },
       "block_order": [
-        "card_LYWhYC",
-        "card_8bwHK3",
-        "card_mP8iNt",
-        "card_Fhrd9a",
-        "card_jBnG3t",
-        "card_LW3bBH"
+        "heading_Ghc9Ft",
+        "text_EC8Frm"
       ],
-      "disabled": true,
-      "name": "参数列表",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "title": "Technische Gegevens"
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "service_info_ETabEi": {
+      "type": "service-info",
+      "name": "服务信息",
+      "settings": {
+        "title": "",
+        "image_pc": "shopify://shop_images/meter-img1.jpg",
+        "image_mobile": "shopify://shop_images/meter-img-mobile1.jpg"
+      }
+    },
+    "rich_text_Na6fBk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_X4ez3G": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bekijk Live of Ga Terug in de Tijd",
+            "heading_size": "hd2",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_XtyPYC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Met de app weet je precies wat er gebeurt, of je kunt terug in de tijd gaan.</p>",
+            "text_size": "text-lg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_X4ez3G",
+        "text_XtyPYC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "service_info_eywpfb": {
+      "type": "service-info",
+      "name": "服务信息",
+      "settings": {
+        "title": "",
+        "image_pc": "shopify://shop_images/meter-img2.jpg",
+        "image_mobile": "shopify://shop_images/meter-img-mobile2.jpg"
       }
     }
   },
@@ -476,6 +494,9 @@
     "meter_parameter_table_4aNGgG",
     "meter_parameter_table_NkrAYR",
     "meter_parameter_table_dLMNyp",
-    "parameter_MCPY6c"
+    "rich_text_FxaXee",
+    "service_info_ETabEi",
+    "rich_text_Na6fBk",
+    "service_info_eywpfb"
   ]
 }

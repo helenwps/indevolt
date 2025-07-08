@@ -1,19 +1,21 @@
 <style>
  .section-service-info {margin-bottom:120px}
- .section-service-info .service-image{ margin-top:57px;}
+ .section-service-info h2{ padding-bottom:57px;}
   @media (max-width: 768px) {
-     .section-service-info {margin-bottom:60px}
-    .section-service-info .service-image{ margin-top: 30px;}
+    .section-service-info {margin-bottom:60px}
+    .section-service-info h2{padding-bottom: 30px;}
   }
 </style>
 {% liquid
     assign motion_delay = 50
 %}
-<div class="section  section--padding page-width section-service-info">
+<div class="section section--padding page-width section-service-info" style="margin-top:{{section.settings.margin_top  }}px;margin-bottom:{{section.settings.margin_bottom  }}px;">
   <div class="product-collection product-slider-container">
+    {% if section.settings.title != blank %}
     <h2>
       <motion-element class="block" data-motion="fade-up" data-motion-delay="{{ motion_delay }}"> <span>{{ section.settings.title }}</span></motion-element>
     </h2>
+    {% endif %}
     {% if section.settings.image_pc != blank %}
         <picture>
           <!-- 移动端图片 -->
@@ -54,7 +56,6 @@
   "name": "service-info",
   "tag": "section",
   "class": "section section-service-info",
-  "max_blocks": 10,
   "disabled_on": {
     "groups": ["footer", "header", "custom.overlay"]
   },
@@ -74,39 +75,26 @@
       "type": "image_picker",
       "id": "image_mobile",
       "label": "手机端图片"
-    }
-  ],
-  "blocks": [
+    },
     {
-      "type": "card",
-      "name": "review item",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image_pc",
-          "label": "PC端图片"
-        },
-        {
-          "type": "image_picker",
-          "id": "image_mobile",
-          "label": "手机端图片"
-        },
-         {
-          "type": "image_picker",
-          "id": "start",
-          "label": "星级"
-        },
-         {
-          "type": "text",
-          "id": "content",
-          "label": "内容"
-        },
-         {
-          "type": "text",
-          "id": "name",
-          "label": "用户"
-        }
-      ]
+      "type": "range",
+      "id": "margin_top",
+      "label": "顶部填充",
+      "default": 0,
+      "min": 0,
+      "max": 120,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "label": "底部填充",
+      "default": 0,
+      "min": 0,
+      "max": 120,
+      "step": 2,
+      "unit": "px"
     }
   ],
   "presets": [

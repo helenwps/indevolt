@@ -12,7 +12,9 @@
   .logistics-box ul{display: grid;grid-template-columns: 1fr 1fr;}
   .logistics-box li{display: inline-flex;align-items: center;line-height:35px;font-size: 14px;color: #6A6A6A;}
   .logistics-box li .icon{margin-right:5px;}
-   
+   @media (max-width: 768px) {
+    .logistics-box ul{display: block;}
+  }
 </style>
 {%- liquid
   assign product_form_id = 'product-form-' | append: section.id

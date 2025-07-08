@@ -35,7 +35,7 @@
         "type": "checkbox",
         "id": "enable_back_to_top",
         "label": "t:settings_schema.general.settings.enable_back_to_top.label",
-        "default": false
+        "default": true
       }
     ]
   },
