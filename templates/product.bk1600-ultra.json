@@ -83,11 +83,13 @@
             "title_font": "body",
             "title_size": "text-base",
             "icon_1": "package",
-            "heading_1": "Orders over $50 ship free",
+            "image_1": "shopify://shop_images/brand-icon1.svg",
+            "heading_1": "Gemakkelijk betalen",
             "content_image_1": "shopify://shop_images/card.png",
             "icon_2": "currency-circle-dollar",
+            "image_2": "shopify://shop_images/brand-icon2.svg",
             "content_image_2": "shopify://shop_images/track.png",
-            "heading_2": "30 day returns",
+            "heading_2": "Betrouwbare levering",
             "icon_3": "star-four",
             "heading_3": ""
           }
