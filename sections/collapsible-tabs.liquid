@@ -32,10 +32,8 @@
 {{ 'section-collapsible-tabs.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'collapsible-tabs.js' | asset_url }}" defer="defer"></script>
 <style>
-    #shopify-section-{{ section.id }} p{ color: #666;}
 @media (max-width: 767.98px) {
-    #shopify-section-{{ section.id }} .rich-text__heading{ line-height:34px;font-size:28px}
-    #shopify-section-{{ section.id }} p{ line-height:19px;font-size:16px;}
+    #shopify-section-{{ section.id }} .section__heading{padding-bottom:0px; line-height:34px;font-size:28px}
 }
 </style>
 {% render 'divider',

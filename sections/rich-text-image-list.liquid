@@ -4,7 +4,9 @@
 %}
 <style>
     #shopify-section-{{ section.id }} p{ color: #666;}
+    #shopify-section-{{ section.id }} .grid-image{margin-top:34px}
 @media (max-width: 767.98px) {
+    #shopify-section-{{ section.id }} .grid-image{margin-top:30px}
     #shopify-section-{{ section.id }} .rich-text__heading{ line-height:34px;font-size:28px}
     #shopify-section-{{ section.id }} p{ line-height:19px;font-size:16px;}
 }
@@ -72,6 +74,40 @@
               {% endif %}
             </motion-element>
             {%- assign motion_delay = motion_delay | plus: 50 -%}
+          {% when 'image' %}
+             {% if block.settings.image != blank %}
+                  <picture>
+                    <!-- 移动端图片 -->
+                    <source
+                      media="(max-width: 749px)"
+                      srcset="
+                        {{ block.settings.mobile_image | img_url: '800x' }} 1x,
+                        {{ block.settings.mobile_image | img_url: '1600x' }} 2x
+                      "
+                    >
+
+                    <!-- 桌面端图片 -->
+                    <source
+                      media="(min-width: 750px)"
+                      srcset="
+                        {{ block.settings.image | img_url: '1200x' }} 1x,
+                        {{ block.settings.image | img_url: '2400x' }} 2x
+                      "
+                    >
+
+                    <!-- 默认图片 -->
+                    <img
+                      src="{{ block.settings.image | img_url: '1200x' }}"
+                      alt="{{ block.settings.title | escape }}"
+                      class="grid-image"
+                      loading="lazy"
+                      width="{{ block.settings.image.width }}"
+                      height="{{ block.settings.image.height }}"
+                    >
+                  </picture>
+                {% else %}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
         {% endcase %}
       {% endfor %}
     </div>
@@ -80,7 +116,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.rich-text.name",
+  "name": "rich-text-with-image",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -308,47 +344,26 @@
       ]
     },
     {
-      "type": "button",
-      "name": "t:sections.all.button.name",
+      "type": "image",
+      "name": "图片",
       "limit": 1,
       "settings": [
         {
-          "type": "text",
-          "id": "button_label",
-          "label": "t:sections.all.button.button_label.label",
-          "default": "Button label"
+          "type": "image_picker",
+          "id": "image",
+          "label": "image_pc"
         },
         {
-          "type": "url",
-          "id": "button_link",
-          "label": "t:sections.all.button.button_link.label"
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "image_mobile"
         },
-        {
-          "type": "select",
-          "id": "button_style",
-          "label": "t:sections.all.button.button_style.label",
-          "options": [
-            {
-              "value": "btn--primary",
-              "label": "t:sections.all.button.button_style.options__1.label"
-            },
-            {
-              "value": "btn--secondary",
-              "label": "t:sections.all.button.button_style.options__2.label"
-            },
-            {
-              "value": "btn--underline",
-              "label": "t:sections.all.button.button_style.options__4.label"
-            }
-          ],
-          "default": "btn--primary"
-        }
       ]
-    }
+    },
   ],
   "presets": [
     {
-      "name": "t:sections.rich-text.presets.name",
+      "name": "富文本与图片",
       "blocks": [
         {
           "type": "heading"
@@ -357,7 +372,7 @@
           "type": "text"
         },
         {
-          "type": "button"
+          "type": "image"
         }
       ]
     }

@@ -640,96 +640,107 @@
         "margin_bottom": 0
       }
     },
-    "multicolumn_Mxt4d3": {
-      "type": "multicolumn",
+    "scene_tabs_ry9cPQ": {
+      "type": "scene-tabs",
       "blocks": {
-        "column_ppme79": {
-          "type": "column",
+        "tab_c4pqah": {
+          "type": "tab",
           "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/solarpanel1.jpg",
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<p> Flexibles Solarpanel ×4</p>",
+            "content_color_scheme": "",
+            "navigation_title": "Balkon",
+            "image": "shopify://shop_images/bk1600-timg1.png",
+            "mobile_image": "shopify://shop_images/bk1600-timg-mobile1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_highlight_style": "none",
+            "subheading": "",
+            "description": "<p>Je kunt de Indevolt BK1600 eenvoudig en stressvrij integreren in je bestaande balkon-voedingssysteem. Ons opslagsysteem neemt weinig ruimte in beslag en heeft geen rommelige kabels, waardoor het de perfecte oplossing is voor elk balkon.</p>",
             "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--underline",
+            "text_alignment": "center",
+            "button_label": "Button label",
             "button_link": "",
-            "mobile_layout": "inherit"
+            "button_style": "btn--primary"
           }
         },
-        "column_6eYcFq": {
-          "type": "column",
+        "tab_yf4Gnc": {
+          "type": "tab",
           "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/solarpanel2.jpg",
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<h5>Solarkabel ×2</h5>",
+            "content_color_scheme": "",
+            "navigation_title": "Tuiniert",
+            "image": "shopify://shop_images/bk1600-timg2.jpg",
+            "mobile_image": "shopify://shop_images/bk1600-timg-mobile2.png",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_highlight_style": "none",
+            "subheading": "",
+            "description": "<p>De Indevolt BK1600 biedt een betrouwbare en efficiënte energievoorziening in je tuin.</p>",
             "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--underline",
+            "text_alignment": "center",
+            "button_label": "Button label",
             "button_link": "",
-            "mobile_layout": "inherit"
+            "button_style": "btn--primary"
           }
         },
-        "column_6mMR7m": {
-          "type": "column",
+        "tab_qnFXtV": {
+          "type": "tab",
           "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/solarpanel3.jpg",
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<h5>Kabelbinder ×24</h5>",
+            "content_color_scheme": "scheme-2",
+            "navigation_title": "Hulppoint",
+            "image": "shopify://shop_images/bk1600-timg3.jpg",
+            "mobile_image": "shopify://shop_images/bk1600-timg-mobile3.png",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_highlight_style": "none",
+            "subheading": "",
+            "description": "<p>De BK1600 is de perfecte voedingsoplossing voor powertools en zorgt voor een soepele werking van kleine apparaten tot 1200W.</p>",
             "text_size": "text-base",
+            "text_alignment": "center",
             "button_label": "",
-            "button_style": "btn--underline",
             "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_Lix6qc": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/solarpanel4.jpg",
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<h5>Kabelbinder ×24</h5>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
+            "button_style": "btn--primary"
           }
         }
       },
       "block_order": [
-        "column_ppme79",
-        "column_6eYcFq",
-        "column_6mMR7m",
-        "column_Lix6qc"
+        "tab_c4pqah",
+        "tab_yf4Gnc",
+        "tab_qnFXtV"
       ],
-      "custom_css": [],
+      "name": "bk1600 tabs",
+      "settings": {
+        "title": "Geschikt voor Diverse Scenario's",
+        "heading_size": "h4",
+        "desktop_navigation_alignment": "center",
+        "desktop_image_position": "left",
+        "desktop_image_width": 100,
+        "image_aspect_ratio": "adapt",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_image_list_fNa9cR": {
+      "type": "rich-text-image-list",
+      "blocks": {
+        "heading_H7R9pE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leveringsomvang",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_H7R9pE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "",
-        "heading": "Lieferumfang",
-        "heading_size": "hd2",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "text_size": "text-base",
-        "column_alignment": "center",
-        "columns_desktop": 4,
-        "column_gap": "large",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 80,
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -1074,7 +1085,8 @@
     "service_info_qmKjLc",
     "rich_text_TpBtPC",
     "service_info_QCUkaq",
-    "multicolumn_Mxt4d3",
+    "scene_tabs_ry9cPQ",
+    "rich_text_image_list_fNa9cR",
     "parameter_3ctt3j",
     "download_TPWq6m",
     "collapsible_tabs_4zEyjF"
