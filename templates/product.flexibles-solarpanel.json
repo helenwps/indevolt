@@ -129,7 +129,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/solarpanel-img1.png",
-        "image_mobile": "shopify://shop_images/solarpanel-img-mobile1.png"
+        "image_mobile": "shopify://shop_images/solarpanel-img-mobile1.png",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_7jwekD": {
@@ -159,7 +161,7 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
@@ -171,7 +173,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/solarpanel-img2.jpg",
-        "image_mobile": "shopify://shop_images/solarpanel-img-mobile2.jpg"
+        "image_mobile": "shopify://shop_images/solarpanel-img-mobile2.jpg",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_HfjDkE": {
@@ -201,7 +205,7 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
@@ -213,7 +217,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/solarpanel-img3.jpg",
-        "image_mobile": "shopify://shop_images/solarpanel-img-mobile3.jpg"
+        "image_mobile": "shopify://shop_images/solarpanel-img-mobile3.jpg",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_TrYicd": {
@@ -243,7 +249,7 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
@@ -255,7 +261,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/solarpanel-img4.jpg",
-        "image_mobile": "shopify://shop_images/solarpanel-img-mobile4.jpg"
+        "image_mobile": "shopify://shop_images/solarpanel-img-mobile4.jpg",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_VJ9AbJ": {
@@ -285,33 +293,21 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
     },
     "service_info_Q86gwp": {
       "type": "service-info",
-      "blocks": {
-        "card_7NYBgh": {
-          "type": "card",
-          "settings": {
-            "image_pc": "shopify://shop_images/solarpanel-img5.jpg",
-            "image_mobile": "shopify://shop_images/solarpanel-img-mobile5.jpg",
-            "content": "",
-            "name": ""
-          }
-        }
-      },
-      "block_order": [
-        "card_7NYBgh"
-      ],
       "name": "图片5",
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/solarpanel-img5.jpg",
-        "image_mobile": "shopify://shop_images/solarpanel-img-mobile5.jpg"
+        "image_mobile": "shopify://shop_images/solarpanel-img-mobile5.jpg",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "multicolumn_Mxt4d3": {

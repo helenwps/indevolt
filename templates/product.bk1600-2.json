@@ -129,7 +129,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/bk1600-img1.png",
-        "image_mobile": "shopify://shop_images/bk1600-img-mobile1.png"
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile1.png",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_7rBwdd": {
@@ -162,7 +164,7 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 60,
+        "padding_top": 0,
         "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
@@ -181,7 +183,7 @@
         "enable_video_looping": true,
         "enable_parallax": false,
         "parallax_direction": "vertical",
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
@@ -417,7 +419,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>5 Flexibele Oplaadmethoden</strong>",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -438,7 +440,7 @@
         "color_scheme": "",
         "content_alignment": "center",
         "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -449,7 +451,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/bk1600-img5.png",
-        "image_mobile": "shopify://shop_images/bk1600-img-mobile5.png"
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile5.png",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_Lf7VjA": {
@@ -459,7 +463,7 @@
           "type": "heading",
           "settings": {
             "heading": "0% Energieverspilling",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -479,8 +483,8 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -491,7 +495,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/bk1600-img4.png",
-        "image_mobile": "shopify://shop_images/bk1600-img-mobile4.png"
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile4.png",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_kfArr6": {
@@ -501,7 +507,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Dynamisch Elektriciteitstarief</strong>",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -522,7 +528,7 @@
         "color_scheme": "",
         "content_alignment": "center",
         "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -540,7 +546,7 @@
         "enable_video_looping": true,
         "enable_parallax": false,
         "parallax_direction": "vertical",
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
@@ -553,7 +559,7 @@
           "type": "heading",
           "settings": {
             "heading": "Bespaar Efficiënter op Elektriciteitskosten met AI",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -574,7 +580,7 @@
         "color_scheme": "",
         "content_alignment": "center",
         "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -585,7 +591,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/bk1600-img7.png",
-        "image_mobile": "shopify://shop_images/bk1600-img-mobile7.png"
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile7.png",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_TpBtPC": {
@@ -615,8 +623,8 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 0,
+        "padding_bottom": 34,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -627,7 +635,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/bk1600-img6.png",
-        "image_mobile": "shopify://shop_images/bk1600-img-mobile6.png"
+        "image_mobile": "shopify://shop_images/bk1600-img-mobile6.png",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "multicolumn_Mxt4d3": {
@@ -708,7 +718,7 @@
       "settings": {
         "color_scheme": "",
         "heading": "Lieferumfang",
-        "heading_size": "h1",
+        "heading_size": "hd2",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
@@ -1021,7 +1031,7 @@
         "color_scheme": "",
         "header_layout": "vertical",
         "heading": "Vragen en Antwoorden",
-        "heading_size": "h1",
+        "heading_size": "hd2",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
@@ -1033,35 +1043,10 @@
         "row_gap": "inherit",
         "item_style": "standard",
         "item_color_scheme": "",
-        "item_heading_font": "heading",
-        "item_heading_size": "h4",
-        "item_icon_size": "extra-large",
+        "item_heading_font": "body",
+        "item_heading_size": "h5",
+        "item_icon_size": "large",
         "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-1",
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "limit": 6,
-        "columns": 4,
-        "column_gap": "extra-small",
-        "row_gap": "inherit",
-        "enable_slider": true,
-        "controls_position": "inside",
-        "pcard_image_ratio": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
         "padding_bottom": 100,
         "show_section_divider": false,
         "divider_width": "fixed"
@@ -1092,7 +1077,6 @@
     "multicolumn_Mxt4d3",
     "parameter_3ctt3j",
     "download_TPWq6m",
-    "collapsible_tabs_4zEyjF",
-    "related-products"
+    "collapsible_tabs_4zEyjF"
   ]
 }

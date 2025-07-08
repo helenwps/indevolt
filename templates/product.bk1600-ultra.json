@@ -140,7 +140,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/first-img.png",
-        "image_mobile": "shopify://shop_images/first-img.png"
+        "image_mobile": "shopify://shop_images/first-img.png",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_7rBwdd": {
@@ -166,6 +168,7 @@
         "heading_cUbnWW",
         "text_FFzGhL"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__heading {max-width: 65rem; margin: 0 auto;}"
       ],
@@ -181,9 +184,12 @@
     },
     "service_info_cKmYiw": {
       "type": "service-info",
+      "disabled": true,
       "name": "产品图片2",
       "settings": {
-        "title": ""
+        "title": "",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_3nVrdN": {
@@ -193,7 +199,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Flexibel für unterschiedliche Oberflächen</strong>",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -201,7 +207,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Flexible Solarmodule, die um 213° gebogen werden können. Du kannst das Solarpanel überall anbringen – auf runden Balkonen, gewölbten Wänden oder sogar auf dem Dach von Wohnmobilen.<br/><br/></p>",
-            "text_size": "text-base"
+            "text_size": "text-lg"
           }
         }
       },
@@ -213,8 +219,8 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -225,7 +231,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/second-img.jpg",
-        "image_mobile": "shopify://shop_images/second-img.jpg"
+        "image_mobile": "shopify://shop_images/second-img.jpg",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_Lf7VjA": {
@@ -235,7 +243,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>25% hohe Solarumwandlungsrate</strong>",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -243,7 +251,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Flexible Solarmodule nutzen den Balkonbereich mit 2 x 225W Solarmodulen voll aus, um Strom zu erzeugen. Die Umwandlungsrate beträgt bis zu 25%, was für das Leben zu Hause und unerwartete Stromausfälle sehr gut geeignet ist.<br/><br/></p>",
-            "text_size": "text-base"
+            "text_size": "text-lg"
           }
         }
       },
@@ -255,8 +263,8 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -267,7 +275,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/third-img.jpg",
-        "image_mobile": "shopify://shop_images/third-img.jpg"
+        "image_mobile": "shopify://shop_images/third-img.jpg",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_kfArr6": {
@@ -277,7 +287,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Super wetterbeständig und wasserdicht</strong>",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -285,7 +295,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Wasserdicht gemäß IP68, hält rauen Bedingungen von -20°C bis 65°C stand. Gewährleistet die elektrische Sicherheitsleistung von Photovoltaikmodulen und -systemen.<br/><br/></p>",
-            "text_size": "text-base"
+            "text_size": "text-lg"
           }
         }
       },
@@ -297,8 +307,8 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -309,7 +319,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/four-img.jpg",
-        "image_mobile": "shopify://shop_images/four-img.jpg"
+        "image_mobile": "shopify://shop_images/four-img.jpg",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "multicolumn_Mxt4d3": {

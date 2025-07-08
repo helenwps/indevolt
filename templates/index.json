@@ -152,7 +152,7 @@
             "custom_describe": "",
             "price": "899.00 €",
             "original": "",
-            "button_text": "Mehr erfahren",
+            "button_text": "Meer informatie",
             "button_link": "shopify://products/indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag"
           }
         },
@@ -166,7 +166,7 @@
             "custom_describe": "",
             "price": "29.00 €",
             "original": "",
-            "button_text": "Mehr erfahren",
+            "button_text": "Meer informatie",
             "button_link": "shopify://products/solarman-p1-meter-reader"
           }
         },
@@ -180,7 +180,7 @@
             "custom_describe": "",
             "price": "799.00 €",
             "original": "",
-            "button_text": "Mehr erfahren",
+            "button_text": "Meer informatie",
             "button_link": "shopify://products/indevolt-bk1600"
           }
         },
@@ -194,7 +194,7 @@
             "custom_describe": "",
             "price": "659.00 €",
             "original": "",
-            "button_text": "Mehr erfahren",
+            "button_text": "Meer informatie",
             "button_link": "shopify://products/indevolt-flexibel-zonnepaneel-225w-4-pack"
           }
         }
@@ -562,7 +562,9 @@
       "settings": {
         "title": "Voordelen van Indevolt",
         "image_pc": "shopify://shop_images/service.png",
-        "image_mobile": "shopify://shop_images/service-mobile_f45d2a52-7bdf-4e60-8647-41fd59463685.png"
+        "image_mobile": "shopify://shop_images/service-mobile_f45d2a52-7bdf-4e60-8647-41fd59463685.png",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "newsletter_BhHPzj": {
