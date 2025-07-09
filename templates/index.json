@@ -53,7 +53,7 @@
             "description": "<p>Der weltweit erste Balkonkraftwerk-Speicher mit halb-fester Batterie<br/></p>",
             "description_size": "text-base",
             "button_label": "Mehr erfahren",
-            "button_link": "https://de.indevolt.com/products/indevolt-sf2000",
+            "button_link": "shopify://products/indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag",
             "button_style": "btn--primary"
           }
         }
@@ -531,7 +531,7 @@
           "settings": {
             "image": "shopify://shop_images/email.png",
             "title": "E-mail",
-            "content": "<a href=\"mailto:sales@indevolt.com\" alt=\"sales@indevolt.com\">sales@indevolt.com</a>"
+            "content": "<a href=\"mailto:support.nl@indevolt.com\" alt=\"support.nl@indevolt.com\">support.nl@indevolt.com</a>"
           }
         },
         "card_YcAehM": {

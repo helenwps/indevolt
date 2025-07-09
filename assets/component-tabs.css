@@ -43,6 +43,7 @@
   margin: 0;
 }
 .tabs__tab span {
+  font-weight:500;
   color: var(--color-tab-normal, rgb(var(--color-foreground)));
 }
 .tabs__tab:hover span, .tabs__tab[aria-selected=true] span {

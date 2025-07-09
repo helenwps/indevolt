@@ -432,6 +432,9 @@
   display: flex;
   gap:10px
 }
+.product-form > form{
+  flex:1
+}
 .product-form__error-message-wrapper:not([hidden]) {
   display: flex;
   align-items: flex-start;
@@ -472,7 +475,6 @@
   flex-wrap: wrap;
   align-items: flex-end;
   gap: 2rem 1.2rem;
-  min-width:230px;
 }
 .product-form__buttons .shopify-payment-button {
   width: 100%;
@@ -481,7 +483,6 @@
   position: relative;
   flex-grow: 1;
   flex-shrink: 1;
-  min-width: 230px;
   width: 100%;
 }
 .product-form__submit[aria-disabled=true] + .shopify-payment-button .shopify-payment-button__button[disabled], .product-form__submit[disabled] + .shopify-payment-button .shopify-payment-button__button[disabled] {

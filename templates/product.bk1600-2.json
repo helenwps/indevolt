@@ -552,10 +552,10 @@
         "divider_width": "fixed"
       }
     },
-    "rich_text_HjJg6e": {
-      "type": "rich-text",
+    "rich_text_image_list_nMnhPR": {
+      "type": "rich-text-image-list",
       "blocks": {
-        "heading_EPq7Hd": {
+        "heading_yMKEe7": {
           "type": "heading",
           "settings": {
             "heading": "Bespaar Efficiënter op Elektriciteitskosten met AI",
@@ -563,81 +563,75 @@
             "heading_highlight_style": "none"
           }
         },
-        "text_nXppkq": {
+        "text_ghpipz": {
           "type": "text",
           "settings": {
             "text": "<p>Indevolt Smart AI ontwikkelt op maat gemaakte energiebeheeroplossingen op basis van nauwkeurige big data-analyse. Door historische elektriciteitsverbruiksdata te gebruiken en rekening te houden met weerfactoren, voorspelt onze technologie je uurlijkse elektriciteitsverbruik voor de dag. Tegelijkertijd schatten we de verwachte zonne-energieopbrengst op basis van de weersvoorspelling en de prestaties van je fotovoltaïsche systeem. Dankzij de integratie van dynamische elektriciteitsprijzen en actuele batterijstatusinformatie kun je de kosten per kilowattuur in real-time volgen. Op deze manier bepalen we automatisch de optimale oplaad- en ontlaadstrategieën om je energiekosten te maximaliseren en energiefacturering te optimaliseren.<br/><br/></p>",
             "text_size": "text-lg"
           }
+        },
+        "image_K73wm6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bk1600-img7.png",
+            "mobile_image": "shopify://shop_images/bk1600-img-mobile7.png"
+          }
         }
       },
       "block_order": [
-        "heading_EPq7Hd",
-        "text_nXppkq"
+        "heading_yMKEe7",
+        "text_ghpipz",
+        "image_K73wm6"
       ],
-      "name": "标题6",
+      "name": "富文本与图片",
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
         "padding_top": 50,
-        "padding_bottom": 0,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
     },
-    "service_info_qmKjLc": {
-      "type": "service-info",
-      "name": "产品图片6",
-      "settings": {
-        "title": "",
-        "image_pc": "shopify://shop_images/bk1600-img7.png",
-        "image_mobile": "shopify://shop_images/bk1600-img-mobile7.png",
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "rich_text_TpBtPC": {
-      "type": "rich-text",
+    "rich_text_image_list_7dpfWQ": {
+      "type": "rich-text-image-list",
       "blocks": {
-        "heading_Q8aW7a": {
+        "heading_DhGcyV": {
           "type": "heading",
           "settings": {
             "heading": "Parallelle Uitbreiding",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
-        "text_LW8jJi": {
+        "text_PFPLnd": {
           "type": "text",
           "settings": {
-            "text": "<p>De BK1600 biedt uitstekende flexibiliteit en kan eenvoudig worden uitgebreid tot maximaal 3 eenheden. Dit biedt u een indrukwekkende opslagcapaciteit van 4908Wh. Met een krachtige output van 3600W kan het moeiteloos meerdere apparaten tegelijk van stroom voorzien. Bovendien kunt u tot 3600W aan zonne-energie invoeren om optimaal gebruik te maken van de voordelen van hernieuwbare energie.</p>",
+            "text": "<p>De BK1600 biedt uitstekende flexibiliteit en kan eenvoudig worden uitgebreid tot maximaal 3 eenheden. Dit biedt u een indrukwekkende opslagcapaciteit van 4908Wh. Met een krachtige output van 3600W kan het moeiteloos meerdere apparaten tegelijk van stroom voorzien. Bovendien kunt u tot 3600W aan zonne-energie invoeren om optimaal gebruik te maken van de voordelen van hernieuwbare energie.<br/><br/></p>",
             "text_size": "text-lg"
+          }
+        },
+        "image_xBM9p4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bk1600-img6.png",
+            "mobile_image": "shopify://shop_images/bk1600-img-mobile6.png"
           }
         }
       },
       "block_order": [
-        "heading_Q8aW7a",
-        "text_LW8jJi"
+        "heading_DhGcyV",
+        "text_PFPLnd",
+        "image_xBM9p4"
       ],
-      "name": "标题7",
+      "name": "富文本与图片",
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 34,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
-      }
-    },
-    "service_info_QCUkaq": {
-      "type": "service-info",
-      "name": "产品图片7",
-      "settings": {
-        "title": "",
-        "image_pc": "shopify://shop_images/bk1600-img6.png",
-        "image_mobile": "shopify://shop_images/bk1600-img-mobile6.png",
-        "margin_top": 0,
-        "margin_bottom": 0
       }
     },
     "scene_tabs_ry9cPQ": {
@@ -720,22 +714,30 @@
         "divider_width": "fixed"
       }
     },
-    "rich_text_image_list_fNa9cR": {
+    "rich_text_image_list_G8U4FF": {
       "type": "rich-text-image-list",
       "blocks": {
-        "heading_H7R9pE": {
+        "heading_rkVaPd": {
           "type": "heading",
           "settings": {
             "heading": "Leveringsomvang",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
+          }
+        },
+        "image_FyEKbq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bk1600-img8.png",
+            "mobile_image": "shopify://shop_images/bk1600-img-mobile8.png"
           }
         }
       },
       "block_order": [
-        "heading_H7R9pE"
+        "heading_rkVaPd",
+        "image_FyEKbq"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "富文本与图片",
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
@@ -1081,12 +1083,10 @@
     "service_info_N6QfNp",
     "rich_text_kfArr6",
     "video_j68Qrd",
-    "rich_text_HjJg6e",
-    "service_info_qmKjLc",
-    "rich_text_TpBtPC",
-    "service_info_QCUkaq",
+    "rich_text_image_list_nMnhPR",
+    "rich_text_image_list_7dpfWQ",
     "scene_tabs_ry9cPQ",
-    "rich_text_image_list_fNa9cR",
+    "rich_text_image_list_G8U4FF",
     "parameter_3ctt3j",
     "download_TPWq6m",
     "collapsible_tabs_4zEyjF"
