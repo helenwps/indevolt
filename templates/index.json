@@ -174,7 +174,7 @@
             "product_item": "solarman-p1-meter-reader",
             "custom_image": "shopify://shop_images/Rectangle.png",
             "mobile_image": "shopify://shop_images/Rectangle.png",
-            "custom_title": "P1 Meter Reader",
+            "custom_title": "Solarman P1 Meter Reader",
             "custom_describe": "",
             "price": "29.00 €",
             "original": "",
@@ -564,30 +564,6 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
-    },
-    "newsletter_BhHPzj": {
-      "type": "newsletter",
-      "name": "t:sections.newsletter.presets.name",
-      "settings": {
-        "color_scheme": "scheme-inverse",
-        "layout": "vertical",
-        "heading": "<strong>20€ korting veiligstellen</strong>",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "<p>Meld je nu aan en veilig 20€ korting.</p>",
-        "text_size": "text-base",
-        "alignment": "center",
-        "design": "design-1",
-        "form_width": 500,
-        "newsletter_term": "<p>Ik stem in met de inhoud van het <a href=\"/nl/policies/privacy-policy\" title=\"/nl/policies/privacy-policy\"><span style=\"text-decoration:underline\">privacybeleid</span></a>.</p>",
-        "newsletter_term_size": "text-base",
-        "button_style": "btn--primary",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
     }
   },
   "order": [
@@ -600,7 +576,6 @@
     "video_list_Aqz79r",
     "review_list_XNNiXX",
     "contact_us_VEC9Cb",
-    "service_info_9aT6Kj",
-    "newsletter_BhHPzj"
+    "service_info_9aT6Kj"
   ]
 }

@@ -11,6 +11,30 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_YHJwhz": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-inverse",
+        "layout": "vertical",
+        "heading": "<strong>20€ korting veiligstellen</strong>",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "<p>Meld je nu aan en veilig 20€ korting.</p>",
+        "text_size": "text-base",
+        "alignment": "center",
+        "design": "design-1",
+        "form_width": 500,
+        "newsletter_term": "<p>Ik stem in met de inhoud van het <a href=\"https://nl.indevolt.com/nl/policies/privacy-policy\" title=\"/nl/policies/privacy-policy\"><span style=\"text-decoration:underline\">privacybeleid</span></a>.</p>",
+        "newsletter_term_size": "text-base",
+        "button_style": "btn--primary",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -100,6 +124,7 @@
     }
   },
   "order": [
+    "newsletter_YHJwhz",
     "footer"
   ]
 }

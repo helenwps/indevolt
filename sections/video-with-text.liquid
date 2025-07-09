@@ -4,6 +4,9 @@
 @media (max-width: 767.98px) {
     #shopify-section-{{ section.id }} .rich-text__heading{ line-height:34px;font-size:28px}
     #shopify-section-{{ section.id }} p{ line-height:19px;font-size:16px;}
+    {% if section.settings.enable_reserve %}}
+        #shopify-section-{{ section.id }} .video-with-text .video-with-text__video{order:2}
+    {% endif %}
 }
 {%- liquid
   assign poster = section.settings.video.preview_image | default: section.settings.cover_image
@@ -262,6 +265,11 @@
     {
       "type": "header",
       "content": "t:sections.all.content_settings.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_reserve",
+      "label": "视频与文字顺序反转"
     },
     {
       "type": "select",
