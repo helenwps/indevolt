@@ -30,6 +30,8 @@
   --color-swiper-controls: var(--color-foreground);
 }
 .slideshow-wrapper:not(.slideshow-layout--split) .slideshow__content {
+  justify-content: flex-start;
+  margin-top:55px;
   background: none;
   width: 100%;
 }

@@ -21,6 +21,7 @@
 -%}
 {{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
 <style>
+  
   .section-{{ section.id }} .slideshow__title,.section-{{ section.id }} .slideshow__text {text-align: left; color: #fff;}
   .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .brand-box{ display: flex;gap: 25px;}
   .section-{{ section.id }} .swiper-slide:nth-child(odd) .slideshow__text .slideshow__subtitle{ margin-top:30px;line-height:29px; font-size:24px;font-weight:500;color: #fff;
@@ -38,7 +39,7 @@
   .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__description{margin-top:24px;font-size: 20px;color: #000;font-weight: 500;}
   .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text .slideshow__title span{ display:block;}
   .section-{{ section.id }} .swiper-slide:nth-child(even) .slideshow__text p{margin-top:24px;line-height: 24px;font-size:20px}
-  .section-{{ section.id }} .slideshow__buttons{ margin-top:45px}
+  .section-{{ section.id }} .slideshow__buttons{ margin-top:32px}
   .swiper-button-prev,.swiper-button-next {
     position: absolute;
     top: 50%;

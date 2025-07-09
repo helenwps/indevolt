@@ -36,15 +36,15 @@
           "type": "price",
           "settings": {}
         },
-        "taxs_T6dEFD": {
+        "taxs_arFc9r": {
           "type": "taxs",
           "settings": {
-            "title": "0 % MwSt. auf PV-Sets in Deutschland",
-            "content": "Hiermit bestätigen Sie, das Sie die Voraussetzungen für eine umsatzsteuerfreie Lieferung gemäß § 12 Abs. 3 von Deutschland erfüllen.",
-            "taxs_title": "Erfahren Sie mehr.",
-            "taxs_popup_content": "Erfahren Sie mehr.",
-            "heading_1": "Hinweis: Bestellungen werden in mehreren Sendungen verschickt.",
-            "heading_2": "Jetzt bestellen, Versand bis zum 31. August."
+            "title": "",
+            "content": "",
+            "taxs_title": "",
+            "taxs_popup_content": "",
+            "heading_1": "Direct uit voorraad leverbaar, verzending gemiddeld binnen 24 uur.",
+            "heading_2": "Opmerking: bestellingen worden in meerdere zendingen verzonden."
           }
         },
         "description": {
@@ -111,7 +111,7 @@
         "badges",
         "title",
         "price",
-        "taxs_T6dEFD",
+        "taxs_arFc9r",
         "description",
         "variant_picker",
         "buy_buttons",
@@ -125,7 +125,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky_info": true,
-        "media_size": "large",
+        "media_size": "medium",
         "gallery_layout": "carousel",
         "mobile_thumbnails": "show",
         "enable_image_zoom": true,
@@ -133,304 +133,10 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
-    },
-    "service_info_DP9iQP": {
-      "type": "service-info",
-      "name": "产品图片1",
-      "settings": {
-        "title": "",
-        "image_pc": "shopify://shop_images/first-img.png",
-        "image_mobile": "shopify://shop_images/first-img.png",
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "rich_text_7rBwdd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cUbnWW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ultraleicht und schnell zu installieren",
-            "heading_size": "h1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_FFzGhL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Leichtes und kompaktes Design：Mit einem ultraleichten Gewicht von 4,3kg, was 70% leichter ist als PV-Paneele aus Glas mit derselben Leistung, sodass es leicht zu transportieren und zu installieren ist.<br/><br/></p>",
-            "text_size": "text-base"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cUbnWW",
-        "text_FFzGhL"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".rich-text__heading {max-width: 65rem; margin: 0 auto;}"
-      ],
-      "name": "标题2",
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 60,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "service_info_cKmYiw": {
-      "type": "service-info",
-      "disabled": true,
-      "name": "产品图片2",
-      "settings": {
-        "title": "",
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "rich_text_3nVrdN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_TAGtiA": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Flexibel für unterschiedliche Oberflächen</strong>",
-            "heading_size": "hd2",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_t3EAEx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Flexible Solarmodule, die um 213° gebogen werden können. Du kannst das Solarpanel überall anbringen – auf runden Balkonen, gewölbten Wänden oder sogar auf dem Dach von Wohnmobilen.<br/><br/></p>",
-            "text_size": "text-lg"
-          }
-        }
-      },
-      "block_order": [
-        "heading_TAGtiA",
-        "text_t3EAEx"
-      ],
-      "name": "标题3",
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "service_info_gMHMj4": {
-      "type": "service-info",
-      "name": "产品图片3",
-      "settings": {
-        "title": "",
-        "image_pc": "shopify://shop_images/second-img.jpg",
-        "image_mobile": "shopify://shop_images/second-img.jpg",
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "rich_text_Lf7VjA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GjKP7X": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>25% hohe Solarumwandlungsrate</strong>",
-            "heading_size": "hd2",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_PUUeJV": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Flexible Solarmodule nutzen den Balkonbereich mit 2 x 225W Solarmodulen voll aus, um Strom zu erzeugen. Die Umwandlungsrate beträgt bis zu 25%, was für das Leben zu Hause und unerwartete Stromausfälle sehr gut geeignet ist.<br/><br/></p>",
-            "text_size": "text-lg"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GjKP7X",
-        "text_PUUeJV"
-      ],
-      "name": "标题4",
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "service_info_N6QfNp": {
-      "type": "service-info",
-      "name": "产品图片4",
-      "settings": {
-        "title": "",
-        "image_pc": "shopify://shop_images/third-img.jpg",
-        "image_mobile": "shopify://shop_images/third-img.jpg",
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "rich_text_kfArr6": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VDcEgE": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Super wetterbeständig und wasserdicht</strong>",
-            "heading_size": "hd2",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_3ka4Ke": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wasserdicht gemäß IP68, hält rauen Bedingungen von -20°C bis 65°C stand. Gewährleistet die elektrische Sicherheitsleistung von Photovoltaikmodulen und -systemen.<br/><br/></p>",
-            "text_size": "text-lg"
-          }
-        }
-      },
-      "block_order": [
-        "heading_VDcEgE",
-        "text_3ka4Ke"
-      ],
-      "name": "标题5",
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "service_info_qmKjLc": {
-      "type": "service-info",
-      "name": "产品图片5",
-      "settings": {
-        "title": "",
-        "image_pc": "shopify://shop_images/four-img.jpg",
-        "image_mobile": "shopify://shop_images/four-img.jpg",
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
-    },
-    "multicolumn_Mxt4d3": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_ppme79": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/solarpanel1.jpg",
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<p> Flexibles Solarpanel ×4</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_6eYcFq": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/solarpanel2.jpg",
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<h5>Solarkabel ×2</h5>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_6mMR7m": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/solarpanel3.jpg",
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<h5>Kabelbinder ×24</h5>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_Lix6qc": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/solarpanel4.jpg",
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<h5>Kabelbinder ×24</h5>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "column_ppme79",
-        "column_6eYcFq",
-        "column_6mMR7m",
-        "column_Lix6qc"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "",
-        "heading": "Lieferumfang",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "text_size": "text-base",
-        "column_alignment": "center",
-        "columns_desktop": 4,
-        "column_gap": "large",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
     }
   },
   "order": [
     "breadcrumbs",
-    "main",
-    "service_info_DP9iQP",
-    "rich_text_7rBwdd",
-    "service_info_cKmYiw",
-    "rich_text_3nVrdN",
-    "service_info_gMHMj4",
-    "rich_text_Lf7VjA",
-    "service_info_N6QfNp",
-    "rich_text_kfArr6",
-    "service_info_qmKjLc",
-    "multicolumn_Mxt4d3"
+    "main"
   ]
 }

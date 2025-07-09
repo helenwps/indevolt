@@ -36,6 +36,17 @@
           "type": "price",
           "settings": {}
         },
+        "taxs_3hkrdh": {
+          "type": "taxs",
+          "settings": {
+            "title": "",
+            "content": "",
+            "taxs_title": "",
+            "taxs_popup_content": "",
+            "heading_1": "Direct uit voorraad leverbaar, verzending gemiddeld binnen 24 uur.",
+            "heading_2": "Opmerking: bestellingen worden in meerdere zendingen verzonden."
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -101,6 +112,7 @@
         "badges",
         "title",
         "price",
+        "taxs_3hkrdh",
         "description",
         "variant_picker",
         "buy_buttons",
@@ -114,7 +126,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky_info": true,
-        "media_size": "large",
+        "media_size": "medium",
         "gallery_layout": "carousel",
         "mobile_thumbnails": "show",
         "enable_image_zoom": true,
@@ -786,7 +798,7 @@
           "type": "card",
           "settings": {
             "title": "Type Batterij",
-            "content": "LifePO4",
+            "content": "LiFePO₄",
             "note": ""
           }
         },

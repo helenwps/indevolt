@@ -114,7 +114,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky_info": true,
-        "media_size": "large",
+        "media_size": "medium",
         "gallery_layout": "carousel",
         "mobile_thumbnails": "show",
         "enable_image_zoom": true,
@@ -441,7 +441,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/meter-img1.jpg",
-        "image_mobile": "shopify://shop_images/meter-img-mobile1.jpg"
+        "image_mobile": "shopify://shop_images/meter-img-mobile1.jpg",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     },
     "rich_text_Na6fBk": {
@@ -483,7 +485,9 @@
       "settings": {
         "title": "",
         "image_pc": "shopify://shop_images/meter-img2.jpg",
-        "image_mobile": "shopify://shop_images/meter-img-mobile2.jpg"
+        "image_mobile": "shopify://shop_images/meter-img-mobile2.jpg",
+        "margin_top": 0,
+        "margin_bottom": 0
       }
     }
   },

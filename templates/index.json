@@ -38,19 +38,17 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-1",
-            "background": "shopify://shop_images/banner2.jpg",
-            "background_mobile": "shopify://shop_images/banner2_mobile.jpg",
-            "brand_logo_image1": "shopify://shop_images/brand_logo1.png",
-            "brand_logo_image2": "shopify://shop_images/brand_logo2.png",
+            "background": "shopify://shop_images/banner2_38b82c8c-0d42-422d-adcc-f8c46df9225a.jpg",
+            "background_mobile": "shopify://shop_images/banner2_mobile_4601c7f3-3cb4-4c61-9dd9-6171f584990c.jpg",
             "image_overlay_opacity": 0,
             "show_content_in_container": true,
-            "content_position": "middle-left",
+            "content_position": "middle-center",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "SolidFlex 2000 <span>NEW</span>",
+            "title": "BK1600",
             "heading_size": "hd1",
-            "subheading": "Sonderangebot:<strong> €899</strong> <span>€1199</span>",
-            "description": "<p>Der weltweit erste Balkonkraftwerk-Speicher mit halb-fester Batterie<br/></p>",
+            "subheading": "",
+            "description": "<p>Balkonkraftwerk mit Speicher</p>",
             "description_size": "text-base",
             "button_label": "Mehr erfahren",
             "button_link": "shopify://products/indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag",
@@ -156,6 +154,20 @@
             "button_link": "shopify://products/indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag"
           }
         },
+        "card_8nnA4a": {
+          "type": "card",
+          "settings": {
+            "product_item": "indevolt-bk1600",
+            "custom_image": "shopify://shop_images/bk1600.png",
+            "mobile_image": "shopify://shop_images/bk1600.png",
+            "custom_title": "Indevolt  BK1600 ",
+            "custom_describe": "",
+            "price": "799.00 €",
+            "original": "",
+            "button_text": "Meer informatie",
+            "button_link": "shopify://products/indevolt-bk1600"
+          }
+        },
         "card_4jFQbL": {
           "type": "card",
           "settings": {
@@ -168,20 +180,6 @@
             "original": "",
             "button_text": "Meer informatie",
             "button_link": "shopify://products/solarman-p1-meter-reader"
-          }
-        },
-        "card_8nnA4a": {
-          "type": "card",
-          "settings": {
-            "product_item": "indevolt-bk1600",
-            "custom_image": "shopify://shop_images/bk1600.png",
-            "mobile_image": "shopify://shop_images/bk1600.png",
-            "custom_title": "BK1600 ",
-            "custom_describe": "",
-            "price": "799.00 €",
-            "original": "",
-            "button_text": "Meer informatie",
-            "button_link": "shopify://products/indevolt-bk1600"
           }
         },
         "card_FQAcNi": {
@@ -201,8 +199,8 @@
       },
       "block_order": [
         "card_XkdcXz",
-        "card_4jFQbL",
         "card_8nnA4a",
+        "card_4jFQbL",
         "card_FQAcNi"
       ],
       "name": "产品推荐",
