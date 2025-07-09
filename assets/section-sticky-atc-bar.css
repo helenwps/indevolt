@@ -91,14 +91,14 @@ body.sticky-atc-bar-enabled {
   .sticky-atc-bar .product-form__buttons {
     flex-grow: 1;
   }
-  .sticky-atc-bar .product-form__submit{ max-width: 138px;white-space: normal;line-height: 15px; font-size: 12px;}
+  .sticky-atc-bar .product-form__submit{ max-width: 138px;line-height: 15px; font-size: 12px;}
 }
 @media (max-width: 390px){
   .sticky-atc-bar .product-form__submit{max-width: 118px;}
 }
 @media (max-width: 320px){
   .btn-wrapper>form{min-width: 90px}
-  .sticky-atc-bar .product-form__submit{max-width: 85px;}
+  .sticky-atc-bar .product-form__submit{max-width: 100px;}
 }
 @media (min-width: 1280px) {
   .sticky-atc-bar.page-width--full {

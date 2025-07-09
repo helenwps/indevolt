@@ -303,7 +303,7 @@
         "heading_dgrNLC": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Lichtgewicht en Draagbaar: Plug-and-Play</strong>",
+            "heading": "Plug-and-Play",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
@@ -346,7 +346,7 @@
         "heading_RBt8QG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Geavanceerde topologie                              van vermogenselektronica</strong>",
+            "heading": "Geavanceerde Topologie",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }

@@ -2,6 +2,9 @@
 <style>
    .section-product-two-bimage .grid-container{height:500px}
    .section-product-two-bimage .content-wrapper{top: auto;bottom:50px}
+   @media screen and (max-width: 749px){
+    .section-product-two-bimage .grid-container{height:auto;grid-template-rows: repeat(2, 1fr);grid-template-columns: auto;}
+  }
 </style>
 <div class="section section--padding  page-width scene-section section-product-two-bimage" 
  style="--section-padding-top: {{ section.settings.padding_top }}px;--section-padding-bottom: {{ section.settings.padding_bottom }}px;">

@@ -254,6 +254,7 @@
 .product__block--price, .product__block--description, .product__block--inventory {
   margin-top: 30px;
 }
+.product__block--description ul{list-style-position: outside;}
 .product__block--shipping + .product__block--icon-with-text, .product__block--icon-with-text + .product__block--icon-with-text, .product__block--icon-with-text + .product__block--shipping {
   margin-top: -1.2rem;
 }

@@ -73,7 +73,7 @@
   }
   .mobile-show{ display:none}
    @media (max-width: 767px) {
-      .pc-show{ display:none}
+      .pc-show,.footer-logo{ display:none}
       .mobile-show{ display:block}
       .footer__payment{margin-top:20px}
       .list-payment{justify-content: start;}
@@ -82,7 +82,6 @@
       .new-footer-bottom{gap:0px;flex-flow: column-reverse;}
       .new-links ul{gap:0px}
       .new-links ul li{margin-right:20px}
-      .new-links ul li a{text-decoration: underline;}
       .footer__copyright{width:100%;border-bottom: 1px solid hsla(0, 0%, 100%, .2);padding-bottom: 5px;}
   }
 
@@ -450,7 +449,7 @@
           </div>
         {% endif %}
         <div class="flex justify-between items-center logo-wrap">
-          <a href="/"
+          <a href="/" class="footer-logo"
             ><img src="{{ 'logo-white.svg' | file_url  }}" alt="logo" width="148" height="18" loading="lazy"
           ></a>
           <div class="footer__info flex items-center">
