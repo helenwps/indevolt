@@ -169,9 +169,7 @@
         "heading_cUbnWW",
         "text_FFzGhL"
       ],
-      "custom_css": [
-        ".rich-text__heading {max-width: 65rem; margin: 0 auto;}"
-      ],
+      "custom_css": [],
       "name": "标题2",
       "settings": {
         "color_scheme": "",
@@ -364,6 +362,9 @@
       "block_order": [
         "heading_RBt8QG",
         "text_hdPXjb"
+      ],
+      "custom_css": [
+        ".image-with-text__inner {--padding-x: 1.4rem;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {

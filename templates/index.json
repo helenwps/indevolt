@@ -51,7 +51,7 @@
             "description": "<p>Balkonkraftwerk mit Speicher</p>",
             "description_size": "text-base",
             "button_label": "Mehr erfahren",
-            "button_link": "shopify://products/indevolt-bk1600-ultra-balkon-zonne-energie-systeem-met-opslag",
+            "button_link": "shopify://products/indevolt-bk1600",
             "button_style": "btn--primary"
           }
         }
