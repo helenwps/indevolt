@@ -727,6 +727,68 @@
         "divider_width": "fixed"
       }
     },
+    "rich_text_egqaRR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eHVp6X": {
+          "type": "heading",
+          "settings": {
+            "heading": "Draagbaar Energie Station voor Off-Grid Energievoorziening",
+            "heading_size": "hd2",
+            "heading_highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eHVp6X"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "product_two_bimage_6TNgyA": {
+      "type": "product-two-bimage",
+      "blocks": {
+        "featured_collection_BYRYRF": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify://shop_images/bk1600-bimg1.jpg",
+            "mobile_image": "shopify://shop_images/bk1600-bimg-mobile1.jpg",
+            "title": "Kamperen",
+            "description": "",
+            "button_title": "",
+            "button_link": ""
+          }
+        },
+        "featured_collection_fcFgRQ": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify://shop_images/bk1600-bimg2.jpg",
+            "mobile_image": "shopify://shop_images/bk1600-bimg-mobile2.jpg",
+            "title": "Noodbackup",
+            "description": "",
+            "button_title": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_BYRYRF",
+        "featured_collection_fcFgRQ"
+      ],
+      "name": "产品两个放大图片",
+      "settings": {
+        "section_title": "我们的特色分区",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_image_list_G8U4FF": {
       "type": "rich-text-image-list",
       "blocks": {
@@ -847,7 +909,7 @@
           "type": "card",
           "settings": {
             "title": "Levenscyclus",
-            "content": "6000 cycli tot 80% capaciteit",
+            "content": "6000",
             "note": ""
           }
         },
@@ -1099,6 +1161,8 @@
     "rich_text_image_list_nMnhPR",
     "rich_text_image_list_7dpfWQ",
     "scene_tabs_ry9cPQ",
+    "rich_text_egqaRR",
+    "product_two_bimage_6TNgyA",
     "rich_text_image_list_G8U4FF",
     "parameter_3ctt3j",
     "download_TPWq6m",
