@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main-cart": {
@@ -38,20 +47,25 @@
     },
     "featured_collection_Y4GDWA": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "header_layout": "vertical",
         "heading": "You may also like",
         "heading_size": "h1",
+        "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
         "text_size": "text-base",
         "show_collection_description": false,
+        "collection": "",
         "limit": 4,
         "columns": 4,
         "column_gap": "extra-small",
         "row_gap": "inherit",
+        "grid_layout": "standard",
         "enable_slider": true,
+        "controls_position": "inside",
         "pcard_image_ratio": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -63,10 +77,36 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "related_products_8zdHyJ": {
+      "type": "related-products",
+      "name": "t:sections.related-products.name",
+      "settings": {
+        "color_scheme": "",
+        "heading": "You may also like",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "controls_position": "inside",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
     "main-cart",
-    "featured_collection_Y4GDWA"
+    "featured_collection_Y4GDWA",
+    "related_products_8zdHyJ"
   ]
 }

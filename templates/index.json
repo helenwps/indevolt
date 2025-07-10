@@ -259,8 +259,8 @@
         "card_V6aXeT": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/flex-scene1.png",
-            "mobile_image": "shopify://shop_images/flex-scene1-mobile.png",
+            "image": "shopify://shop_images/index-scene1.jpg",
+            "mobile_image": "shopify://shop_images/index-scene-mobile1.jpg",
             "title": "Balkon",
             "description": "Optimaliseer het gebruik van beperkte ruimte, installeer flexibel en eenvoudig.",
             "product_title": "",
@@ -272,8 +272,8 @@
         "card_LEjQRi": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/flex-scene2.png",
-            "mobile_image": "shopify://shop_images/flex-scene-mobile2.png",
+            "image": "shopify://shop_images/index-scene2.jpg",
+            "mobile_image": "shopify://shop_images/index-scene-mobile2.jpg",
             "title": "Tuin",
             "description": "Maak gebruik van genoeg zonlicht om de beste prestaties te behalen.",
             "product_title": "",
@@ -285,8 +285,8 @@
         "card_zdCQqN": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/flex-scene3.png",
-            "mobile_image": "shopify://shop_images/flex-scene3-mobile.png",
+            "image": "shopify://shop_images/index-scene3.jpg",
+            "mobile_image": "shopify://shop_images/index-scene-mobile3.jpg",
             "title": "Platte dak",
             "description": "De installatie van zonnepanelen op hellende daken kan de zonne-energieopbrengst met 20% verhogen!",
             "product_title": "",
@@ -298,8 +298,8 @@
         "card_EeN3Bj": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/flex-scene4.png",
-            "mobile_image": "shopify://shop_images/flex-scene4-mobile.png",
+            "image": "shopify://shop_images/index-scene4.jpg",
+            "mobile_image": "shopify://shop_images/index-scene-mobile4.jpg",
             "title": "Hellend dak",
             "description": "Het installeren van zonnepanelen op platte daken vermindert de windweerstand en het geluid en zorgt voor stabiliteit.",
             "product_title": "",

@@ -133,10 +133,412 @@
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "video_H7qFLK": {
+      "type": "video",
+      "name": "t:sections.video.name",
+      "settings": {
+        "container": "fixed",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_ratio": "adapt",
+        "description": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "service_info_34yK44": {
+      "type": "service-info",
+      "name": "服务信息",
+      "settings": {
+        "title": "",
+        "image_pc": "shopify://shop_images/bk1600-u-img1.png",
+        "image_mobile": "shopify://shop_images/bk1600-u-img-mobile1.png",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "collections_slider_pT9Krf": {
+      "type": "collections-slider",
+      "blocks": {
+        "collection_ywAgwa": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "",
+            "image": "shopify://shop_images/bk1600-u-simg1.png",
+            "title": "Solar auf den Balkon",
+            "title_size": "hd2",
+            "description": "<p>Mit dem Indevolt BK1600 Ultra verwandelst du die von deinen Solarpanelen erzeugte Energie effizient in Wechselstrom für dein Zuhause. Überschüssige Energie wird in Batterien gespeichert. So versorgst du dein Zuhause rund um die Uhr mit Solarstrom. </p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "collection_yM7LbN": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "",
+            "image": "shopify://shop_images/bk1600-u-simg2.png",
+            "title": "Notstromspeicher für zuhause",
+            "title_size": "hd2",
+            "description": "<p>1200 W Notstromversorgung: Schaltet innerhalb von 10 ms automatisch um bei Stromausfällen, um einen reibungslosen Betrieb der wichtigsten Geräte zu gewährleisten.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "collection_GcRPpg": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "",
+            "image": "shopify://shop_images/bk1600-u-simg3.png",
+            "title": "Tragbare Powerstation",
+            "title_size": "hd2",
+            "description": "<p>Das Solarspeicher-System ermöglicht dir die Freiheit, auch draußen jederzeit Strom zu haben. Mit einer AC-Nennleistung von 1200 W und einer Spitzenleistung von 1800 W deckt es den Strombedarf der meisten Geräte problemlos.<br/><br/></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ywAgwa",
+        "collection_yM7LbN",
+        "collection_GcRPpg"
+      ],
+      "disabled": true,
+      "name": "t:sections.collections-slider.name",
+      "settings": {
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "show_product_count": true,
+        "heading": "",
+        "heading_size": "hd3",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "image_ratio": "adapt",
+        "slider_position": "left",
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "parameter_nq6XYd": {
+      "type": "parameter",
+      "blocks": {
+        "card_8qL4Br": {
+          "type": "card",
+          "settings": {
+            "title": "Maße",
+            "content": "300x215x250 mm",
+            "note": ""
+          }
+        },
+        "card_fTgmNc": {
+          "type": "card",
+          "settings": {
+            "title": "Gewicht",
+            "content": "16kg",
+            "note": ""
+          }
+        },
+        "card_nz6U9J": {
+          "type": "card",
+          "settings": {
+            "title": "Nominale Kapazität",
+            "content": "1636 Wh (erweiterbar bis zu 4908 Wh)",
+            "note": ""
+          }
+        },
+        "card_pmtACd": {
+          "type": "card",
+          "settings": {
+            "title": "Betriebstemperatur",
+            "content": "-20~45℃",
+            "note": ""
+          }
+        },
+        "card_TbpVJb": {
+          "type": "card",
+          "settings": {
+            "title": "Akkutyp",
+            "content": "LiFePO₄",
+            "note": ""
+          }
+        },
+        "card_aFwxfd": {
+          "type": "card",
+          "settings": {
+            "title": "Lebensdauer",
+            "content": "15 Jahre ",
+            "note": ""
+          }
+        },
+        "card_AbHLTF": {
+          "type": "card",
+          "settings": {
+            "title": "Schutzgrad",
+            "content": "IP54 ",
+            "note": ""
+          }
+        },
+        "card_pCLLWE": {
+          "type": "card",
+          "settings": {
+            "title": "Garantie",
+            "content": "10 Jahre",
+            "note": ""
+          }
+        },
+        "card_rppW6K": {
+          "type": "card",
+          "settings": {
+            "title": "Verbindungstyp",
+            "content": "Bluetooth, 2.4GHz Wi-Fi, 4G",
+            "note": ""
+          }
+        },
+        "card_w9XkxN": {
+          "type": "card",
+          "settings": {
+            "title": "AC-Leistung (Off-Grid)",
+            "content": "1200W (Max. 1800W, 15s)",
+            "note": ""
+          }
+        },
+        "card_Th7EV7": {
+          "type": "card",
+          "settings": {
+            "title": "Lebenszyklus",
+            "content": "6000 ",
+            "note": ""
+          }
+        },
+        "card_HmAgVh": {
+          "type": "card",
+          "settings": {
+            "title": "Betriebsspannung",
+            "content": "10 ~ 60V DC",
+            "note": ""
+          }
+        },
+        "card_6H3Nyh": {
+          "type": "card",
+          "settings": {
+            "title": "MPPT Eingang",
+            "content": "1200W (2 MPPT, jeweils 600W)",
+            "note": ""
+          }
+        },
+        "card_xTLP3f": {
+          "type": "card",
+          "settings": {
+            "title": "Netzverbundener AC-Anschluss",
+            "content": "800W",
+            "note": ""
+          }
+        },
+        "card_hYHez8": {
+          "type": "card",
+          "settings": {
+            "title": "Einhaltung der Zertifizierung",
+            "content": "Sicherheit EMC/Standard: IEC62619, UN38.3, IEC/EN 62109-1, IEC/EN 62109-2, IEC/EN 61000-6-1, IEC/EN 61000-6-2",
+            "note": "Netzcode:Netzeinspeisung VDE4105"
+          }
+        }
+      },
+      "block_order": [
+        "card_8qL4Br",
+        "card_fTgmNc",
+        "card_nz6U9J",
+        "card_pmtACd",
+        "card_TbpVJb",
+        "card_aFwxfd",
+        "card_AbHLTF",
+        "card_pCLLWE",
+        "card_rppW6K",
+        "card_w9XkxN",
+        "card_Th7EV7",
+        "card_HmAgVh",
+        "card_6H3Nyh",
+        "card_xTLP3f",
+        "card_hYHez8"
+      ],
+      "name": "参数列表",
+      "settings": {
+        "title": "Technische Gegevens"
+      }
+    },
+    "download_mqBhbX": {
+      "type": "download",
+      "blocks": {
+        "card_Fgh4mg": {
+          "type": "card",
+          "settings": {
+            "title": "Indevolt BK1600 Ultra",
+            "content": "Bedienungsanleitung",
+            "date": "2025-06-10",
+            "pdf_file": "https://cdn.shopify.com/s/files/1/0596/6367/9587/files/Bedienungsanleitung_BK1600_Ultra.pdf?v=1749526304"
+          }
+        }
+      },
+      "block_order": [
+        "card_Fgh4mg"
+      ],
+      "name": "下载列表",
+      "settings": {
+        "title": "Downloads"
+      }
+    },
+    "collapsible_tabs_33mXrc": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_FQJHNP": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Was ist der Unterschied zwischen dem BK1600 Ultra und dem BK1600?",
+            "content": "<p>Beide Geräte, der BK1600 und der BK1600 Ultra, haben ein All-in-One-Design und enthalten einen bidirektionalen Wechselrichter. Wenn in deinem Zuhause keine Solaranlage installiert ist (also ohne Mikro-Wechselrichter), solltest du den BK1600 wählen. Damit kannst du die Solarange und die Speicherung auf einmal umsetzen und den überschüssigen Strom, den die PV-Anlage tagsüber erzeugt, optimal nutzen, um ihn abends zu verwenden. Das ist die kostengünstigste Wahl. Wenn du jedoch bereits eine Solaranlage installiert hast, dann wähle den BK1600 Ultra, um eine Speicherung zu ermöglichen und zusätzlich 1200W an Solarmodulen anzuschließen.<br/><br/></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_Hg99f4": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Wie maximiert der BK1600 Ultra die Nutzung von Energie?",
+            "content": "<p>Der BK1600 Ultra überwindet die herkömmliche Begrenzung von 800W für einzelne Speichergeräte, indem er innerhalb der gesetzlichen Vorgaben operiert. Mithilfe eines drahtlosen Netzwerks und intelligenter Leistungsteilungstechnologie verbindet er leistungsstarke Haushaltsgeräte mit dem Off-Grid-Anschluss, um die gespeicherte Energie der PV-Anlage optimal zu nutzen.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_BUUU3p": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Kann ich meinen BK1600 Ultra mit einem Mikro-Wechselrichter verbinden?",
+            "content": "<p>Ja, der BK1600 Ultra ist mit 99% der auf dem Markt erhältlichen Mikro-Wechselrichter kompatibel. Du musst ihn einfach in den Off-Grid-Anschluss einstecken, um zusätzlich 1200W Eingangsleistung zu erhalten. Bitte beachte, dass der BK1600 Ultra maximal mit Mikro-Wechselrichtern bis 1200W kompatibel ist.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_J9Dbmr": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Hat der BK1600 ultra die EPS (Notstromversorgung)-Funktion?",
+            "content": "<p>Ja, der BK1600 Ultra kann über seine Off-Grid-Steckdose kontinuierlich Strom liefern. Bei einer Stromnetzunterbrechung wechselt das Gerät innerhalb von 10ms schnell in den EPS-Modus und bietet eine maximale Dauerleistung von 1200W. Bei Geräten mit hohem Startstrom kann es sogar eine Spitzenleistung von bis zu 1800W für maximal 15 Sekunden bereitstellen, um sicherzustellen, dass wichtige Geräte wie Kühlschränke, Router und Beleuchtung während eines Stromausfalls weiterhin normal funktionieren.<br/><br/></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_4rq3UE": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Kann der BK1600 Ultra die EPS-Funktion auch im Parallelbetrieb mit Kabeln oder bei Anschluss an einen Mikro-Wechselrichter nutzen?",
+            "content": "<p>Wenn der BK1600 ultra über den AC-Anschluss parallel geschaltet oder an einen Mikro-Wechselrichter angeschlossen wird, ist dieser AC-Anschluss belegt und kann nicht gleichzeitig als Ausgangsanschluss im EPS-Modus verwendet werden.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_jKrUGi": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Welche Vorteile bringt der Parallelbetrieb mit Kabeln für meine Familie?",
+            "content": "<p>Durch die kabelgebundene Verbindung mehrerer BK1600 Ultra können leistungsstarke Haushaltsgeräte betrieben werden. So kann beispielsweise eine 2000-Watt-Waschmaschine, die von einem einzelnen Ultra mit einer Nennleistung von 1200W nicht betrieben werden kann, durch den Parallelbetrieb unterstützt werden. In diesem Fall wird die Leistung der Waschmaschine gleichmäßig auf jedes Gerät verteilt, sodass jedes Ultra nur 1000W benötigt, um die Waschmaschine problemlos zu starten. Dadurch wird die Akkukapazität optimal genutzt, ohne dass Strom aus dem Netz bezogen werden muss.<br/><br/></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_38AkN4": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Kann der BK1600 Ultra drahtlos mit dem BK1600 vernetzt werden?",
+            "content": "<p>Ja, das ist möglich. Beide Geräte sind in Bezug auf die drahtlose Vernetzung vollständig kompatibel. Wenn Sie bereits einen BK1600 besitzen, müssen Sie sich keine Sorgen um mögliche Kompatibilitätsprobleme machen, wenn Sie später den Ultra erwerben. Sie können einfach die drahtlose Verbindung nutzen, um die Zusammenarbeit mehrerer Geräte zu ermöglichen.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_NNVnDY": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Haftungsausschluss & Berechnung",
+            "content": "<p><strong>Haftungsausschluss:</strong></p><ol><li>Gemäß den lokalen Vorschriften unterstützt der BK1600 Ultra ausschließlich Mikroinverter mit einer maximalen Leistung von 800 W, um den gesetzlichen Standards zu entsprechen.</li><li>Unter idealen Bedingungen können 2000 Watt Solarpanels jährlich bis zu 2324 kWh Strom erzeugen.</li><li>Eine Analyse der Universität Berlin zeigt, dass die Eigenverbrauchsquote von Balkonkraftwerken mit einer Speicherlösung von 40 % auf 97 % steigt. Diese Analyse berücksichtigt sowohl die Verbrauchsdauer als auch die Umwandlungseffizienz. Das BK1600 Ultra-System liefert etwa 2254 kWh Strom.</li><li>Die jährlichen Einsparungen bei den Stromkosten basieren auf dem offiziellen durchschnittlichen Strompreis von 0,40 Euro pro kWh für das zweite Halbjahr 2022 in Deutschland.</li><li>Der BK1600 Ultra verfügt über eine netzunabhängige Leistung von 1200 W.</li><li>Die schnelle Installation erfolgt in zwei Schritten:</li></ol><ul><li> Schritt 1: Trennen Sie Ihren aktuellen Mikroinverter und verbinden Sie ihn mit dem BK1600 Ultra.</li><li> Schritt 2: Schließen Sie den BK1600 Ultra anschließend an Ihr Zuhause an.</li></ul><p><strong>Berechnung:</strong></p><ol><li>Der jährliche Ertrag bei Nutzung von drei BK1600 Ultra beträgt: 2324 kWh × 97 % × 0,40 Euro/kWh = 902 Euro.</li><li>Der jährliche Ertrag allein aus den Solarmodule ergibt sich zu: 1162 kWh × 40 % × 0,40 Euro/kWh = 186 Euro.</li></ol>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_FQJHNP",
+        "collapsible_item_Hg99f4",
+        "collapsible_item_BUUU3p",
+        "collapsible_item_J9Dbmr",
+        "collapsible_item_4rq3UE",
+        "collapsible_item_jKrUGi",
+        "collapsible_item_38AkN4",
+        "collapsible_item_NNVnDY"
+      ],
+      "name": "t:sections.collapsible-tabs.presets.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "heading": "<strong>Vragen en Antwoorden</strong>",
+        "heading_size": "hd2",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h4",
+        "item_icon_size": "extra-small",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
     "breadcrumbs",
-    "main"
+    "main",
+    "video_H7qFLK",
+    "service_info_34yK44",
+    "collections_slider_pT9Krf",
+    "parameter_nq6XYd",
+    "download_mqBhbX",
+    "collapsible_tabs_33mXrc"
   ]
 }

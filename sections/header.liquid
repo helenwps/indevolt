@@ -7,6 +7,7 @@
 >
 <style>
 .dropdown__nav li:hover a.reversed-link{background:none;text-decoration: underline;}
+.account-button{display:flex}
 </style>  
 <script src="{{ 'header.js' | asset_url }}" defer="defer"></script>
 {%- liquid
@@ -231,7 +232,7 @@
       {%- if shop.customer_accounts_enabled -%}
         <a
           href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
-          class="account-button hidden lg:flex items-center justify-center"
+          class="account-button lg:flex items-center justify-center"
         >
           {%- render 'icon-account', size: 'large' -%}
           <span class="visually-hidden">
